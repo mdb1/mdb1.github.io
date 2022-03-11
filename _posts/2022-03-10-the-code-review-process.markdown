@@ -8,10 +8,10 @@ categories: engineering
 
 This simple fact is one of the reasons why Code Reviews are so important.
 
-{% highlight markdown %}
-🥅 The goal is to have a quick feedback cycle on PRs
+```
+🥅 The goal is to have a quick feedback cycle on PRs 
 and to merge them on short periods of time.
-{% endhighlight %}
+```
 
 ## Code Reviews
 
@@ -41,10 +41,10 @@ The idea is to have fast feedback cycles and to merge PRs within a day (for regu
     - Describe the changes that were performed.
     - Add testing details (steps to reproduce, test user credentials, etc).
     - If the UI was changed, provide screenshots and/or videos.
-{% highlight markdown %}
+```
 📝 The more context you provide, the easier the PR will be to review, 
 and therefore to merge.
-{% endhighlight %}
+```
 - Assign at least 2 people as reviewers.
     - This should be done automatically by using [CodeOwners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) and enforced by [Github settings](https://github.blog/2018-03-23-require-multiple-reviewers/).
 
