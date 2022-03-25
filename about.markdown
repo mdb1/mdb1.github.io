@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![mdb picture](mdb.png)
+![mdb picture](/resources/mdb.png)
 
 I'm Manu, a human from Argentina 🇦🇷.
 
