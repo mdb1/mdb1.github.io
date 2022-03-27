@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fix your app's crashes with Xcode Organizer's help"
-date:   2022-03-17 18:54:00 -0300
+date:   2022-03-25 18:54:00 -0300
 categories: engineering
 ---
 
