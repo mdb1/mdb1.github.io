@@ -9,6 +9,6 @@ A really fast and easy way to getyour app's crash logs is built-in right in Xcod
 
 By opening the Organizer `⌘ + ⌥ + ⇧ + O`, and navigating to the Crash tab for the app you want to see the crash logs:
 
-![mdb picture](/resources/xcode-organizer/xcode-organizer-crashes.png)
+![xcode organizer](/resources/xcode-organizer/xcode-organizer-crashes.png)
 
 Then just tapping on the `Open in Project` button will offer you a lot of insights about the selected crash.
