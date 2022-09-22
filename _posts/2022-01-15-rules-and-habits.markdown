@@ -18,6 +18,7 @@ transformations.
 - Wake up early.
     - Make your bed.
     - Set a bedtime.
+- It's better to be an hour early than a minute late.
 - Eat healthy.
     - Drink a lot of water.
     - Eat at least 2 fruits every day.
