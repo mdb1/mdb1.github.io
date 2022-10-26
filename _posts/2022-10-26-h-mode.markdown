@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "H Mode"
+date:   2022-10-26 07:00:00 -0300
+categories: life
+---
+
+`H mode` is a protocol to follow in order to get things done.
+
+First of all, we need to set up the environment:
+
+- No clutter in your physical desktop, and no clutter in your computer desktop.
+
+Having an organized desktop will make everything better:
+
+![Desktop](/resources/h-mode/h-mode.png)
+
+During your `H mode` periods, you will have a set of rules that you must follow every single day. No excuses:
+
+1. No alcohol / No weed. 
+I don’t care what you have to say, this rule means absolutely 0 of both.
+2. Two `deep-work` slots a day. 
+Deep work means no distractions. No phone in the room, and no notifications allowed. Only focused work.
+3. 10.000 steps a day.
+A little bit of movement every day will allow you to have clearer thoughts.
+
+On top of that, I encourage you to add up to `3` more rules, but no more than that, otherwise, it could become overwhelming. Some examples:
+
+- Eat healthily
+- Exercise
+- Read
+- Play an instrument
+- Zero or limited social media time
+- Etc
+
+---
+
+You will quickly realize after a couple of weeks of `H mode` how much more productive, less distracted, and more focused you become. Also, how you can work towards your goals by adjusting your daily rules.
+
+---
+
+As an example, here is how I’ve structured my `H mode` for the last couple of months:
+
+- 07:00 - Wake up, drink a glass of water, and bathroom stuff.
+- 07:15 - Go for an outdoor 45-minute walk.
+- 08:00 - Prepare my mate 🧉, read a book for 15 minutes and read an article related to my industry (mostly SwiftUI stuff lately). After all of that, I pick up the phone for the first time in the day.
+- ~08:30 - 12:00 - First `deep-work` slot. No phone in my office room, no notifications on Slack.
+- 12:00 - 13:00 - First meal of the day. Dessert: a banana and a protein shake.
+- 13:00 - 13:30 - Brief walk. Answer Slack messages, check emails.
+- 13:30 - 16:30 - Second `deep-work` slot. No phone in my office room, no notifications on Slack.
+- 16:30 - 17:00 - Answer Slack messages, cool-down from second deep-work slot.
+- 17:00 - 17:45 - Weight or Cardio training.
+- At this point the day is over, so I don’t have a clear agenda until ~20:30.
+- ~20:30 - 21:30 - Dinner + Brief walk.
+- 21:30 - 22:00 - Shower.
+- ~22:30 - Go to sleep.
