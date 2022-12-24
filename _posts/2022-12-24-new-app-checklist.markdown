@@ -20,9 +20,9 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - assertState
   - asyncAssert
   - ServiceMock/CallsCounter
-- Constants
-  - Colors
-  - Spacing
+- [Constants](https://mdb1.github.io/swift/2022/12/24/new-app-constants.html)
+  - [Colors](https://mdb1.github.io/swift/2022/12/24/new-app-constants.html)
+  - [Spacing](https://mdb1.github.io/swift/2022/12/24/new-app-constants.html)
 - Extensions
   - ViewState
   - Images
