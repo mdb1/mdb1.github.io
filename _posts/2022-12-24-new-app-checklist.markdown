@@ -38,7 +38,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - Retryable Error View
 - ViewModifiers
   - RoundedOverlayBorder
-- Localization
+- [Localization](https://mdb1.github.io/swift/2022/12/27/new-app-localization.html)
 - Coding Guidelines (Contributing template)
   - Git strategy
   - View.ViewModel namespace
