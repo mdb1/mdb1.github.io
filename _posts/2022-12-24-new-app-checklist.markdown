@@ -7,7 +7,7 @@ categories: swift
 
 The idea of this post is to provide a list of things I like to have in-place when starting a new app from scratch.
 
-- BuildTools
+- [BuildTools](https://mdb1.github.io/swift/2023/01/01/new-app-build-tools.html)
   - SwiftFormat
   - SwiftLint
   - Fastlane
@@ -21,8 +21,8 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - asyncAssert
   - ServiceMock/CallsCounter
 - [Constants](https://mdb1.github.io/swift/2022/12/24/new-app-constants.html)
-  - [Colors](https://mdb1.github.io/swift/2022/12/24/new-app-constants.html)
-  - [Spacing](https://mdb1.github.io/swift/2022/12/24/new-app-constants.html)
+  - Colors
+  - Spacing
 - Extensions
   - ViewState
   - Images
