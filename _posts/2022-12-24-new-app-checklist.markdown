@@ -39,10 +39,12 @@ The idea of this post is to provide a list of things I like to have in-place whe
 - ViewModifiers
   - RoundedOverlayBorder
 - [Localization](https://mdb1.github.io/swift/2022/12/27/new-app-localization.html)
-- Coding Guidelines (Contributing template)
+- [Contributing Guidelines](https://mdb1.github.io/swift/2023/01/02/new-app-contributing-guidelines.html)
+  - Coding principles
   - Git strategy
-  - View.ViewModel namespace
   - Testing strategy
+  - Coding conventions
+  - Code of conduct
 - PR Template
 
 ---
