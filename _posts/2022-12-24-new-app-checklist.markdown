@@ -12,8 +12,8 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - SwiftLint
   - Fastlane
 - CI
-  - Run unit tests in PRs
-  - Deploy builds
+  - [Run unit tests in PRs](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane.md)
+  - [Deploy builds](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane+Distribution.md)
 - Networking
 - Unit test helpers
   - assertMemoryDeallocation
@@ -36,8 +36,9 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - Buttons with loading states
   - Title / Description Text with applied fonts
   - Retryable Error View
-- ViewModifiers
+- [ViewModifiers](https://mdb1.github.io/swift/2023/01/03/new-app-view-modifiers.html)
   - RoundedOverlayBorder
+  - Scrollable
 - [Localization](https://mdb1.github.io/swift/2022/12/27/new-app-localization.html)
 - [Contributing Guidelines](https://mdb1.github.io/swift/2023/01/02/new-app-contributing-guidelines.html)
   - Coding principles
@@ -46,6 +47,8 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - Coding conventions
   - Code of conduct
 - PR Template
+- Scripts
+  - [Sort Project Files](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/SortProject.md)
 
 ---
 
