@@ -46,7 +46,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - Testing strategy
   - Coding conventions
   - Code of conduct
-- PR Template
+- [PR Template](https://mdb1.github.io/swift/2023/01/09/new-app-pr-template.html)
 - Scripts
   - [Sort Project Files](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/SortProject.md)
 
