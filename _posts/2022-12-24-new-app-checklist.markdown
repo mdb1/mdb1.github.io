@@ -11,27 +11,27 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - SwiftFormat
   - SwiftLint
   - Fastlane
-- CI
+- CI / CD
   - [Run unit tests in PRs](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane.md)
   - [Deploy builds](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane+Distribution.md)
 - Networking
+- [Constants](https://mdb1.github.io/swift/2022/12/24/new-app-constants.html)
+  - Colors
+  - Spacing
+- Extensions / Helpers
+  - [ViewState](https://mdb1.github.io/swift/2023/01/08/new-app-view-state.html)
+  - Images
+  - [DateFormatters](https://mdb1.github.io/swift/2023/01/10/new-app-date-formatters.html)
+  - NumberFormatters
+  - [Default JsonEncoder/Decoder](https://mdb1.github.io/swift/2023/01/10/new-app-json-encoder-decoder.html)
+  - NotificationCenter protocols
+  - Handler/Action typealias for functions
+- Logger
 - Unit test helpers
   - assertMemoryDeallocation
   - assertState
   - asyncAssert
   - ServiceMock/CallsCounter
-- [Constants](https://mdb1.github.io/swift/2022/12/24/new-app-constants.html)
-  - Colors
-  - Spacing
-- Extensions
-  - [ViewState](https://mdb1.github.io/swift/2023/01/08/new-app-view-state.html)
-  - Images
-  - DateFormatters
-  - NumberFormatters
-  - Default JsonEncoder/Decoder
-  - Handler/Action typealias for functions
-- Logger
-- NotificationCenter protocols
 - [Components](https://mdb1.github.io/swift/2023/01/04/new-app-components.html)
   - LoadingButton
   - Title / Description Text with applied fonts
