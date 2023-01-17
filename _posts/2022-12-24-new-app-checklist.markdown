@@ -10,10 +10,10 @@ The idea of this post is to provide a list of things I like to have in-place whe
 - [BuildTools](https://mdb1.github.io/swift/2023/01/01/new-app-build-tools.html)
   - SwiftFormat
   - SwiftLint
-  - Fastlane
 - CI / CD
   - [Run unit tests in PRs](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane.md)
   - [Deploy builds](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane+Distribution.md)
+  - Fastlane
 - Networking
 - [Constants](https://mdb1.github.io/swift/2022/12/24/new-app-constants.html)
   - Colors
@@ -49,6 +49,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
 - [PR Template](https://mdb1.github.io/swift/2023/01/09/new-app-pr-template.html)
 - Scripts
   - [Sort Project Files](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/SortProject.md)
+  - [Fix Conflicts in the .pbxproj file](https://github.com/Lightricks/Kintsugi)
 
 ---
 
