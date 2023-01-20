@@ -18,6 +18,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
 - [Constants](https://mdb1.github.io/swift/2022/12/24/new-app-constants.html)
   - Colors
   - Spacing
+- [Fonts](https://mdb1.github.io/swift/2023/01/20/new-app-fonts.html)
 - Extensions / Helpers
   - [ViewState](https://mdb1.github.io/swift/2023/01/08/new-app-view-state.html)
   - Images
