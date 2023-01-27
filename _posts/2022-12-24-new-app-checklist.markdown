@@ -41,13 +41,15 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - RoundedOverlayBorder
   - Scrollable
 - [Localization](https://mdb1.github.io/swift/2022/12/27/new-app-localization.html)
-- [Contributing Guidelines](https://mdb1.github.io/swift/2023/01/02/new-app-contributing-guidelines.html)
-  - Coding principles
-  - Git strategy
-  - Testing strategy
-  - Coding conventions
-  - Code of conduct
-- [PR Template](https://mdb1.github.io/swift/2023/01/09/new-app-pr-template.html)
+- Developer Experience
+  - [Xcode Templates](https://mdb1.github.io/swift/2023/01/27/new-app-xcode-templates.html)
+  - [Contributing Guidelines](https://mdb1.github.io/swift/2023/01/02/new-app-contributing-guidelines.html)
+    - Coding principles
+    - Git strategy
+    - Testing strategy
+    - Coding conventions
+    - Code of conduct
+  - [PR Template](https://mdb1.github.io/swift/2023/01/09/new-app-pr-template.html)
 - Scripts
   - [Sort Project Files](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/SortProject.md)
   - [Fix Conflicts in the .pbxproj file](https://github.com/Lightricks/Kintsugi)
