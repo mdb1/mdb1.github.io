@@ -28,3 +28,13 @@ The code can be found [here](https://gist.github.com/mdb1/483b907d84aec08cde7edd
 <video width="388" height="460" controls>
     <source src="/resources/new-app-components/longPressButton.mp4" type="video/mp4">
 </video>
+
+## TextField
+A TextField with an error state.
+
+The code can be found [here](https://gist.github.com/mdb1/6dcb3f47b54038748bcce770d8bfbdd8).
+
+### Video
+<video width="388" height="460" controls>
+    <source src="/resources/new-app-components/textfield.mp4" type="video/mp4">
+</video>
