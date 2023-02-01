@@ -37,6 +37,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - LoadingButton
   - LinkButton
   - TextField
+  - Custom Progress View
   - Title / Description Text with applied fonts
   - Retryable Error View
 - [ViewModifiers](https://mdb1.github.io/swift/2023/01/03/new-app-view-modifiers.html)

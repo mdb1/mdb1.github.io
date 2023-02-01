@@ -35,6 +35,15 @@ A TextField with an error state.
 The code can be found [here](https://gist.github.com/mdb1/6dcb3f47b54038748bcce770d8bfbdd8).
 
 ### Video
-<video width="388" height="460" controls>
+<video width="249" height="160" controls>
     <source src="/resources/new-app-components/textfield.mp4" type="video/mp4">
+</video>
+
+## Custom Progress View
+A custom progress view using a trimmed circle that rotates.
+
+The code can be found [here](https://gist.github.com/mdb1/13df4fb33b6d3df119b89645214ca916).
+
+<video width="363" height="228" controls>
+    <source src="/resources/new-app-components/spinner.mp4" type="video/mp4">
 </video>
