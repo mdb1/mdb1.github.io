@@ -44,6 +44,17 @@ A custom progress view using a trimmed circle that rotates.
 
 The code can be found [here](https://gist.github.com/mdb1/13df4fb33b6d3df119b89645214ca916).
 
+### Video
 <video width="363" height="228" controls>
     <source src="/resources/new-app-components/spinner.mp4" type="video/mp4">
+</video>
+
+## CancelCircularButton
+A circular button with a long press action to cancel something.
+
+The code can be found [here](https://gist.github.com/mdb1/8eb8279adbfb0764a65d03707b9d55ec).
+
+### Video
+<video width="192" height="370" controls>
+    <source src="/resources/new-app-components/cancelButton.mp4" type="video/mp4">
 </video>
