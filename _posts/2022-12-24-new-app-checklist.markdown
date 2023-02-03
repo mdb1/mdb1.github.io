@@ -28,11 +28,10 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - NotificationCenter protocols
   - Handler/Action typealias for functions
 - Logger
-- Unit test helpers
+- [Unit test helpers](https://mdb1.github.io/swift/2023/02/02/new-app-testing-helpers.html)
   - assertMemoryDeallocation
   - assertState
   - asyncAssert
-  - ServiceMock/CallsCounter
 - [Components](https://mdb1.github.io/swift/2023/01/04/new-app-components.html)
   - LoadingButton
   - LinkButton
@@ -52,6 +51,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
     - Testing strategy
     - Coding conventions
     - Code of conduct
+  - [Enhancing Testability without Protocols](https://mdb1.github.io/swift/2023/02/03/enhancing-testability-without-protocols.html)
   - [PR Template](https://mdb1.github.io/swift/2023/01/09/new-app-pr-template.html)
 - Scripts
   - [Sort Project Files](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/SortProject.md)
