@@ -14,7 +14,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [Run unit tests in PRs](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane.md)
   - [Deploy builds](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane+Distribution.md)
   - Fastlane
-- Networking
+- [Networking](https://github.com/mdb1/CoreNetworking)
 - [Constants](https://mdb1.github.io/swift/2022/12/24/new-app-constants.html)
   - Colors
   - Spacing
