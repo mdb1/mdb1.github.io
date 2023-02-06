@@ -11,7 +11,7 @@ Here is a different approach, without using protocols, that can achieve the same
 
 Let's say we have a screen with a button that needs to perform a network request, display a loading while waiting for the response, and then display the result in a label.
 
-We will model the state of the view using a lighter version of [ViewState](https://mdb1.github.io/swift/2023/01/08/new-app-view-state.html):
+We will model the state of the view using a lighter version of [ViewState](https://mdb1.github.io/2023-01-08-new-app-view-state/):
 
 ```swift
 enum ViewState<Info> {
@@ -164,7 +164,7 @@ extension CatFactView.ViewModel.Dependencies {
 
 ## Testing
 
-Using some of the helpers function from [this article](https://mdb1.github.io/swift/2023/02/02/new-app-testing-helpers.html), and injecting the dependencies as inline methods, we can easily test all the paths of the code in our view model:
+Using some of the helpers function from [this article](https://mdb1.github.io/2023-02-02-new-app-testing-helpers/), and injecting the dependencies as inline methods, we can easily test all the paths of the code in our view model:
 
 ```swift
 import XCTest
