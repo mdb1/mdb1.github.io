@@ -2,7 +2,7 @@
 layout: post
 title:  "New App - Localization"
 date:   2022-12-27 07:00:00 -0300
-categories: swift
+tags: [swift, swiftui]
 ---
 
 When starting a new app, it's important to have a mechanism in place for Localization.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Siri's voice to speak in your app"
 date:   2022-03-17 16:41:55 -0300
-categories: engineering
+tags: [swift]
 ---
 
 It’s **really** easy to use Apple’s Speech mechanism to make your app read text out loud to the users:

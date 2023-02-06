@@ -2,7 +2,7 @@
 layout: post
 title:  "New App - Components"
 date:   2023-01-04 07:00:00 -0300
-categories: swift
+tags: [swift, swiftui]
 ---
 
 When starting a new app, I like to have some reusable components ready to use.

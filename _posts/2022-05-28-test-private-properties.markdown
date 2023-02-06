@@ -2,7 +2,7 @@
 layout: post
 title:  "Test private properties using Mirror"
 date:   2022-05-28 09:00:00 -0300
-categories: swift
+tags: [swift]
 ---
 
 In this post, we'll learn how we can add unit tests to private properties without compromising their access level.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Hot Reload in Swift!"
 date:   2022-06-16 22:00:00 -0300
-categories: swift
+tags: [swift]
 ---
 
 We finally have Hot Reload for Swift applications, thanks to the [Inject](https://github.com/krzysztofzablocki/Inject) tool written by Krzysztof Zabłocki, the great mind behind other amazing tools, like Sourcery.

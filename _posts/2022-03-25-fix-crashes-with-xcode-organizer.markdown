@@ -2,7 +2,7 @@
 layout: post
 title:  "Fix your app's crashes with Xcode Organizer's help"
 date:   2022-03-25 18:54:00 -0300
-categories: engineering
+tags: [swift]
 ---
 
 A really fast and easy way to getyour app's crash logs is built-in right in Xcode.

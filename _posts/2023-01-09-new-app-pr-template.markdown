@@ -2,7 +2,7 @@
 layout: post
 title:  "New App - Pull Request Template"
 date:   2023-01-09 07:00:00 -0300
-categories: swift
+tags: [swift, swiftui]
 ---
 
 When starting a new app, I like to set up the Pull Request Template, so we can set up so common ground rules for the project.

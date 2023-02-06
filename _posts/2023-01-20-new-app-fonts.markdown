@@ -2,7 +2,7 @@
 layout: post
 title:  "New App - Fonts"
 date:   2023-01-20 07:00:00 -0300
-categories: swift
+tags: [swift, swiftui]
 ---
 
 When starting a new app, you need to decide which fonts/typographies the app is going to use.

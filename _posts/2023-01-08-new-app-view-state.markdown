@@ -2,7 +2,7 @@
 layout: post
 title:  "New App - View State"
 date:   2023-01-08 07:00:00 -0300
-categories: swift
+tags: [swift, swiftui]
 ---
 
 When starting a new SwiftUI app, I like to have a reusable approach for managing the view state using generics.

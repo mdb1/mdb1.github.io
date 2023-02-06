@@ -2,7 +2,7 @@
 layout: post
 title:  "New App - Constants"
 date:   2022-12-24 09:00:00 -0300
-categories: swift
+tags: [swift, swiftui]
 ---
 
 When starting a new app, it's important to set the constants that will be shared across the app correcly:
