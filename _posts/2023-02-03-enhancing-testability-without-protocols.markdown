@@ -64,7 +64,7 @@ Nothing fancy here, just a view that switches through the view model's state pro
 
 In the ViewModel, we will introduce the `Dependencies` mechanism, which is just a struct that lets us inject the dependencies of the view model as functions stored in variables.
 
-By doing this, the view model becomes completely decoupled from the implementation of the dependencies, and will only have access to the provided methods. Think of this as a lightweight version of the Segregation Principle (The `S` in `SOLID`).
+By doing this, the view model becomes completely decoupled from the implementation of the dependencies, and will only have access to the provided methods. Think of this as a lightweight version of the Interface Segregation Principle (The `I` in `SOLID`).
 
 ```swift
 extension CatFactView {

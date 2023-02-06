@@ -2,6 +2,7 @@
 layout: post
 title:  "Add an Example App to an SPM Package"
 date:   2022-03-27 20:10:00 -0300
+comments: true
 tags: [swift]
 ---
 

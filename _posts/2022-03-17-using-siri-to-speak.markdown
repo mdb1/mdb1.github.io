@@ -2,6 +2,7 @@
 layout: post
 title:  "Using Siri's voice to speak in your app"
 date:   2022-03-17 16:41:55 -0300
+comments: true
 tags: [swift]
 ---
 

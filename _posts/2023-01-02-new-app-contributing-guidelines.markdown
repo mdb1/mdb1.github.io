@@ -2,6 +2,7 @@
 layout: post
 title:  "New App - Contributing Guidelines"
 date:   2023-01-02 07:00:00 -0300
+comments: true
 tags: [swift, swiftui]
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "New App - Pull Request Template"
 date:   2023-01-09 07:00:00 -0300
+comments: true
 tags: [swift, swiftui]
 ---
 

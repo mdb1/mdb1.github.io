@@ -2,6 +2,7 @@
 layout: post
 title:  "The Charisma Myth"
 date:   2022-09-26 07:00:00 -0300
+comments: true
 tags: [life]
 ---
 

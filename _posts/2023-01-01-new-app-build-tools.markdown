@@ -2,6 +2,7 @@
 layout: post
 title:  "New App - Build Tools"
 date:   2023-01-01 07:00:00 -0300
+comments: true
 tags: [swift, swiftui]
 ---
 

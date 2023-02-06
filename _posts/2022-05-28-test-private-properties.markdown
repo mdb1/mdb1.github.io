@@ -2,6 +2,7 @@
 layout: post
 title:  "Test private properties using Mirror"
 date:   2022-05-28 09:00:00 -0300
+comments: true
 tags: [swift]
 ---
 

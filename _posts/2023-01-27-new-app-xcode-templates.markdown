@@ -2,6 +2,7 @@
 layout: post
 title:  "New App - Xcode Templates"
 date:   2023-01-27 07:00:00 -0300
+comments: true
 tags: [swift, swiftui]
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "@Published property wrapper"
 date:   2022-09-22 07:00:00 -0300
+comments: true
 tags: [swift]
 ---
 

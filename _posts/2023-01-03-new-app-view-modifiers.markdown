@@ -2,6 +2,7 @@
 layout: post
 title:  "New App - View Modifiers"
 date:   2023-01-03 07:00:00 -0300
+comments: true
 tags: [swift, swiftui]
 ---
 

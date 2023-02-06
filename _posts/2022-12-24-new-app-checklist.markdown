@@ -2,6 +2,7 @@
 layout: post
 title:  "New App Checklist"
 date:   2022-12-24 07:00:00 -0300
+comments: true
 tags: [swift, swiftui, process]
 ---
 
