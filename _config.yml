@@ -29,7 +29,7 @@ twitter_username: manuherrera1
 github_username: mdb1
 
 # Build settings
-theme: beautiful-jekyll-theme
+remote_theme: daattali/beautiful-jekyll
 
 ###########################################################
 ### Welcome to Beautiful Jekyll!

@@ -262,14 +262,14 @@ PLATFORMS
   universal-darwin-21
 
 DEPENDENCIES
-  beautiful-jekyll-theme (= 5.0.0)
-  github-pages (>= 104)
+  beautiful-jekyll-theme
+  github-pages (= 228)
   http_parser.rb (~> 0.6.0)
-  jekyll-feed (~> 0.12)
+  jekyll-feed
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
-  webrick (~> 1.8)
+  webrick
 
 BUNDLED WITH
    2.3.8
