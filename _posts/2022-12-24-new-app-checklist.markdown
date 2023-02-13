@@ -52,6 +52,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
     - Testing strategy
     - Coding conventions
     - Code of conduct
+  - [Enhancing Testability with Protocols](https://mdb1.github.io/2023-02-13-enhancing-testability-with-protocols/)
   - [Enhancing Testability without Protocols](https://mdb1.github.io/2023-02-03-enhancing-testability-without-protocols/)
   - [PR Template](https://mdb1.github.io/2023-01-09-new-app-pr-template/)
 - Scripts
