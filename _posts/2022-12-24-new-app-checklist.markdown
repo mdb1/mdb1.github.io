@@ -19,6 +19,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
 - [Constants](https://mdb1.github.io/2022-12-24-new-app-constants/)
   - Colors
   - Spacing
+- [Toasts](https://mdb1.github.io/2023-03-08-new-app-toasts/)
 - [Fonts](https://mdb1.github.io/2023-01-20-new-app-fonts/)
 - Extensions / Helpers
   - [ViewState](https://mdb1.github.io/2023-01-08-new-app-view-state/)
@@ -45,6 +46,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - Scrollable
 - [Localization](https://mdb1.github.io/2022-12-27-new-app-localization/)
 - Developer Experience
+  - [Xcode Configurations](https://mdb1.github.io/2023-03-14-my-xcode-setup-and-shortcuts/)
   - [Xcode Templates](https://mdb1.github.io/2023-01-27-new-app-xcode-templates/)
   - [Contributing Guidelines](https://mdb1.github.io/2023-01-02-new-app-contributing-guidelines/)
     - Coding principles
