@@ -316,3 +316,79 @@ In this example:
 In this video, we are tweaking around some properties and pass them to the `withViewStateModifier` to demonstrate the different loading and error states that comes for free. Everything is configurable, and there is also the ability to provide custom views for loading states, the indicator, and the error states.
 
 The app used for this video can be downloaded from [this repository](https://github.com/mdb1/ViewStateControllerExampleApp).
+
+## Modifying Ids
+
+The ViewStateController object also provided an array of Strings (modifyingIds):
+
+```swift
+/// Use this property when you need to make changes to specific parts of your view.
+/// Example: When you want to display a ProgressView while deleting an item from a list.
+public var modifyingIds: [String]?
+```
+
+It's usage is really simple:
+
+```swift
+func listView(_ pokemons: [Pokemon]) -> some View {
+    VStack {
+        ForEach(pokemons) { pokemon in
+            HStack {
+                Text(pokemon.name)
+                Spacer()
+                trailingView(for: pokemon.id)
+            }
+            Divider()
+        }
+    }
+}
+
+@ViewBuilder
+func trailingView(for id: String) -> some View {
+
+    if let modifyingIds = controller.modifyingIds, modifyingIds.contains(id) {
+        // If the id is in the `modifyingIds` array, it means someone is modifying it.
+        // So we display a loading indicator.
+        ProgressView()
+    } else {
+        // Otherwise, we display a remove button.
+        Button("Remove", role: .destructive) {
+            Task {
+                // Tapping the button triggers an async call to remove the pokemon.
+                await removePokemon(id: id)
+            }
+        }
+    }
+}
+
+func removePokemon(id: String) async {
+    withAnimation {
+        // We add the `id` to the array.
+        controller.modifyingIds = (controller.modifyingIds ?? []) + [id]
+    }
+    // We simulate an async call to the backend. (1 second sleep)
+    try? await Task.sleep(nanoseconds: 1_000_000_000)
+    if let latestInfo = controller.latestInfo {
+        let updatedInfo = latestInfo.filter { pokemon in
+            pokemon.id != id
+        }
+        withAnimation {
+            // Then we update the state
+            controller.setState(.loaded(updatedInfo))
+            // And remove the id from the modifying array
+            controller.modifyingIds?.removeAll(where: { $0 == id })
+        }
+    }
+}
+
+struct Pokemon: Identifiable {
+    let id: String
+    let name: String
+}
+```
+
+### Demo: Modifying Ids
+
+<video width="370" height="768" controls>
+    <source src="/resources/view-state-controller/6-modifying-ids.mp4" type="video/mp4">
+</video>
