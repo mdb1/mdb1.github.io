@@ -22,3 +22,6 @@ Some examples:
 <video width="232" height="184" controls>
     <source src="/resources/new-app-view-modifiers/delay.mp4" type="video/mp4">
 </video>
+
+### EmbedInStack
+<script src="https://gist.github.com/mdb1/b0a08fb08b95d7086945c68dd574c5e0.js"></script>
