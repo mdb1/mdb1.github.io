@@ -48,9 +48,25 @@ Here's a list of recommended Mac apps to download:
 
 ### SSH Keys
 If you are using SSH keys for your personal/work repositories:
-1. Create a new SSH key: `ssh-keygen -t ed25519 -C “your_mail”` (Use a password to encrypt it).
+1. Create a new SSH key: `ssh-keygen -t ed25519 -C “your_mail”`
+    a. Use a password to encrypt it.
+    b. You need to provide a name for your key.
 2. Add the ssh key to your Github account.
-3. Configure [SSH Keys](https://superuser.com/questions/232373/how-to-tell-git-which-private-key-to-use/1519694#1519694) in your `~/.ssh/config` file.
+    a. Copy the contents of the `.pub` file.
+    b. Add the new SSH key in Github's configuration page.
+3. Configure [SSH Keys](https://superuser.com/questions/232373/how-to-tell-git-which-private-key-to-use/1519694#1519694) in your `~/.ssh/config` file. 
+    It should look like this:
+    ```bash
+    Host personal
+        HostName github.com
+        User git
+        IdentityFile /Users/manu/.ssh/personal
+    ```
+4. Add the key to your keychain: `ssh-add --apple-use-keychain ~/.ssh/mdb`
+   a. Enter the encryption password.
+5. Now you can use `git clone git@personal:organization/repo.git` to clone private repositories.
+
+Note: If you are using SourceTree, be careful with the auto-generated keys, they will probably not work. If you keep getting Access Denied with those keys, try following the steps described above instead.
 
 # Step 5: Configure Settings
 Here's a list of recommended settings to customize:
