@@ -13,15 +13,15 @@ One approach that has worked for me is a combination of newsletter subscriptions
 There are several newsletters that cover the latest news and trends in the iOS industry. Subscribing to newsletters is a great way to stay informed about the latest developments in the iOS ecosystem.
 
 Some examples to get started:
-* https://www.avanderlee.com/
-* https://softwareleadweekly.com/
-* https://swiftlyrush.curated.co/
-* https://www.swiftwithvincent.com/newsletter
-* https://www.polpiella.dev/newsletter
-* https://blog.eidinger.info/
-* https://namitgupta.com/
-* https://not-only-swift.peterfriese.dev/
-* https://tunds.dev/
+* [https://www.avanderlee.com](https://www.avanderlee.com/)
+* [https://softwareleadweekly.com](https://softwareleadweekly.com/)
+* [https://swiftlyrush.curated.co](https://swiftlyrush.curated.co/)
+* [https://www.swiftwithvincent.com/newsletter](https://www.swiftwithvincent.com/newsletter)
+* [https://www.polpiella.dev/newsletter](https://www.polpiella.dev/newsletter)
+* [https://blog.eidinger.info](https://blog.eidinger.info/)
+* [https://namitgupta.com](https://namitgupta.com/)
+* [https://not-only-swift.peterfriese.dev](https://not-only-swift.peterfriese.dev/)
+* [https://tunds.dev](https://tunds.dev/)
 
 # 2. Email Filters
 Once you've subscribed to these newsletters, it's important to set up some filters in your email client, to avoid getting distracted daily. This will help you avoid cluttering your inbox and allow you to focus on the newsletters at a later time.
