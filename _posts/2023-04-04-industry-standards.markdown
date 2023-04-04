@@ -21,7 +21,7 @@ Some examples to get started:
 * [https://blog.eidinger.info](https://blog.eidinger.info/)
 * [https://namitgupta.com](https://namitgupta.com/)
 * [https://not-only-swift.peterfriese.dev](https://not-only-swift.peterfriese.dev/)
-* [https://tunds.dev](https://tunds.dev/)
+* [https://tunds.dev](https://tunds.dev/#courses)
 
 # 2. Email Filters
 Once you've subscribed to these newsletters, it's important to set up some filters in your email client, to avoid getting distracted daily. This will help you avoid cluttering your inbox and allow you to focus on the newsletters at a later time.
