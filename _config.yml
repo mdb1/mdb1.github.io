@@ -138,9 +138,6 @@ feed_show_excerpt: true
 # Whether or not to show a list of tags below each post preview in the feed page
 feed_show_tags: true
 
-# Add a search button to the navbar
-post_search: true
-
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 edit_page_button: true
 
@@ -320,7 +317,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-loading-lazy
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
