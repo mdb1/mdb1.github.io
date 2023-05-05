@@ -46,17 +46,8 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 
 # Shortcuts
 
-## Xcode
-* `⌘ + Shift + O` → Open file/method/struct quickly.
-* `⌘ + Shift + J` → Display selected file in the folder hierarchy.
-* `^ + Shift + Drag click` → Multi Cursor.
-* `⌘ + ^ + ←` → Back to previous file
-* `⌘ + ^ + →` → Forward to next file
-* `⌘ + A` + `^ + I` → Indent file
-* `⌘ + ,` → Open Preferences
-* `⌘ + N` → New File
-
 ## macOS
+* Custom: `⌘ + Shift + S` → Select area + screenshot + copy it to clipboard
 * `⌘ + ⌃ + Space` → Open Emoji Keyboard
 * `^ + →` → Move one space to the right
 * `^ + ←` → Move one space to the left 
@@ -65,11 +56,36 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 * `⌘ + delete` → Send item to trash
 * `⌘ + Shift + delete` → Empty trash
 * `⌘ + ⌥ + W` → Close all windows
-* Custom: `⌘ + Shift + S` → Select area + screenshot + copy it to clipboard
 
-## Typing
-* `⌥ + delete` → Delete entire word.
+### Typing
+* `⌥ + delete` → Delete entire word
 * `⌘ + delete` → Delete entire line
+
+### Finder
+* `⌘ + ⌥ + W` → Close all windows
+
+## Chrome
+* `Command + T` → New tab
+* `Command + Shift + T` → Reopen closed tab
+* `Command + L` → Focus on the address bar
+
+## Notion
+* `⌘ + K` → Global Search
+
+## Xcode
+* `⌘ + Shift + O` → Open file/method/struct quickly
+* `⌘ + Shift + J` → Display selected file in the folder hierarchy
+* `^ + Shift + Drag click` → Multi Cursor
+* `⌘ + ^ + ←` → Back to previous file
+* `⌘ + ^ + →` → Forward to next file
+* `⌘ + A` + `^ + I` → Indent file
+* `⌘ + ,` → Open Preferences
+* `⌘ + N` → New File
+* `^ + ⌘ + L + → + →` → Show/Hide all issues
+* `⌥ + ⌘ + W` → Close all tabs but the current one
+* `⌥ + ⌘ + ]` → Move line up
+* `⌥ + ⌘ + [` → Move line down
+* `⌥ + ⌘ + /` → Add docs template to the selected method/property
 
 # Time Savers
 
