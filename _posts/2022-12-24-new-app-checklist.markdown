@@ -24,12 +24,11 @@ The idea of this post is to provide a list of things I like to have in-place whe
 - [Fonts](https://mdb1.github.io/2023-01-20-new-app-fonts/)
 - Extensions / Helpers
   - [ViewState](https://mdb1.github.io/2023-01-08-new-app-view-state/)
-  - Images
+  - [ViewStateController](https://mdb1.github.io/2023-03-04-view-state-controller/)
   - [DateFormatters](https://mdb1.github.io/2023-01-10-new-app-date-formatters/)
-  - NumberFormatters
   - [Default JsonEncoder/Decoder](https://mdb1.github.io/2023-01-10-new-app-json-encoder-decoder/)
+  - NumberFormatters
   - NotificationCenter protocols
-  - Handler/Action typealias for functions
 - [Logger](https://mdb1.github.io/2023-05-06-new-app-console-logger/)
 - [Unit test helpers](https://mdb1.github.io/2023-02-02-new-app-testing-helpers/)
   - assertMemoryDeallocation
@@ -50,11 +49,6 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [Xcode Configurations](https://mdb1.github.io/2023-03-14-my-xcode-setup-and-shortcuts/)
   - [Xcode Templates](https://mdb1.github.io/2023-01-27-new-app-xcode-templates/)
   - [Contributing Guidelines](https://mdb1.github.io/2023-01-02-new-app-contributing-guidelines/)
-    - Coding principles
-    - Git strategy
-    - Testing strategy
-    - Coding conventions
-    - Code of conduct
   - [Enhancing Testability with Protocols](https://mdb1.github.io/2023-02-13-enhancing-testability-with-protocols/)
   - [Enhancing Testability without Protocols](https://mdb1.github.io/2023-02-03-enhancing-testability-without-protocols/)
   - [PR Template](https://mdb1.github.io/2023-01-09-new-app-pr-template/)
