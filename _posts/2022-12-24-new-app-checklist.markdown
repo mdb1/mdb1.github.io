@@ -30,7 +30,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [Default JsonEncoder/Decoder](https://mdb1.github.io/2023-01-10-new-app-json-encoder-decoder/)
   - NotificationCenter protocols
   - Handler/Action typealias for functions
-- Logger
+- [Logger](https://mdb1.github.io/2023-05-06-new-app-console-logger/)
 - [Unit test helpers](https://mdb1.github.io/2023-02-02-new-app-testing-helpers/)
   - assertMemoryDeallocation
   - assertState
