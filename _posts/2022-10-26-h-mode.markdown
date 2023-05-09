@@ -6,7 +6,7 @@ comments: true
 tags: [productivity]
 ---
 
-`H mode` is a protocol to follow in order to get things done.
+`H mode` is a protocol/framrwork to follow in order to get things done.
 
 First of all, we need to set up the environment:
 
@@ -43,7 +43,7 @@ You will quickly realize after a couple of weeks of `H mode` how much more produ
 As an example, here is how I’ve structured my `H mode` for the last couple of months:
 
 - 07:00 - Wake up, make the bed, and drink a glass of water.
-- 07:15 - Weight or cardio training.
+- 07:15 - Weight, cardio training or an outdoor walk.
 - 08:00 - Prepare mate 🧉, read a book for 15 minutes and read an article related to my industry. After all of that, I pick up the phone for the first time in the day.
  
 > _Note: For a detailed guide on where to find articles, read [this post](https://mdb1.github.io/2023-04-04-industry-standards/)_
@@ -59,3 +59,19 @@ As an example, here is how I’ve structured my `H mode` for the last couple of 
 - ~20:30 - 21:30 - Dinner + Brief walk.
 - ~21:30 - Shower.
 - ~23:00 - Go to sleep.
+
+---
+
+On Fridays, I plan out my next week, I keep a table view in Notion for each month (which I set up the last Friday of each month) that is grouped by Day and sorted by time, it looks like this:
+
+![Monthly ToDos](/resources/h-mode/month-to-dos.png)
+
+Whenever I mark any task as Done it dissappears from the list, due to other filter in the table view.
+
+This keeps my weeks organized and is also a historical database of the things I do in my life.  I can easily find on these databases the last time I did something, for example: medical appointments, work meetings, travels, etc.
+
+It takes quite some time to set up this framework, but once its up and running, maintaining is pretty straightforward and it doesn't take too much of my time.
+
+---
+
+How do you organize your days/weeks/months?
