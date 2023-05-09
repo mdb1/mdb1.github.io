@@ -19,7 +19,7 @@ Having an organized desktop will make everything better:
 During your `H mode` periods, you will have a set of rules that you must follow every single day. No excuses:
 
 1. No alcohol. 
-I don’t care what you have to say, this rule means absolutely 0 of both.
+I don’t care what you have to say, this rule means absolutely 0.
 2. Two `deep-work` slots a day. 
 Deep work means no distractions. No phone in the room, and no notifications allowed. Only focused work.
 3. 10.000 steps a day.
