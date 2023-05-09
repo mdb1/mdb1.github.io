@@ -14,11 +14,11 @@ First of all, we need to set up the environment:
 
 Having an organized desktop will make everything better:
 
-![Desktop](/resources/h-mode/h-mode.png)
+![Desktop](/resources/h-mode/h-mode.jpeg)
 
 During your `H mode` periods, you will have a set of rules that you must follow every single day. No excuses:
 
-1. No alcohol / No weed. 
+1. No alcohol. 
 I don’t care what you have to say, this rule means absolutely 0 of both.
 2. Two `deep-work` slots a day. 
 Deep work means no distractions. No phone in the room, and no notifications allowed. Only focused work.
@@ -42,16 +42,20 @@ You will quickly realize after a couple of weeks of `H mode` how much more produ
 
 As an example, here is how I’ve structured my `H mode` for the last couple of months:
 
-- 07:00 - Wake up, drink a glass of water, and bathroom stuff.
-- 07:15 - Go for an outdoor 45-minute walk.
-- 08:00 - Prepare my mate 🧉, read a book for 15 minutes and read an article related to my industry (mostly SwiftUI stuff lately). After all of that, I pick up the phone for the first time in the day.
+- 07:00 - Wake up, make the bed, and drink a glass of water.
+- 07:15 - Weight or cardio training.
+- 08:00 - Prepare mate 🧉, read a book for 15 minutes and read an article related to my industry. After all of that, I pick up the phone for the first time in the day.
+ 
+> _Note: For a detailed guide on where to find articles, read [this post](https://mdb1.github.io/2023-04-04-industry-standards/)_
+
 - ~08:30 - 12:00 - First `deep-work` slot. No phone in my office room, no notifications on Slack.
-- 12:00 - 13:00 - First meal of the day. Dessert: a banana and a protein shake.
+- 12:00 - 13:00 - First meal of the day.
 - 13:00 - 13:30 - Brief walk. Answer Slack messages, check emails.
 - 13:30 - 16:30 - Second `deep-work` slot. No phone in my office room, no notifications on Slack.
 - 16:30 - 17:00 - Answer Slack messages, cool-down from second deep-work slot.
-- 17:00 - 17:45 - Weight or Cardio training.
-- At this point the day is over, so I don’t have a clear agenda until ~20:30.
+
+> At this point the day is over, so I don’t have a clear agenda until ~20:30.
+
 - ~20:30 - 21:30 - Dinner + Brief walk.
-- 21:30 - 22:00 - Shower.
-- ~22:30 - Go to sleep.
+- ~21:30 - Shower.
+- ~23:00 - Go to sleep.
