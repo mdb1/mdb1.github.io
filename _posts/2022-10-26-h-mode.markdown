@@ -6,7 +6,7 @@ comments: true
 tags: [productivity]
 ---
 
-`H mode` is a protocol/framrwork to follow in order to get things done.
+`H mode` is a protocol/framework to follow in order to get things done.
 
 First of all, we need to set up the environment:
 
