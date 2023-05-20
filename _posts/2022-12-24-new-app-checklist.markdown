@@ -51,6 +51,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [Contributing Guidelines](https://mdb1.github.io/2023-01-02-new-app-contributing-guidelines/)
   - [Enhancing Testability with Protocols](https://mdb1.github.io/2023-02-13-enhancing-testability-with-protocols/)
   - [Enhancing Testability without Protocols](https://mdb1.github.io/2023-02-03-enhancing-testability-without-protocols/)
+  - [The Code Review Process](https://mdb1.github.io/2022-03-10-the-code-review-process/)
   - [PR Template](https://mdb1.github.io/2023-01-09-new-app-pr-template/)
   - [The Definition of Done](https://mdb1.github.io/2023-05-13-the-definition-of-done/)
 - Scripts
