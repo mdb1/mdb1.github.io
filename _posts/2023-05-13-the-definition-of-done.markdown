@@ -2,7 +2,7 @@
 layout: post
 title:  "The Definition of Done"
 date:   2023-05-13 07:00:00 -0300
-categories: productivity
+tags: [productivity, coding]
 ---
 
 # Introduction:
@@ -109,7 +109,7 @@ There are some downsides to writing documentation though:
 ## 4. PR + Review + Deploy
 Finally, you need to upload your changes, send a Pull Request for your team, let them review it, apply the neccessary changes, merge it, and deploy it.
 
-Here are some notes about the [Code Review Process](https://mdb1.github.io/2022-03-10-the-code-review-process/).
+Here are some notes about the [Code Review Process](https://mdb1.github.io/2022-03-10-the-code-review-process/). And here you can find an example [PR Template](https://mdb1.github.io/2023-01-09-new-app-pr-template/)
 
 The Documentation from `Step 3` will be a great addition to the PR body 😬.
 

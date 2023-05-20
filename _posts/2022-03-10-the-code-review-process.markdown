@@ -3,7 +3,7 @@ layout: post
 title:  "The Code Review Process"
 date:   2022-03-10 21:41:55 -0300
 comments: true
-tags: [process]
+tags: [coding, productivity]
 ---
 > No matter how experienced we are, we will make mistakes at work.
 

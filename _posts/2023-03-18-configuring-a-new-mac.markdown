@@ -2,7 +2,7 @@
 layout: post
 title:  "Configuring a new MacBook"
 date:   2023-03-18 07:00:00 -0300
-categories: productivity
+tags: productivity
 ---
 
 # Configuring a New MacBook: 5 Steps to Follow

@@ -2,7 +2,7 @@
 layout: post
 title:  "SwiftUI: Using a Repository as the single source of truth"
 date:   2023-04-30 07:00:00 -0300
-categories: swift
+tags: swiftui
 ---
 
 # Introduction:

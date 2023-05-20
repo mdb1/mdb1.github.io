@@ -2,7 +2,7 @@
 layout: post
 title:  "ViewStateController: Debug State"
 date:   2023-04-11 07:00:00 -0300
-categories: swift
+tags: swiftui
 ---
 
 In our previous posts, we discussed the [ViewStateController](https://mdb1.github.io/2023-03-04-view-state-controller/) package, which allows us to add consistent loading and error states to our SwiftUI views. Today we'll explore a new feature of the [framework](https://github.com/mdb1/ViewStateController), the `DebugState` modifier, which provides an easy way to debug the state of a view.

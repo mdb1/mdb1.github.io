@@ -55,8 +55,8 @@ author: Manuel Herrera
 
 navbar-links:
   Tags / Topics: 
-    - Life: "/tags/#life"
-    - Process: "/tags/#process"
+    - Books: "/tags/#books"
+    - Coding: "/tags/#coding"
     - Productivity: "/tags/#productivity"
     - Swift: "/tags/#swift"
     - SwiftUI: "/tags/#swiftui"

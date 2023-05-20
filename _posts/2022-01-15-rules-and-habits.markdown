@@ -3,7 +3,7 @@ layout: post
 title:  "Rules and Habits for a better life"
 date:   2022-01-15 21:41:55 -0300
 comments: true
-tags: [life, productivity]
+tags: [productivity]
 ---
 Hi there! 👋
 

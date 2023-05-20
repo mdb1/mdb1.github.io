@@ -3,7 +3,7 @@ layout: post
 title:  "New App Checklist"
 date:   2022-12-24 07:00:00 -0300
 comments: true
-tags: [swift, swiftui, process]
+tags: [swift, swiftui, coding]
 ---
 
 The idea of this post is to provide a list of things I like to have in-place when starting a new app from scratch.

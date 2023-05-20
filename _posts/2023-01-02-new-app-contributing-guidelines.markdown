@@ -3,7 +3,7 @@ layout: post
 title:  "New App - Contributing Guidelines"
 date:   2023-01-02 07:00:00 -0300
 comments: true
-tags: [swift, swiftui]
+tags: [swift, swiftui, coding]
 ---
 
 When starting a new app, it's important to write the [contributing guidelines](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) to help your team do good work, and keep a consistent codebase over time.

@@ -2,7 +2,7 @@
 layout: post
 title:  "How to keep up with the industry standards"
 date:   2023-04-04 07:00:00 -0300
-categories: productivity
+tags: [productivity, coding]
 ---
 
 Staying up-to-date with the latest iOS industry standards is essential for any iOS developer. Apple's mobile operating system is constantly evolving, and keeping up with the changes is crucial for maintaining a competitive edge in the industry. With new updates, features, and technologies being released every year, it's important to have a `systematic` approach to staying informed.
