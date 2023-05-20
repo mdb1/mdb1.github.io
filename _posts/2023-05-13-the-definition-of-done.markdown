@@ -88,7 +88,7 @@ This screen is static, it doesn't obserb the operation model, so if there is any
 ## Testing
 The screen is covered with UI tests, using the PageObject pattern, making its elements accessible for testing purposes.
 
-A quick win would be to add basic unit tests to the `OperationFormatter` methods.
+A quick win would be to add basic unit tests to the `OperationFormatter` computed properties.
 
 ---
 
