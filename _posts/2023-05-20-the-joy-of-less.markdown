@@ -223,7 +223,27 @@ Let’s take our minimalist takeover beyond our four walls. We’ll declutter ou
 - Eliminate the excess
 Start over by examining how you spend your time. Dump everything in a piece of paper. Scratch out the nonessentials. Build your ideal days.
 - Prioritize
+When we set priorities we take control of our time.
+Rank your priorities.
+- Consolidate
+By consolidating like-tasks together, we can manage our time, and our to-do lists much more efficiently.
+- Standardize
+Set up standardized systems that you can complete with minimum fuss and maximum efficiency.
+- Delegate
+- Embrace “good enough”
+In 99% of the stuff that we do, perfection is superfluous.
+Accept “good enough” for your work snd the work you delegate.
+- Reduce expectations
+Reducing what we expect from ourselves and others takes a tremendous amount of pressure of our minds, our schedules, and our bank accounts.
+- Set limits
+Set limits to the number of activities in which you are involved.
+- Just be
+
+# 30. The Greater Good
+
+- Become a `minsumer`
+Minimizing our consumption to only what meet our needs.
+- Consider the lifetime
+We want the stuff that we buy to last for a long time.
 
 ---
-
-Note: To be continued, I will complete the notes once I finish the book (probaly by next week 😄)
