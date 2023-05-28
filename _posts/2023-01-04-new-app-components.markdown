@@ -63,7 +63,7 @@ The code can be found [here](https://gist.github.com/mdb1/8eb8279adbfb0764a65d03
 ## CarouselView
 A Carousel View (Paged TabBar) to display information.
 
-The code can be found [here](https://github.com/mdb1/UIComponents).
+The code can be found [here](https://github.com/mdb1/UIComponents/blob/main/Sources/UIComponents/Carousel/CarouselView.swift).
 
 ### Video
 <video width="208" height="426" controls>
