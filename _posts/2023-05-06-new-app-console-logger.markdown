@@ -33,5 +33,9 @@ With this code in place, you can call the Logger directly from any place in your
 
 ---
 
+## Network Logger
+
+I've also written a [post](https://mdb1.github.io/2023-05-27-network-logger/) about a NetworkLogger, for logging information about networking requests/responses/object decoding/etc.
+
 Do you use some sort of console logger in your apps?
 
