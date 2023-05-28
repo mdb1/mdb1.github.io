@@ -66,7 +66,9 @@ A Carousel View (Paged TabBar) to display information.
 The code can be found [here](https://github.com/mdb1/UIComponents).
 
 ### Video
-https://github.com/mdb1/UIComponents/assets/5333984/e2b27dde-ed9e-4280-8371-94802a12dd93
+<video width="208" height="426" controls>
+    <source src="/resources/new-app-components/carousel.mp4" type="video/mp4">
+</video>
 
 ---
 
