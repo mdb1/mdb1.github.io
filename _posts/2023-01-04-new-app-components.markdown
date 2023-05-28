@@ -60,6 +60,14 @@ The code can be found [here](https://gist.github.com/mdb1/8eb8279adbfb0764a65d03
     <source src="/resources/new-app-components/cancelButton.mp4" type="video/mp4">
 </video>
 
+## CarouselView
+A Carousel View (Paged TabBar) to display information.
+
+The code can be found [here](https://github.com/mdb1/UIComponents).
+
+### Video
+https://github.com/mdb1/UIComponents/assets/5333984/e2b27dde-ed9e-4280-8371-94802a12dd93
+
 ---
 
 All these components can be found in the [UIComponents](https://github.com/mdb1/UIComponents) package.
