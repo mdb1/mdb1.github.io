@@ -59,3 +59,7 @@ The code can be found [here](https://gist.github.com/mdb1/8eb8279adbfb0764a65d03
 <video width="192" height="370" controls>
     <source src="/resources/new-app-components/cancelButton.mp4" type="video/mp4">
 </video>
+
+---
+
+All these components can be found in the [UIComponents](https://github.com/mdb1/UIComponents) package.

@@ -19,13 +19,13 @@ These are some notes from the book: `Excellent Advice for Living` by `Kevin Kell
 - If you ask for advice, you will get a partner.
 - “No” is an acceptable answer, even without a reason.
 - 99% of success is just showing up.
-- **There is no point in being the riches person in the cemetery.**
+- **There is no point in being the richest person in the cemetery.**
 - **No problems = No progress.**
 - You are what you spend your time on.
 - If you are not embarrassed by your past self you have probably not grown up yet.
 - You don’t need more time, you need more focus.
 - Underpromise and overdeliver.
-- **Ignore what others may be thinking of you because they are aren’t thinking of you.**
+- **Ignore what others may be thinking of you because they aren’t thinking of you.**
 - Avoid the snooze button.
 - If your goal does not have a schedule, it is a dream.
 - **Cultivate an allergy to average.**
