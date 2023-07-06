@@ -26,12 +26,8 @@ We can separate this into 3 layers:
 
 ## 1. View:
 ```swift
-import SwiftUI
-
 struct CatFactView: View {
-    @StateObject var viewModel: ViewModel = .init(
-        dependencies: .default // More on this later.
-    )
+    @StateObject var viewModel: ViewModel = .init()
 
     var body: some View {
         VStack {
@@ -44,15 +40,18 @@ struct CatFactView: View {
                 Text(fact.fact)
             case .error:
                 Text("Error")
+                    .foregroundColor(.red)
             }
             Button("Fetch another") {
-                viewModel.fetch()
+                Task {
+                    await viewModel.fetch()
+                }
             }
             .disabled(viewModel.state.isLoading)
         }
         .padding()
         .task {
-            viewModel.fetch()
+            await viewModel.fetch()
         }
     }
 }
@@ -68,23 +67,22 @@ By doing this, the view model becomes completely decoupled from the implementati
 
 ```swift
 extension CatFactView {
-    @MainActor final class ViewModel: ObservableObject {
+    @MainActor
+    final class ViewModel: ObservableObject {
         @Published var state: ViewState<CatFact> = .initial
         private let dependencies: Dependencies
 
-        init(dependencies: Dependencies) {
+        init(dependencies: Dependencies = .default) {
             self.dependencies = dependencies
         }
 
-        func fetch() {
-            Task {
-                do {
-                    state = .loading
-                    let fact = try await dependencies.fetchFact()
-                    state = .loaded(fact)
-                } catch {
-                    state = .error
-                }
+        func fetch() async {
+            do {
+                state = .loading
+                let fact = try await dependencies.fetchFact()
+                state = .loaded(fact)
+            } catch {
+                state = .error(error)
             }
         }
     }
@@ -167,10 +165,9 @@ extension CatFactView.ViewModel.Dependencies {
 Using some of the helpers function from [this article](https://mdb1.github.io/2023-02-02-new-app-testing-helpers/), and injecting the dependencies as inline methods, we can easily test all the paths of the code in our view model:
 
 ```swift
-import XCTest
-
-@MainActor final class CatFactViewModelTests: XCTestCase {
-    func testFetchCatFactSuccess() {
+@MainActor
+final class CatFactViewModelTests: XCTestCase {
+    func testFetchCatFactSuccess() async {
         // Given
         let mockFact = CatFact(fact: "A mocked fact")
         let sut = CatFactView.ViewModel(dependencies: .init(fetchFact: {
@@ -178,12 +175,10 @@ import XCTest
         }))
 
         // When
-        sut.fetch()
+        await sut.fetch()
 
         // Then
-        asyncAssert("Fetch, then update the state") {
-            XCTAssertEqual(sut.state.info, mockFact)
-        }
+        XCTAssertEqual(sut.state.info, mockFact)
     }
 
     func testFetchCatFactSuccessStates() {
@@ -195,8 +190,9 @@ import XCTest
 
         AssertState().assert(
             when: {
-                // When
-                sut.fetch()
+                Task {
+                    await sut.fetch()
+                }
             },
             type: ViewState<CatFact>.self,
             testCase: self,
@@ -212,31 +208,32 @@ import XCTest
         )
     }
 
-    func testFetchCatFactError() {
+    func testFetchCatFactError() async {
         // Given
+        let error = NSError(domain: "12", code: 12)
         let sut = CatFactView.ViewModel(dependencies: .init(fetchFact: {
-            throw NSError(domain: "12", code: 12)
+            throw error
         }))
 
         // When
-        sut.fetch()
+        await sut.fetch()
 
         // Then
-        asyncAssert("Fetch, then update the state") {
-            XCTAssertEqual(sut.state, .error)
-        }
+        XCTAssertEqual(sut.state, .error(error))
     }
 
     func testFetchCatFactErrorStates() {
         // Given
+        let error = NSError(domain: "12", code: 12)
         let sut = CatFactView.ViewModel(dependencies: .init(fetchFact: {
-            throw NSError(domain: "12", code: 12)
+            throw error
         }))
 
         AssertState().assert(
             when: {
-                // When
-                sut.fetch()
+                Task {
+                    await sut.fetch()
+                }
             },
             type: ViewState<CatFact>.self,
             testCase: self,
@@ -247,7 +244,7 @@ import XCTest
             },
             valuesAssertions: { values in
                 // Then
-                XCTAssertEqual(values.map { $0 }, [.initial, .loading, .error])
+                XCTAssertEqual(values.map { $0 }, [.initial, .loading, .error(error)])
             }
         )
     }
@@ -264,3 +261,14 @@ import XCTest
     }
 }
 ```
+
+```swift
+Test Suite 'CatFactViewModelTests' passed at 2023-07-06 20:08:44.436.
+Executed 5 tests, with 0 failures (0 unexpected) in 0.024 (0.026) seconds
+```
+
+---
+
+The complete code can be found in the `WithoutProtocols` branch of [this repository](https://github.com/mdb1/CatProtocols/tree/WithoutProtocols).
+
+You can also check out how to achieve the same results _using protocols_ in [this post](https://mdb1.github.io/2023-02-13-enhancing-testability-with-protocols/).

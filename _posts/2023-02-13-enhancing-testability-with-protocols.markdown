@@ -29,10 +29,8 @@ We can separate this into 3 layers:
 ## 1. View
 
 ```swift
-import SwiftUI
-
 struct CatFactView: View {
-    @ObservedObject var viewModel: ViewModel
+    @StateObject var viewModel: ViewModel = .init(service: CatService())
 
     var body: some View {
         VStack {
@@ -48,13 +46,15 @@ struct CatFactView: View {
                     .foregroundColor(.red)
             }
             Button("Fetch another") {
-                viewModel.fetch()
+                Task {
+                    await viewModel.fetch()
+                }
             }
             .disabled(viewModel.state.isLoading)
         }
         .padding()
         .task {
-            viewModel.fetch()
+            await viewModel.fetch()
         }
     }
 }
@@ -65,26 +65,23 @@ Almost identical to the one in the previous post, with the difference of the Vie
 ## 2. ViewModel
 
 ```swift
-import SwiftUI
-
 extension CatFactView {
-    @MainActor final class ViewModel: ObservableObject {
+    @MainActor
+    final class ViewModel: ObservableObject {
         @Published var state: ViewState<CatFact> = .initial
         private let service: FetchCatFactProtocol
 
-        init(service: FetchCatFactProtocol) {
+        init(service: FetchCatFactProtocol = CatService()) {
             self.service = service
         }
 
-        func fetch() {
-            Task {
-                do {
-                    state = .loading
-                    let fact = try await service.fetchCatFact()
-                    withAnimation { state = .loaded(fact) }
-                } catch {
-                    withAnimation { state = .error(error) }
-                }
+        func fetch() async {
+            do {
+                state = .loading
+                let fact = try await service.fetchCatFact()
+                withAnimation { state = .loaded(fact) }
+            } catch {
+                withAnimation { state = .error(error) }
             }
         }
     }
@@ -96,19 +93,11 @@ Now, we inject a `FetchCatFactProtocol` object in the initializer. Which is a pr
 ## 3. Service
 
 ```swift
-import Foundation
-
 protocol FetchCatFactProtocol {
     func fetchCatFact() async throws -> CatFact
 }
 
-protocol UpdateCatInformationProtocol {
-    func updateName(id: String) async throws
-}
-
-struct CatService {}
-
-extension CatService: FetchCatFactProtocol {
+struct CatService: FetchCatFactProtocol {
     func fetchCatFact() async throws -> CatFact {
         /// This is using: https://github.com/mdb1/CoreNetworking
         try await HTTPClient.shared
@@ -120,12 +109,6 @@ extension CatService: FetchCatFactProtocol {
                 ),
                 responseType: CatFact.self
             )
-    }
-}
-
-extension CatService: UpdateCatInformationProtocol {
-    func updateName(id: String) async throws {
-        // Some networking code
     }
 }
 ```
@@ -181,8 +164,9 @@ Finally, on the testing side, we can leverage our protocols and leverage the alr
 ```swift
 import XCTest
 
-@MainActor final class CatFactViewModelTests: XCTestCase {
-    func testFetchCatFactSuccess() {
+@MainActor
+final class CatFactViewModelTests: XCTestCase {
+    func testFetchCatFactSuccess() async {
         // Given
         let mockFact = CatFact(fact: "A mocked fact")
         let sut = CatFactView.ViewModel(service: FetchCatServiceMock(
@@ -191,12 +175,10 @@ import XCTest
         ))
 
         // When
-        sut.fetch()
+        await sut.fetch()
 
         // Then
-        asyncAssert("Fetch, then update the state") {
-            XCTAssertEqual(sut.state.info, mockFact)
-        }
+        XCTAssertEqual(sut.state.info, mockFact)
     }
 
     func testFetchCatFactSuccessStates() {
@@ -209,8 +191,9 @@ import XCTest
 
         AssertState().assert(
             when: {
-                // When
-                sut.fetch()
+                Task {
+                    await sut.fetch()
+                }
             },
             type: ViewState<CatFact>.self,
             testCase: self,
@@ -226,7 +209,7 @@ import XCTest
         )
     }
 
-    func testFetchCatFactError() {
+    func testFetchCatFactError() async {
         // Given
         let sut = CatFactView.ViewModel(service: FetchCatServiceMock(
             throwsError: true,
@@ -234,12 +217,10 @@ import XCTest
         ))
 
         // When
-        sut.fetch()
+        await sut.fetch()
 
         // Then
-        asyncAssert("Fetch, then update the state") {
-            XCTAssertEqual(sut.state, .error(NSError(domain: "1", code: 1)))
-        }
+        XCTAssertEqual(sut.state, .error(NSError(domain: "1", code: 1)))
     }
 
     func testFetchCatFactErrorStates() {
@@ -251,8 +232,9 @@ import XCTest
 
         AssertState().assert(
             when: {
-                // When
-                sut.fetch()
+                Task {
+                    await sut.fetch()
+                }
             },
             type: ViewState<CatFact>.self,
             testCase: self,
@@ -281,6 +263,13 @@ import XCTest
 }
 ```
 
+```swift
+Test Suite 'CatFactViewModelTests' passed at 2023-07-06 19:56:49.991.
+Executed 5 tests, with 0 failures (0 unexpected) in 0.006 (0.017) seconds
+```
+
 ---
 
 The complete code can be found in [this repository](https://github.com/mdb1/CatProtocols).
+
+You can also check out how to achieve the same results _without using protocols_ in [this post](https://mdb1.github.io/2023-02-03-enhancing-testability-without-protocols/).
