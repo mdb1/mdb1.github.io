@@ -63,6 +63,6 @@ Keep your pace slow and consistent; given enough time, your momentum will carry 
 
 # 6. Breaking through to greater success
 
-Hitting he wall is an opportunity for greatness, not an obstacle.
+Hitting the wall is an opportunity for greatness, not an obstacle.
 
 ---
