@@ -9,7 +9,7 @@ tags: [swift, swiftui, coding]
 The idea of this post is to provide a list of things I like to have in-place when starting a new app from scratch.
 
 - [BuildTools](https://mdb1.github.io/2023-01-01-new-app-build-tools/)
-  - SwiftFormat
+  - [SwiftFormat](https://mdb1.github.io/2023-07-22-new-app-swiftformat-config/)
   - SwiftLint
 - CI / CD
   - [Run unit tests in PRs](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane.md)
