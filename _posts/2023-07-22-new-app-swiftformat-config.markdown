@@ -174,7 +174,7 @@ Sometimes you want to run the formatter from the console directly, to do so, I l
 cd ~/path-to-the-project-root && swift run -c release --package-path BuildTools swiftformat . --minversion 0.51.13 --config BuildTools/.swiftformat --swiftversion 5.7
 ```
 
-`2.` Add it the the `.zshrc`
+`2.` Add it to the `.zshrc`
 
 `vim ~/.zshrc`
 
