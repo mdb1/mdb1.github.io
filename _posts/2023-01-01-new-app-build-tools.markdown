@@ -20,6 +20,8 @@ What I like to have at the very least is:
 
 I like the linter to run on every build of the app, and I usually enable the `strict` mode in CI, to ensure that the `main` branch never contain lint warnings.
 
+If you want to enforce the SwiftLint version, read [this post](https://mdb1.github.io/2023-07-23-enforce-minimum-swiftlint-version/).
+
 ## Formatter
 
 For automatic code formatting, I usually pick [SwiftFormat](https://github.com/nicklockwood/SwiftFormat).
