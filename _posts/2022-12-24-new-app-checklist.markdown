@@ -10,7 +10,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
 
 - [BuildTools](https://mdb1.github.io/2023-01-01-new-app-build-tools/)
   - [SwiftFormat](https://mdb1.github.io/2023-07-22-new-app-swiftformat-config/)
-  - SwiftLint
+  - [SwiftLint](https://mdb1.github.io/2023-07-23-enforce-minimum-swiftlint-version/)
 - CI / CD
   - [Run unit tests in PRs](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane.md)
   - [Deploy builds](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane+Distribution.md)
