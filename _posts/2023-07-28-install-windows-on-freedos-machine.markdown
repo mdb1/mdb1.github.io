@@ -14,7 +14,7 @@ So I decided to document what worked for me to overcome these issues.
 
 --- 
 
-**Update** 🤦‍♂️: It turned out that there were a [much easier and straightforward](https://www.freecodecamp.org/news/how-make-a-windows-10-usb-using-your-mac-build-a-bootable-iso-from-your-macs-terminal/) way to solve the issue using macos.
+**Update** 🤦‍♂️: It turned out that there was a [much easier and straightforward](https://www.freecodecamp.org/news/how-make-a-windows-10-usb-using-your-mac-build-a-bootable-iso-from-your-macs-terminal/) way to solve the issue using macos.
 
 ---
 
