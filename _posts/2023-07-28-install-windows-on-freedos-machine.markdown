@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to create a Windows 11 bootable USB drive using Ubuntu"
-date:   2023-07-23 07:00:00 -0300
+date:   2023-07-28 07:00:00 -0300
 tags: [coding]
 ---
 
