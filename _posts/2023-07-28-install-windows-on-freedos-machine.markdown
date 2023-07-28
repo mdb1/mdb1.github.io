@@ -12,6 +12,12 @@ I recently had to install Windows 11 on a FreeDOS machine, and I hit a lot a cou
 
 So I decided to document what worked for me to overcome these issues.
 
+--- 
+
+**Update** 🤦‍♂️: It turned out that there were a [much easier and straightforward](https://www.freecodecamp.org/news/how-make-a-windows-10-usb-using-your-mac-build-a-bootable-iso-from-your-macs-terminal/) way to solve the issue using macos.
+
+---
+
 ## 1. Install Ubuntu
 
 I only had access to a `macos` machine, these are the steps I followed:
