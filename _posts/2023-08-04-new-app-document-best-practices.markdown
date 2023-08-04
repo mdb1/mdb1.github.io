@@ -9,7 +9,7 @@ Recently, I stumbled upon Lickability's [repository](https://github.com/Lickabil
 
 So I decided to write my own set of guidelines that's a mix of Lickability's best practices, my personal experiences, and my own coding style. 
 
-[Here](https://github.com/mdb1/best-practices-example/blob/main/.github/CONTRIBUTING.md) is the repository in case you want to check it out.
+[Here](https://github.com/mdb1/best-practices-example/) is the repository in case you want to check it out.
 
 The idea is to use the [Contributing](https://github.com/mdb1/best-practices-example/blob/main/.github/CONTRIBUTING.md) document as a kind of table-of-contents and link all the smaller documents from there:
 
