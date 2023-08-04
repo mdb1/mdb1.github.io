@@ -50,6 +50,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [Xcode Configurations](https://mdb1.github.io/2023-03-14-my-xcode-setup-and-shortcuts/)
   - [Xcode Templates](https://mdb1.github.io/2023-01-27-new-app-xcode-templates/)
   - [Contributing Guidelines](https://mdb1.github.io/2023-01-02-new-app-contributing-guidelines/)
+  - [Document Best Practices](https://mdb1.github.io/2023-08-04-new-app-document-best-practices/)
   - [Enhancing Testability with Protocols](https://mdb1.github.io/2023-02-13-enhancing-testability-with-protocols/)
   - [Enhancing Testability without Protocols](https://mdb1.github.io/2023-02-03-enhancing-testability-without-protocols/)
   - [The Code Review Process](https://mdb1.github.io/2022-03-10-the-code-review-process/)
