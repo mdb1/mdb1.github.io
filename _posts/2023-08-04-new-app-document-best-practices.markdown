@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New App - Document Best Practices"
-date:   2023-08-04 07:00:00 -0300
+date:   2023-08-04 07:00:01 -0300
 tags: [coding, swift, swiftui]
 ---
 
