@@ -20,7 +20,7 @@ From there, you can be as atomic as you want, and you can document every decisio
 There are some additional benefits to centralizing the team's best practices through its documentation:
 
 1. Reduce the need for communication, which might be error-prone when the team gets bigger.
-2. Coordinate understanding through documentation. If every programmer on the team can consult a manual with precise, agreed-upon definitions and protocols, you reduce the risk of programmers diverging.
+2. Coordinate understanding through documentation. If every programmer on the team can consult a manual with precise, agreed-upon definitions and protocols, you reduce the risk of programmers' diverging.
 
 ---
 
