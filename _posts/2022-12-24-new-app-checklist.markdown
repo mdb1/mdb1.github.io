@@ -28,8 +28,8 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [ViewStateController](https://mdb1.github.io/2023-03-04-view-state-controller/)
   - [DateFormatters](https://mdb1.github.io/2023-01-10-new-app-date-formatters/)
   - [Default JsonEncoder/Decoder](https://mdb1.github.io/2023-01-10-new-app-json-encoder-decoder/)
-  - NumberFormatters
-  - NotificationCenter protocols
+  - [NumberFormatters](https://mdb1.github.io/2023-06-12-new-app-number-formatters/)
+  - [NotificationCenter protocols](https://mdb1.github.io/2023-08-12-new-app-notification-center-protocols/)
 - [Logger](https://mdb1.github.io/2023-05-06-new-app-console-logger/)
 - [Unit test helpers](https://mdb1.github.io/2023-02-02-new-app-testing-helpers/)
   - assertMemoryDeallocation
