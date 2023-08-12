@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Fix to SwiftUI encountered an issue when pushing a NavigationLink"
-date:   2023-08-12 07:00:01 -0300
+title: "Fix to SwiftUI encountered an issue when pushing a NavigationLink"
+date: 2023-08-12 07:00:00 -0300
 tags: swiftui
 ---
 

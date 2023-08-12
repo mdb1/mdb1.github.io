@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Future-Proof enum decoding"
-date:   2023-08-04 07:00:00 -0300
+title: "Future-Proof enum decoding"
+date: 2023-08-04 07:00:00 -0300
 tags: swift
 ---
 
