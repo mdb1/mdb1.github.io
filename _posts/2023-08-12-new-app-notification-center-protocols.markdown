@@ -80,12 +80,18 @@ final class ViewModelTests: XCTestCase {
     func test_when_notificationIsPosted_countIncreases() {
         // Given
         XCTAssertEqual(sut.count, 0)
+        XCTAssertEqual(notificationCenter.postCalls, 0)
 
         // When
         notificationCenter.post(name: .someNotification)
 
         // Then
         XCTAssertEqual(sut.count, 1)
+        XCTAssertEqual(notificationCenter.postCalls, 1)
+        XCTAssertEqual(
+            notificationCenter.postedNotifications,
+            [.someNotification]
+        )
     }
 }
 ```
