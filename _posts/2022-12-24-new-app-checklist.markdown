@@ -47,6 +47,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - Scrollable
 - [Localization](https://mdb1.github.io/2022-12-27-new-app-localization/)
 - Developer Experience
+  - [Improve Build Times](https://mdb1.github.io/2023-08-18-improve-build-times-in-spm-packages-and-in-your-apps/)
   - [Xcode Configurations](https://mdb1.github.io/2023-03-14-my-xcode-setup-and-shortcuts/)
   - [Xcode Templates](https://mdb1.github.io/2023-01-27-new-app-xcode-templates/)
   - [Contributing Guidelines](https://mdb1.github.io/2023-01-02-new-app-contributing-guidelines/)
