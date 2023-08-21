@@ -238,6 +238,7 @@ If you create a new Xcode project today, these settings will already be set corr
 * Use View Composition: Embracing view composition can result in more modular and focused code, which can lead to improved build times.
 * Access Control: Employing the correct access control for your code can help the compiler optimize compilation, reducing unnecessary work.
 * Use [Periphery](https://github.com/peripheryapp/periphery) to find and delete unused code.
+  * Or read [my Periphery guide](https://mdb1.github.io/2023-08-21-use-periphery-to-find-unused-code/).
 * Watch the [Demystify parallelization in Xcode builds](https://developer.apple.com/videos/play/wwdc2022/110364/) `WWDC 2022` video.
 * Read the [Build performance analysis for speeding up Xcode builds](https://www.avanderlee.com/optimization/analysing-build-performance-xcode/) article from [Antoine van der Lee](https://twitter.com/twannl)
 * Read the [How to optimize Xcode project Build time](https://medium.com/naukri-engineering/improve-your-xcode-project-compile-time-8c60bd53011f) article from [Rushabh Singh](https://rushabhsingh777.medium.com/)
