@@ -51,15 +51,15 @@ However, if your package only supports iOS, there are some additional steps need
   * Set up the configuration file and save it
 3. The next time you can just run: `periphery scan`.
 
-Notes:
-* Remember to delete the `../dd` folder before pushing (or just use another destination for the derived data folder).
-* `periphery scan` will fail if the folder does not exist, in that case, just run the `xcodebuild` command again.
-
 ![scan-spm](/resources/periphery/scan-spm.png)
+
+**Notes:**
+* Remember to delete the `../dd` folder before pushing (or just use another destination for the derived data folder).
+* `periphery scan` will fail if the derived data folder does not exist, in that case, just run the `xcodebuild` command again.
 
 ---
 
-Over the long run, keeping the code as clean as possible will be a benefit for everyone in the team, given less code means less time compiling, and unused code just add unneeded noise to the codebase.
+Over the long run, keeping the code as clean as possible will be a benefit for everyone in the team, given less code means less time compiling, and unused code just adds unneeded noise to the codebase.
 
 ---
 
