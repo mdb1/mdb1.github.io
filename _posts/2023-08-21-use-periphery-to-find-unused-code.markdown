@@ -67,7 +67,7 @@ For SPM packages, most of the times the name of the target is exactly the same a
 1. `vim ~/.zshrc`
 2. Add the following alias:
 ```bash
-alias deadcode='xcodebuild -scheme "$(basename "$(pwd)")" -destination 'platform=iOS Simulator,OS=16.4,name=iPhone 14' -derivedDataPath ~/Desktop/dd clean build && periphery scan --skip-build --index-store-path ~/Desktop/dd/Index.noindex/DataStore/ --retain-public true --targets "$(basename "$(pwd)")" && rm -rf ~/Desktop/dd'
+alias deadcode="xcodebuild -scheme "$(basename "$(pwd)")" -destination 'platform=iOS Simulator,OS=16.4,name=iPhone 14' -derivedDataPath ~/Desktop/dd clean build && periphery scan --skip-build --index-store-path ~/Desktop/dd/Index.noindex/DataStore/ --retain-public true --targets "$(basename "$(pwd)")" && rm -rf ~/Desktop/dd"
 ```
 3. Reload the `./zshrc`
 
