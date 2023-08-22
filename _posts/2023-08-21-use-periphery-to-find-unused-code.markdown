@@ -40,21 +40,24 @@ Periphery uses `swift build` to compile the code, so if your SPM package support
 However, if your package only supports iOS, there are some additional steps needed to make it work:
 
 1. Build the package using `xcodebuild`:
-  * Provide the scheme name
-  * Provide an iOS Simulator as the destination
-  * Provide a path for the derived data
-  * `xcodebuild -scheme UnusedCodeExamplePackage1 -destination 'platform=iOS Simulator,OS=16.4,name=iPhone 14' -derivedDataPath '../dd' clean build`
+  * Provide the scheme name.
+  * Provide an iOS Simulator as the destination.
+  * Provide a path for the derived data.
+  * `xcodebuild -scheme UnusedCodeExamplePackage1 -destination 'platform=iOS Simulator,OS=16.4,name=iPhone 14' -derivedDataPath ~/Desktop/dd clean build`
+    * Remember to change the name of the package.
+    * 💡 _Additional tip: you could use this line if the Package and its folder use the same name:_ `xcodebuild -scheme "$(basename "$(pwd)")" -destination 'platform=iOS Simulator,OS=16.4,name=iPhone 14' -derivedDataPath ~/Desktop/dd clean build`
 2. Set up periphery:
-  * Use `--skip-build` option
-  * Provide the path to the derived data folder
-  * `periphery scan --skip-build --index-store-path '../dd/Index.noindex/DataStore/' --setup`
-  * Set up the configuration file and save it
+  * Use `--skip-build` option.
+  * Provide the path to the derived data folder.
+  * `periphery scan --skip-build --index-store-path ~/Desktop/dd/Index.noindex/DataStore/ --setup`
+    * 💡 _Additional tip: you could use this line if you don't want to set up and save the configuration file:_ `periphery scan --skip-build --index-store-path ~/Desktop/dd/Index.noindex/DataStore/ --retain-public true`
+  * Set up the configuration file and save it.
 3. The next time you can just run: `periphery scan`.
 
 ![scan-spm](/resources/periphery/scan-spm.png)
 
 **Notes:**
-* Remember to delete the `../dd` folder before pushing (or just use another destination for the derived data folder).
+* Remember to delete the `dd` folder before pushing (only if you are using a destination inside your project) (or just use another destination for the derived data folder).
 * `periphery scan` will fail if the derived data folder does not exist, in that case, just run the `xcodebuild` command again.
 
 ---
