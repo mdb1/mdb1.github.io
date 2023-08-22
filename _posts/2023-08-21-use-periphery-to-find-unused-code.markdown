@@ -50,8 +50,8 @@ However, if your package only supports iOS, there are some additional steps need
   * Use `--skip-build` option.
   * Provide the path to the derived data folder.
   * `periphery scan --skip-build --index-store-path ~/Desktop/dd/Index.noindex/DataStore/ --setup`
+    * Set up the configuration file and save it.
     * 💡 _Additional tip: you could use this line if you don't want to set up and save the configuration file:_ `periphery scan --skip-build --index-store-path ~/Desktop/dd/Index.noindex/DataStore/ --retain-public true --targets "$(basename "$(pwd)")"`
-  * Set up the configuration file and save it.
 3. The next time you can just run: `periphery scan`.
 
 ![scan-spm](/resources/periphery/scan-spm.png)
@@ -65,6 +65,7 @@ However, if your package only supports iOS, there are some additional steps need
 For SPM packages, most of the times the name of the target is exactly the same as the name of the folder, so we can create a bash script and add it to the `.zshrc` as a method:
 
 `1.` `vim ~/.zshrc`
+
 `2.` Add the following code:
 
 ```bash
