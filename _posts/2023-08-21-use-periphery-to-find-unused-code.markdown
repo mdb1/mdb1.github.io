@@ -60,16 +60,34 @@ However, if your package only supports iOS, there are some additional steps need
 * Remember to delete the `dd` folder before pushing (only if you are using a destination inside your project) (or just use another destination for the derived data folder).
 * `periphery scan` will fail if the derived data folder does not exist, in that case, just run the `xcodebuild` command again.
 
-### Bringing it all together in one alias
+### Bringing it all together in one method
 
-For SPM packages, most of the times the name of the target is exactly the same as the name of the folder, so we can create a one liner bash script and add it to the `.zshrc` as an alias:
+For SPM packages, most of the times the name of the target is exactly the same as the name of the folder, so we can create a bash script and add it to the `.zshrc` as a method:
 
-1. `vim ~/.zshrc`
-2. Add the following alias:
+`1.` `vim ~/.zshrc`
+`2.` Add the following code:
+
 ```bash
-alias deadcode="xcodebuild -scheme "$(basename "$(pwd)")" -destination 'platform=iOS Simulator,OS=16.4,name=iPhone 14' -derivedDataPath ~/Desktop/dd clean build && periphery scan --skip-build --index-store-path ~/Desktop/dd/Index.noindex/DataStore/ --retain-public true --targets "$(basename "$(pwd)")" && rm -rf ~/Desktop/dd"
+deadcode() {
+    local folder_name="$(basename "$(pwd)")"
+
+    xcodebuild \
+      -scheme "$folder_name" \
+      -destination 'platform=iOS Simulator,OS=16.4,name=iPhone 14' \
+      -derivedDataPath ~/Desktop/dd \
+      clean build
+
+    periphery scan \
+      --skip-build \
+      --index-store-path ~/Desktop/dd/Index.noindex/DataStore/ \
+      --retain-public true \
+      --targets "$folder_name"
+
+    rm -rf ~/Desktop/dd
+}
 ```
-3. Reload the `./zshrc`
+
+`3.` Reload the `./zshrc`
 
 Now you can run `deadcode` inside any SPM folder and wait for the results 😄.
 
