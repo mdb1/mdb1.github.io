@@ -385,8 +385,8 @@ Something that I like about this approach, is that we can define some convention
     * Uses onReceive to react to changes
     * Uses @State for the model state of the view
     * Uses @EnvironmentObject for the repositories
- * NameView+Model.swift
-   * Uses a mutating func to transform the properties
+  * NameView+Model.swift
+    * Uses a mutating func to transform the properties
 
 **In the Data Layer:**
 * Each model contains:
