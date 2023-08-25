@@ -27,25 +27,25 @@ Let's start with a list of Pros/Cons before moving on to the actual code.
 
 ## Pros
 
-* `Impossible` to use API models from the UI
+* `Impossible` to use API models from the UI layer
 * Clear separation between API and UI models
 * Really easy to test the Data library
 * API to UI Mapper methods/properties should be easy to test
-* The whole UI layer can be built without ever knowing how the API models look.
+* The whole UI layer can be built without ever knowing how the API models look
   * Once you get a definition on the API models, you can just tweak that models, and the mapper to the UI models, and your app should continue to behave as it was behaving with mocks!
 
 ## Cons
 
 * More internal libraries
 * If two modules need the same API model, the only option is to duplicate them
-* Could introduce some boilerplate, in particular when there is a 1:1 match between UI and API model
+* Could introduce some boilerplate, in particular when there is a 1:1 match between UI and API models
 * Require mapper methods/properties to transform the models
-* The public UI models will be available for packages importing the UI module, making it possible to use them from a package where they were not defined
+* The public UI models in the Data library will be available for packages importing the UI library, making it possible to use them from a feature package up the dependency chain
 * Could be an overengineered solution to a problem that is not that big anyways
 
 # The Code
 
-Let's start from the bottom and move our way up as we go.
+Let's start from the bottom and move our way up the dependency graph as we go.
 
 ## Set Up the SPM Package
 
