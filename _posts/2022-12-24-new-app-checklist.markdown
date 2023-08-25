@@ -14,38 +14,23 @@ The idea of this post is to provide a list of things I like to have in-place whe
 - CI / CD
   - [Run unit tests in PRs](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane.md)
   - [Deploy builds](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane+Distribution.md)
-  - Fastlane
-- [Networking](https://github.com/mdb1/CoreNetworking)
-  - [NetworkLogger](https://mdb1.github.io/2023-05-27-network-logger/)
-- [UserPreferences Storage](https://mdb1.github.io/2023-04-18-user-preferences/)
-- [Constants](https://mdb1.github.io/2022-12-24-new-app-constants/)
-  - Colors
-  - Spacing
-- [Toasts](https://mdb1.github.io/2023-03-08-new-app-toasts/)
-- [Fonts](https://mdb1.github.io/2023-01-20-new-app-fonts/)
+- Architecture
+  - [Enhancing Testability with Protocols](https://mdb1.github.io/2023-02-13-enhancing-testability-with-protocols/)
+  - [Enhancing Testability without Protocols](https://mdb1.github.io/2023-02-03-enhancing-testability-without-protocols/)
+  - [UI vs API Models](https://mdb1.github.io/2023-08-25-ui-vs-api-models-different-layers/)
+  - [UserPreferences Storage](https://mdb1.github.io/2023-04-18-user-preferences/)
+  - [Networking](https://github.com/mdb1/CoreNetworking)
+    - [NetworkLogger](https://mdb1.github.io/2023-05-27-network-logger/)
 - Extensions / Helpers
   - [ViewState](https://mdb1.github.io/2023-01-08-new-app-view-state/)
   - [ViewStateController](https://mdb1.github.io/2023-03-04-view-state-controller/)
+  - [Toasts](https://mdb1.github.io/2023-03-08-new-app-toasts/)
   - [DateFormatters](https://mdb1.github.io/2023-01-10-new-app-date-formatters/)
   - [Default JsonEncoder/Decoder](https://mdb1.github.io/2023-01-10-new-app-json-encoder-decoder/)
   - [NumberFormatters](https://mdb1.github.io/2023-06-12-new-app-number-formatters/)
   - [NotificationCenter protocols](https://mdb1.github.io/2023-08-12-new-app-notification-center-protocols/)
+  - [Constants](https://mdb1.github.io/2022-12-24-new-app-constants/)
 - [Logger](https://mdb1.github.io/2023-05-06-new-app-console-logger/)
-- [Unit test helpers](https://mdb1.github.io/2023-02-02-new-app-testing-helpers/)
-  - assertMemoryDeallocation
-  - assertState
-  - asyncAssert
-- [Components](https://mdb1.github.io/2023-01-04-new-app-components/)
-  - LoadingButton
-  - LinkButton
-  - TextField
-  - Custom Progress View
-  - Title / Description Text with applied fonts
-  - Retryable Error View
-- [ViewModifiers](https://mdb1.github.io/2023-01-03-new-app-view-modifiers/)
-  - RoundedOverlayBorder
-  - Scrollable
-- [Localization](https://mdb1.github.io/2022-12-27-new-app-localization/)
 - Developer Experience
   - [Improve Build Times](https://mdb1.github.io/2023-08-18-improve-build-times-in-spm-packages-and-in-your-apps/)
   - [Xcode Configurations](https://mdb1.github.io/2023-03-14-my-xcode-setup-and-shortcuts/)
@@ -53,14 +38,29 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [Periphery: Find unused code](https://mdb1.github.io/2023-08-21-use-periphery-to-find-unused-code/)
   - [Contributing Guidelines](https://mdb1.github.io/2023-01-02-new-app-contributing-guidelines/)
   - [Document Best Practices](https://mdb1.github.io/2023-08-04-new-app-document-best-practices/)
-  - [Enhancing Testability with Protocols](https://mdb1.github.io/2023-02-13-enhancing-testability-with-protocols/)
-  - [Enhancing Testability without Protocols](https://mdb1.github.io/2023-02-03-enhancing-testability-without-protocols/)
   - [The Code Review Process](https://mdb1.github.io/2022-03-10-the-code-review-process/)
   - [PR Template](https://mdb1.github.io/2023-01-09-new-app-pr-template/)
   - [The Definition of Done](https://mdb1.github.io/2023-05-13-the-definition-of-done/)
 - Scripts
   - [Sort Project Files](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/SortProject.md)
   - [Fix Conflicts in the .pbxproj file](https://github.com/Lightricks/Kintsugi)
+- [Components](https://mdb1.github.io/2023-01-04-new-app-components/)
+  - LoadingButton
+  - LinkButton
+  - TextField
+  - Custom Progress View
+  - Title / Description Text with applied fonts
+  - Retryable Error View
+- [Fonts](https://mdb1.github.io/2023-01-20-new-app-fonts/)
+- [ViewModifiers](https://mdb1.github.io/2023-01-03-new-app-view-modifiers/)
+  - RoundedOverlayBorder
+  - Scrollable
+  - DelayAppearance
+- [Localization](https://mdb1.github.io/2022-12-27-new-app-localization/)
+- [Unit test helpers](https://mdb1.github.io/2023-02-02-new-app-testing-helpers/)
+  - assertMemoryDeallocation
+  - assertState
+  - asyncAssert
 
 ---
 
