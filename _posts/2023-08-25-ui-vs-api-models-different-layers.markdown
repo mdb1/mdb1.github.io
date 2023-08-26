@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "UI vs API Models - An structured approach"
+title: "UI vs API Models - A structured approach"
 date: 2023-08-25 07:00:00 -0300
 tags: [coding, swift, swiftui]
 thumbnail-img: /resources/ui-api-models/swiftui.jpeg
