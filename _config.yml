@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Product Engineer
+title: manu.show
 email: manuherrera8@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Software Engineering practices, tips, and general things that I've learned over the
@@ -44,7 +44,7 @@ remote_theme: daattali/beautiful-jekyll
 ############################
 
 # Name of website
-title: The Product Engineer
+title: manu.show
 
 # Your name to show in the footer
 author: Manuel Herrera
