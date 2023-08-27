@@ -10,12 +10,7 @@ In this blog, I share my thoughts and insights mainly about iOS development, bui
 
 I'd say that I'm a `purist` of the things that work as expected and that are easy to maintain. I also put a great amount of effort into automated testing for software.
 
-```
-                        work as expected * testing ability
-GREAT ARCHITECTURE =  --------------------------------------
-                        joy of using it * maintenance ease
-```
-
+![formula]({{static.static_files}}/resources/about/formula.png)
 
 Here are some of my favorite articles:
 
