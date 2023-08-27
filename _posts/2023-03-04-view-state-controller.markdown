@@ -179,7 +179,7 @@ loadedView(user: .init(name: "Placeholder", age: 99, emoji: "")) // 1. Create a 
 
 <br>
 
-<video width="424" height="180" controls>
+<video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/view-state-controller/1-redacted.mp4" type="video/mp4">
 </video>
 
@@ -208,7 +208,7 @@ loadedView(user: .init(name: "Placeholder", age: 99, emoji: ""))
 
 <br>
 
-<video width="424" height="180" controls>
+<video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/view-state-controller/2-custom-indicator.mp4" type="video/mp4">
 </video>
 
@@ -244,7 +244,7 @@ In this example:
 
 <br>
 
-<video width="424" height="180" controls>
+<video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/view-state-controller/3-different-loadings.mp4" type="video/mp4">
 </video>
 
@@ -305,13 +305,13 @@ In this example:
 
 <br>
 
-<video width="424" height="180" controls>
+<video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/view-state-controller/4-custom-views.mp4" type="video/mp4">
 </video>
 
 ## Demo: Loading Type Options
 
-<video width="341" height="723" controls>
+<video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/view-state-controller/5-loadingsdemo.mp4" type="video/mp4">
 </video>
 
@@ -391,6 +391,6 @@ struct Pokemon: Identifiable {
 
 ### Demo: Modifying Ids
 
-<video width="370" height="768" controls>
+<video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/view-state-controller/6-modifying-ids.mp4" type="video/mp4">
 </video>

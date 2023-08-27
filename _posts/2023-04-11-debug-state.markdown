@@ -53,7 +53,7 @@ This could be very useful for developers and QA members to quickly check all the
 
 ## Demo
 
-<video width="370" height="768" controls>
+<video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/view-state-debug/debug-state.mp4" type="video/mp4">
 </video>
 

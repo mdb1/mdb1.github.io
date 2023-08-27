@@ -45,7 +45,7 @@ With that code, you can specify different parameters:
 
 ## Demo
 
-<video width="397" height="810" controls>
+<video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/new-app-toasts/toast.mp4" type="video/mp4">
 </video>
 
@@ -70,7 +70,7 @@ YourView
 
 <br>
 
-<video width="396" height="250" controls>
+<video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/new-app-toasts/snackbar.mp4" type="video/mp4">
 </video>
 

@@ -355,7 +355,7 @@ struct ModelsExampleAppApp: App {
 
 ### Demo
 
-<video width="545" height="912" controls>
+<video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/ui-api-models/demo.mp4" type="video/mp4">
 </video>
 

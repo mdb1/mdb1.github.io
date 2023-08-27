@@ -154,7 +154,7 @@ struct CatFactView_Previews: PreviewProvider {
 #endif
 ```
 
-<video width="483" height="304" controls>
+<video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/protocols/protocols.mp4" type="video/mp4">
 </video>
 
