@@ -16,7 +16,7 @@ We'll use a really simple view, that only contains one button and one label.
 Tapping on the button increases the number on the label.
 We want to cover that behavior with unit tests.
 
-![test-app](/resources/test-private-properties/example-app.png)
+![test-app]({{static.static_files}}/resources/test-private-properties/example-app.png)
 
 ```swift
 import UIKit
@@ -54,7 +54,7 @@ final class InitialViewControllerTests: XCTestCase {
 
 But then we get the following error:
 
-![private-error](/resources/test-private-properties/inaccessible-private.png)
+![private-error]({{static.static_files}}/resources/test-private-properties/inaccessible-private.png)
 
 A quick fix would be to change the access modifier of the label in the `InitialViewController`. But we don't want to compromise the access level just for the sake of testing.
 
@@ -191,7 +191,7 @@ final class InitialViewControllerMirror: MirrorObject {
 }
 ```
 
-![coverage](/resources/test-private-properties/coverage.png)
+![coverage]({{static.static_files}}/resources/test-private-properties/coverage.png)
 
 Now we have unit test coverage for the button action ✅.
 
@@ -199,6 +199,6 @@ Now we have unit test coverage for the button action ✅.
 
 I hope you found this article interesting!
 
-![private-set](/resources/test-private-properties/private(set).jpeg)
+![private-set]({{static.static_files}}/resources/test-private-properties/private(set).jpeg)
 
 ### Until the next one 👋

@@ -3,7 +3,7 @@ layout: post
 title: "Use Periphery to find unused code"
 date: 2023-08-21 07:00:00 -0300
 tags: [coding, swift, swiftui]
-thumbnail-img: /resources/periphery/logo.png
+thumbnail-img: "{{static.static_files}}/resources/periphery/logo.png"
 ---
 
 From time to time, it might be a good idea to spend a couple of hours checking if there is some code in the codebase that is not being used anymore.
@@ -25,7 +25,7 @@ If you want to use Periphery on your `.xcodeproj`:
   * Save the configuration file
 3. The next time you can just run: `periphery scan` and it will use the same configuration previously saved.
 
-![setup](/resources/periphery/setup.png)
+![setup]({{static.static_files}}/resources/periphery/setup.png)
 
 As you can see, the tool found 1 property that is not being used:
 
@@ -54,7 +54,7 @@ However, if your package only supports iOS, there are some additional steps need
     * 💡 _Additional tip: you could use this line if you don't want to set up and save the configuration file:_ `periphery scan --skip-build --index-store-path ~/Desktop/dd/Index.noindex/DataStore/ --retain-public true --targets "$(basename "$(pwd)")"`
 3. The next time you can just run: `periphery scan`.
 
-![scan-spm](/resources/periphery/scan-spm.png)
+![scan-spm]({{static.static_files}}/resources/periphery/scan-spm.png)
 
 **Notes:**
 * Remember to delete the `dd` folder before pushing (only if you are using a destination inside your project) (or just use another destination for the derived data folder).

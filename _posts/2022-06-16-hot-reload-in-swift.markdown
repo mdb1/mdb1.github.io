@@ -49,7 +49,7 @@ navigationController.setViewControllers([vc], animated: true)
 
 If everything was set up correctly, you will see these messages in the console when reaching the injected view controller:
 
-![injection-connected](/resources/hot-reload/injection-connected.png)
+![injection-connected]({{static.static_files}}/resources/hot-reload/injection-connected.png)
 
 ## Demo
 

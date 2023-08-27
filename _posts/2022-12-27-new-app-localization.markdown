@@ -50,4 +50,4 @@ Even though SwiftUI's Text automatically looks for the localized strings, I thin
 
 | English | Spanish |
 | - | - |
-| ![English](/resources/new-app-localization/english.png) | ![Spanish](/resources/new-app-localization/spanish.png)  | 
+| ![English]({{static.static_files}}/resources/new-app-localization/english.png) | ![Spanish]({{static.static_files}}/resources/new-app-localization/spanish.png)  | 

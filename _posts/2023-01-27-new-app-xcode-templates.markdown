@@ -27,7 +27,7 @@ We can create a basic Xcode template that creates those 3 files with some basic 
 * TemplateInfo.plist
 
 After this, reset Xcode and you will see this option when adding a new file:
-![New File](/resources/new-app-xcode-templates/xcode-template-1.png)
+![New File]({{static.static_files}}/resources/new-app-xcode-templates/xcode-template-1.png)
 
 ## The code for the files
 

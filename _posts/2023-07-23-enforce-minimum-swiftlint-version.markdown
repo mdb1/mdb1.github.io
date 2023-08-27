@@ -15,7 +15,7 @@ Here is a snippet of a Build Phase that accomplishes that:
 
 When trying to build an app with an older version installed, an error would be thrown:
 
-<img src="/resources/swiftlint-version/swiftlint-error.png">
+<img src="{{static.static_files}}/resources/swiftlint-version/swiftlint-error.png">
 
 If you want everyone to run the exact same version, just modify the condition in the snippet above:
 

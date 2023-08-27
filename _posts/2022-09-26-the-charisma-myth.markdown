@@ -8,4 +8,4 @@ tags: [books]
 
 These are some notes based on the book: The Charisma Myth.
 
-![the-charisma-myth](/resources/the-charisma-myth/charisma-myth.jpg)
+![the-charisma-myth]({{static.static_files}}/resources/the-charisma-myth/charisma-myth.jpg)

@@ -9,12 +9,12 @@ tags: swiftui
 
 I recently came across this issue when trying to push a screen with a given element of a List in SwiftUI:
 
-![logs](/resources/swiftui-navigation-link-issue/log.png)
+![logs]({{static.static_files}}/resources/swiftui-navigation-link-issue/log.png)
 
 In the app, the problem is evident, the destination view is non-deterministic for each view tap:
 
 <video width="909" height="812" controls>
-    <source src="/resources/swiftui-navigation-link-issue/issue.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/swiftui-navigation-link-issue/issue.mp4" type="video/mp4">
 </video>
 
 
@@ -68,7 +68,7 @@ The solution is really simple, just move the NavigationLink from inside each cel
 By doing so, now there is only one NavigationLink associated with the `isDetailActive` parameter, which causes the errors to disappear, and the app to work as expected:
 
 <video width="909" height="812" controls>
-    <source src="/resources/swiftui-navigation-link-issue/fix.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/swiftui-navigation-link-issue/fix.mp4" type="video/mp4">
 </video>
 
 ---

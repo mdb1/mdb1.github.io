@@ -13,7 +13,7 @@ So, I decided to write my own set of guidelines that are a mix of Lickability's 
 
 The idea is to use the [Contributing](https://github.com/mdb1/best-practices-example/blob/main/.github/CONTRIBUTING.md) document as a kind of table-of-contents and link all the smaller documents from there:
 
-![email-filter](/resources/best-practices/contributing.png)
+![email-filter]({{static.static_files}}/resources/best-practices/contributing.png)
 
 From there, you can be as atomic as you want, and you can document every decision that you or your team make in terms of the codebase over time.
 

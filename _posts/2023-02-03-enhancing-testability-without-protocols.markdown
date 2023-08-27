@@ -123,7 +123,7 @@ struct CatFactView_Previews: PreviewProvider {
 ```
 
 <video width="483" height="304" controls>
-    <source src="/resources/dependencies/mockedDependencies.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/dependencies/mockedDependencies.mp4" type="video/mp4">
 </video>
 
 ## 3. The Service

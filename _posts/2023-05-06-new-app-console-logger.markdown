@@ -21,7 +21,7 @@ I also like to have a Picker to display inside a DeveloperMenu to change the ver
 
 It looks like this:
 
-![picker](/resources/console-logger/picker.png)
+![picker]({{static.static_files}}/resources/console-logger/picker.png)
 
 # Usage
 
@@ -29,7 +29,7 @@ With this code in place, you can call the Logger directly from any place in your
 
 `Logger.log(.err, "Something went wrong")`
 
-![log-error](/resources/console-logger/log-error.png)
+![log-error]({{static.static_files}}/resources/console-logger/log-error.png)
 
 ---
 

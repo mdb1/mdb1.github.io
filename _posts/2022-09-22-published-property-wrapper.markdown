@@ -10,4 +10,4 @@ These are some notes based on SwiftLee's great article: [@Published risks and us
 
 Great starting point to start building things using SwiftUI.
 
-![published-notes](/resources/published_property_wrapper/published_property_wrapper.jpg)
+![published-notes]({{static.static_files}}/resources/published_property_wrapper/published_property_wrapper.jpg)

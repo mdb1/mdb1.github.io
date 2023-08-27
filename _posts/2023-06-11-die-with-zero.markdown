@@ -3,12 +3,12 @@ layout: post
 title:  "Die with Zero"
 date:   2023-06-11 07:00:00 -0300
 tags: [books]
-thumbnail-img: /resources/die-with-zero/cover.png
+thumbnail-img: "/resources/die-with-zero/cover.png"
 ---
 
 These are some notes from the book: `Die with Zero` by `Bill Perkins`. 
 
-<img src="/resources/die-with-zero/cover.png" width="30%">
+<img src="{{static.static_files}}/resources/die-with-zero/cover.png" width="30%">
 
 Experiences and relationships are what give your life meaning. Therefore, you should aim to invest all your money in enriching experiences and relationships before you die.
 

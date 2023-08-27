@@ -3,12 +3,12 @@ layout: post
 title:  "Hyperfocus"
 date:   2023-06-03 07:00:00 -0300
 tags: [books]
-thumbnail-img: /resources/hyperfocus/hyper-cover.jpg
+thumbnail-img: "/resources/hyperfocus/hyper-cover.jpg"
 ---
 
 These are some notes from the book: `Hyperfocus` by `Chris Bailey`. 
 
-<img src="/resources/hyperfocus/hyper-cover.jpg" width="20%">
+<img src="{{static.static_files}}/resources/hyperfocus/hyper-cover.jpg" width="20%">
 
 <aside>
 📌 How to be more productive in a world of distraction
@@ -100,7 +100,7 @@ At any one time, your attentional space should hold two key things:
 
 </aside>
 
-<img src="/resources/hyperfocus/focus.png" width="70%">
+<img src="{{static.static_files}}/resources/hyperfocus/focus.png" width="70%">
 
 ## Steps to HyperFocus
 

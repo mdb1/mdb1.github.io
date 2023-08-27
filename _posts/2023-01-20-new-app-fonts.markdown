@@ -42,13 +42,13 @@ Text("Charmander")
 Lastly, you could create a SwiftUI preview to display them:
 
 ### Preview
-![Preview](/resources/new-app-fonts/preview.png)
+![Preview]({{static.static_files}}/resources/new-app-fonts/preview.png)
 
 ### A11y1
-![A11y1](/resources/new-app-fonts/a11y1.png)
+![A11y1]({{static.static_files}}/resources/new-app-fonts/a11y1.png)
 
 ### A11y2
-![A11y2](/resources/new-app-fonts/a11y2.png)
+![A11y2]({{static.static_files}}/resources/new-app-fonts/a11y2.png)
 
 ### A11y3
-![A11y3](/resources/new-app-fonts/a11y3.png)
+![A11y3]({{static.static_files}}/resources/new-app-fonts/a11y3.png)

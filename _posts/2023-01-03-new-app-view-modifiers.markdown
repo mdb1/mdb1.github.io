@@ -20,7 +20,7 @@ Some examples:
 <script src="https://gist.github.com/mdb1/0602f0e4939995db3e5463f64c11a550.js"></script>
 
 <video width="232" height="184" controls>
-    <source src="/resources/new-app-view-modifiers/delay.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/new-app-view-modifiers/delay.mp4" type="video/mp4">
 </video>
 
 ### EmbedInStack

@@ -178,7 +178,7 @@ loadedView(user: .init(name: "Placeholder", age: 99, emoji: "")) // 1. Create a 
 <br>
 
 <video width="424" height="180" controls>
-    <source src="/resources/view-state-controller/1-redacted.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/view-state-controller/1-redacted.mp4" type="video/mp4">
 </video>
 
 Since we are not changing the values for the loading types it's using the default values:
@@ -207,7 +207,7 @@ loadedView(user: .init(name: "Placeholder", age: 99, emoji: ""))
 <br>
 
 <video width="424" height="180" controls>
-    <source src="/resources/view-state-controller/2-custom-indicator.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/view-state-controller/2-custom-indicator.mp4" type="video/mp4">
 </video>
 
 ### Changing Loading types
@@ -243,7 +243,7 @@ In this example:
 <br>
 
 <video width="424" height="180" controls>
-    <source src="/resources/view-state-controller/3-different-loadings.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/view-state-controller/3-different-loadings.mp4" type="video/mp4">
 </video>
 
 ### Using Custom Views
@@ -304,13 +304,13 @@ In this example:
 <br>
 
 <video width="424" height="180" controls>
-    <source src="/resources/view-state-controller/4-custom-views.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/view-state-controller/4-custom-views.mp4" type="video/mp4">
 </video>
 
 ## Demo: Loading Type Options
 
 <video width="341" height="723" controls>
-    <source src="/resources/view-state-controller/5-loadingsdemo.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/view-state-controller/5-loadingsdemo.mp4" type="video/mp4">
 </video>
 
 In this video, we are tweaking around some properties and pass them to the `withViewStateModifier` to demonstrate the different loading and error states that comes for free. Everything is configurable, and there is also the ability to provide custom views for loading states, the indicator, and the error states.
@@ -390,5 +390,5 @@ struct Pokemon: Identifiable {
 ### Demo: Modifying Ids
 
 <video width="370" height="768" controls>
-    <source src="/resources/view-state-controller/6-modifying-ids.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/view-state-controller/6-modifying-ids.mp4" type="video/mp4">
 </video>

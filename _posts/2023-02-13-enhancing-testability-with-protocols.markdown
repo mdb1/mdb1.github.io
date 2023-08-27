@@ -153,7 +153,7 @@ struct CatFactView_Previews: PreviewProvider {
 ```
 
 <video width="483" height="304" controls>
-    <source src="/resources/protocols/protocols.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/protocols/protocols.mp4" type="video/mp4">
 </video>
 
 

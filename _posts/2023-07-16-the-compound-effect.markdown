@@ -3,12 +3,12 @@ layout: post
 title:  "The Compound Effect"
 date:   2023-07-16 07:00:00 -0300
 tags: [books]
-thumbnail-img: /resources/the-compound-effect/cover.jpg
+thumbnail-img: "/resources/the-compound-effect/cover.jpg"
 ---
 
 These are some notes from the book: `The Compound Effect` by `Darren Hardy`. 
 
-<img src="/resources/the-compound-effect/cover.jpg" width="30%">
+<img src="{{static.static_files}}/resources/the-compound-effect/cover.jpg" width="30%">
 
 The Compound Effect is the principle that the effects of small, everyday choices will compound over time, leading you to great success—or disaster.
 

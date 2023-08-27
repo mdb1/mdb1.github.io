@@ -165,7 +165,7 @@ struct BookDetailView: View {
 Using 2 instances of the app in an iPad simulator, we can make sure that the data is updated on every view:
 
 <video width="683" height="512" controls>
-    <source src="/resources/repository/repo.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/repository/repo.mp4" type="video/mp4">
 </video>
 
 # Testing

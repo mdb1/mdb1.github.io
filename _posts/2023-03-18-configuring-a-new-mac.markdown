@@ -15,7 +15,7 @@ Before you start using your new MacBook, make sure to update the operating syste
 # Step 2: Dock Customization
 By default, the dock is populated with several applications that you may not use frequently. To declutter your dock, remove the apps that you don't use often. To do this, simply right-click on the app and select "Remove from Dock."
 
-![dock](/resources/configuring-new-macbook/dock.png)
+![dock]({{static.static_files}}/resources/configuring-new-macbook/dock.png)
 
 # Step 3: Log in to Existing Apple ID Account
 To access Apple's services and apps, you'll need to log in to your existing Apple ID account. If you don't have an Apple ID, you can create one during the setup process.

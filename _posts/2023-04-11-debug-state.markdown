@@ -54,7 +54,7 @@ This could be very useful for developers and QA members to quickly check all the
 ## Demo
 
 <video width="370" height="768" controls>
-    <source src="/resources/view-state-debug/debug-state.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/view-state-debug/debug-state.mp4" type="video/mp4">
 </video>
 
 You can test the code yourself by downloading the [ExampleApp](https://github.com/mdb1/ViewStateControllerExampleApp).

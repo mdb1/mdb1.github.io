@@ -37,17 +37,17 @@ The filter that I use is the following:
 
 It looks like this:
 
-![email-filter](/resources/industry-standards/email-filter.png)
+![email-filter]({{static.static_files}}/resources/industry-standards/email-filter.png)
 
 # 3. Notion
 Notion is a powerful tool for organizing information and taking notes. I use the [Notion Web Clipper Chrome](https://www.notion.so/Web-Clipper-ba54b19ecaeb466b8070b9e683c5fce1) extension to add the most interesting articles from the newsletters to a table view. This makes it easy to keep track of the articles I want to read and refer back to later.
 
-![notion-extension](/resources/industry-standards/notion-extension.png)
+![notion-extension]({{static.static_files}}/resources/industry-standards/notion-extension.png)
 
 # 4. Weekly Review
 Once a week, I set aside some time to review all the newsletters with the "Needs Action" label. I go through each email and add the most relevant articles to my Notion table view.
 
-![notion-table](/resources/industry-standards/notion-table.png)
+![notion-table]({{static.static_files}}/resources/industry-standards/notion-table.png)
 
 # 5. Daily Reading
 Every day, I pick one article from my Notion table view and read it. It's important to remember that simply reading the articles won't be enough. To truly acquire the knowledge, it's important to put the articles into practice.

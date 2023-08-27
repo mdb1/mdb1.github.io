@@ -14,7 +14,7 @@ First of all, we need to set up the environment:
 
 Having an organized desktop will make everything better:
 
-![Desktop](/resources/h-mode/h-mode.jpeg)
+![Desktop]({{static.static_files}}/resources/h-mode/h-mode.jpeg)
 
 During your `H mode` periods, you will have a set of rules that you must follow every single day. No excuses:
 
@@ -64,7 +64,7 @@ As an example, here is how I’ve structured my `H mode` for the last couple of 
 
 On Fridays, I plan out my next week, I keep a table view in Notion for each month (which I set up the last Friday of each month) that is grouped by Day and sorted by time, it looks like this:
 
-![Monthly ToDos](/resources/h-mode/month-to-dos.png)
+![Monthly ToDos]({{static.static_files}}/resources/h-mode/month-to-dos.png)
 
 Whenever I mark any task as Done it dissappears from the list, due to other filter in the table view.
 

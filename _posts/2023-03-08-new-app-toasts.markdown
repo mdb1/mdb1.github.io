@@ -44,7 +44,7 @@ With that code, you can specify different parameters:
 ## Demo
 
 <video width="397" height="810" controls>
-    <source src="/resources/new-app-toasts/toast.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/new-app-toasts/toast.mp4" type="video/mp4">
 </video>
 
 The app used for this video can be downloaded from [this repository](https://github.com/mdb1/ViewStateControllerExampleApp).
@@ -69,7 +69,7 @@ YourView
 <br>
 
 <video width="396" height="250" controls>
-    <source src="/resources/new-app-toasts/snackbar.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/new-app-toasts/snackbar.mp4" type="video/mp4">
 </video>
 
 ---
