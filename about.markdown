@@ -5,29 +5,31 @@ permalink: /about/
 ---
 
 Hi there! 
-You will find posts about Product Oriented Engineering in this blog.
 
-### What does `product-oriented` means?
+In this blog, I share my thoughts and insights mainly about iOS development, building software, best practices, some books and productivity tips.
+
+I'd say that I'm a `purist` of the things that work as expected and that are easy to maintain. I also put a great amount of effort into automated testing for software.
 
 ```
-It means that you have the ability to place yourself
-into the position of your clients/users/customers,
-and think about how they will perceive your product, 
-how are they going to use it, are they going to like it?.
-
-It also means that you are able to ship things quickly 
-and with high quality to production. Respond even quicker 
-to alerts and bugs, and hot fix the code without headaches.
+                        work as expected * testing ability
+GREAT ARCHITECTURE =  --------------------------------------
+                        joy of using it * maintenance ease
 ```
 
-This is not as easy at is sounds on a day-to-day job as a software engineer, since you won't always be involved in the product decisions meetings, other times you may just not have enough information or you just won't have the knowledge to fix other person's code.
 
-However there are some things that any developer can do to improve their thinking in this topic. We'll discuss them on a separate blogpost, but for know I want you to think about the following questions and to write the answers down wherever you want (paper, notes, notion, etc):
+Here are some of my favorite articles:
 
-- Are you involved in the product decision meetings of your company?
-- Is there a place for brainstorming? (meetings, slack channel, mailing list, etc)
-- How long does it take for your code to reach production?
-- Is it painful to make deploys? How much time passes between them?
-- Are there product specs for the features/changes?
+* [Rules and Habits for a better life](/2022-01-15-rules-and-habits/)
+* [H Mode](/2022-10-26-h-mode/)
+* [New App - Checklist](/2022-12-24-new-app-checklist/)
+* [Enhancing Testability without Protocols](/2023-02-03-enhancing-testability-without-protocols/)
+* [ViewStateController](/2023-03-04-view-state-controller/)
+* [The Definition of Done](/2023-05-13-the-definition-of-done/)
+* [Improve Build Times](/2023-08-18-improve-build-times-in-spm-packages-and-in-your-apps/)
 
-Answering these questions will give you a hint on where you (and your company) are right now in the product oriented run.
+---
+
+I hope you find some of these insights useful.
+
+If you want to get in touch with me to discuss any particular topic, feel free to send me an email to `manuherrera8@gmail.com` or reach out to me on twitter.
+
