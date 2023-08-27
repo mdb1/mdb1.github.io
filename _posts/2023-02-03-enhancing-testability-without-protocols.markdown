@@ -2,7 +2,7 @@
 layout: post
 title:  "Enhancing Testability without protocols"
 date:   2023-02-03 07:00:00 -0300
-tags: [swift, swiftui]
+tags: [iOS, testing]
 ---
 
 We have all used protocols to enhance testability in our apps, but that can become too verbose, and add extra layers of abstractions to the code.

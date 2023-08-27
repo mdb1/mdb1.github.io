@@ -2,7 +2,7 @@
 layout: post
 title:  "NetworkLogger: Adding debug information to your network calls"
 date:   2023-05-27 07:00:00 -0300
-tags: [swift]
+tags: [iOS, tools]
 thumbnail-img: "/resources/network-logger/network.png"
 ---
 

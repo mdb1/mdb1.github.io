@@ -2,7 +2,7 @@
 layout: post
 title:  "UserPreferences: A wrapper for UserDefaults"
 date:   2023-04-18 07:00:00 -0300
-tags: swift
+tags: [iOS, testing]
 ---
 
 UserDefaults is a great way to store and retrieve app settings and user preferences in iOS apps. However, working with it can sometimes be a bit verbose, especially if you need to store or retrieve multiple values.

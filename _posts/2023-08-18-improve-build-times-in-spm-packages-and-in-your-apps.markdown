@@ -2,7 +2,7 @@
 layout: post
 title: "Improve the build times of your SPM Packages and your apps"
 date: 2023-08-18 07:00:00 -0300
-tags: [coding, swift, swiftui]
+tags: [iOS, tools, productivity]
 thumbnail-img: "/resources/build-times/spm-before-timeline.png"
 ---
 

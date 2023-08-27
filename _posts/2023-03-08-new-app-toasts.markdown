@@ -2,7 +2,7 @@
 layout: post
 title:  "New App - Toasts"
 date:   2023-03-08 07:00:00 -0300
-tags: swiftui
+tags: [iOS]
 ---
 
 When starting a new app, I like to have a toast displaying mechanism in-place.

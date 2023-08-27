@@ -2,7 +2,7 @@
 layout: post
 title:  "New App - Console Logger"
 date:   2023-05-06 07:00:00 -0300
-tags: [swift, swiftui, coding]
+tags: [iOS, tools]
 ---
 
 # Introduction:

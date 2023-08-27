@@ -2,7 +2,7 @@
 layout: post
 title:  "How to create a Windows 11 bootable USB drive using Ubuntu"
 date:   2023-07-28 07:00:00 -0300
-tags: [coding]
+tags: [tools]
 ---
 
 I recently had to install Windows 11 on a FreeDOS machine, and I hit a lot a couple of walls in the process:

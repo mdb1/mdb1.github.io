@@ -2,7 +2,7 @@
 layout: post
 title: "Use FastLane to create PRs"
 date: 2023-08-12 07:00:02 -0300
-tags: coding
+tags: [tools, productivity]
 ---
 
 This is a guide on how to set up a fastlane lane to create pull requests:

@@ -2,7 +2,7 @@
 layout: post
 title: "Fix to SwiftUI encountered an issue when pushing a NavigationLink"
 date: 2023-08-12 07:00:00 -0300
-tags: swiftui
+tags: [iOS]
 ---
 
 *Note: This issue will be automatically solved when using `iOS16+` as target, given the NavigationLink's `init(destination:isActive:label:)` has been deprecated.*

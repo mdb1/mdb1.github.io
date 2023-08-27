@@ -3,7 +3,7 @@ layout: post
 title:  "New App - Build Tools"
 date:   2023-01-01 07:00:00 -0300
 comments: true
-tags: [swift, swiftui, coding, productivity]
+tags: [iOS, productivity, tools]
 ---
 
 When starting a new app, it's important to set up the right set of build tools. This will help you and your team follow the same set of rules, so the app will feel more consistent.

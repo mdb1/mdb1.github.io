@@ -2,7 +2,7 @@
 layout: post
 title: "Use Periphery to find unused code"
 date: 2023-08-21 07:00:00 -0300
-tags: [coding, swift, swiftui]
+tags: [iOS, tools]
 thumbnail-img: "/resources/periphery/logo.png"
 ---
 

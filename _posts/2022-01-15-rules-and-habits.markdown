@@ -5,6 +5,7 @@ date:   2022-01-15 21:41:55 -0300
 comments: true
 tags: [productivity]
 ---
+
 Hi there! 👋
 
 I’ve written down this page in order to share my experience in regards to some rules and habits I’ve been following for quite some time now that have improved my productivity, health, wellbeing and overall happiness. I hope you find some of them interesting and I encourage you to start adding at least some of them to your life.

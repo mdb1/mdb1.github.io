@@ -2,7 +2,7 @@
 layout: post
 title: "New App - Document Best Practices"
 date: 2023-08-04 07:00:01 -0300
-tags: [coding, swift, swiftui]
+tags: [iOS, productivity, tools]
 ---
 
 Recently, I stumbled upon Lickability's [repository](https://github.com/Lickability/swift-best-practices) on swift-best-practices, and it got me thinking about my own [Contributing guidelines](/2023-01-02-new-app-contributing-guidelines/) that I wrote a while back. I realized they might not be as scalable as I'd like them to be over time.

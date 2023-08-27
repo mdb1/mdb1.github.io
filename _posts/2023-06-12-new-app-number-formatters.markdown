@@ -3,7 +3,7 @@ layout: post
 title:  "New App - Number Formatters"
 date:   2023-06-12 07:00:00 -0300
 comments: true
-tags: [swift, swiftui]
+tags: [iOS, testing]
 ---
 
 When starting a new app, it's important to decide how it's going to handle and display numbers. Once that has been decided, you can add some practic `static` NumberFormatters that encapsulate that decisions to reuse across the app.

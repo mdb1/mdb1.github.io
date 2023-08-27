@@ -2,7 +2,7 @@
 layout: post
 title:  "New App - Configuring SwiftFormat"
 date:   2023-07-22 07:00:00 -0300
-tags: [swift]
+tags: [iOS, tools]
 ---
 
 When starting a new app, I usually like to set up an automatic code formatter. By agreeing with your team about the rules, and setting a tool to automatically enforce them, you can avoid formatting discussions in the PRs, and you can achieve a codebase where every file looks similar in format.

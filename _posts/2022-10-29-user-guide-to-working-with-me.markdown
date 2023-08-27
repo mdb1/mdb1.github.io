@@ -3,7 +3,7 @@ layout: post
 title:  "User Guide to Working with Manu"
 date:   2022-10-29 07:00:00 -0300
 comments: true
-tags: [productivity]
+tags: [productivity, tools]
 ---
 
 This is a set of guidelines on how I like the team-work to happen. 

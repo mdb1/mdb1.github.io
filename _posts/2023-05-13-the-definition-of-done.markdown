@@ -2,7 +2,7 @@
 layout: post
 title:  "The Definition of Done"
 date:   2023-05-13 07:00:00 -0300
-tags: [productivity, coding]
+tags: [productivity, iOS, tools]
 ---
 
 # Introduction:
