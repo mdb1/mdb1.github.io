@@ -4,6 +4,7 @@ title: "Improve the build times of your SPM Packages and your apps"
 date: 2023-08-18 07:00:00 -0300
 tags: [iOS, tools, productivity]
 thumbnail-img: "/resources/build-times/spm-before-timeline.png"
+readtime: true
 ---
 
 Get ready to uncover some of the secrets of faster build times – an investment that's not just about speed, but about creating a more satisfying and efficient development journey for you and your entire team.

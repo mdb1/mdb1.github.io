@@ -4,6 +4,7 @@ title: "Use Periphery to find unused code"
 date: 2023-08-21 07:00:00 -0300
 tags: [iOS, tools]
 thumbnail-img: "/resources/periphery/logo.png"
+readtime: true
 ---
 
 From time to time, it might be a good idea to spend a couple of hours checking if there is some code in the codebase that is not being used anymore.

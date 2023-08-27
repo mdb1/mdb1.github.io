@@ -4,6 +4,7 @@ title: "UI vs API Models - A structured approach"
 date: 2023-08-25 07:00:00 -0300
 tags: [iOS]
 thumbnail-img: "/resources/ui-api-models/thumbnail.jpg"
+readtime: true
 ---
 
 **UI and API models, where are they supposed to live in a codebase?**
