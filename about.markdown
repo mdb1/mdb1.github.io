@@ -12,6 +12,12 @@ I'd say that I'm a `purist` of the things that work as expected and that are eas
 
 ![formula]({{static.static_files}}/resources/about/formula.png)
 
+Rate all the variables from 0 to 1 (i.e: 0.7, 0.5, 0.9, 1.0).
+
+The closer the final number is to `1`, the better the architecture is.
+
+---
+
 Here are some of my favorite articles:
 
 * [Rules and Habits for a better life](/2022-01-15-rules-and-habits/)
