@@ -6,8 +6,6 @@ comments: true
 tags: [iOS, productivity, tools]
 ---
 
-{% seo %}
-
 When starting a new app, I like to set up the Pull Request Template, so we can set up so common ground rules for the project.
 
 Creating it is pretty simple, you just need to create a new file inside the `.github` folder called `pull_request_template.md`
@@ -15,3 +13,6 @@ Creating it is pretty simple, you just need to create a new file inside the `.gi
 ## Example:
 
 <script src="https://gist.github.com/mdb1/3e773aa8eedc4e38dd3b5b501c7c72cd.js"></script>
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

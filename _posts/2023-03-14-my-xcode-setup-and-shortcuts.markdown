@@ -5,8 +5,6 @@ date:   2023-03-14 07:00:00 -0300
 tags: [iOS, tools, productivity]
 ---
 
-{% seo %}
-
 In this article, we'll explore some of the Xcode configurations and shortcuts that I find most useful and that can save you time and effort when working on your  projects.
 
 # Xcode Configurations
@@ -123,3 +121,6 @@ Then you can just type the `pformat` command on your console, and it will run th
 # Conclusion
 
 In conclusion, these Xcode configurations and shortcuts are just a few examples of how customizing your development environment can help you work more efficiently and effectively. Whether you're a seasoned iOS or macOS developer or just starting out, taking the time to optimize your IDE can make a big difference in your productivity and satisfaction with the development process. So give these configurations and shortcuts a try, and don't be afraid to experiment with your own customizations to find what works best for you.
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

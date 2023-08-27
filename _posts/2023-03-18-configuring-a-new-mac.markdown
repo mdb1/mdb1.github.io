@@ -5,8 +5,6 @@ date:   2023-03-18 07:00:00 -0300
 tags: [productivity, tools]
 ---
 
-{% seo %}
-
 # Configuring a New MacBook: 5 Steps to Follow
 
 When setting up a new MacBook, there are a few steps you should take to get it up and running smoothly. In this article, we'll explore a list of items you should consider toggling to optimize your MacBook experience.
@@ -126,3 +124,6 @@ osascript -e 'tell application "Dock" to quit'
 
 # Conclusion
 In conclusion, setting up a new MacBook can be an exciting but daunting experience, especially for those who are new to the Mac ecosystem. However, by following the five steps outlined in this article, you can ensure that your MacBook is up-to-date, decluttered, and customized to your needs. Updating the operating system, customizing the dock, logging in to your Apple ID account, downloading essential apps, and configuring settings will optimize your MacBook experience and make it more enjoyable to use.
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

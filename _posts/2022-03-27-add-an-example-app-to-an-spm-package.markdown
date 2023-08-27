@@ -6,8 +6,6 @@ comments: true
 tags: [iOS]
 ---
 
-{% seo %}
-
 ## Creating the Package
 
 To create a new SPM Package just follow this sequence:
@@ -84,3 +82,6 @@ Open your project in Xcode:
 2. Now you have to wait for Xcode to fetch the package.
 
 That’s it. **Now your project can import the Package** 🎉.
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

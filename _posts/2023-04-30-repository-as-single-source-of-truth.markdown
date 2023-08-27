@@ -5,8 +5,6 @@ date:   2023-04-30 07:00:00 -0300
 tags: [iOS]
 ---
 
-{% seo %}
-
 # Introduction:
 In a SwiftUI app, it is important to have a single source of truth for the app's data. This ensures that all views and components that rely on the data are always in sync, preventing inconsistencies and bugs. One way to achieve this is by using a Repository object to manage the app's data. In this article, we'll explore how to use a Repository object to hold the single source of truth for a SwiftUI app, based on the code in this repository: https://github.com/mdb1/SwiftUI-RepositoryExample
 
@@ -274,3 +272,6 @@ struct MockError: Error {}
 # Conclusion
 
 In conclusion, using a Repository object to hold the single source of truth for a SwiftUI app is a powerful technique that can help you keep your data consistent and avoid bugs. By creating a Repository object and implementing methods to add, update, and delete data, you can ensure that all views and components that rely on the data are always in sync.
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

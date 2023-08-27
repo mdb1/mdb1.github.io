@@ -6,8 +6,6 @@ comments: true
 tags: [iOS]
 ---
 
-{% seo %}
-
 When starting a new SwiftUI app, I like to have a reusable approach for managing the view state using generics.
 
 In order to do that, we can use the following `ViewState` enum with the `ViewStateWrapper` struct:
@@ -17,3 +15,6 @@ In order to do that, we can use the following `ViewState` enum with the `ViewSta
 ---
 
 A demonstration on how to use them can be found [here](https://gist.github.com/mdb1/dd71a798e7a9a5e91c4fc9885f990d93).
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

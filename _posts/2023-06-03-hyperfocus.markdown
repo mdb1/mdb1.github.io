@@ -6,8 +6,6 @@ tags: [books]
 thumbnail-img: "/resources/hyperfocus/hyper-cover.jpg"
 ---
 
-{% seo %}
-
 These are some notes from the book: `Hyperfocus` by `Chris Bailey`. 
 
 <img src="{{static.static_files}}/resources/hyperfocus/hyper-cover.jpg" width="20%">
@@ -230,3 +228,6 @@ Instead of viewing breaks as a waste of time, view them as an essential element 
 - Get a good night’s sleep.
 
 ---
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

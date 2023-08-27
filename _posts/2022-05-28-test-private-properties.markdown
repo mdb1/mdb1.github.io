@@ -6,8 +6,6 @@ comments: true
 tags: [iOS, testing]
 ---
 
-{% seo %}
-
 In this post, we'll learn how we can add unit tests to private properties without compromising their access level.
 
 You can download the Example project [here](https://github.com/mdb1/MirrorObjectExample).
@@ -204,3 +202,6 @@ I hope you found this article interesting!
 ![private-set]({{static.static_files}}/resources/test-private-properties/private(set).jpeg)
 
 ### Until the next one 👋
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

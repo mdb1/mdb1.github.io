@@ -6,8 +6,6 @@ tags: [books]
 thumbnail-img: "/resources/brain-rules/cover.jpg"
 ---
 
-{% seo %}
-
 These are some notes from the book: `Brain Rules` by `John Medina`. 
 
 <img src="{{static.static_files}}/resources/brain-rules/cover.jpg" width="30%">
@@ -135,3 +133,6 @@ Brains also continue to change in response to new experiences. This is an evolut
 **People never stop wanting to learn.**
 
 ---
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

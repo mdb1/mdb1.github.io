@@ -6,7 +6,6 @@ comments: true
 tags: [iOS]
 ---
 
-{% seo %}
 
 It’s **really** easy to use Apple’s Speech mechanism to make your app read text out loud to the users:
 
@@ -37,3 +36,6 @@ TextSpeaker().speak("This was really easy")
 ```
 
 If you want to have that method as a separate library you can add [this lightweight SPM package](https://github.com/mdb1/Speech) to your apps.
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

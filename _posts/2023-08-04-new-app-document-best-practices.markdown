@@ -5,8 +5,6 @@ date: 2023-08-04 07:00:01 -0300
 tags: [iOS, productivity, tools]
 ---
 
-{% seo %}
-
 Recently, I stumbled upon Lickability's [repository](https://github.com/Lickability/swift-best-practices) on swift-best-practices, and it got me thinking about my own [Contributing guidelines](/2023-01-02-new-app-contributing-guidelines/) that I wrote a while back. I realized they might not be as scalable as I'd like them to be over time.
 
 So, I decided to write my own set of guidelines that are a mix of Lickability's best practices, my personal experiences, and my own coding style. 
@@ -31,3 +29,6 @@ I'm curious to see how we can use AI in combination with these documents in the 
 Wouldn't it be awesome if we could have a CI step with ChatGPT or Github Copilit that makes the first review of a PR and adds a comment for each chunk of code that doesn't follow the provided best-practices?
 
 ---
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

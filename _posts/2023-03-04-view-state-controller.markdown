@@ -5,7 +5,6 @@ date:   2023-03-04 07:00:00 -0300
 tags: [iOS, testing]
 ---
 
-{% seo %}
 
 I've been thinking for a while now on how most of the SwiftUI views that depend on a state end up looking pretty similar.
  

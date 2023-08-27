@@ -6,8 +6,6 @@ tags: [books]
 thumbnail-img: "/resources/die-with-zero/cover.png"
 ---
 
-{% seo %}
-
 These are some notes from the book: `Die with Zero` by `Bill Perkins`. 
 
 <img src="{{static.static_files}}/resources/die-with-zero/cover.png" width="30%">
@@ -68,3 +66,6 @@ Write down the experiences you want to have and the corresponding time in your l
 For example, there will be a last time to take growing kids trick-or-treating, a last time your knees can handle a mountain summit, a last time you feel like sitting on an airplane for 14 hours to see a new continent, and so on. Therefore, you must not let “last chances” pass you by.
 
 ---
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

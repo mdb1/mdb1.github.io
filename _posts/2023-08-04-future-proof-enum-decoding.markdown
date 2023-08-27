@@ -5,8 +5,6 @@ date: 2023-08-04 07:00:00 -0300
 tags: [iOS, testing]
 ---
 
-{% seo %}
-
 When working with String enums that have a finite number of cases, it's crucial to include an `unknown` case as a catch-all for potential future values. This practice helps future-proof our apps against updates or changes on the backend that may introduce new enum values.
 
 To achieve this, we provide a custom initializer for the enum. This initializer tries to decode the received value and maps it to the corresponding enum case. If it encounters a value not defined in the enum, it defaults to the `unknown` case.
@@ -54,3 +52,6 @@ func test_userStatus_decoding() {
     }
 }
 ```
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

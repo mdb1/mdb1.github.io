@@ -6,8 +6,6 @@ comments: true
 tags: [iOS]
 ---
 
-{% seo %}
-
 When starting a new app, it's important to set the constants that will be shared across the app correcly:
 
 ## Colors
@@ -40,3 +38,6 @@ The same concept applies for Spacing constants, we can create a simple extension
 ### Sources:
 * [Set SwiftUI app theme with AccentColor](https://sarunw.com/posts/swiftui-accentcolor/)
 * [Create Custom Color Palettes in SwiftUI](https://betterprogramming.pub/create-custom-color-palettes-in-swiftui-f6f0abe7c828)
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

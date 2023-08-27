@@ -5,8 +5,6 @@ date:   2023-07-22 07:00:00 -0300
 tags: [iOS, tools]
 ---
 
-{% seo %}
-
 When starting a new app, I usually like to set up an automatic code formatter. By agreeing with your team about the rules, and setting a tool to automatically enforce them, you can avoid formatting discussions in the PRs, and you can achieve a codebase where every file looks similar in format.
 
 I like to use [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) as the formatter for my projects.
@@ -197,3 +195,6 @@ Save it.
 ---
 
 I hope you found this article helpful, see you next time! 😄
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

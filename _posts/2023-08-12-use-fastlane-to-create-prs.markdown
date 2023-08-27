@@ -6,8 +6,6 @@ tags: [tools, productivity]
 readtime: true
 ---
 
-{% seo %}
-
 This is a guide on how to set up a fastlane lane to create pull requests:
 
 1. Set Up Fastlane:
@@ -55,3 +53,6 @@ You can find a repository where everything is set up [here](https://github.com/m
 *Remember that the lane won't work in your pc for that repository, given you don't have a valid PAT in the `.env` file.*
 
 ---
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

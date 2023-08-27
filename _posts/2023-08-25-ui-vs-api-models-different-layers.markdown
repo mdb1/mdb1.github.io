@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "UI vs API Models - A structured approach"
+title: "UI vs API Models"
+subtitle: "A structured approach"
 date: 2023-08-25 07:00:00 -0300
 tags: [iOS]
 thumbnail-img: "/resources/ui-api-models/thumbnail.jpg"
 readtime: true
 ---
-
-{% seo %}
 
 **UI and API models, where are they supposed to live in a codebase?**
 
@@ -418,3 +417,6 @@ I think it's really important to define a model strategy from the beginning, giv
 ---
 
 Let me know what you think, I'd love to hear different ideas, or if you'd rather just have one module with all the models together, instead of several modules!
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

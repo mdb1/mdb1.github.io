@@ -6,8 +6,6 @@ tags: [books]
 thumbnail-img: "/resources/the-compound-effect/cover.jpg"
 ---
 
-{% seo %}
-
 These are some notes from the book: `The Compound Effect` by `Darren Hardy`. 
 
 <img src="{{static.static_files}}/resources/the-compound-effect/cover.jpg" width="30%">
@@ -68,3 +66,6 @@ Keep your pace slow and consistent; given enough time, your momentum will carry 
 Hitting the wall is an opportunity for greatness, not an obstacle.
 
 ---
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

@@ -5,8 +5,6 @@ date:   2023-03-08 07:00:00 -0300
 tags: [iOS]
 ---
 
-{% seo %}
-
 When starting a new app, I like to have a toast displaying mechanism in-place.
 
 In this post, I will share how easy it is to display toasts in SwiftUI, and I will link to some code to have configurable toasts/snackbars ready to use in your SwiftUI apps.
@@ -77,3 +75,6 @@ YourView
 ---
 
 Are you using any type of toast/snack bar in your applications?
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

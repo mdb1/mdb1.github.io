@@ -5,8 +5,6 @@ date:   2023-04-18 07:00:00 -0300
 tags: [iOS, testing]
 ---
 
-{% seo %}
-
 UserDefaults is a great way to store and retrieve app settings and user preferences in iOS apps. However, working with it can sometimes be a bit verbose, especially if you need to store or retrieve multiple values.
 
 Fortunately, Swift allows us to add a subscript to UserDefaults to make working with it much more convenient:
@@ -64,3 +62,6 @@ _Any app or extension configured with the same app group will now be able to rea
 The next iteration of the UserPreferences class would be to add some type-safe methods to retrieve the stored information.
 
 I hope this tip helps you write more concise and readable code in your iOS apps!
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

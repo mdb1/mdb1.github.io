@@ -6,8 +6,6 @@ comments: true
 tags: [iOS, productivity]
 ---
 
-{% seo %}
-
 > No matter how experienced we are, we will make mistakes at work.
 
 This simple fact is one of the reasons why Code Reviews are so important.
@@ -115,3 +113,6 @@ Reviewing other people code is a learning opportunity, so take the time you need
 - [ ] Strive for readability and understandability. The code that will be merged will be read many times in the future.
 - [ ] Check that the new code follows the team conventions/architecture.
 - [ ] Does the new code fulfill the requirements?
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

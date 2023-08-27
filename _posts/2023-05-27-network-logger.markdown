@@ -6,8 +6,6 @@ tags: [iOS, tools]
 thumbnail-img: "/resources/network-logger/network.png"
 ---
 
-{% seo %}
-
 When developing Swift applications that involve network communication, it's often essential to have visibility into the details of the network requests and responses. This includes information such as HTTP headers, URLs, request bodies, and response data. In order to facilitate this logging process, I have created a simple and lightweight struct called NetworkLogger as part of the [CoreNetworking](https://github.com/mdb1/CoreNetworking) library.
 
 The code can be found [here](https://github.com/mdb1/CoreNetworking/blob/main/Sources/CoreNetworking/NetworkLogger.swift). It should be easy to understand and integrate into your existing project.
@@ -61,3 +59,6 @@ By incorporating the NetworkLogger struct into your Swift projects, you can easi
 ---
 
 Are you using anything similar in your projects?
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

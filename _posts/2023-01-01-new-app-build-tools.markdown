@@ -6,8 +6,6 @@ comments: true
 tags: [iOS, productivity, tools]
 ---
 
-{% seo %}
-
 When starting a new app, it's important to set up the right set of build tools. This will help you and your team follow the same set of rules, so the app will feel more consistent.
 
 What I like to have at the very least is:
@@ -48,3 +46,6 @@ I like to use [Fastlane](https://fastlane.tools/) primarily for two purposes:
 There are many guides out there on how to set up these tools.
 
 I've found that having these tools set up correctly before starting coding a new app had provided great value over time.
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

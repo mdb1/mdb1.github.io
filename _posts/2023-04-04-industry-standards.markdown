@@ -5,8 +5,6 @@ date:   2023-04-04 07:00:00 -0300
 tags: [productivity, iOS]
 ---
 
-{% seo %}
-
 Staying up-to-date with the latest iOS industry standards is essential for any iOS developer. Apple's mobile operating system is constantly evolving, and keeping up with the changes is crucial for maintaining a competitive edge in the industry. With new updates, features, and technologies being released every year, it's important to have a `systematic` approach to staying informed.
 
 One approach that has worked for me is a combination of newsletter subscriptions, email filters, and Notion. Here's how it works:
@@ -66,3 +64,6 @@ Consistency is key when it comes to staying up-to-date with the latest iOS indus
 Keeping up with the latest iOS industry standards is crucial for any iOS developer. By using a combination of newsletter subscriptions, email filters, and Notion, you can create a systematic approach to staying informed. Remember to take the time to read and implement the knowledge you acquire, and you'll be on your way to becoming a successful iOS developer.
 
 How do you keep up with all the articles out there?
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

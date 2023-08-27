@@ -6,8 +6,6 @@ comments: true
 tags: [iOS, testing]
 ---
 
-{% seo %}
-
 The idea of this post is to provide a list of things I like to have in-place when starting a new app from scratch.
 
 - [BuildTools](/2023-01-01-new-app-build-tools/)
@@ -67,3 +65,6 @@ The idea of this post is to provide a list of things I like to have in-place whe
 ---
 
 This is an on going list, and I'll be referencing other posts from each item as I write more about them.
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

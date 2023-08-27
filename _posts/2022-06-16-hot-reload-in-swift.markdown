@@ -6,8 +6,6 @@ comments: true
 tags: [iOS, tools]
 ---
 
-{% seo %}
-
 We finally have Hot Reload for Swift applications, thanks to the [Inject](https://github.com/krzysztofzablocki/Inject) tool written by Krzysztof Zabłocki, the great mind behind other amazing tools, like Sourcery.
 
 In this article, we will create a simple project that uses the Inject library to make Hot Reload a reality in a Swift app.
@@ -56,3 +54,6 @@ If everything was set up correctly, you will see these messages in the console w
 ## Demo
 
 <iframe src="https://player.vimeo.com/video/721292169?h=6d7ea3f03f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

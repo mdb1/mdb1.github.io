@@ -6,8 +6,6 @@ comments: true
 tags: [iOS]
 ---
 
-{% seo %}
-
 When starting a new app, you need to decide which fonts/typographies the app is going to use.
 
 You can choose between using the default installed fonts on iOS, or use custom fonts.
@@ -54,3 +52,6 @@ Lastly, you could create a SwiftUI preview to display them:
 
 ### A11y3
 ![A11y3]({{static.static_files}}/resources/new-app-fonts/a11y3.png)
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

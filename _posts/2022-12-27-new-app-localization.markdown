@@ -6,8 +6,6 @@ comments: true
 tags: [iOS]
 ---
 
-{% seo %}
-
 When starting a new app, it's important to have a mechanism in place for Localization.
 In this case, we will keep it simple by having a local Localizable file, with one variation in English and one in Spanish.
 
@@ -53,3 +51,6 @@ Even though SwiftUI's Text automatically looks for the localized strings, I thin
 | English | Spanish |
 | - | - |
 | ![English]({{static.static_files}}/resources/new-app-localization/english.png) | ![Spanish]({{static.static_files}}/resources/new-app-localization/spanish.png)  | 
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

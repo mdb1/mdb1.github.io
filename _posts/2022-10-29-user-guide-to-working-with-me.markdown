@@ -6,8 +6,6 @@ comments: true
 tags: [productivity, tools]
 ---
 
-{% seo %}
-
 This is a set of guidelines on how I like the team-work to happen. 
 I’d like to hear your thoughts, ideas, and your guidelines after you read it.
 
@@ -46,3 +44,6 @@ I’d like to hear your thoughts, ideas, and your guidelines after you read it.
 - If the tests does not pass on CI for a particular PR, that PR cannot be merged until we fix the tests.
 - I like to spend some time refactoring old code. It’s a good opportunity to make the codebase stronger and to keep adding test coverage.
 - I like to automate the boring stuff, so please let me know if you see something that you feel should be automatic and we can work on it.
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

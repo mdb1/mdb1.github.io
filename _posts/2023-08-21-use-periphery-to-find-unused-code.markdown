@@ -7,8 +7,6 @@ thumbnail-img: "/resources/periphery/logo.png"
 readtime: true
 ---
 
-{% seo %}
-
 From time to time, it might be a good idea to spend a couple of hours checking if there is some code in the codebase that is not being used anymore.
 
 Luckily for us, there is a tool out there that can make the job easier.
@@ -103,3 +101,5 @@ Over the long run, keeping the code as clean as possible will be a benefit for e
 
 Are you using [Periphery](https://github.com/peripheryapp/periphery) or something similar in your projects?
 
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

@@ -39,3 +39,6 @@ These are some notes from the book: `Excellent Advice for Living` by `Kevin Kell
 - **If you are alive, that means you still have lessons to learn.**
 
 ---
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

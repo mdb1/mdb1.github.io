@@ -6,8 +6,6 @@ comments: true
 tags: [iOS]
 ---
 
-{% seo %}
-
 A really fast and easy way to getyour app's crash logs is built-in right in Xcode.
 
 By opening the Organizer `⌘ + ⌥ + ⇧ + O`, and navigating to the Crash tab for the app you want to see the crash logs:
@@ -15,3 +13,6 @@ By opening the Organizer `⌘ + ⌥ + ⇧ + O`, and navigating to the Crash tab 
 ![xcode organizer]({{static.static_files}}/resources/xcode-organizer/xcode-organizer-crashes.png)
 
 Then just tapping on the `Open in Project` button will offer you a lot of insights about the selected crash.
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

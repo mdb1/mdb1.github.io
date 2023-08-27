@@ -6,8 +6,6 @@ comments: true
 tags: [iOS, testing]
 ---
 
-{% seo %}
-
 When starting a new app, I like to have some XCTest helpers to enhance testability.
 
 # MemoryDeallocation
@@ -33,3 +31,6 @@ Runs the assertions provided in the main thread in an async way.
 Useful for testing objects that make async requests (using mocked protocols for the responses)
 
 <script src="https://gist.github.com/mdb1/b09873253b39278cff9875d553e9d354.js"></script>
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

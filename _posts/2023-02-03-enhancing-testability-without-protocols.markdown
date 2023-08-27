@@ -5,8 +5,6 @@ date:   2023-02-03 07:00:00 -0300
 tags: [iOS, testing]
 ---
 
-{% seo %}
-
 We have all used protocols to enhance testability in our apps, but that can become too verbose, and add extra layers of abstractions to the code.
 
 Here is a different approach, without using protocols, that can achieve the same results with way less code.
@@ -274,3 +272,6 @@ Executed 5 tests, with 0 failures (0 unexpected) in 0.024 (0.026) seconds
 The complete code can be found in the `WithoutProtocols` branch of [this repository](https://github.com/mdb1/CatProtocols/tree/WithoutProtocols).
 
 You can also check out how to achieve the same results _using protocols_ in [this post](/2023-02-13-enhancing-testability-with-protocols/).
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

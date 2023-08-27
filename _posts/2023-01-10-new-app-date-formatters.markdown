@@ -6,8 +6,6 @@ comments: true
 tags: [iOS]
 ---
 
-{% seo %}
-
 When starting a new app, it's important to decide how it's going to handle and display dates. Once that has been decided, you can add some practic `static` DateFormatters that encapsulate that decisions to reuse across the app.
 
 ## Example:
@@ -24,3 +22,5 @@ Using [this](https://github.com/mdb1/DateFormatterOptions) SwiftUI playground ap
 
 ![DateFormatter Options - SwiftUI](https://github.com/mdb1/DateFormatterOptions/raw/main{{static.static_files}}/resources/date_formatter.gif)
 
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

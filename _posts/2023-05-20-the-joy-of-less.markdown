@@ -5,8 +5,6 @@ date:   2023-05-20 07:00:00 -0300
 tags: [books]
 ---
 
-{% seo %}
-
 These are some notes from the book: `The Joy of Less: A Minimalist Guide to Declutter, Organize, and Simplify` by `Francine Jay`.
 
 # Part 1: Philosophy
@@ -237,3 +235,6 @@ Let’s take our minimalist takeover beyond our four walls. We’ll declutter ou
 - Consider the lifetime: We want the stuff that we buy to last for a long time.
 
 ---
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

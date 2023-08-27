@@ -6,8 +6,6 @@ comments: true
 tags: [iOS]
 ---
 
-{% seo %}
-
 When starting a new app, I like to have some reusable components ready to use.
 
 Some examples:
@@ -75,3 +73,6 @@ The code can be found [here](https://github.com/mdb1/UIComponents/blob/main/Sour
 ---
 
 All these components can be found in the [UIComponents](https://github.com/mdb1/UIComponents) package.
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

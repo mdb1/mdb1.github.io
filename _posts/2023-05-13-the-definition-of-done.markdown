@@ -5,8 +5,6 @@ date:   2023-05-13 07:00:00 -0300
 tags: [productivity, iOS, tools]
 ---
 
-{% seo %}
-
 # Introduction:
 I want to talk a little bit about the Definition of Done, or, in other words, when can we consider that a task is completed.
 
@@ -123,3 +121,6 @@ By adhering to a shared `Definition of Done` you can elevate the quality of your
 --- 
 
 Do you (partially or fully) agree with this definition?
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}

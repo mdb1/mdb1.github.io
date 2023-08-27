@@ -6,8 +6,6 @@ comments: true
 tags: [iOS]
 ---
 
-{% seo %}
-
 When starting a new app, I like to have static methods to retrieve the reusable JsonEncoder and JsonDecoder objects already configured.
 
 ## Example:
@@ -15,3 +13,6 @@ When starting a new app, I like to have static methods to retrieve the reusable 
 <script src="https://gist.github.com/mdb1/2f82f85add839d90dd86d56c5f6d50c7.js"></script>
 
 <br>
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}
