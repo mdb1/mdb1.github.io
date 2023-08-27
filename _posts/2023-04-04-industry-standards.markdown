@@ -52,7 +52,7 @@ Once a week, I set aside some time to review all the newsletters with the "Needs
 # 5. Daily Reading
 Every day, I pick one article from my Notion table view and read it. It's important to remember that simply reading the articles won't be enough. To truly acquire the knowledge, it's important to put the articles into practice.
 
-[Daily habits](https://mdb1.github.io/2022-01-15-rules-and-habits/) are critical to maintaining consistency and achieving long-term success. When it comes to staying up-to-date with the latest iOS industry standards, it's important to create a daily habit of reading at least one article or tutorial.
+[Daily habits](/2022-01-15-rules-and-habits/) are critical to maintaining consistency and achieving long-term success. When it comes to staying up-to-date with the latest iOS industry standards, it's important to create a daily habit of reading at least one article or tutorial.
 
 To ensure that you don't lose your streak, it's helpful to set specific goals and hold yourself accountable. You could also use a habit tracker app to track your progress and hold yourself accountable.
 

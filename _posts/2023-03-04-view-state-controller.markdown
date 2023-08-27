@@ -7,7 +7,7 @@ tags: swiftui
 
 I've been thinking for a while now on how most of the SwiftUI views that depend on a state end up looking pretty similar.
  
-Example (using the [ViewState](https://mdb1.github.io/2023-01-08-new-app-view-state/) enum):
+Example (using the [ViewState](/2023-01-08-new-app-view-state/) enum):
 ```swift
 switch viewModel.state {
 case .initial:
@@ -42,7 +42,7 @@ There is an [Example App](https://github.com/mdb1/ViewStateControllerExampleApp)
 
 # ViewStateController Object
 
-The [ViewStateController](https://github.com/mdb1/ViewStateController/blob/main/Sources/ViewStateController/ViewState/ViewStateController.swift) struct is the one that contains the array of historical [ViewStates](https://mdb1.github.io/2023-01-08-new-app-view-state/) and has computed properties that will be used by the ViewStateModifier to determine what to do.
+The [ViewStateController](https://github.com/mdb1/ViewStateController/blob/main/Sources/ViewStateController/ViewState/ViewStateController.swift) struct is the one that contains the array of historical [ViewStates](/2023-01-08-new-app-view-state/) and has computed properties that will be used by the ViewStateModifier to determine what to do.
 
 * `isInitialLoading`: Returns true only if loading state was set once and there hasn't been errors or info yet.
 * `isLoading`: Returns true if state is loading.
@@ -189,7 +189,7 @@ Since we are not changing the values for the loading types it's using the defaul
 
 ### Changing the indicator view
 
-If you have a custom progress view, you can use it in the `indicatorView` parameter. Example from [this post](https://mdb1.github.io/2023-01-04-new-app-components/):
+If you have a custom progress view, you can use it in the `indicatorView` parameter. Example from [this post](/2023-01-04-new-app-components/):
 
 ```swift
 loadedView(user: .init(name: "Placeholder", age: 99, emoji: ""))

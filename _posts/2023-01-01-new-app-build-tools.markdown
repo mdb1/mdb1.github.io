@@ -20,7 +20,7 @@ What I like to have at the very least is:
 
 I like the linter to run on every build of the app, and I usually enable the `strict` mode in CI, to ensure that the `main` branch never contain lint warnings.
 
-If you want to enforce the SwiftLint version, read [this post](https://mdb1.github.io/2023-07-23-enforce-minimum-swiftlint-version/).
+If you want to enforce the SwiftLint version, read [this post](/2023-07-23-enforce-minimum-swiftlint-version/).
 
 ## Formatter
 
@@ -32,7 +32,7 @@ Here are the options and rules I like the most:
 
 <script src="https://gist.github.com/mdb1/7412f16a62ef0e8cabb7fe0b77fb965f.js"></script>
 
-I also have [another post](https://mdb1.github.io/2023-07-22-new-app-swiftformat-config/) explaining how to configure it.
+I also have [another post](/2023-07-22-new-app-swiftformat-config/) explaining how to configure it.
 
 ## Automation
 

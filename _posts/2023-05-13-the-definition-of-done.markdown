@@ -27,9 +27,9 @@ If the service makes a network request, we could mock the HTTPClient to return a
 Overtime, adding these small tests would compound on a pretty large testsuite that will make refactoring easier, and make the team more confident about the code.
 
 Here are some previous articles regarding testing:
-* [Enhancing testability without protocols](https://mdb1.github.io/2023-02-03-enhancing-testability-without-protocols/).
-* [Enhancing testability with protocols](https://mdb1.github.io/2023-02-13-enhancing-testability-with-protocols/).
-* [Testing helpers](https://mdb1.github.io/2023-02-02-new-app-testing-helpers/).
+* [Enhancing testability without protocols](/2023-02-03-enhancing-testability-without-protocols/).
+* [Enhancing testability with protocols](/2023-02-13-enhancing-testability-with-protocols/).
+* [Testing helpers](/2023-02-02-new-app-testing-helpers/).
 
 ### 2.1 Add UI/Integration Tests (Only for Core Functionality):
 For core functionalities, it is essential to go beyond unit testing and include UI/Integration tests. This will increase further the confidence on the code.
@@ -109,7 +109,7 @@ There are some downsides to writing documentation though:
 ## 4. PR + Review + Deploy
 Finally, you need to upload your changes, send a Pull Request for your team, let them review it, apply the neccessary changes, merge it, and deploy it.
 
-Here are some notes about the [Code Review Process](https://mdb1.github.io/2022-03-10-the-code-review-process/). And here you can find an example [PR Template](https://mdb1.github.io/2023-01-09-new-app-pr-template/)
+Here are some notes about the [Code Review Process](/2022-03-10-the-code-review-process/). And here you can find an example [PR Template](/2023-01-09-new-app-pr-template/)
 
 The Documentation from `Step 3` will be a great addition to the PR body 😬.
 

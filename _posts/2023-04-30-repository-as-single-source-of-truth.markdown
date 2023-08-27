@@ -65,7 +65,7 @@ extension BooksRepository {
 }
 ```
 
-Note: We are using the Dependencies approach from [this previous article](https://mdb1.github.io/2023-02-03-enhancing-testability-without-protocols/).
+Note: We are using the Dependencies approach from [this previous article](/2023-02-03-enhancing-testability-without-protocols/).
 
 # Using the Repository:
 To use the Repository object in your SwiftUI app, you need to instantiate it and pass it to the views that need to access the data. You can do this by using the @StateObject property wrapper to create an instance of the Repository object in a parent view, and then pass that instance down to child views using `.environmentObject`. Here's an example:

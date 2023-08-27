@@ -90,7 +90,7 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 # Time Savers
 
 ## Xcode Templates
-Create your own [Xcode templates](https://mdb1.github.io/2023-01-27-new-app-xcode-templates/) for your files
+Create your own [Xcode templates](/2023-01-27-new-app-xcode-templates/) for your files
 
 ## Console Aliases
 

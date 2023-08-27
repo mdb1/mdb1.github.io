@@ -46,7 +46,7 @@ As an example, here is how I’ve structured my `H mode` for the last couple of 
 - 07:15 - Weight, cardio training or an outdoor walk.
 - 08:00 - Prepare mate 🧉, read a book for 15 minutes and read an article related to my industry. After all of that, I pick up the phone for the first time in the day.
  
-> _Note: For a detailed guide on where to find articles, read [this post](https://mdb1.github.io/2023-04-04-industry-standards/)_
+> _Note: For a detailed guide on where to find articles, read [this post](/2023-04-04-industry-standards/)_
 
 - ~08:30 - 12:00 - First `deep-work` slot. No phone in my office room, no notifications on Slack.
 - 12:00 - 13:00 - First meal of the day.

@@ -209,7 +209,7 @@ The Services are the 'workers' that talk to the backend and return API model as 
 
 The Services are always marked as `internal`.
 
-These objects will be injected to the Repository via the [Dependencies approach](https://mdb1.github.io/2023-02-03-enhancing-testability-without-protocols/).
+These objects will be injected to the Repository via the [Dependencies approach](/2023-02-03-enhancing-testability-without-protocols/).
 
 For this example, we will just simulate a 1 second delay and then return results.
 
@@ -260,7 +260,7 @@ public struct PokemonListView: View {
 }
 ```
 
-The Publisher publish a model called LoadingState, which I have described previously as [ViewState](https://mdb1.github.io/2023-01-08-new-app-view-state/).
+The Publisher publish a model called LoadingState, which I have described previously as [ViewState](/2023-01-08-new-app-view-state/).
 
 * [SwiftUI View Code](https://github.com/mdb1/ModelsExampleApp/blob/main/Packages/Pokemon/Sources/PokemonUI/List/PokemonListView.swift)
 
@@ -394,15 +394,15 @@ Something that I like about this approach, is that we can define some convention
   * Name+ModelUI.swift -> always public
 * Repositories:
   * Always public
-  * Use the [Dependencies approach](https://mdb1.github.io/2023-02-03-enhancing-testability-without-protocols/)
+  * Use the [Dependencies approach](/2023-02-03-enhancing-testability-without-protocols/)
   * Transform API models to UI models
   * Publish UI models
 * Services are internal
   * Always return API Models
 
-We could also go ahead and [document](https://mdb1.github.io/2023-08-04-new-app-document-best-practices/) these conventions in the code repository, so every team member have access.
+We could also go ahead and [document](/2023-08-04-new-app-document-best-practices/) these conventions in the code repository, so every team member have access.
 
-Another idea would be to create [Xcode Templates](https://mdb1.github.io/2023-01-27-new-app-xcode-templates/) to avoid the boilerplate.
+Another idea would be to create [Xcode Templates](/2023-01-27-new-app-xcode-templates/) to avoid the boilerplate.
 
 ## Conclusion
 

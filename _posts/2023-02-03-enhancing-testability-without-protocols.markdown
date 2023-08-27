@@ -11,7 +11,7 @@ Here is a different approach, without using protocols, that can achieve the same
 
 Let's say we have a screen with a button that needs to perform a network request, display a loading while waiting for the response, and then display the result in a label.
 
-We will model the state of the view using a lighter version of [ViewState](https://mdb1.github.io/2023-01-08-new-app-view-state/):
+We will model the state of the view using a lighter version of [ViewState](/2023-01-08-new-app-view-state/):
 
 ```swift
 enum ViewState<Info> {
@@ -162,7 +162,7 @@ extension CatFactView.ViewModel.Dependencies {
 
 ## Testing
 
-Using some of the helpers function from [this article](https://mdb1.github.io/2023-02-02-new-app-testing-helpers/), and injecting the dependencies as inline methods, we can easily test all the paths of the code in our view model:
+Using some of the helpers function from [this article](/2023-02-02-new-app-testing-helpers/), and injecting the dependencies as inline methods, we can easily test all the paths of the code in our view model:
 
 ```swift
 @MainActor
@@ -271,4 +271,4 @@ Executed 5 tests, with 0 failures (0 unexpected) in 0.024 (0.026) seconds
 
 The complete code can be found in the `WithoutProtocols` branch of [this repository](https://github.com/mdb1/CatProtocols/tree/WithoutProtocols).
 
-You can also check out how to achieve the same results _using protocols_ in [this post](https://mdb1.github.io/2023-02-13-enhancing-testability-with-protocols/).
+You can also check out how to achieve the same results _using protocols_ in [this post](/2023-02-13-enhancing-testability-with-protocols/).

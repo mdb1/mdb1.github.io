@@ -42,7 +42,7 @@ This is a guide on how to set up a fastlane lane to create pull requests:
     alias pr='cd ~/your-project && bundle exec fastlane pr'
     ```
 6. Also additionally, you could add some documentation to your Contributing guidelines:
-    1. [Here](https://mdb1.github.io/2023-08-04-new-app-document-best-practices/) is another post describing how to do that.
+    1. [Here](/2023-08-04-new-app-document-best-practices/) is another post describing how to do that.
     2. [Here](https://github.com/mdb1/best-practices-example/blob/main/.github/docs/PRConventions.md) you can find some inspiration.
 
 Now you can run `pr` from anywhere in your console and send a PR from your console 😄.

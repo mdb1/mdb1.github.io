@@ -5,7 +5,7 @@ date:   2023-04-11 07:00:00 -0300
 tags: swiftui
 ---
 
-In our previous posts, we discussed the [ViewStateController](https://mdb1.github.io/2023-03-04-view-state-controller/) package, which allows us to add consistent loading and error states to our SwiftUI views. Today we'll explore a new feature of the [framework](https://github.com/mdb1/ViewStateController), the `DebugState` modifier, which provides an easy way to debug the state of a view.
+In our previous posts, we discussed the [ViewStateController](/2023-03-04-view-state-controller/) package, which allows us to add consistent loading and error states to our SwiftUI views. Today we'll explore a new feature of the [framework](https://github.com/mdb1/ViewStateController), the `DebugState` modifier, which provides an easy way to debug the state of a view.
 
 ## DebugState Modifier
 
@@ -65,4 +65,4 @@ In conclusion, the `DebugState` modifier is a simple yet powerful feature of the
 
 With `DebugState`, you can quickly test how your view behaves in different states, and ensure that it works as expected. Whether you're a developer or a QA tester, this feature is a must-have tool in your toolkit.
 
-If you're interested in learning more about ViewStateController, be sure to check out the [ViewStateController post](https://mdb1.github.io/2023-03-04-view-state-controller/). Thanks for reading!
+If you're interested in learning more about ViewStateController, be sure to check out the [ViewStateController post](/2023-03-04-view-state-controller/). Thanks for reading!
