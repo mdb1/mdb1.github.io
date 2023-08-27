@@ -6,6 +6,8 @@ comments: true
 tags: [productivity, tools]
 ---
 
+{% seo %}
+
 `H mode` is a protocol/framework to follow in order to get things done.
 
 First of all, we need to set up the environment:

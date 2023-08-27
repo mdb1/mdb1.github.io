@@ -6,6 +6,8 @@ comments: true
 tags: [iOS, testing]
 ---
 
+{% seo %}
+
 When starting a new app, I like to have some XCTest helpers to enhance testability.
 
 # MemoryDeallocation

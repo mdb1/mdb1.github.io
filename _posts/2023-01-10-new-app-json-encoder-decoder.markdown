@@ -6,6 +6,8 @@ comments: true
 tags: [iOS]
 ---
 
+{% seo %}
+
 When starting a new app, I like to have static methods to retrieve the reusable JsonEncoder and JsonDecoder objects already configured.
 
 ## Example:

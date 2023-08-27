@@ -6,6 +6,8 @@ comments: true
 tags: [iOS]
 ---
 
+{% seo %}
+
 When starting a new app, it's important to have a mechanism in place for Localization.
 In this case, we will keep it simple by having a local Localizable file, with one variation in English and one in Spanish.
 

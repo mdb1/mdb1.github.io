@@ -6,6 +6,8 @@ comments: true
 tags: [iOS]
 ---
 
+{% seo %}
+
 When starting a new app, you need to decide which fonts/typographies the app is going to use.
 
 You can choose between using the default installed fonts on iOS, or use custom fonts.

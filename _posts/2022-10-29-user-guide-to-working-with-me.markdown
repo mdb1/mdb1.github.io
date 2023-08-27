@@ -6,6 +6,8 @@ comments: true
 tags: [productivity, tools]
 ---
 
+{% seo %}
+
 This is a set of guidelines on how I like the team-work to happen. 
 I’d like to hear your thoughts, ideas, and your guidelines after you read it.
 

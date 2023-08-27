@@ -6,6 +6,8 @@ comments: true
 tags: [iOS]
 ---
 
+{% seo %}
+
 When starting a new app, it's important to set the constants that will be shared across the app correcly:
 
 ## Colors

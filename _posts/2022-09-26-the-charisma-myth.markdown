@@ -6,6 +6,8 @@ comments: true
 tags: [books]
 ---
 
+{% seo %}
+
 These are some notes based on the book: The Charisma Myth.
 
 ![the-charisma-myth]({{static.static_files}}/resources/the-charisma-myth/charisma-myth.jpg)

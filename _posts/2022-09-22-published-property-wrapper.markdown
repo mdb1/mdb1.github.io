@@ -6,6 +6,8 @@ comments: true
 tags: [iOS]
 ---
 
+{% seo %}
+
 These are some notes based on SwiftLee's great article: [@Published risks and usage explained with code examples](https://www.avanderlee.com/swiftui/published-property-wrapper/).
 
 Great starting point to start building things using SwiftUI.

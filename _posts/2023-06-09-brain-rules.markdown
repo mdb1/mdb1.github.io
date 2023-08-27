@@ -6,6 +6,8 @@ tags: [books]
 thumbnail-img: "/resources/brain-rules/cover.jpg"
 ---
 
+{% seo %}
+
 These are some notes from the book: `Brain Rules` by `John Medina`. 
 
 <img src="{{static.static_files}}/resources/brain-rules/cover.jpg" width="30%">

@@ -6,6 +6,8 @@ tags: [books]
 thumbnail-img: "/resources/die-with-zero/cover.png"
 ---
 
+{% seo %}
+
 These are some notes from the book: `Die with Zero` by `Bill Perkins`. 
 
 <img src="{{static.static_files}}/resources/die-with-zero/cover.png" width="30%">

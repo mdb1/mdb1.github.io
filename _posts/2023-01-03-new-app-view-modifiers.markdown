@@ -6,6 +6,8 @@ comments: true
 tags: [iOS]
 ---
 
+{% seo %}
+
 When starting a new app, I like to have some handy view modifiers to avoid duplicating code in different places.
 
 Some examples:

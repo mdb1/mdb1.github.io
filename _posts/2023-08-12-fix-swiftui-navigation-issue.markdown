@@ -5,6 +5,8 @@ date: 2023-08-12 07:00:00 -0300
 tags: [iOS]
 ---
 
+{% seo %}
+
 *Note: This issue will be automatically solved when using `iOS16+` as target, given the NavigationLink's `init(destination:isActive:label:)` has been deprecated.*
 
 I recently came across this issue when trying to push a screen with a given element of a List in SwiftUI:

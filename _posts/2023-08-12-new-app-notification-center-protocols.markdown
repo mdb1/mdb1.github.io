@@ -5,6 +5,8 @@ date: 2023-08-12 07:00:01 -0300
 tags: [iOS, testing]
 ---
 
+{% seo %}
+
 When starting a new app, I always bring these NotificationCenter protocols into the project.
 
 The idea is that by having these protocols, we can inject the NotificationCenter to the classes/structs instead of using the `.default` instance.

@@ -6,6 +6,8 @@ comments: true
 tags: [iOS, testing]
 ---
 
+{% seo %}
+
 When starting a new app, it's important to decide how it's going to handle and display numbers. Once that has been decided, you can add some practic `static` NumberFormatters that encapsulate that decisions to reuse across the app.
 
 Some examples include:

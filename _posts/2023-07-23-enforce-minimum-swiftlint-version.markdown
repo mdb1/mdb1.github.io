@@ -5,6 +5,8 @@ date:   2023-07-23 07:00:00 -0300
 tags: [iOS, tools]
 ---
 
+{% seo %}
+
 If your team is using `brew` to install SwiftLint, you might run into scenarios where different developers run different versions of the linter.
 
 One way to avoid this issue is to enforce a `minimum` version.

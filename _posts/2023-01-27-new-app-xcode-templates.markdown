@@ -6,6 +6,8 @@ comments: true
 tags: [iOS, tools]
 ---
 
+{% seo %}
+
 When starting a new app, after deciding which based design pattern you are going to use for the views, you can create some Xcode templates to help standardize how the files are written and speed up development.
 
 For example, let's say we decide to use MVVM for our SwiftUI views. We also decide we will have 3 files for each view:

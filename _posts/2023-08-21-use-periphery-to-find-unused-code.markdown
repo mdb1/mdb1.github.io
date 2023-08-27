@@ -7,6 +7,8 @@ thumbnail-img: "/resources/periphery/logo.png"
 readtime: true
 ---
 
+{% seo %}
+
 From time to time, it might be a good idea to spend a couple of hours checking if there is some code in the codebase that is not being used anymore.
 
 Luckily for us, there is a tool out there that can make the job easier.

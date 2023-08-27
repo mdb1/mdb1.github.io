@@ -5,6 +5,8 @@ date:   2023-02-13 07:00:00 -0300
 tags: [iOS, testing]
 ---
 
+{% seo %}
+
 In the [last post](/2023-02-03-enhancing-testability-without-protocols/) we’ve discussed hot to enhance testability without using protocols. In this one, we will build something similar but using protocols instead.
 
 We will be using dependency injection to be able to inject the real objects in the app, and inject mock objects in the tests / previews.

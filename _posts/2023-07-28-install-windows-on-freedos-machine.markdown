@@ -5,6 +5,8 @@ date:   2023-07-28 07:00:00 -0300
 tags: [tools]
 ---
 
+{% seo %}
+
 I recently had to install Windows 11 on a FreeDOS machine, and I hit a lot a couple of walls in the process:
 
 - My main problem was that I didn’t have access to another Windows machine to download the `.exe` files in the [Windows 11 downloads page](https://www.microsoft.com/software-download/windows11).

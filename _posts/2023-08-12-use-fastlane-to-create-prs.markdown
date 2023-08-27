@@ -6,6 +6,8 @@ tags: [tools, productivity]
 readtime: true
 ---
 
+{% seo %}
+
 This is a guide on how to set up a fastlane lane to create pull requests:
 
 1. Set Up Fastlane:

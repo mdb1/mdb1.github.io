@@ -5,6 +5,8 @@ date:   2023-05-13 07:00:00 -0300
 tags: [productivity, iOS, tools]
 ---
 
+{% seo %}
+
 # Introduction:
 I want to talk a little bit about the Definition of Done, or, in other words, when can we consider that a task is completed.
 

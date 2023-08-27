@@ -7,6 +7,8 @@ thumbnail-img: "/resources/build-times/spm-before-timeline.png"
 readtime: true
 ---
 
+{% seo %}
+
 Get ready to uncover some of the secrets of faster build times – an investment that's not just about speed, but about creating a more satisfying and efficient development journey for you and your entire team.
 
 # Measuring and Improving Build Times

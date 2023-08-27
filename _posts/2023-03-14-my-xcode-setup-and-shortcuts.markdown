@@ -5,6 +5,8 @@ date:   2023-03-14 07:00:00 -0300
 tags: [iOS, tools, productivity]
 ---
 
+{% seo %}
+
 In this article, we'll explore some of the Xcode configurations and shortcuts that I find most useful and that can save you time and effort when working on your  projects.
 
 # Xcode Configurations

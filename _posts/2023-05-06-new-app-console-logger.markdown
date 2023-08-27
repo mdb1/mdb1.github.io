@@ -5,6 +5,8 @@ date:   2023-05-06 07:00:00 -0300
 tags: [iOS, tools]
 ---
 
+{% seo %}
+
 # Introduction:
 When starting a new app, I usually like to set up a console logger right from the scratch.
 

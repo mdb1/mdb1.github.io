@@ -6,6 +6,8 @@ comments: true
 tags: [iOS]
 ---
 
+{% seo %}
+
 When starting a new app, I like to have some reusable components ready to use.
 
 Some examples:

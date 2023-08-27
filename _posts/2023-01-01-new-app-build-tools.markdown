@@ -6,6 +6,8 @@ comments: true
 tags: [iOS, productivity, tools]
 ---
 
+{% seo %}
+
 When starting a new app, it's important to set up the right set of build tools. This will help you and your team follow the same set of rules, so the app will feel more consistent.
 
 What I like to have at the very least is:

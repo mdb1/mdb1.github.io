@@ -5,6 +5,9 @@ date:   2022-03-10 21:41:55 -0300
 comments: true
 tags: [iOS, productivity]
 ---
+
+{% seo %}
+
 > No matter how experienced we are, we will make mistakes at work.
 
 This simple fact is one of the reasons why Code Reviews are so important.

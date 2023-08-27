@@ -7,6 +7,8 @@ thumbnail-img: "/resources/ui-api-models/thumbnail.jpg"
 readtime: true
 ---
 
+{% seo %}
+
 **UI and API models, where are they supposed to live in a codebase?**
 
 There are different approaches to answer that question, and as always, there is no 1 silver bullet that is the best for everything. It will depend on some factors: like the existing architecture of the app, some preferences, what is the code supposed to handle best.

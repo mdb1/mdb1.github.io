@@ -6,6 +6,8 @@ comments: true
 tags: [iOS]
 ---
 
+{% seo %}
+
 When starting a new SwiftUI app, I like to have a reusable approach for managing the view state using generics.
 
 In order to do that, we can use the following `ViewState` enum with the `ViewStateWrapper` struct:

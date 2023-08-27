@@ -6,6 +6,8 @@ comments: true
 tags: [iOS]
 ---
 
+{% seo %}
+
 A really fast and easy way to getyour app's crash logs is built-in right in Xcode.
 
 By opening the Organizer `⌘ + ⌥ + ⇧ + O`, and navigating to the Crash tab for the app you want to see the crash logs:

@@ -6,6 +6,8 @@ comments: true
 tags: [iOS]
 ---
 
+{% seo %}
+
 ## Creating the Package
 
 To create a new SPM Package just follow this sequence:

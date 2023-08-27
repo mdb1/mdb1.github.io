@@ -6,6 +6,8 @@ tags: [books]
 thumbnail-img: "/resources/hyperfocus/hyper-cover.jpg"
 ---
 
+{% seo %}
+
 These are some notes from the book: `Hyperfocus` by `Chris Bailey`. 
 
 <img src="{{static.static_files}}/resources/hyperfocus/hyper-cover.jpg" width="20%">

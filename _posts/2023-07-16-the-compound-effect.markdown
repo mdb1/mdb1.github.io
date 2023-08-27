@@ -6,6 +6,8 @@ tags: [books]
 thumbnail-img: "/resources/the-compound-effect/cover.jpg"
 ---
 
+{% seo %}
+
 These are some notes from the book: `The Compound Effect` by `Darren Hardy`. 
 
 <img src="{{static.static_files}}/resources/the-compound-effect/cover.jpg" width="30%">
