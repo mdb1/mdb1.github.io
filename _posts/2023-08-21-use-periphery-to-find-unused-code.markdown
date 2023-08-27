@@ -3,7 +3,7 @@ layout: post
 title: "Use Periphery to find unused code"
 date: 2023-08-21 07:00:00 -0300
 tags: [coding, swift, swiftui]
-thumbnail-img: "{{static.static_files}}/resources/periphery/logo.png"
+thumbnail-img: "/resources/periphery/logo.png"
 ---
 
 From time to time, it might be a good idea to spend a couple of hours checking if there is some code in the codebase that is not being used anymore.
