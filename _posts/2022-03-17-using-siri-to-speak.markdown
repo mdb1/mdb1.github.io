@@ -6,7 +6,6 @@ comments: true
 tags: [iOS]
 ---
 
-
 It’s **really** easy to use Apple’s Speech mechanism to make your app read text out loud to the users:
 
 ```swift
