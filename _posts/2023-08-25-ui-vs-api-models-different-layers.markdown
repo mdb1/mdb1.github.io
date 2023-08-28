@@ -200,7 +200,7 @@ We could add disk cache capabilities in this layer. We could also provide an enu
 
 We should provide a way to "clear" the repositories, so, for example, we clear all the data on log out.
 
-This layer will be covered deeply in a follow up article.
+This layer is covered in more detail [here](/2023-08-28-combine-based-repository/).
 
 * [Repository Code](https://github.com/mdb1/ModelsExampleApp/blob/main/Packages/Pokemon/Sources/PokemonData/PokemonRepository.swift)
 * [Repository Tests](https://github.com/mdb1/ModelsExampleApp/blob/main/Packages/Pokemon/Tests/PokemonDataTests/PokemonRepositoryTests.swift)
