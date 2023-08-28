@@ -5,7 +5,6 @@ date:   2023-03-04 07:00:00 -0300
 tags: [iOS, testing]
 ---
 
-
 I've been thinking for a while now on how most of the SwiftUI views that depend on a state end up looking pretty similar.
  
 Example (using the [ViewState](/2023-01-08-new-app-view-state/) enum):
@@ -393,3 +392,6 @@ struct Pokemon: Identifiable {
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/view-state-controller/6-modifying-ids.mp4" type="video/mp4">
 </video>
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}
