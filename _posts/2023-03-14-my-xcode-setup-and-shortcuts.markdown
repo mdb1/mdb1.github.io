@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Xcode Setup and Short Cuts"
+title:  "My Xcode Setup and Shortcuts"
 date:   2023-03-14 07:00:00 -0300
 tags: [iOS, tools, productivity]
 ---
