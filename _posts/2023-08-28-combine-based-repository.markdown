@@ -8,7 +8,7 @@ thumbnail-img: "/resources/repository-combine/thumbnail.jpg"
 readtime: true
 ---
 
-In the last article ([UI vs API models](/2023-08-25-ui-vs-api-models-different-layers/)) we talk briefly about the Repository layer. 
+In the last article ([UI vs API models](/2023-08-25-ui-vs-api-models-different-layers/)) we talked briefly about the Repository layer. 
 
 Now it's time to look closer into this layer, and how we can use Combine publishers to help drive the state of our views and our apps.
 
