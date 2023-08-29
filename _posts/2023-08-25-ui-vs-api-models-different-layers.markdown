@@ -3,7 +3,7 @@ layout: post
 title: "UI vs API Models"
 subtitle: "A structured approach"
 date: 2023-08-25 07:00:00 -0300
-tags: [iOS]
+tags: [iOS, testing]
 thumbnail-img: "/resources/ui-api-models/thumbnail.jpg"
 readtime: true
 ---

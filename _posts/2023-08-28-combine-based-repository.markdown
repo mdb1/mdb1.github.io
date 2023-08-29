@@ -3,7 +3,7 @@ layout: post
 title: "Combine Repository"
 subtitle: "Publishing Changes to all the observers"
 date: 2023-08-28 07:00:00 -0300
-tags: [iOS]
+tags: [iOS, testing]
 thumbnail-img: "/resources/repository-combine/thumbnail.jpg"
 readtime: true
 ---
