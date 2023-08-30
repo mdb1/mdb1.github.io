@@ -50,6 +50,8 @@ _Tip: You can `Command + Click` on the files in the console to open them with Xc
 
 I think a natural next step for the tool would be to make it a Ruby Gem, so people can start using it via bundler.
 
+Also, it should be pretty easy to provide support for other extensions.
+
 ## Related Articles
 
 - [My Xcode Setup and Shortcuts](/2023-03-14-my-xcode-setup-and-shortcuts/)
