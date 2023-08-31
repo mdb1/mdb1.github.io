@@ -38,13 +38,34 @@ Aside from checking against the US dictionary, the script will also check agains
 
 Each of our projects contain several words that are not included in the US dictionary. My name, for example, is not in there.
 
-You can add custom words to a [learned_words.txt](https://github.com/mdb1/SwiftTypoDetector/blob/main/learned_words.txt) file to make the tool aware of them.
+You can add custom words to one or multiple [learned_words.txt](https://github.com/mdb1/SwiftTypoDetector/blob/main/learned_words.txt) files to make the tool aware of them.
+
+The script will find all the files named `learned_words.txt` in your project, and learn all the words.
 
 ## Demo
 
 ![diagram]({{static.static_files}}/resources/swift-typo-detector/demo.png)
 
 _Tip: You can `Command + Click` on the files in the console to open them with Xcode._
+
+## Console alias
+
+You could create a custom method and add it to your `.zshrc`:
+
+`1.` - `vim ~/.zshrc`
+
+`2.`
+```bash
+typos() {
+  original_dir=$(pwd)
+  cd ~/path/to-the-tool/SwiftTypoDetector
+  ./find_typos.rb "${original_dir}/$1"
+  cd - > /dev/null  # Go back to the original directory
+}
+```
+
+`3.` - `source ~/.zshrc`
+`4.` - `cd your/project/path && typo ./`
 
 ## Next Steps
 
