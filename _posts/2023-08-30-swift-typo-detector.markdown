@@ -65,7 +65,8 @@ typos() {
 ```
 
 `3.` - `source ~/.zshrc`
-`4.` - `cd your/project/path && typo ./`
+
+`4.` - `cd your/project/path && typos`
 
 ## Next Steps
 
