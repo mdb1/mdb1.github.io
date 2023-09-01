@@ -3,6 +3,7 @@ layout: post
 title:  "New App Checklist"
 date:   2022-12-24 07:00:00 -0300
 comments: true
+thumbnail-img: "/resources/new-app-checklist/thumbnail.jpeg"
 tags: [iOS, testing]
 ---
 
