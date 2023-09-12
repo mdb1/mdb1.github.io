@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "StateObject vs ObservedObject"
-subtitle: "The differences explained and some issues to avoid"
+subtitle: "The differences explained and some mistakes to avoid"
 date: 2023-09-12 07:00:00 -0300
 tags: [iOS, testing]
 thumbnail-img: "/resources/state-vs-observed/thumbnail.jpg"
