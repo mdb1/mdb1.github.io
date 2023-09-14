@@ -17,11 +17,16 @@ enum UserStatus: String {
 
     init(from decoder: Decoder) throws {
         guard let rawValue = try? decoder.singleValueContainer().decode(String.self) else {
-            print("Unknown value for \(Self.self).")
+            Logger.log(.err, "Can't decode a String value from \(Self.self).")
             self = .unknown
             return
         }
-        self = UserStatus(rawValue: rawValue) ?? .unknown
+        if let knownValue = UserStatus(rawValue: rawValue) {
+            self = knownValue
+        } else {
+            Logger.log(.err, "Unknown value (\(rawValue)) for \(Self.self).")
+            self = .unknown
+        }
     }
 }
 
