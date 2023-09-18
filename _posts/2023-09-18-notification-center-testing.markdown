@@ -80,7 +80,7 @@ Test Suite 'ViewModelTests' passed at 2023-09-18 12:55:04.484.
 
 ## Testing code that is executed on a different thread
 
-So far, we haven't had any issues testing our notification center code, but what happens, if we need to execute a `Task` inside our publisher?
+So far, we haven't had any issues testing our notification center code, but what happens if we need to execute a `Task` inside our publisher?
 
 Let's say we modify our publisher observer code in the view model to:
 
@@ -104,13 +104,13 @@ If we run the test again we get a failure ❌:
 
 _Note: on some machines this could work, given the test is now a flaky one._
 
-What happens here is that the `Task` modifier is creating a new async context where the code will be executed (probably on a different thread), so the assertion line is executed before the code inside the `Task`.
+What happens here, is that the `Task` modifier is creating a new async context where the code will be executed (probably on a different thread), so the assertion line is executed before the code inside the `Task`.
 
 **So how do we fix it without compromising the source code?**
 
 The easiest fix would be to add a `Task.sleep` line in our test, but that is not the best solution we can think of. The main issue with this is that the optimal amount of time to sleep does not exist, given it would depend on the hardware of the computer running the test, so no matter which number we choose, it will either be too big (slowing down the test times), or too small (increasing the chance of failing on some machines and introducing flakiness).
 
-So what about polling? We could create a helper method that posts the notification and then polls every `n` milliseconds until some arbitrary condition:
+**So what about polling?** We could create a helper method that posts the notification and then polls every `n` milliseconds until some arbitrary condition is met:
 
 ```swift
 extension XCTestCase {
