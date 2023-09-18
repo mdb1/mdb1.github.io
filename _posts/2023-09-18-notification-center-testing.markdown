@@ -174,7 +174,7 @@ As it was expected, the tests take a little bit more time to execute that the sy
 * With Task: 18,106 seconds for 10.000 tests = ~0,0018 seconds per test
 * Synchronous: 14,86 seconds for 10.000 tests = ~0,0014 seconds per test
 
-Even thought there is a 28% time difference per test, but we successfully tested the NotificationCenter + Task code, so I think the trade-off is more than fine (subjective).
+Even though there is a 28% time difference per test, we have successfully tested the NotificationCenter publishers with `Task`s, so I think the trade-off is more than fine (subjective thought).
 
 ## Conclusion
 
