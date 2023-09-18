@@ -100,5 +100,9 @@ final class ViewModelTests: XCTestCase {
 
 ---
 
+## Related Articles
+
+- [Testing Notification Center](/2023-09-18-notification-center-testing/)
+
 <!-- Do not remove - SEO meta tags -->
 {% seo %}
