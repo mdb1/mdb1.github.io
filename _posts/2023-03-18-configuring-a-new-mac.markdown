@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Configuring a new MacBook"
-date:   2023-03-18 07:00:00 -0300
+title: "Configuring a new MacBook"
+date: 2023-03-18 07:00:00 -0300
 tags: [productivity, tools]
 ---
 

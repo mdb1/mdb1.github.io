@@ -20,7 +20,7 @@ Then Xcode will underline with a red line the words with typos.
 
 ## 2. Disable `print` keyboard binding shortcut
 
-The default keyboard shortcut for `printing` the code (IN PAPER!!) is `⌘ + P`, which is really close to our beloved `⌘ + Shift + O`, and sometimes we hit it by mistake.
+The default keyboard shortcut for `printing` the code (IN PAPER!!) is `⌘ + P`, which is really close to our beloved `⌘ + ⇧ + O`, and sometimes we hit it by mistake.
 
 A quick solution for that is to change or remove the binding of the `print` action.
 
@@ -47,15 +47,16 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 # Shortcuts
 
 ## macOS
-* Custom: `⌘ + Shift + S` → Select area + screenshot + copy it to clipboard
+* Custom: `⌘ + ⇧ + S` → Select area + screenshot + copy it to clipboard (Check how to add it in [this article](/2023-03-18-configuring-a-new-mac/))
 * `⌘ + ⌃ + Space` → Open Emoji Keyboard
 * `^ + →` → Move one space to the right
 * `^ + ←` → Move one space to the left 
 * `^ + ↑` → Open Mission Control
 * `⌘ + Space` → Open Spotlight Search
 * `⌘ + delete` → Send item to trash
-* `⌘ + Shift + delete` → Empty trash
+* `⌘ + ⇧ + delete` → Empty trash
 * `⌘ + ⌥ + W` → Close all windows
+* With `FlyCut` installed: `⌘ + ⇧ + V` (Access Clipboard history)
 
 ### Typing
 * `⌥ + delete` → Delete entire word
@@ -65,27 +66,58 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 * `⌘ + ⌥ + W` → Close all windows
 
 ## Chrome
-* `Command + T` → New tab
-* `Command + Shift + T` → Reopen closed tab
-* `Command + L` → Focus on the address bar
+* `⌘ + L` → Focus on the address bar
+* `⌘ + T` → New tab
+* `⌘ + ⇧ + T` → Reopen closed tab
+* `⌘ + R` → Refresh
+* `⌘ + ⇧ + R` → Force Refresh
 
 ## Notion
 * `⌘ + K` → Global Search
+* `⌘ + T` → New File
+* `⌘ + R` → Refresh
 
 ## Xcode
-* `⌘ + Shift + O` → Open file/method/struct quickly
-* `⌘ + Shift + J` → Display selected file in the folder hierarchy
-* `^ + Shift + Drag click` → Multi Cursor
+* `⌃ + ⇧ + Click(s)` → Multi Cursor on selected clicks
+* `^ + ⇧ + Drag click` → In-line Multi Cursor
+
+* `⌘ + 0` → Hide/Show the Navigator (Left panel)
+* `⌘ + ,` → Open Preferences
+* `⌘ + ;` → Check next typo in the current file
+* `⌘ + L` → Go to line Number
+* `⌘ + N` → New File
+
+* `⌘ + ⇧ + J` → Display and select current file in the folder hierarchy
+* `⌘ + ⇧ + O` → Open file/method/struct quickly
+
 * `⌘ + ^ + ←` → Back to previous file
 * `⌘ + ^ + →` → Forward to next file
-* `⌘ + A` + `^ + I` → Indent file
-* `⌘ + ,` → Open Preferences
-* `⌘ + N` → New File
-* `^ + ⌘ + L + → + →` → Show/Hide all issues
-* `⌥ + ⌘ + W` → Close all tabs but the current one
-* `⌥ + ⌘ + ]` → Move line up
-* `⌥ + ⌘ + [` → Move line down
-* `⌥ + ⌘ + /` → Add docs template to the selected method/property
+* `⌘ + ^ + L` → Show/Hide all issues
+* `⌘ + ^ + T` → New Editor to the right
+
+* `⌘ + ⌥ + 0` → Hide/Show the Inspectors (Right panel)
+* `⌘ + ⌥ + /` → Add docs template to the selected method/property
+* `⌘ + ⌥ + ]` → Move line up
+* `⌘ + ⌥ + [` → Move line down
+* `⌘ + ⌥ + W` → Close all tabs but the current one
+
+### Xcode combos
+* Rename a file: 
+1. `Highlight the new name`
+2. `⌘ + C` → Copy
+3. `⌘ + ⇧ + J` → Display and select current file in the folder hierarchy
+4. `Enter` → Edit the file name
+5. `⌘ + V` → Paste
+6. `Enter` → Save the new name
+
+* Indent file:
+1. `⌘ + A` → Select All
+2. `^ + I` → Indent file
+
+* Add a new Editor (and space):
+1. `⌘ + 0` → Hide/Show the Navigator (Left panel)
+2. `⌘ + ⌥ + 0` → Hide/Show the Inspectors (Right panel)
+3. `⌘ + ^ + T` → New Editor to the right
 
 # Time Savers
 
@@ -113,6 +145,12 @@ Then you can just type the `cdp` command on your console, and it will change the
 `alias pformat='cd ~/projects/your-project/ && swift run -c release swiftformat --swiftversion 5.7'`
 
 Then you can just type the `pformat` command on your console, and it will run the formatter on your project.
+
+### Find typos
+
+Follow the steps in the [SwiftTypoDetector article](/2023-08-30-swift-typo-detector/).
+
+Then just run `typos` in the terminal.
 
 ---
 
