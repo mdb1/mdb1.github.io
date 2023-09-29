@@ -23,6 +23,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [UserPreferences Storage](/2023-04-18-user-preferences/)
   - [Networking](https://github.com/mdb1/CoreNetworking)
     - [NetworkLogger](/2023-05-27-network-logger/)
+    - [Force Update Mechanism](/2023-09-29-force-update-mechanism/)
 - Extensions / Helpers
   - [ViewState](/2023-01-08-new-app-view-state/)
   - [ViewStateController](/2023-03-04-view-state-controller/)
