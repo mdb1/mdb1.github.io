@@ -3,6 +3,7 @@ layout: post
 title:  "New App - Components"
 date:   2023-01-04 07:00:00 -0300
 comments: true
+thumbnail-img: "/resources/new-app-components/thumbnail.jpg"
 tags: [iOS]
 ---
 
@@ -69,6 +70,10 @@ The code can be found [here](https://github.com/mdb1/UIComponents/blob/main/Sour
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/new-app-components/carousel.mp4" type="video/mp4">
 </video>
+
+## AdaptableStack
+
+* [AdaptableStack](/2023-10-07-adaptable-stack/)
 
 ---
 
