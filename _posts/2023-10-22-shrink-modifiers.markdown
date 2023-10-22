@@ -17,7 +17,7 @@ I find these modifiers pretty useful when trying to add some interactions to my 
 In this video:
 
 * The `plus` image has the `LongPressShrink` modifier, so the count increases once the LongPress gesture is successfully finished (0.5 seconds of continuous tap).
-* The `Hello, World!` Text has the `TapShrink` modifier, so the count increases once the tap gesture ends. 
+* The `Increase Count` Text has the `TapShrink` modifier, so the count increases once the tap gesture ends. 
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/modifiers-shrink/shrink.mp4" type="video/mp4">
