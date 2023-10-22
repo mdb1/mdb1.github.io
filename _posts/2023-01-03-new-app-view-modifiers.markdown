@@ -26,5 +26,8 @@ Some examples:
 ### EmbedInStack
 <script src="https://gist.github.com/mdb1/b0a08fb08b95d7086945c68dd574c5e0.js"></script>
 
+### ShrinkModifiers
+* [ShrinkModifiers](/2023-10-12-shrink-modifiers/)
+
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

@@ -60,6 +60,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - RoundedOverlayBorder
   - Scrollable
   - DelayAppearance
+  - [TapShrink / LongPressShrink](/2023-10-22-shrink-modifiers/)
 - [Localization](/2022-12-27-new-app-localization/)
 - [Unit test helpers](/2023-02-02-new-app-testing-helpers/)
   - assertMemoryDeallocation
