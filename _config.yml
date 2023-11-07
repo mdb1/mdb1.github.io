@@ -58,6 +58,7 @@ navbar-links:
     - Books: "/tags/#books"
     - iOS: "/tags/#iOS"
     - Productivity: "/tags/#productivity"
+    - Random: "/tags/#random"
     - Testing: "/tags/#testing"
     - Tools: "/tags/#tools"
   About the Blog: "about/index.html"
