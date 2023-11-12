@@ -93,6 +93,12 @@ struct ContentView: View {
 
 ---
 
+Some key aspect to consider here, would be accessibility, given the components to which we are applying the modifiers are not buttons, we are losing the default accessibility features that Apple provides when using the Button component.
+
+Related: [Tap Gesture vs Button](https://david.y4ng.fr/tap-gesture-vs-button/) by [David Yang](https://david.y4ng.fr/).
+
+---
+
 ## Related Articles
 
 * [New App - Checklist](/2022-12-24-new-app-checklist/)
