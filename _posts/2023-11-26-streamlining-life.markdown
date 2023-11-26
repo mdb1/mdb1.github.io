@@ -28,7 +28,7 @@ Over the past few years, I've been refining my lifestyle with a focus on product
 ## Kitchen
 
 - **Minimalist Cutlery:** I keep only two sets of cutlery and plates readily accessible, encouraging cleanliness and order.
-Alphabetical Organization: Cutlery is arranged in Spanish alphabetical order: "Cuchara - Cuchillo - Tenedor".
+- **Alphabetical Organization:** Cutlery is arranged in Spanish alphabetical order: "Cuchara - Cuchillo - Tenedor".
 
 ## Bedroom
 
