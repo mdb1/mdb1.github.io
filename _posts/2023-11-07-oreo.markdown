@@ -12,19 +12,26 @@ On August 30th, 2023, a spirited long-haired black and cream mini dachshund name
 
 ![oreo]({{static.static_files}}/resources/oreo/oreo.jpeg)
 
-
 Oreo is a bundle of energy, growing rapidly, and teaching me new things every day. I'd like to share some insights, tips, and personal experiences that I've gathered from dog trainers and fellow dog parents.
 
-## General Insight
+#### Table Of Contents:
+- [General Insight](#general-insight)
+- [Food](#food)
+- [Routines](#routines)
+- [Hygiene](#hygiene)
+- [Training](#training)
+- [Related Articles](#related-articles)
+
+# General Insight
 * **Age to Bring a Puppy Home**: I learned that it's not recommended to bring a puppy home at only 45 days old. Puppies learn crucial behaviors from their mother up to about 60 days. Oreo's biting habits are a testament to this, as she often tries to nibble on my hands or face, which we're actively working on.
 * `The golden rule`: **Contiguity and Contingency**: Creating associations is key. For instance, if `x` happens, I will immediately do `y`. Puppies are incredibly receptive during their early days.
 * **Socialization period**: Until dogs are 4 months old (which is when the `fear` neurons starts to form) we need to expose our dogs to everything we can, and make those experiences good for them. Examples: People, other dogs, other animals, noisy spaces, cars, trucks, different surfaces, old people, young people, people in wheelchairs, kids playing, etc.
 * **Vaccinations**: She had 1 vaccine when she came home, my veterinarian told me that she needs to be vaccinated every 3 weeks, and that she can start walking outside 10 days after the 4th vaccine. It's recommended that we take her to our walks, but she can't touch the floor.
 
-## Food
+# Food
 * **Feeding Guidelines**: Dog food bags provide feeding instructions based on the dog's weight. It's best to divide the daily amount into three meals and remove their plate once they're finished to establish a routine and aid in house training.
 
-## Routines
+# Routines
 * **Stimulating Activities**: Dogs thrive on both physical and mental stimulation. Establishing a written schedule for your dog's activities is crucial. Assign a family member to oversee each part of the routine, such as walks and meals. Example:
   * First walk - 08:00 - Owner: x
   * First meal - 08:30 - Owner: x
@@ -34,19 +41,19 @@ Oreo is a bundle of energy, growing rapidly, and teaching me new things every da
   * Third meal - 20:00 - Owner: y
 * **Commands List**: Make a list of all the commands you teach them. Examples may include: Sit, Stand, Roll, Down, etc. It's important to create associations using the same word every time.
 
-## Hygiene
+# Hygiene
 * **House Training**: Praise and treat your dog when they pee in the correct spot. If they have an accident elsewhere, clean it up without reprimand. Patience is key during this learning phase. Tools like dog diapers and hygienic boxes can help guide them to the right spot.
   * I got these [dog-diapers](https://www.mercadolibre.com.ar/panos-sanitarios-absorbentes-home-guard-56x56cm-50-unidades/p/MLA25543998?pdp_filters=item_id:MLA1547599950#is_advertising=true&searchVariation=MLA25543998&position=1&search_layout=stack&type=pad&tracking_id=42da51e1-c5bc-4a7b-9bf3-bd65f645e613&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=MTIxMzQwZGEtZDQzOS00ZjA1LWJjMmQtNmZhYTA1MmNkMjVm) for the floor.
   * And this [hygienic box](https://pethome.com.ar/shop/pet-box-premium-s-repuesto/)
   * The dog seems to gravitate towards those more often than not.
 
-## Training
+# Training
 * **Consistency**: Adhere to `the golden rule` mentioned earlier. Short daily training sessions of 5-10 minutes can be very effective.
 * **Progressive Learning**: Start with simple commands and gradually increase complexity. Oreo's first tricks were 'Sit', 'Stand', and 'Down'. We're currently focusing on curbing her biting habit.
 
 ---
 
-## Related Articles
+# Related Articles
 
 * [Rules and Habits for a better life](/2022-01-15-rules-and-habits/)
 

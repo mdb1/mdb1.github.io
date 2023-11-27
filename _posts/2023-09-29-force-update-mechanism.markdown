@@ -12,6 +12,14 @@ In the ever-evolving landscape of mobile applications, keeping your app up-to-da
 
 In this article, we'll explore how to implement a Force Update mechanism in an iOS app using Combine for the networking layer and SwiftUI for the UI. We'll start by setting up a publisher in the networking layer that triggers an event when an update is required. Then, we'll see how to listen for this event in the SwiftUI app to replace the main window with a Force Update screen. Finally, we'll discuss how to block all further network requests until the app is updated.
 
+#### Table Of Contents:
+- [Networking Layer: Setting Up the Publisher with Combine](#networking-layer-setting-up-the-publisher-with-combine)
+- [SwiftUI App: Listening for Force Update Events](#swiftui-app-listening-for-force-update-events)
+- [Testing](#testing)
+- [Next Steps](#next-steps)
+- [Conclusion](#conclusion)
+- [Related Articles](#related-articles)
+
 ## Networking Layer: Setting Up the Publisher with Combine
 
 To detect when a Force Update is required, we'll set up a publisher in the networking layer that listens for a specific trigger from the backend. Once this trigger is received, the publisher will emit an event to notify the app.

@@ -12,7 +12,13 @@ I want to talk a little bit about testing the code around the NotificationCenter
 
 _Note: Some of the code used in this article can be found in [this previous article](/2023-08-12-new-app-notification-center-protocols/)._
 
-## Testing Synchronous Code
+#### Table Of Contents:
+- [Testing Synchronous Code](#testing-synchronous-code)
+- [Testing code that is executed on a different thread](#testing-code-that-is-executed-on-a-different-thread)
+- [Conclusion](#conclusion)
+- [Related Articles](#related-articles)
+
+# Testing Synchronous Code
 
 This is the easiest one, given the NotificationCenter code _[runs synchronously on the posting thread](https://developer.apple.com/documentation/foundation/notificationcenter/1411723-addobserver)_ we can just test our code synchronously.
 
@@ -78,7 +84,7 @@ Test Suite 'ViewModelTests' passed at 2023-09-18 12:55:04.484.
 	 Executed 10000 tests, with 0 failures (0 unexpected) in 7.035 (14.860) seconds
 ```
 
-## Testing code that is executed on a different thread
+# Testing code that is executed on a different thread
 
 So far, we haven't had any issues testing our notification center code, but what happens if we need to execute a `Task` inside our publisher?
 
@@ -176,7 +182,7 @@ As it was expected, the tests take a little bit more time to execute that the sy
 
 Even though there is a 28% time difference per test, we have successfully tested the NotificationCenter publishers with `Task`s, so I think the trade-off is more than fine (subjective thought).
 
-## Conclusion
+# Conclusion
 
 Testing NotificationCenter code can be straightforward when the code runs synchronously. However, when introducing asynchronous code or custom queues, additional strategies like polling are needed to ensure our tests are both accurate and efficient.
 
@@ -186,7 +192,7 @@ By understanding the nuances of how NotificationCenter works and how to effectiv
 
 ---
 
-## Related Articles
+# Related Articles
 
 - [NotificationCenterProtocols](/2023-08-12-new-app-notification-center-protocols/) 
 

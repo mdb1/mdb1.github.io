@@ -12,7 +12,16 @@ In the world of mobile app development, `accessibility` is not just a feature; i
 
 Designing your app to be accessible to everyone, including people with disabilities, is not only a good practice but also opens your app to a wider audience. One of the challenges in achieving this is to make your UI adaptable to different text sizes, especially when you're working with stacks like `HStack` and `VStack` in SwiftUI. That's where `AdaptableStack` comes in handy.
 
-## What is an AdaptableStack?
+#### Table Of Contents:
+- [What is an AdaptableStack?](#what-is-an-adaptablestack)
+  - [Why is it important?](#why-is-it-important)
+  - [How to use it?](#how-to-use-it)
+  - [The Result](#the-result)
+    - [Demo:](#demo)
+- [Conclusion](#conclusion)
+- [Related Articles](#related-articles)
+
+# What is an AdaptableStack?
 
 `AdaptableStack` is a custom SwiftUI view that dynamically switches between `HStack` and `VStack` based on the user's dynamic text size settings. This is particularly useful for supporting accessibility features like Dynamic Type, which allows users to adjust the text size across the system and in apps that support it.
 
@@ -90,7 +99,7 @@ Whereas **without** the AdaptableStack, here is how the same code would look:
 
 ---
 
-## Conclusion
+# Conclusion
 
 `AdaptableStack` offers a simple yet effective way to make your SwiftUI apps more accessible and user-friendly. 
 
@@ -100,7 +109,7 @@ So the next time you're working on a SwiftUI project, consider using `AdaptableS
 
 ---
 
-## Related Articles
+# Related Articles
 
 * [New App - Checklist](/2022-12-24-new-app-checklist/)
 * [New App - Components](/2023-01-04-new-app-components/)

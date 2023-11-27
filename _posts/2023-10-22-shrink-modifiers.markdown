@@ -12,7 +12,16 @@ These are some simple view modifiers that add shrinking customizable animations 
 
 I find these modifiers pretty useful when trying to add some interactions to my UIs.
 
-## Demo
+#### Table Of Contents:
+- [Demo](#demo)
+- [TapShrinkModifier](#tapshrinkmodifier)
+  - [Usage:](#usage)
+- [LongPressShrinkModifier](#longpressshrinkmodifier)
+  - [Usage:](#usage-1)
+- [The Code from the video:](#the-code-from-the-video)
+- [Related Articles](#related-articles)
+
+# Demo
 
 In this video:
 
@@ -23,11 +32,11 @@ In this video:
     <source src="{{static.static_files}}/resources/modifiers-shrink/shrink.mp4" type="video/mp4">
 </video>
 
-## TapShrinkModifier
+# TapShrinkModifier
 
 <script src="https://gist.github.com/mdb1/4680d796b91c370eb07ba6f6da1d6775.js"></script>
 
-### Usage:
+## Usage:
 
 ```swift
 someView
@@ -37,11 +46,11 @@ someView
     }
 ```
 
-## LongPressShrinkModifier
+# LongPressShrinkModifier
 
 <script src="https://gist.github.com/mdb1/85215950d5066dcd3c320a39eae0be7c.js"></script>
 
-### Usage:
+## Usage:
 
 ```swift
 someView
@@ -52,7 +61,7 @@ someView
     }
 ```
 
-## The Code from the video:
+# The Code from the video:
 
 If you want to try it out, just create some files with the view modifiers code from above. Here is the code from the Preview in the Demo Video:
 
@@ -99,7 +108,7 @@ Related: [Tap Gesture vs Button](https://david.y4ng.fr/tap-gesture-vs-button/) b
 
 ---
 
-## Related Articles
+# Related Articles
 
 * [New App - Checklist](/2022-12-24-new-app-checklist/)
 * [New App - Components](/2023-01-04-new-app-components/)

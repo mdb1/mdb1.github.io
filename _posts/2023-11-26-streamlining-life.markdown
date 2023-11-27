@@ -10,6 +10,20 @@ readtime: true
 
 Over the past few years, I've been refining my lifestyle with a focus on productivity and wellbeing. I've developed strategies, habits, and hacks that have significantly improved my time management, execution, and overall satisfaction. I'm documenting these not just to share with others but also to revisit them in the future, assessing their long-term impact.
 
+#### Table Of Contents:
+- [Home](#home)
+  - [A Place for Everything](#a-place-for-everything)
+  - [Prepare the environment](#prepare-the-environment)
+  - [Clothes system](#clothes-system)
+  - [Kitchen](#kitchen)
+  - [Bedroom](#bedroom)
+  - [Groceries](#groceries)
+  - [Lights - Motion Sensors](#lights---motion-sensors)
+- [Reminders](#reminders)
+- [Life](#life)
+  - [Meal Logging](#meal-logging)
+- [Related Articles](#related-articles)
+
 # Home
 
 ## A Place for Everything
@@ -42,7 +56,7 @@ This saves a lot of time, given I don't have to go the supermarket, and I also d
 
 My tip here would be to start writing down the items you usually need, and which brands you like the most. Over time, you will get a list packed with all the things you like.
 
-## Lights & Motion Sensors
+## Lights - Motion Sensors
 
 - **Automated Lighting:** Philips Hue bulbs and motion sensors provide convenient and adjustable lighting throughout my home.
 
@@ -52,6 +66,12 @@ My tip here would be to start writing down the items you usually need, and which
 
 I use Google Tasks integrated with Google Calendar for routine reminders, such as bill payments, weekly planning, and personal care tasks. Despite some overlap with Notion, which I use for day-to-day tasks, this system works well for me.
 
+**Notion Daily TODOs:**
+![Monthly ToDos]({{static.static_files}}/resources/h-mode/month-to-dos.png)
+
+**Google Reminders:**
+![Reminders]({{static.static_files}}/resources/streamlining-life/reminders.jpg)
+
 ---
 
 # Life
@@ -60,13 +80,25 @@ I use Google Tasks integrated with Google Calendar for routine reminders, such a
 - **Trusted Contacts:** A curated list in Notion of reliable service providers.
 - **Travel Packing:** A default packing list in Notion ensures I never forget essentials.
 - **Professional Development:** Daily article reading in my industry.
-- **Meal Logging:** A Notion calendar to track my meals.
 - **Fashion Choices:** I prefer clothing from Zara, Hollister, Adidas, and Nike.
 - **Training:** I have a personal trainer that handles all my routines.
 
+## Meal Logging
+I have A Notion calendar to track my meals.
+
+This is great because it contains a one-to-many relationship to my people database, so I know who I shared each meal with.
+
+It also contains a one-to-one relationship with my Restaurant database.
+
+**Meal Log:**
+![meal-log]({{static.static_files}}/resources/streamlining-life/meal-log.png)
+
+**Person Page:**
+![person-log]({{static.static_files}}/resources/streamlining-life/person-log.png)
+
 ---
 
-## Related Articles
+# Related Articles
 
 * [Rules and Habits for a better life](/2022-01-15-rules-and-habits/)
 * [H mode](/2022-10-26-h-mode/) 
