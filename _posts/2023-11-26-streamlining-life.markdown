@@ -21,7 +21,11 @@ Over the past few years, I've been refining my lifestyle with a focus on product
   - [Lights - Motion Sensors](#lights---motion-sensors)
 - [Reminders](#reminders)
 - [Life](#life)
+  - [Health / Fitness](#health--fitness)
   - [Meal Logging](#meal-logging)
+  - [My Profession](#my-profession)
+  - [Travel](#travel)
+  - [Other](#other)
 - [Related Articles](#related-articles)
 
 # Home
@@ -76,12 +80,11 @@ I use Google Tasks integrated with Google Calendar for routine reminders, such a
 
 # Life
 
+## Health / Fitness
+
 - **Health Tracking:** I maintain a Notion database of medical appointments.
-- **Trusted Contacts:** A curated list in Notion of reliable service providers.
-- **Travel Packing:** A default packing list in Notion ensures I never forget essentials.
-- **Professional Development:** Daily article reading in my industry.
-- **Fashion Choices:** I prefer clothing from Zara, Hollister, Adidas, and Nike.
 - **Training:** I have a personal trainer that handles all my routines.
+- **Appointment Reminders:** I have reminders every 6 months to go to the dentist, and to schedule a call with my main doctor. Every 1 year, to take a blood test. And every 3 months with the nutritionist.
 
 ## Meal Logging
 I have A Notion calendar to track my meals.
@@ -95,6 +98,22 @@ It also contains a one-to-one relationship with my Restaurant database.
 
 **Person Page:**
 ![person-log]({{static.static_files}}/resources/streamlining-life/person-log.png)
+
+## My Profession
+
+- **Professional Development:** Daily article reading in my industry.
+- **Write articles:** Maintaining this blog and writing about things I find cool.
+
+I really enjoy what I do, so I don't find myself relying on productivity hacks to stay productive at work. I just enjoy what I do and I'm really happy with how I feel and the results I can produce.
+
+## Travel
+
+- **Travel Packing:** A default packing list in Notion ensures I never forget essentials.
+
+## Other
+
+- **Trusted Contacts:** A curated list in Notion of reliable service providers.
+- **Fashion Choices:** I prefer clothing from Zara, Hollister, Adidas, and Nike. I also only use 1 brand for underwear, and 1 brand for socks. In fact, all of my socks are the exact same model/color, so every one of them is a pair with any other one.
 
 ---
 
