@@ -25,9 +25,9 @@ Here's a list of recommended Mac apps to download:
 
 ## From the AppStore
 * Xcode
-* Fantastical
 * Slack
 * Flycut
+* [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 
 ## From the internet
 * Google Chrome
@@ -36,6 +36,8 @@ Here's a list of recommended Mac apps to download:
 * iTerm2
 * SourceTree
 * Visual Studio Code
+* [Insomnia](https://insomnia.rest/)
+* [Proxyman](https://proxyman.io/)
 
 ### Google Chrome
 - Make default browser
