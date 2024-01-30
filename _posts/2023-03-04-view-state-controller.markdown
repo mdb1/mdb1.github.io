@@ -32,6 +32,21 @@ I wanted the framework to automatically handle:
 * Subsequent Loading states
 * Error state (and retry mechanism)
 
+#### Table Of Contents:
+- [View State Controller](#view-state-controller)
+- [ViewStateController Object](#viewstatecontroller-object)
+  - [ViewStateModifier](#viewstatemodifier)
+  - [LoadingModifierType](#loadingmodifiertype)
+  - [Usage](#usage)
+  - [Examples with code samples](#examples-with-code-samples)
+    - [Redacted](#redacted)
+    - [Changing the indicator view](#changing-the-indicator-view)
+    - [Changing Loading types](#changing-loading-types)
+    - [Using Custom Views](#using-custom-views)
+  - [Demo: Loading Type Options](#demo-loading-type-options)
+  - [Modifying Ids](#modifying-ids)
+    - [Demo: Modifying Ids](#demo-modifying-ids)
+
 # View State Controller
 
 I created a new SPM package and called it [ViewStateController](https://github.com/mdb1/ViewStateController):

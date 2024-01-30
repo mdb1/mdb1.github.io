@@ -7,6 +7,30 @@ tags: [iOS, tools, productivity]
 
 In this article, we'll explore some of the Xcode configurations and shortcuts that I find most useful and that can save you time and effort when working on your  projects.
 
+#### Table Of Contents:
+- [Xcode Configurations](#xcode-configurations)
+  - [1. Check Spelling While Typing](#1-check-spelling-while-typing)
+  - [2. Disable `print` keyboard binding shortcut](#2-disable-print-keyboard-binding-shortcut)
+  - [3. Use `⌘ + Click` to jump to definition](#3-use---click-to-jump-to-definition)
+  - [4. Text Editing Configurations](#4-text-editing-configurations)
+  - [5. Play sound on succeeded build](#5-play-sound-on-succeeded-build)
+- [Shortcuts](#shortcuts)
+  - [macOS](#macos)
+    - [Typing](#typing)
+    - [Finder](#finder)
+  - [Chrome](#chrome)
+  - [Notion](#notion)
+  - [Xcode](#xcode)
+    - [Xcode combos](#xcode-combos)
+- [Time Savers](#time-savers)
+  - [Xcode Templates](#xcode-templates)
+  - [Console Aliases](#console-aliases)
+    - [Remove derived data folder](#remove-derived-data-folder)
+    - [Change directory to your project folder](#change-directory-to-your-project-folder)
+    - [Automatic Formatter](#automatic-formatter)
+    - [Find typos](#find-typos)
+- [Conclusion](#conclusion)
+
 # Xcode Configurations
 
 ## 1. Check Spelling While Typing
