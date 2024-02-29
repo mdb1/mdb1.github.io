@@ -16,6 +16,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [Run unit tests in PRs](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane.md)
   - [Deploy builds](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane+Distribution.md)
 - Architecture
+  - [Centralized Dependencies](/2024-02-29-centralized-dependencies/)
   - [Enhancing Testability with Protocols](/2023-02-13-enhancing-testability-with-protocols/)
   - [Enhancing Testability without Protocols](/2023-02-03-enhancing-testability-without-protocols/)
   - [UI vs API Models](/2023-08-25-ui-vs-api-models-different-layers/)

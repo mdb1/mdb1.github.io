@@ -274,5 +274,9 @@ The complete code can be found in [this repository](https://github.com/mdb1/CatP
 
 You can also check out how to achieve the same results _without using protocols_ in [this post](/2023-02-03-enhancing-testability-without-protocols/).
 
+# Related Articles
+
+- [Centralized Dependencies](/2024-02-29-centralized-dependencies/)
+
 <!-- Do not remove - SEO meta tags -->
 {% seo %}
