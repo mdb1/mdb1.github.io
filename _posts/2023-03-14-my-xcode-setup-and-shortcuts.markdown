@@ -106,7 +106,7 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 * `^ + ⇧ + Drag click` → In-line Multi Cursor
 
 * `⌘ + 0` → Hide/Show the Navigator (Left panel)
-* `⌘ + ,` → Open Preferences
+* `⌘ + ,` → Open Settings
 * `⌘ + ;` → Check next typo in the current file
 * `⌘ + L` → Go to line Number
 * `⌘ + N` → New File

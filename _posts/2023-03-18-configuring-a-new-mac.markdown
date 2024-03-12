@@ -5,9 +5,30 @@ date: 2023-03-18 07:00:00 -0300
 tags: [productivity, tools]
 ---
 
-# Configuring a New MacBook: 5 Steps to Follow
-
 When setting up a new MacBook, there are a few steps you should take to get it up and running smoothly. In this article, we'll explore a list of items you should consider toggling to optimize your MacBook experience.
+
+#### Table Of Contents:
+- [Step 1: Update OS](#step-1-update-os)
+- [Step 2: Dock Customization](#step-2-dock-customization)
+- [Step 3: Log in to Existing Apple ID Account](#step-3-log-in-to-existing-apple-id-account)
+- [Step 4: Download Apps](#step-4-download-apps)
+  - [From the AppStore](#from-the-appstore)
+  - [From the internet](#from-the-internet)
+    - [Google Chrome](#google-chrome)
+    - [iTerm2](#iterm2)
+    - [SSH Keys](#ssh-keys)
+- [Step 5: Configure Settings](#step-5-configure-settings)
+  - [System Settings](#system-settings)
+    - [Notifications](#notifications)
+    - [Appearance](#appearance)
+    - [Control Center](#control-center)
+    - [Desktop and Dock](#desktop-and-dock)
+    - [Keyboard](#keyboard)
+    - [Trackpad](#trackpad)
+    - [Display](#display)
+  - [Finder Settings](#finder-settings)
+- [Additional Tips](#additional-tips)
+- [Conclusion](#conclusion)
 
 # Step 1: Update OS
 Before you start using your new MacBook, make sure to update the operating system to the latest version. This will ensure that your MacBook has the latest security updates and performance improvements.
@@ -54,7 +75,8 @@ If you are using SSH keys for your personal/work repositories:
     - Use a password to encrypt it.
     - You need to provide a name for your key. (Example: `personal`)
 2. Add the ssh key to your Github account.
-    - Copy the contents of the `.pub` file.
+    - Copy the contents of the `.pub` file. 
+      - `cat /Users/manu/.ssh/name-of-your-key | pbcopy`
     - Add the new SSH key in Github's configuration page.
 3. Configure [SSH Keys](https://superuser.com/questions/232373/how-to-tell-git-which-private-key-to-use/1519694#1519694) in your `~/.ssh/config` file. 
     It should look like this:
