@@ -76,7 +76,7 @@ If you are using SSH keys for your personal/work repositories:
     - You need to provide a name for your key. (Example: `personal`)
 2. Add the ssh key to your Github account.
     - Copy the contents of the `.pub` file. 
-      - `cat /Users/manu/.ssh/name-of-your-key | pbcopy`
+      - `cat ~/.ssh/name-of-your-key | pbcopy`
     - Add the new SSH key in Github's configuration page.
 3. Configure [SSH Keys](https://superuser.com/questions/232373/how-to-tell-git-which-private-key-to-use/1519694#1519694) in your `~/.ssh/config` file. 
     It should look like this:
