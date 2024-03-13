@@ -94,7 +94,7 @@ Now, it's time to run our tests using Github Actions.
 6. _(You will need `admin` rights)_
 7. Give it a name _(I usually use `SSH_PRIVATE_KEY`)_
 8. Paste the private key in the `Secret` box
-   1. cat /Users/manu/.ssh/name-of-your-key | pbcopy
+   1. `cat /Users/manu/.ssh/name-of-your-key | pbcopy`
 9.  Tap on `Add Secret`
 
 ## Create the yml file
