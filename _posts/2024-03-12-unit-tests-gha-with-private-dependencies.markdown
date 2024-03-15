@@ -128,7 +128,7 @@ jobs:
         ssh-private-key: { secrets.SSH_PRIVATE_KEY }
 
     - name: Run package unit tests
-      run: xcodebuild -project YourProjectName.xcodeproj -scheme "YourScheme" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=17.2' test | xcpretty
+      run: set -o pipefail && xcodebuild -project YourProjectName.xcodeproj -scheme "YourScheme" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=17.2' test | xcpretty --color
 ```
 
 That's it, the [webfactory/ssh-agent@v0.9.0](https://github.com/marketplace/actions/webfactory-ssh-agent) will take care of configuring the SSH key in the CI environment, and now you can access private repositories in your actions.
