@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "New App - OSLog"
+title: "New App - OSLog Console Logger"
 subtitle: "Leveraging OSLog in your console"
 date: 2024-03-19 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/unit-tests-gha-with-private-dependencies/thumbnail.jpeg"
+thumbnail-img: "/resources/new-app-os-log/logs.png"
 readtime: true
 ---
-
-// TODO: Thumbnail
 
 An updated version of the original [console log post](/2023-05-06-new-app-console-logger/), this time, using Apple's OSLog instead of a custom enum.
 
