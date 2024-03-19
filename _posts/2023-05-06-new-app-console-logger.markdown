@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "New App - Console Logger"
+title:  "New App - Console Logger [Deprecated]"
 date:   2023-05-06 07:00:00 -0300
 tags: [iOS, tools]
 ---
+
+# Edit:
+Note: This approach has been replaced with the usage of [OSLog](/2024-03-19-new-app-os-log/).
 
 # Introduction:
 When starting a new app, I usually like to set up a console logger right from the scratch.
