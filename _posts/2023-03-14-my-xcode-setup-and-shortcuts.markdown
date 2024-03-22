@@ -113,6 +113,7 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 
 * `⌘ + ⇧ + J` → Display and select current file in the folder hierarchy
 * `⌘ + ⇧ + O` → Open file/method/struct quickly
+* `⌘ + ⇧ + Y` → Show/Hide Debug Area (Console)
 
 * `⌘ + ^ + ←` → Back to previous file
 * `⌘ + ^ + →` → Forward to next file
@@ -139,9 +140,10 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 2. `^ + I` → Indent file
 
 * Add a new Editor (and space):
-1. `⌘ + 0` → Hide/Show the Navigator (Left panel)
-2. `⌘ + ⌥ + 0` → Hide/Show the Inspectors (Right panel)
-3. `⌘ + ^ + T` → New Editor to the right
+1. `⌘ + ^ + T` → New Editor to the right
+2. `⌘ + 0` → Hide/Show the Navigator (Left panel)
+3. `⌘ + ⌥ + 0` → Hide/Show the Inspectors (Right panel)
+4. `⌘ + ⇧ + Y` → Show/Hide Debug Area (Console)
 
 # Time Savers
 
