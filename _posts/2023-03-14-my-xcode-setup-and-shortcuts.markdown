@@ -110,6 +110,7 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 * `⌘ + ;` → Check next typo in the current file
 * `⌘ + L` → Go to line Number
 * `⌘ + N` → New File
+* `⌘ + Y` → Disable/Enable breakpoints
 
 * `⌘ + ⇧ + J` → Display and select current file in the folder hierarchy
 * `⌘ + ⇧ + O` → Open file/method/struct quickly
@@ -144,6 +145,15 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 2. `⌘ + 0` → Hide/Show the Navigator (Left panel)
 3. `⌘ + ⌥ + 0` → Hide/Show the Inspectors (Right panel)
 4. `⌘ + ⇧ + Y` → Show/Hide Debug Area (Console)
+
+* Search a file and display it in a new editor:
+1. `⌘ + ⇧ + O` → Open file/method/struct quickly
+2. Type the name of the file
+3. Hold `⌥` and press `enter`
+
+* Open a file from the project navigator in a new editor (_This one is specially useful for Views/ViewModels_):
+1. Hold `⌥`
+2. Tap on the file
 
 # Time Savers
 
