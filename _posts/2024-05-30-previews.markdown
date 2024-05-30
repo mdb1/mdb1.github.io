@@ -1,0 +1,123 @@
+---
+layout: post
+title: "Previews"
+subtitle: "How to get the most out of Xcode Previews"
+date: 2024-03-30 07:00:00 -0300
+tags: [iOS]
+thumbnail-img: "/resources/previews/previews.png"
+readtime: true
+---
+
+I like using previews as a sort of story-book-like feature. Whenever I create a new component on my Components/CoreUI modules, I create a Previews view. It's just a simple Form with two sections:
+
+1. Component: This is where the real component is displayed.
+2. Configuration: A set of LabeledContents with customization options for the component (texts, toggles, pickers, etc).
+
+It's pretty easy to do, and it gives a quick glance at how the component looks and feels.
+
+Furthermore, by creating the Preview as a separate view, it's pretty easy to check different accessibility options and dark mode.
+
+#### Table Of Contents:
+- [Example](#example)
+  - [PreviewView](#previewview)
+  - [Preview Macros](#preview-macros)
+- [Result](#result)
+- [Next Steps](#next-steps)
+- [Related Articles](#related-articles)
+
+# Example
+
+Grabbing an old component from the [Components](/2023-01-04-new-app-components/) post:
+
+## PreviewView
+
+```swift
+private struct PrimaryTextFieldContentView: View {
+    @State var placeholder: String = "Email"
+    @State var text: String = ""
+    @State var isSecure: Bool = false
+    @State var isDisplayingError: Bool = false
+    @State var error: String? = "Error"
+
+    var body: some View {
+        Form {
+            Section("Component") {
+                PrimaryTextField(
+                    type: isSecure ? .secure : .default,
+                    placeholder,
+                    text: $text,
+                    error: isDisplayingError ? $error : .constant(nil)
+                )
+            }
+
+            Section("Configuration") {
+                LabeledContent("Placeholder:") {
+                    TextField("", text: $placeholder)
+                }
+
+                LabeledContent("Secure?") {
+                    Toggle("", isOn: $isSecure)
+                }
+
+                LabeledContent("Error?") {
+                    Toggle("", isOn: $isDisplayingError)
+                }
+
+                if isDisplayingError {
+                    LabeledContent("Error Text:") {
+                        TextField("", text: $error ?? "")
+                    }
+                }
+            }
+            .autocorrectionDisabled()
+            .textFieldStyle(.roundedBorder)
+        }
+    }
+}
+```
+
+## Preview Macros
+
+Then we can create our Preview macros:
+
+```swift
+#Preview("PrimaryTextField") {
+    PrimaryTextFieldContentView()
+}
+
+#Preview("PrimaryTextField - AX") {
+    PrimaryTextFieldContentView()
+        .dynamicTypeSize(.accessibility2)
+}
+
+#Preview("PrimaryTextField - DarkMode") {
+    PrimaryTextFieldContentView()
+        .environment(\.colorScheme, .dark)
+}
+```
+
+# Result
+
+![regular]({{static.static_files}}/resources/previews/regular.png)
+
+![regular_error]({{static.static_files}}/resources/previews/regular_error.png)
+
+![ax]({{static.static_files}}/resources/previews/ax.png)
+
+![dark]({{static.static_files}}/resources/previews/dark.png)
+
+# Next Steps
+
+Assuming you're building your components in a separate SPM, you could create a new ExampleApp that consumes your module, and let's you navigate (like a story-book) through your component preview views.
+
+Example: List of Buttons, TextFields, Images, Tokens, Toggles, etc.
+
+---
+
+# Related Articles
+
+- [Components](/2023-01-04-new-app-components/)
+* [New App - Checklist](/2022-12-24-new-app-checklist/)
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}
