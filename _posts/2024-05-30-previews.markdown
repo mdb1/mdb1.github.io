@@ -2,7 +2,7 @@
 layout: post
 title: "Previews"
 subtitle: "How to get the most out of Xcode Previews"
-date: 2024-03-30 07:00:00 -0300
+date: 2024-05-30 07:00:00 -0300
 tags: [iOS]
 thumbnail-img: "/resources/previews/previews.png"
 readtime: true
