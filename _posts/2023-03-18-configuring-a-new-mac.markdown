@@ -140,16 +140,17 @@ Here's a list of recommended settings to customize:
 ## Finder Settings
 
 1. Order Sidebar + Remove every folder you don't use from there.
-2. Advanced → Check off all the `Show warning before…` boxes.
-3. Advanced → When Performing a Search: `Search the Current Folder`.
-4. Customize the Toolbar (Right click on the toolbar): Add AirDrop, and Create New Folder action. Remove everything else.
-5. View → Show Toolbar
-6. View → Show Path Bar
-7. View → Show Status Bar
+2. New Finder windows shows: `Desktop`.
+3. Advanced → Check off all the `Show warning before…` boxes.
+4. Advanced → When Performing a Search: `Search the Current Folder`.
+5. Customize the Toolbar (Right click on the toolbar): Add AirDrop, and Create New Folder action. Remove everything else.
+6. View → Show Toolbar
+7. View → Show Path Bar
+8. View → Show Status Bar
 
 ### In your User folder: 
 * View → Show View Options
-  * Sort by name, Group by name
+  * Group by none, Sort by name
   * Uncheck everything except for Date Modified and Size.
   * Check use relative dates
   * Save as Defaults
