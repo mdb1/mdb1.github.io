@@ -26,7 +26,9 @@ When setting up a new MacBook, there are a few steps you should take to get it u
     - [Keyboard](#keyboard)
     - [Trackpad](#trackpad)
     - [Display](#display)
+    - [Siri and Spotlight](#siri-and-spotlight)
   - [Finder Settings](#finder-settings)
+    - [In your User folder:](#in-your-user-folder)
 - [Additional Tips](#additional-tips)
 - [Conclusion](#conclusion)
 
@@ -131,11 +133,26 @@ Here's a list of recommended settings to customize:
 
 1. Turn off `Automatically adjust brightness`
 
+### Siri and Spotlight
+
+1. Search Results: Uncheck every unwanted box for the Spotlight search.
+
 ## Finder Settings
 
-1. Order Sidebar
-2. Advanced → Check off all the `Show warning before…` boxes
-3. View → Show View Options → Sort by name, Group by name → Set as Defaults
+1. Order Sidebar + Remove every folder you don't use from there.
+2. Advanced → Check off all the `Show warning before…` boxes.
+3. Advanced → When Performing a Search: `Search the Current Folder`.
+4. Customize the Toolbar (Right click on the toolbar): Add AirDrop, and Create New Folder action. Remove everything else.
+5. View → Show Toolbar
+6. View → Show Path Bar
+7. View → Show Status Bar
+
+### In your User folder: 
+* View → Show View Options
+  * Sort by name, Group by name
+  * Uncheck everything except for Date Modified and Size.
+  * Check use relative dates
+  * Save as Defaults
 
 # Additional Tips
 
