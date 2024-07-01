@@ -104,6 +104,7 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 ## Xcode
 * `⌃ + ⇧ + Click(s)` → Multi Cursor on selected clicks
 * `^ + ⇧ + Drag click` → In-line Multi Cursor
+* `^ + M` → Format to Multiple Lines
 
 * `⌘ + 0` → Hide/Show the Navigator (Left panel)
 * `⌘ + ,` → Open Settings
