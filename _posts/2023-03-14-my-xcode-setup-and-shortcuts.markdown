@@ -119,6 +119,7 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 
 * `⌘ + ^ + ←` → Back to previous file
 * `⌘ + ^ + →` → Forward to next file
+* `⌘ + ^ + E` → Edit All in Scope
 * `⌘ + ^ + L` → Show/Hide all issues
 * `⌘ + ^ + T` → New Editor to the right
 
