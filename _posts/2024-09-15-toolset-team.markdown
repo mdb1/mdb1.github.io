@@ -27,6 +27,7 @@ In this post, I will briefly mention the ones that I think have brought more val
   - [ProxyMan](#proxyman)
   - [Manager (DT)](#manager-dt)
   - [ChatGPT](#chatgpt)
+  - [Notion](#notion)
   - [Substitutes](#substitutes)
 - [Related Articles](#related-articles)
 
@@ -99,7 +100,11 @@ Me (or you, in your case). You are the manager of the team. You give the directi
 
 ## ChatGPT
 
-Finally, the assistant manager, ChatGPT. Whenever you need some assistance, it will always be there to ping-pong with you.
+Finally, the assistant manager, [ChatGPT](https://chat.openai.com/). Whenever you need some assistance, it will always be there to ping-pong with you.
+
+## Notion
+
+The team-trainer, [Notion](https://www.notion.so/), this is where all the documentation should live.
 
 ## Substitutes
 
@@ -126,6 +131,7 @@ Let me know what is *your* starting 11! What am I missing?
 - [GHA: Run unit tests in PRs](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane.md)
 - [GHA: Deploy builds](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane+Distribution.md)
 - [Improve your build times](/2023-08-18-improve-build-times-in-spm-packages-and-in-your-apps/).
+- [The Definition of Done](/2023-05-13-the-definition-of-done/)
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}
