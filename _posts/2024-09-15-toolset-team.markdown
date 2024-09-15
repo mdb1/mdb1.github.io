@@ -27,6 +27,7 @@ In this post, I will briefly mention the ones that I think have brought more val
   - [ProxyMan](#proxyman)
   - [Manager (DT)](#manager-dt)
   - [ChatGPT](#chatgpt)
+  - [Substitutes](#substitutes)
 - [Related Articles](#related-articles)
 
 # The Team
@@ -100,9 +101,19 @@ Me (or you, in your case). You are the manager of the team. You give the directi
 
 Finally, the assistant manager, ChatGPT. Whenever you need some assistance, it will always be there to ping-pong with you.
 
+## Substitutes
+
+Some subs for the team, that were not mentioned so far:
+
+- [Sourcery](https://github.com/krzysztofzablocki/Sourcery): Code-gen for protocols' mocks.
+- [Bors](https://github.com/bors-ng/bors-ng): Merge bot queue for PRs.
+- [OpenAPI](https://www.openapis.org/): Standard Interfaces for APIs. Useful in combination with code-generation tools.
+- [Postman](https://www.postman.com/): Useful for quickly testing APIs.
+- [Tuist](https://tuist.io/): A tool to generate Xcode projects in a consistent way.
+
 ---
 
-Let me know what is *your* starting 11!
+Let me know what is *your* starting 11! What am I missing?
 
 ---
 
