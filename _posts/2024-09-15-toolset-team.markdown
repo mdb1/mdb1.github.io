@@ -112,6 +112,8 @@ Some subs for the team, that were not mentioned so far:
 - [OpenAPI](https://www.openapis.org/): Standard Interfaces for APIs. Useful in combination with code-generation tools.
 - [Postman](https://www.postman.com/): Useful for quickly testing APIs.
 - [Tuist](https://tuist.io/): A tool to generate Xcode projects in a consistent way.
+- [Periphery](https://github.com/peripheryapp/periphery): A tool to identify unused code in Swift projects.
+- [Learning your shortcuts](https://www.manu.show/2023-03-14-my-xcode-setup-and-shortcuts/)
 
 ---
 
@@ -129,6 +131,7 @@ Let me know what is *your* `starting 11`! What am I missing?
 - [GHA: Deploy builds](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane+Distribution.md)
 - [Improve your build times](/2023-08-18-improve-build-times-in-spm-packages-and-in-your-apps/).
 - [The Definition of Done](/2023-05-13-the-definition-of-done/)
+- [Use Periphery to find unused code](/2023-08-21-use-periphery-to-find-unused-code/)
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}
