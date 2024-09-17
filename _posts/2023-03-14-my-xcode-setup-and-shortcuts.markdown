@@ -164,7 +164,7 @@ A list of the keybindings that I usually add/replace on Xcode.
 
 To do that, press `⌘ + ,` on Xcode, go to the `Key Bindings` tab and just search for the actions.
 
-* `⌘ + ⇧ + E` -> Rename. When adding this one, you have to remove it from its default action: `Use Selection for Replace`.
+* `⌘ + ⇧ + E` → Refactor → Rename. When adding this one, you have to remove it from its default action: `Use Selection for Replace`. Given I don't use that action, I can remove the keybinding.
 
 # Time Savers
 
