@@ -22,6 +22,7 @@ In this article, we'll explore some of the Xcode configurations and shortcuts th
   - [Notion](#notion)
   - [Xcode](#xcode)
     - [Xcode combos](#xcode-combos)
+    - [Custom Keybindings](#custom-keybindings)
 - [Time Savers](#time-savers)
   - [Xcode Templates](#xcode-templates)
   - [Console Aliases](#console-aliases)
@@ -119,7 +120,7 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 
 * `⌘ + ^ + ←` → Back to previous file
 * `⌘ + ^ + →` → Forward to next file
-* `⌘ + ^ + E` → Edit All in Scope
+* `⌘ + ^ + E` → Edit All in Scope (Raname in Scope)
 * `⌘ + ^ + L` → Show/Hide all issues
 * `⌘ + ^ + T` → New Editor to the right
 
@@ -156,6 +157,14 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 * Open a file from the project navigator in a new editor (_This one is specially useful for Views/ViewModels_):
 1. Hold `⌥`
 2. Tap on the file
+
+### Custom Keybindings
+
+A list of the keybindings that I usually add/replace on Xcode.
+
+To do that, press `⌘ + ,` on Xcode, go to the `Key Bindings` tab and just search for the actions.
+
+* `⌘ + ⇧ + E` -> Rename. When adding this one, you have to remove it from its default action: `Use Selection for Replace`.
 
 # Time Savers
 
