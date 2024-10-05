@@ -50,7 +50,7 @@ Over the past few years, I've been refining my lifestyle with a focus on product
 
 ## Bedroom
 
-- **Device-Free Zone:** I avoid electronic devices in the bedroom, using my Apple Watch for alarms.
+- **Device-Free Zone:** I avoid electronic devices in the bedroom. The only exception is my Apple Watch, which I use for the silent alarm to wake up (it vibrates on my wrist).
 
 ## Groceries
 
