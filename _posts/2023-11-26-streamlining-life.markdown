@@ -85,7 +85,7 @@ I use Reminders integrated with Calendar for routine reminders, such as bill pay
 ## Health / Fitness
 
 - **Health Tracking:** I maintain a Notion database of medical appointments.
-- **Training:** I have a personal trainer that handles all my routines.
+- **Training:** I have a routine for each day I go to the gym. I keep it simple, a Notion page with the exercises and the load.
 - **Appointment Reminders:** I have reminders every 6 months to go to the dentist, and to schedule a call with my main doctor. Every 1 year, to take a blood test. And every 3 months with the nutritionist.
 
 ## Meal Logging
