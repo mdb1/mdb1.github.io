@@ -41,7 +41,7 @@ Over the past few years, I've been refining my lifestyle with a focus on product
 
 ## Clothes system
 
-- **Laundry Management:** I use a nearby laundry service. Dirty clothes are sorted into two buckets - one for whites and another for colored and black clothes. Clean clothes are organized in stacks, following a FIFO (First In, First Out) system to ensure even usage.
+- **Laundry Management:** I have a washer machine. I use a reminder to wash the clothes on Tuesdays. Dirty clothes are sorted into two buckets - one for whites and another for colored and black clothes. Clean clothes are organized in stacks, following a FIFO (First In, First Out) system to ensure even usage.
 
 ## Kitchen
 
