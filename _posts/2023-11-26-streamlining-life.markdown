@@ -68,12 +68,14 @@ My tip here would be to start writing down the items you usually need, and which
 
 # Reminders
 
-I use Google Tasks integrated with Google Calendar for routine reminders, such as bill payments, weekly planning, and personal care tasks. Despite some overlap with Notion, which I use for day-to-day tasks, this system works well for me.
+_October 2024 Update: Apple finally integrated Reminders into Calendar, so goodbye Google Tasks_
+
+I use Reminders integrated with Calendar for routine reminders, such as bill payments, weekly planning, and personal care tasks. Despite some overlap with Notion, which I use for day-to-day tasks, this system works well for me.
 
 **Notion Daily TODOs:**
 ![Monthly ToDos]({{static.static_files}}/resources/h-mode/month-to-dos.png)
 
-**Google Reminders:**
+**Reminders:**
 ![Reminders]({{static.static_files}}/resources/streamlining-life/reminders.jpg)
 
 ---

@@ -18,7 +18,7 @@ In this article, we'll explore some of the Xcode configurations and shortcuts th
   - [macOS](#macos)
     - [Typing](#typing)
     - [Finder](#finder)
-  - [Chrome](#chrome)
+  - [Safari](#safari)
   - [Notion](#notion)
   - [Xcode](#xcode)
     - [Xcode combos](#xcode-combos)
@@ -90,12 +90,11 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 ### Finder
 * `⌘ + ⌥ + W` → Close all windows
 
-## Chrome
+## Safari
 * `⌘ + L` → Focus on the address bar
 * `⌘ + T` → New tab
 * `⌘ + ⇧ + T` → Reopen closed tab
 * `⌘ + R` → Refresh
-* `⌘ + ⇧ + R` → Force Refresh
 
 ## Notion
 * `⌘ + K` → Global Search

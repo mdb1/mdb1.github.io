@@ -14,7 +14,7 @@ When setting up a new MacBook, there are a few steps you should take to get it u
 - [Step 4: Download Apps](#step-4-download-apps)
   - [From the AppStore](#from-the-appstore)
   - [From the internet](#from-the-internet)
-    - [Google Chrome](#google-chrome)
+    - [Safari](#safari)
     - [iTerm2](#iterm2)
     - [SSH Keys](#ssh-keys)
 - [Step 5: Configure Settings](#step-5-configure-settings)
@@ -53,16 +53,15 @@ Here's a list of recommended Mac apps to download:
 * [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 
 ## From the internet
-* Google Chrome
-* 1Password
 * Notion
 * iTerm2
 * SourceTree
 * Visual Studio Code
 * [Insomnia](https://insomnia.rest/)
 * [Proxyman](https://proxyman.io/)
+* [ChatGPT](https://openai.com/chatgpt/download/)
 
-### Google Chrome
+### Safari
 - Make default browser
 - Log in to profiles (personal/work)
 
