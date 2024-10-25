@@ -64,6 +64,10 @@ Here's a list of recommended Mac apps to download:
 ### Safari
 - Make default browser
 - Log in to profiles (personal/work)
+- Go to Settings/Websites:
+  - Location: When visiting other websites: `Deny`
+  - Downloads: When visiting other websites: `Allow`
+  - Notifications: Turn `off`: Allow websites to ask permission to send notifications
 
 ### iTerm2
 - Download OhMyZsh
