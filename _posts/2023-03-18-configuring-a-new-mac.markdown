@@ -97,6 +97,10 @@ If you are using SSH keys for your personal/work repositories:
 
 Note: If you are using SourceTree, be careful with the auto-generated keys, they will probably not work. If you keep getting Access Denied with those keys, try following the steps described above instead.
 
+If, for some reason, the SSH keys do not work, and, you are in a hurry, there is a quick way to clone private repositories using Personal Access Tokens:
+
+`git clone https://$YOUR_PAT@github.com/organization/repo`
+
 # Step 5: Configure Settings
 Here's a list of recommended settings to customize:
 
