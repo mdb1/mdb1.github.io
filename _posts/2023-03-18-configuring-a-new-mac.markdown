@@ -99,7 +99,7 @@ Note: If you are using SourceTree, be careful with the auto-generated keys, they
 
 If, for some reason, the SSH keys do not work, and, you are in a hurry, there is a quick way to clone private repositories using Personal Access Tokens:
 
-`git clone https://$YOUR_PAT@github.com/organization/repo`
+`git clone https://$YOUR_PAT@github.com/organization/repo.git`
 
 # Step 5: Configure Settings
 Here's a list of recommended settings to customize:
