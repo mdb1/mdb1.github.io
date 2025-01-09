@@ -101,6 +101,10 @@ If, for some reason, the SSH keys do not work, and, you are in a hurry, there is
 
 `git clone https://$YOUR_PAT@github.com/organization/repo.git`
 
+This line could also be useful for CI systems:
+
+`git config --global url."https://$GIT_PAT@github.com/".insteadOf git@github.com:`
+
 # Step 5: Configure Settings
 Here's a list of recommended settings to customize:
 

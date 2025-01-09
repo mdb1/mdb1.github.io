@@ -28,6 +28,7 @@ In this article, we'll explore some of the Xcode configurations and shortcuts th
   - [Console Aliases](#console-aliases)
     - [Remove derived data folder](#remove-derived-data-folder)
     - [Change directory to your project folder](#change-directory-to-your-project-folder)
+    - [Delete all branches (locally) but main](#delete-all-branches-locally-but-main)
     - [Automatic Formatter](#automatic-formatter)
     - [Find typos](#find-typos)
 - [Conclusion](#conclusion)
@@ -185,6 +186,10 @@ Then you can just type the `rmdd` command on your console, and it will remove th
 `alias cdp='cd ~/projects/your-project/'`
 
 Then you can just type the `cdp` command on your console, and it will change the directory to your project directory.
+
+### Delete all branches (locally) but main
+
+`alias dbr='git branch | grep -v "main\|$(git rev-parse --abbrev-ref HEAD)" | xargs git branch -D'`
 
 ### Automatic Formatter
 
