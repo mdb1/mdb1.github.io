@@ -36,3 +36,4 @@ gem "webrick"
 gem "beautiful-jekyll-theme"
 gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
+gem 'csv'
