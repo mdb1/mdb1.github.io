@@ -9,6 +9,15 @@ readtime: true
 
 Get ready to uncover some of the secrets of faster build times – an investment that's not just about speed, but about creating a more satisfying and efficient development journey for you and your entire team.
 
+#### Table of Contents
+1. [Measuring and Improving Build Times](#measuring-and-improving-build-times)
+   - [Measure the Time of the Builds](#measure-the-time-of-the-builds)
+   - [Build with Timing Summary and Recent Build Timeline](#build-with-timing-summary-and-recent-build-timeline)
+2. [Improve Compile Time in Xcode Projects](#improve-compile-time-in-xcode-projects)
+3. [Improve Compile Time in SPM Packages](#improve-compile-time-in-spm-packages)
+4. [Dynamic vs Static Dispatch](#dynamic-vs-static-dispatch)
+5. [SwiftLint Rules](#swiftlint-rules)
+
 # Measuring and Improving Build Times
 
 ## Measure the time of the builds
@@ -171,6 +180,31 @@ It's also worth noticing, that when using different modules, the `TimeLine` is w
 After applying the same fix as above, we can make a new clean build and:
 
 ![clean-build-fix]({{static.static_files}}/resources/build-times/spm-after-timing-summary.png)
+
+## Dynamic vs Static Dispatch
+
+Understanding the difference between dynamic and static dispatch can help you optimize your code for better performance:
+
+### Static Dispatch
+- **Definition**: The method to be called is determined at compile time.
+- **Characteristics**:
+  - Faster execution since the method call is resolved at compile time.
+  - Achieved in Swift by using `final` classes, or by avoiding polymorphism.
+  - The compiler knows exactly which method will be called, so it can optimize the call.
+
+### Dynamic Dispatch
+- **Definition**: The method to be called is determined at runtime.
+- **Characteristics**:
+  - Slower execution compared to static dispatch because the method call is resolved at runtime.
+  - Commonly used in Swift for method overriding and polymorphism.
+  - The exact method to be called is determined based on the actual object type at runtime, not the reference type.
+
+### Key Difference
+The main difference lies in **when** the method to be called is determined:
+- **Static Dispatch**: At compile time.
+- **Dynamic Dispatch**: At runtime.
+
+By favoring static dispatch where possible (e.g., using `final` classes or avoiding unnecessary polymorphism), you can reduce runtime overhead and improve build and execution performance.
 
 ## SwiftLint Rules:
 
