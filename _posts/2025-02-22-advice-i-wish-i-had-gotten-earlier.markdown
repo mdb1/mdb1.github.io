@@ -125,6 +125,10 @@ Always bring great energy. This is something that can be applied to anything in 
 - [The Definition of Done](/2023-05-13-the-definition-of-done/)
 - [Best practices for the codebase](/2023-08-04-new-app-document-best-practices/)
 - [The Code Review Process](/2022-03-10-the-code-review-process/)
+- [The Joy of Less](/2023-05-20-the-joy-of-less/)
+- [Brain Rules](/2023-06-09-brain-rules/)
+- [The Compound Effect](/2023-07-16-the-compound-effect/)
+- [Excellent Advice for Living](/2023-05-24-excellent-advice-for-living/)
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}
