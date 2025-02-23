@@ -67,7 +67,7 @@ Keeping with the side projects theme, and even I do recommend specializing in a 
 ## Be proactive
 One of the key differentiators I've seen in my careers between top performers and the rest is that the former are always proactive, they don't wait to be told what to do, and they don't fear speaking out loud.
 
-Being proactive if a hack in life, certainly more in this modern world, where most people don't take initiative.
+Being proactive is a hack in life, certainly more in this modern world, where most people don't take initiative.
 
 Don't wait. You miss 100% of the shots that you don't take.
 
