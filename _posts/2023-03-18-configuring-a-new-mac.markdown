@@ -124,10 +124,15 @@ Here's a list of recommended settings to customize:
 
 ### Desktop and Dock
 
-1. Turn Off `Show Recent Applications on Dock` 
-2. Hot Corners → Top Right → `Show Desktop`
-3. Make `Chrome` the default browser
-4. Turn Off `Automatically rearrange Spaces based on most recent use`
+1. Turn on `Minimize windows into application icon`
+2. Turn off `Show Recent Applications on Dock` 
+3. Hot Corners → Top Right → `Show Desktop`
+4. Turn off `Automatically rearrange Spaces based on most recent use`
+
+### Display
+
+1. Turn off `Automatically adjust brightness`
+2. Turn off `True Tone`
 
 ### Keyboard
 
@@ -135,14 +140,12 @@ Here's a list of recommended settings to customize:
 2. Decrease `Delay until repeat` to the shortest value.
 3. Shortcuts -> Screenshots -> Change the shortcut for `Copy picture of selected area to the clipboard` to `⌘ + Shift + S`
 
+![keyboard]({{static.static_files}}/resources/configuring-new-macbook/keyboard.jpg)
+
 ### Trackpad
 
 1. Increase `Tracking Speed` to 8/10
 2. Turn on `Tap to click`
-
-### Display
-
-1. Turn off `Automatically adjust brightness`
 
 ### Siri and Spotlight
 
