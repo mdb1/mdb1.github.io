@@ -130,6 +130,7 @@ If you’re interested in follow-up reading related to this article, I recommend
 
 ---
 <br>
+
 Thanks for reading and in case you want to reach me, you can shoot me an email to `manuherrera8@gmail.com`. I’ll be happy to answer 😁.
 
 See you next time! 👋
