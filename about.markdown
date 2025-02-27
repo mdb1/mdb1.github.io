@@ -34,5 +34,3 @@ Here are some of my favorite articles:
 
 I hope you find some of these insights useful.
 
-If you want to get in touch with me to discuss any particular topic, feel free to send me an email to `manuherrera8@gmail.com` or reach out to me on twitter.
-
