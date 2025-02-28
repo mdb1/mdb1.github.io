@@ -50,6 +50,12 @@ By separating the code into different packages, we start the project with right 
 
 The only `con` I see with this approach is that it is not possible to run the module unit tests from the main app workspace, as the test target do not appear as schemes (and it's not possible to reference them when crearing a new one). However, this can be solved with some `tooling` to run all the tests from the console, or just the ones in a particular module.
 
+In [the repository](https://github.com/mdb1/ModularTemplate?tab=readme-ov-file#testing), I've added a basic fastlane integration to run all the tests of the packages:
+
+![tests]({{static.static_files}}/resources/simple-modularization-setup/tests.png)
+
+It supports some parameters for verbosity, and it reports the code coverage for each module.
+
 ## Structure
 
 The structure of the modules dependencies follow the dependency diagram image. It is really simple, as it is a starting point.
