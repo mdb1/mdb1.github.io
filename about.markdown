@@ -28,7 +28,7 @@ Here are some of my favorite articles:
 * [The Definition of Done](/2023-05-13-the-definition-of-done/)
 * [Improve Build Times](/2023-08-18-improve-build-times-in-spm-packages-and-in-your-apps/)
 * [Advice I Wish I Had Gotten Earlier](/2025-02-22-advice-i-wish-i-had-gotten-earlier/)
-* [Simple Modularization Setup](2025-02-27-simple-modularization-setup/)
+* [Simple Modularization Setup](/2025-02-27-simple-modularization-setup/)
 
 ---
 
