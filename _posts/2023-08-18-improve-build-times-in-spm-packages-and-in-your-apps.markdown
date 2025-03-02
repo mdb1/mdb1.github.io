@@ -10,13 +10,23 @@ readtime: true
 Get ready to uncover some of the secrets of faster build times – an investment that's not just about speed, but about creating a more satisfying and efficient development journey for you and your entire team.
 
 #### Table of Contents
-1. [Measuring and Improving Build Times](#measuring-and-improving-build-times)
-   - [Measure the Time of the Builds](#measure-the-time-of-the-builds)
-   - [Build with Timing Summary and Recent Build Timeline](#build-with-timing-summary-and-recent-build-timeline)
-2. [Improve Compile Time in Xcode Projects](#improve-compile-time-in-xcode-projects)
-3. [Improve Compile Time in SPM Packages](#improve-compile-time-in-spm-packages)
-4. [Dynamic vs Static Dispatch](#dynamic-vs-static-dispatch)
-5. [SwiftLint Rules](#swiftlint-rules)
+- [Measuring and Improving Build Times](#measuring-and-improving-build-times)
+  - [Measure the time of the builds](#measure-the-time-of-the-builds)
+  - [Build with Timing Summary and Recent Build TimeLine:](#build-with-timing-summary-and-recent-build-timeline)
+    - [1. Build with Timing Summary:](#1-build-with-timing-summary)
+    - [2. Recent Build TimeLine](#2-recent-build-timeline)
+  - [Improve Compile Time in Xcode Projects:](#improve-compile-time-in-xcode-projects)
+    - [Example](#example)
+  - [Improve Compile Time in SPM Packages:](#improve-compile-time-in-spm-packages)
+    - [Example](#example-1)
+  - [Dynamic vs Static Dispatch](#dynamic-vs-static-dispatch)
+    - [Static Dispatch](#static-dispatch)
+    - [Dynamic Dispatch](#dynamic-dispatch)
+    - [Key Difference](#key-difference)
+  - [SwiftLint Rules:](#swiftlint-rules)
+  - [Other Xcode optimizations](#other-xcode-optimizations)
+- [Additional Tips:](#additional-tips)
+- [Related Articles](#related-articles)
 
 # Measuring and Improving Build Times
 
@@ -283,6 +293,12 @@ If you create a new Xcode project today, these settings will already be set corr
 Let me know if you try some of the things explained in this article and if that helped to improve your build times. I'll be happy to talk about it 😁.
 
 Are there any other improvement tips that I missed and you are using in your projects?
+
+---
+
+# Related Articles
+
+- [Simple Modularization setup for a New App](/2025-02-27-simple-modularization-setup/)
 
 ---
 

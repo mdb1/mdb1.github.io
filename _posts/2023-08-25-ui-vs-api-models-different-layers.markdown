@@ -12,6 +12,25 @@ readtime: true
 
 There are different approaches to answer that question, and as always, there is no 1 silver bullet that is the best for everything. It will depend on some factors: like the existing architecture of the app, some preferences, what is the code supposed to handle best.
 
+### Table of Contents
+- [The Code](#the-code)
+  - [Set Up the SPM Package](#set-up-the-spm-package)
+  - [Data Library](#data-library)
+    - [API models](#api-models)
+    - [UI Models](#ui-models)
+    - [Mapper](#mapper)
+    - [Repository](#repository)
+    - [Service](#service)
+  - [UI Library](#ui-library)
+    - [SwiftUI Views](#swiftui-views)
+      - [Views with Bindings](#views-with-bindings)
+  - [App Layer](#app-layer)
+    - [Demo](#demo)
+  - [What Happens when an SPM Package imports another one?](#what-happens-when-an-spm-package-imports-another-one)
+  - [Conventions](#conventions)
+  - [Conclusion](#conclusion)
+- [Related Articles](#related-articles)
+
 In this post, I will talk about the following approach:
 
 * 1 SPM Package
@@ -417,6 +436,12 @@ I think it's really important to define a model strategy from the beginning, giv
 ---
 
 Let me know what you think, I'd love to hear different ideas, or if you'd rather just have one module with all the models together, instead of several modules!
+
+---
+
+# Related Articles
+
+- [Simple Modularization setup for a New App](/2025-02-27-simple-modularization-setup/)
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

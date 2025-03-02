@@ -226,6 +226,7 @@ What do you think about this approach?
 
 # Related Articles
 
+- [Simple Modularization setup for a New App](/2025-02-27-simple-modularization-setup/)
 - [Enhancing Testability with Protocols](/2023-02-13-enhancing-testability-with-protocols/)
 - [Enhancing Testability without Protocols](/2023-02-03-enhancing-testability-without-protocols/)
 - [NotificationCenter protocols](/2023-08-12-new-app-notification-center-protocols/)
