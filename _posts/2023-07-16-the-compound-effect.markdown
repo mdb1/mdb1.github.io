@@ -67,5 +67,9 @@ Hitting the wall is an opportunity for greatness, not an obstacle.
 
 ---
 
+## Featured in
+
+- [SwiftlyRush #83](https://swiftlyrush.curated.co/issues/83)
+
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

@@ -54,5 +54,9 @@ You can find a repository where everything is set up [here](https://github.com/m
 
 ---
 
+## Featured in
+
+- [iOS CI Newsletter #22](https://www.ioscinewsletter.com/issues/22)
+
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

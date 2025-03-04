@@ -17,6 +17,7 @@ You can find the complete code used for this article [here](https://github.com/m
 - [Testing](#testing)
   - [SwiftUI Previews](#swiftui-previews)
 - [Related Articles](#related-articles)
+  - [Featured in](#featured-in)
 
 The core idea is to have a single object (the `World`) that will act as a wrapper for every "external" dependency. We will describe our dependencies here.
 
@@ -232,5 +233,11 @@ What do you think about this approach?
 - [NotificationCenter protocols](/2023-08-12-new-app-notification-center-protocols/)
 - [DateFormatters](/2023-01-10-new-app-date-formatters/)
 
+---
+
+## Featured in
+
+- [Mobile Automation Newsletter #27](https://testableapple.com/newsletter/27/)
+
 <!-- Do not remove - SEO meta tags -->
-{% seo %}
+{% seo }

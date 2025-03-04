@@ -159,5 +159,11 @@ With these considerations in mind, is it time for you to switch to a self-hosted
 - [About GitHub-hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners)
 - [About self-hosted runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners)
 
+---
+
+## Featured in
+
+- [iOS CI Newsletter #24](https://www.ioscinewsletter.com/issues/24)
+
 <!-- Do not remove - SEO meta tags -->
-{% seo %}
+{% seo }

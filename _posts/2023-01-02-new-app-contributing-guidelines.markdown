@@ -20,5 +20,13 @@ Some things to include in this file are:
 
 <script src="https://gist.github.com/mdb1/1909e7f37c49bbfa65ada32beb9888fd.js"></script>
 
+---
+
+## Featured in
+
+- [Not Only Swift #30](https://not-only-swift.peterfriese.dev/issues/30)
+
+---
+
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

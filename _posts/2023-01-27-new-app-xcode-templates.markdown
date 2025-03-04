@@ -48,5 +48,11 @@ You can customize these files to suit your needs:
 
 <script src="https://gist.github.com/mdb1/8b8dde9b4ccf09d237eddd661e28eff9.js"></script>
 
+---
+
+## Featured in
+
+- [Not Only Swift #29](https://not-only-swift.peterfriese.dev/issues/29)
+
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

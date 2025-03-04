@@ -32,6 +32,7 @@ Each piece of advice stands on its own, and I encourage you to take a moment aft
   - [Document your work](#document-your-work)
   - [Documenting best practices](#documenting-best-practices)
 - [Related Articles](#related-articles)
+  - [Featured in](#featured-in)
 
 # Learning
 ## Read technical books
@@ -129,6 +130,12 @@ Always bring great energy. This is something that can be applied to anything in 
 - [Brain Rules](/2023-06-09-brain-rules/)
 - [The Compound Effect](/2023-07-16-the-compound-effect/)
 - [Excellent Advice for Living](/2023-05-24-excellent-advice-for-living/)
+
+---
+
+## Featured in
+
+- [SwiftLee #261](https://www.avanderlee.com/swiftlee-weekly/issues/261)
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

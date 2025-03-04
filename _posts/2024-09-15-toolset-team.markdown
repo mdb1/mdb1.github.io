@@ -29,6 +29,7 @@ In this post, I will briefly mention the ones that I think have brought more val
   - [ChatGPT](#chatgpt)
   - [Substitutes](#substitutes)
 - [Related Articles](#related-articles)
+  - [Featured in](#featured-in)
 
 # The Team
 
@@ -132,6 +133,13 @@ Let me know what is *your* `starting 11`! What am I missing?
 - [Improve your build times](/2023-08-18-improve-build-times-in-spm-packages-and-in-your-apps/).
 - [The Definition of Done](/2023-05-13-the-definition-of-done/)
 - [Use Periphery to find unused code](/2023-08-21-use-periphery-to-find-unused-code/)
+
+
+---
+
+## Featured in
+
+- [iOS Coffee Break #15](https://www.ioscoffeebreak.com/issue/issue15)
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

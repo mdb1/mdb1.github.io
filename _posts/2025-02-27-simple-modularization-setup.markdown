@@ -27,7 +27,7 @@ The code included in this post is available [here](https://github.com/mdb1/Modul
 - [Scaling the Approach](#scaling-the-approach)
 - [Conclusion](#conclusion)
 - [Related Articles](#related-articles)
-- [Featured in:](#featured-in)
+- [Featured in](#featured-in)
 
 ## Why Modularize?
 
@@ -215,7 +215,7 @@ For more information on modularization, architecture, testing, and project struc
 - [ViewStateController](/2023-03-04-view-state-controller/)
 - [The Definition of Done](/2023-05-13-the-definition-of-done/)
 
-## Featured in:
+## Featured in
 - [iOSCoffeeBreak](https://www.ioscoffeebreak.com/issue/issue35)
 
 ---

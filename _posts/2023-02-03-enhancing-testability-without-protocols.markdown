@@ -277,5 +277,11 @@ You can also check out how to achieve the same results _using protocols_ in [thi
 
 - [Centralized Dependencies](/2024-02-29-centralized-dependencies/)
 
+---
+
+## Featured in
+
+- [iOS Code Review #43](https://ioscodereview.com/issues/43/)
+
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

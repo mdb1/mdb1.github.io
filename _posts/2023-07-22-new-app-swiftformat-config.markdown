@@ -194,6 +194,12 @@ Save it.
 
 ---
 
+## Featured in
+
+- [Mobile Automation Newsletter #11](https://testableapple.com/newsletter/11/)
+
+---
+
 I hope you found this article helpful, see you next time! 😄
 
 <!-- Do not remove - SEO meta tags -->

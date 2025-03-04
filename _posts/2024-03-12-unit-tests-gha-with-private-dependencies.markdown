@@ -18,6 +18,7 @@ A simple github action that will allow you to build/test your Xcode projects in 
   - [Add the private SSH Key as a repository secret](#add-the-private-ssh-key-as-a-repository-secret)
   - [Create the yml file](#create-the-yml-file)
 - [Related Articles](#related-articles)
+  - [Featured in](#featured-in)
 
 # Sample Package.swift
 
@@ -142,6 +143,11 @@ That's it, the [webfactory/ssh-agent@v0.9.0](https://github.com/marketplace/acti
 * [Use FastLane to create PRs](/2023-08-12-use-fastlane-to-create-prs/)
 * [New App - Checklist](/2022-12-24-new-app-checklist/)
 
+---
+
+## Featured in
+
+- [Mobile Automation Newsletter #28](https://testableapple.com/newsletter/28/)
 
 <!-- Do not remove - SEO meta tags -->
-{% seo %}
+{% seo }

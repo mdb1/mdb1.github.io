@@ -23,6 +23,10 @@ Some examples to get started:
 * [https://not-only-swift.peterfriese.dev](https://not-only-swift.peterfriese.dev/)
 * [https://tunds.dev](https://tunds.dev/#courses)
 * [https://www.ioscoffeebreak.com](https://www.ioscoffeebreak.com)
+* [https://testableapple.com/](https://testableapple.com)
+* [https://weekly.swiftwithmajid.com](https://weekly.swiftwithmajid.com)
+* [https://iosdevweekly.com](https://iosdevweekly.com)
+* [https://ioscodereview.com](https://ioscodereview.com)
 
 # 2. Email Filters
 Once you've subscribed to these newsletters, it's important to set up some filters in your email client, to avoid getting distracted daily. This will help you avoid cluttering your inbox and allow you to focus on the newsletters at a later time.

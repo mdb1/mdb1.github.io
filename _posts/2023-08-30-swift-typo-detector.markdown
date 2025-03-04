@@ -80,5 +80,12 @@ Also, it should be pretty easy to provide support for other extensions.
 - [Use Periphery to find unused code](/2023-08-21-use-periphery-to-find-unused-code/)
 - [The Definition of Done](/2023-05-13-the-definition-of-done/)
 
+---
+
+## Featured in
+
+- [iOS Dev Weekly #625](https://iosdevweekly.com/issues/625)
+- [SwiftlyRush #89](https://swiftlyrush.curated.co/issues/89#start)
+
 <!-- Do not remove - SEO meta tags -->
-{% seo %}
+{% seo }

@@ -46,6 +46,7 @@ I wanted the framework to automatically handle:
   - [Demo: Loading Type Options](#demo-loading-type-options)
   - [Modifying Ids](#modifying-ids)
     - [Demo: Modifying Ids](#demo-modifying-ids)
+  - [Featured in](#featured-in)
 
 # View State Controller
 
@@ -407,6 +408,13 @@ struct Pokemon: Identifiable {
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
     <source src="{{static.static_files}}/resources/view-state-controller/6-modifying-ids.mp4" type="video/mp4">
 </video>
+
+---
+
+## Featured in
+
+- [Not Only Swift #33](https://not-only-swift.peterfriese.dev/issues/33)
+- [Open Source Updates: Swift Projects #16](https://ossp-updates.beehiiv.com/p/open-source-updates-swift-projects-issue-16)
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

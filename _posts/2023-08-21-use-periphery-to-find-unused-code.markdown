@@ -101,5 +101,12 @@ Over the long run, keeping the code as clean as possible will be a benefit for e
 
 Are you using [Periphery](https://github.com/peripheryapp/periphery) or something similar in your projects?
 
+---
+
+## Featured in
+
+- [Mobile Automation Newsletter #14](https://testableapple.com/newsletter/14/)
+- [iOS Code Review #54](https://ioscodereview.com/issues/54/)
+
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

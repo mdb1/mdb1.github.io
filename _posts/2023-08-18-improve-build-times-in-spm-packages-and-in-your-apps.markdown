@@ -27,6 +27,7 @@ Get ready to uncover some of the secrets of faster build times – an investment
   - [Other Xcode optimizations](#other-xcode-optimizations)
 - [Additional Tips:](#additional-tips)
 - [Related Articles](#related-articles)
+  - [Featured in](#featured-in)
 
 # Measuring and Improving Build Times
 
@@ -299,6 +300,15 @@ Are there any other improvement tips that I missed and you are using in your pro
 # Related Articles
 
 - [Simple Modularization setup for a New App](/2025-02-27-simple-modularization-setup/)
+
+---
+
+## Featured in
+
+- [iOS CI Newsletter #23](https://www.ioscinewsletter.com/issues/23)
+- [iOS CI Newsletter #32](https://www.ioscinewsletter.com/issues/32)
+- [iOS Dev Weekly #624](https://iosdevweekly.com/issues/624/#start)
+- [Mobile Automation Newsletter #13](https://testableapple.com/newsletter/13/)
 
 ---
 

@@ -40,5 +40,9 @@ These are some notes from the book: `Excellent Advice for Living` by `Kevin Kell
 
 ---
 
+## Featured in
+
+- [SwiftlyRush #76](https://swiftlyrush.curated.co/issues/76x)
+
 <!-- Do not remove - SEO meta tags -->
 {% seo %}
