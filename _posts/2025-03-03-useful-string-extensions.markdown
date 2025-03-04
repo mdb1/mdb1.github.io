@@ -8,7 +8,7 @@ thumbnail-img: "/resources/string-extensions/thumbnail.png"
 readtime: true
 ---
 
-These are some String extension that handle common scenarios gracefully. They are great fit for the Utilities module from the [Modularization article](/2025-02-27-simple-modularization-setup/).
+These are some String extensions that handle common scenarios gracefully. They are great fit for the Utilities module from the [Modularization article](/2025-02-27-simple-modularization-setup/).
 
 #### Table of Contents
 - [String Comparisons](#string-comparisons)
