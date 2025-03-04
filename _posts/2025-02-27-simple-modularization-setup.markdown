@@ -3,7 +3,7 @@ layout: post
 title: "Simple Modularization setup for a New App"
 subtitle: "A structured approach using local packages"
 date: 2025-02-27 07:00:00 -0300
-tags: [swift, swiftui]
+tags: [ios]
 thumbnail-img: "/resources/simple-modularization-setup/thumbnail.png"
 readtime: true
 ---
@@ -27,6 +27,7 @@ The code included in this post is available [here](https://github.com/mdb1/Modul
 - [Scaling the Approach](#scaling-the-approach)
 - [Conclusion](#conclusion)
 - [Related Articles](#related-articles)
+- [Featured in:](#featured-in)
 
 ## Why Modularize?
 
@@ -213,6 +214,9 @@ For more information on modularization, architecture, testing, and project struc
 - [ViewState](2023-01-08-new-app-view-state/)
 - [ViewStateController](/2023-03-04-view-state-controller/)
 - [The Definition of Done](/2023-05-13-the-definition-of-done/)
+
+## Featured in:
+- [iOSCoffeeBreak](https://www.ioscoffeebreak.com/issue/issue35)
 
 ---
 
