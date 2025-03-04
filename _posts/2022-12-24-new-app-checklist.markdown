@@ -37,6 +37,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [NumberFormatters](/2023-06-12-new-app-number-formatters/)
   - [NotificationCenter protocols](/2023-08-12-new-app-notification-center-protocols/)
   - [Constants](/2022-12-24-new-app-constants/)
+  - [String Extensions](/2025-03-03-useful-string-extensions/)
 - [OSLog](/2024-03-19-new-app-os-log/)
 - Developer Experience
   - [Improve Build Times](/2023-08-18-improve-build-times-in-spm-packages-and-in-your-apps/)
