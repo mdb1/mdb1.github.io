@@ -20,6 +20,7 @@ In this article, we'll explore some of the Xcode configurations and shortcuts th
     - [Finder](#finder)
   - [Safari](#safari)
   - [Notion](#notion)
+  - [VisualStudio / WindSurf](#visualstudio--windsurf)
   - [Xcode](#xcode)
     - [Xcode combos](#xcode-combos)
     - [Custom Keybindings](#custom-keybindings)
@@ -101,6 +102,18 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 * `⌘ + K` → Global Search
 * `⌘ + T` → New File
 * `⌘ + R` → Refresh
+
+## VisualStudio / WindSurf
+* `⌃ + -` → Navigation Go Back
+* `⌃ + ⇧ + -` → Navigation Go Forward
+
+* `⌘ + P` → Search by File Name
+* `⌘ + L` → Open Cascade (WindSurf)
+* `⌘ + I` → Enter Instruction In-Line (WindSurf)
+* `⌘ + ⇧ + E` → Open File Explorer
+* `⌘ + ⇧ + F` → Open Search View
+
+* `⌥ + Click(s)` → Multi Cursor on selected clicks
 
 ## Xcode
 * `⌃ + ⇧ + Click(s)` → Multi Cursor on selected clicks
