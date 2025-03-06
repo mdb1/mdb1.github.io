@@ -17,15 +17,17 @@ When setting up a new MacBook, there are a few steps you should take to get it u
     - [Safari](#safari)
     - [iTerm2](#iterm2)
     - [SSH Keys](#ssh-keys)
+    - [Personal Access Token](#personal-access-token)
+    - [Setting Git Config](#setting-git-config)
 - [Step 5: Configure Settings](#step-5-configure-settings)
   - [System Settings](#system-settings)
     - [Notifications](#notifications)
     - [Appearance](#appearance)
     - [Control Center](#control-center)
     - [Desktop and Dock](#desktop-and-dock)
+    - [Display](#display)
     - [Keyboard](#keyboard)
     - [Trackpad](#trackpad)
-    - [Display](#display)
     - [Siri and Spotlight](#siri-and-spotlight)
   - [Finder Settings](#finder-settings)
     - [In your User folder:](#in-your-user-folder)
@@ -97,6 +99,8 @@ If you are using SSH keys for your personal/work repositories:
 
 Note: If you are using SourceTree, be careful with the auto-generated keys, they will probably not work. If you keep getting Access Denied with those keys, try following the steps described above instead.
 
+### Personal Access Token
+
 If, for some reason, the SSH keys do not work, and, you are in a hurry, there is a quick way to clone private repositories using Personal Access Tokens:
 
 `git clone https://$YOUR_PAT@github.com/organization/repo.git`
@@ -104,6 +108,25 @@ If, for some reason, the SSH keys do not work, and, you are in a hurry, there is
 This line could also be useful for CI systems:
 
 `git config --global url."https://$GIT_PAT@github.com/".insteadOf git@github.com:`
+
+### Setting Git Config
+
+These lines are useful to set your git email/name:
+
+**Globally:**
+- `git config --global user.email "your_email"`
+- `git config --global user.name "your_name"`
+
+**For a single repo:**
+Run in the root of the repo:
+
+- `git config user.email "your_email"`
+- `git config user.name "your_name"`
+
+**To check the config:**
+
+- `git config user.email`
+- `git config user.name`
 
 # Step 5: Configure Settings
 Here's a list of recommended settings to customize:
