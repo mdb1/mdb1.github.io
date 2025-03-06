@@ -2,7 +2,7 @@
 layout: post
 title: "Use FastLane to create PRs"
 date: 2023-08-12 07:00:02 -0300
-tags: [tools, productivity]
+tags: [tools]
 readtime: true
 ---
 

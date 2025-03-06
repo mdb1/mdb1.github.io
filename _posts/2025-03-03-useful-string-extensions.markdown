@@ -3,7 +3,7 @@ layout: post
 title: "Useful String Extensions"
 subtitle: "Great for the Utilities module"
 date: 2025-03-03 07:00:00 -0300
-tags: [ios]
+tags: [iOS]
 thumbnail-img: "/resources/string-extensions/thumbnail.png"
 readtime: true
 ---

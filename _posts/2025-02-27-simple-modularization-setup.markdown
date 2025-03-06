@@ -3,7 +3,7 @@ layout: post
 title: "Simple Modularization setup for a New App"
 subtitle: "A structured approach using local packages"
 date: 2025-02-27 07:00:00 -0300
-tags: [ios]
+tags: [iOS, testing]
 thumbnail-img: "/resources/simple-modularization-setup/thumbnail.png"
 readtime: true
 ---
