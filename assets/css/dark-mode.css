@@ -1,0 +1,206 @@
+:root {
+  --body-bg: #fff;
+  --body-color: #404040;
+  --link-color: #008AFF;
+  --link-hover-color: #0085A1;
+  --navbar-bg: #EAEAEA;
+  --navbar-text-color: #404040;
+  --navbar-border-color: #DDDDDD;
+  --footer-bg: #EAEAEA;
+  --footer-text-color: #777777;
+  --footer-link-color: #404040;
+  --footer-hover-color: #0085A1;
+}
+
+[data-theme="dark"] {
+  --body-bg: #121212;
+  --body-color: #f8f8f8; /* Lighter text color for better readability */
+  --link-color: #58a6ff;
+  --link-hover-color: #79b8ff;
+  --navbar-bg: #1e1e1e;
+  --navbar-text-color: #ffffff; /* Brighter text for navbar */
+  --navbar-border-color: #333;
+  --footer-bg: #1e1e1e;
+  --footer-text-color: #cccccc; /* Lighter footer text */
+  --footer-link-color: #ffffff; /* Brighter footer links */
+  --footer-hover-color: #79b8ff;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+
+.navbar {
+  background-color: var(--navbar-bg);
+  border-color: var(--navbar-border-color);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  color: var(--navbar-text-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+footer {
+  background-color: var(--footer-bg);
+  color: var(--footer-text-color);
+}
+
+footer a {
+  color: var(--footer-link-color);
+}
+
+footer a:hover {
+  color: var(--footer-hover-color);
+}
+
+/* Specific styles for title and description in dark mode */
+[data-theme="dark"] .page-heading,
+[data-theme="dark"] .post-heading,
+[data-theme="dark"] .intro-header .page-heading h1,
+[data-theme="dark"] .intro-header .post-heading h1 {
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+[data-theme="dark"] .intro-header .page-heading .page-subheading,
+[data-theme="dark"] .intro-header .post-heading .post-subheading,
+[data-theme="dark"] .intro-header .post-heading .post-meta {
+  color: #f0f0f0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Improve readability of post content in dark mode */
+[data-theme="dark"] .post-preview .post-title,
+[data-theme="dark"] .post-preview .post-subtitle {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .post-preview .post-meta,
+[data-theme="dark"] .post-preview .post-entry {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .blog-tags a {
+  background-color: #2a2a2a;
+  color: #ffffff; /* Brighter color for better readability */
+}
+
+[data-theme="dark"] .blog-tags a:hover {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+
+/* Improve readability of 'Read More' links in dark mode */
+[data-theme="dark"] .post-read-more {
+  color: #58a6ff; /* Bright blue color for better visibility */
+  font-weight: 600; /* Make it slightly bolder */
+}
+
+[data-theme="dark"] .post-read-more:hover {
+  color: #79b8ff; /* Lighter blue on hover */
+  text-decoration: underline;
+}
+
+/* Improve readability of 'Tags:' text in dark mode */
+[data-theme="dark"] .blog-tags:before {
+  color: #ffffff; /* Bright white for the 'Tags:' text */
+  font-weight: 600;
+}
+
+/* Style for inline code in dark mode */
+[data-theme="dark"] code {
+  background-color: #2d2d2d;
+  color: #ff7b72; /* GitHub-like syntax highlighting red for code */
+  border: 1px solid #444;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* Style for code blocks in dark mode */
+[data-theme="dark"] pre code {
+  background-color: #1e1e1e;
+  color: #d4d4d4; /* Light gray for code block content */
+  display: block;
+  padding: 10px;
+  white-space: pre-wrap; /* Allow text to wrap */
+  word-wrap: break-word; /* Break long words if needed */
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+/* Style for blockquotes in dark mode */
+[data-theme="dark"] blockquote {
+  background-color: #1e1e1e;
+  border-left: 5px solid #58a6ff;
+  color: #e0e0e0;
+  padding: 10px 15px;
+  margin: 15px 0;
+  white-space: pre-wrap; /* Allow text to wrap */
+  word-wrap: break-word; /* Break long words if needed */
+}
+
+/* Style for blockquotes in both light and dark modes */
+blockquote {
+  white-space: pre-wrap !important; /* Allow text to wrap */
+  word-wrap: break-word !important; /* Break long words if needed */
+  overflow-wrap: break-word !important;
+}
+
+/* Style for code blocks in both light and dark modes */
+pre, pre code {
+  white-space: pre-wrap !important; /* Allow text to wrap */
+  word-wrap: break-word !important; /* Break long words if needed */
+  overflow-wrap: break-word !important;
+}
+
+/* Dark mode toggle */
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.dark-mode-toggle .toggle-track {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.dark-mode-toggle .toggle-track:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+[data-theme="dark"] .dark-mode-toggle .toggle-track {
+  background-color: #58a6ff;
+}
+
+[data-theme="dark"] .dark-mode-toggle .toggle-track:before {
+  transform: translateX(20px);
+}
+
+.dark-mode-toggle .toggle-icon {
+  margin-right: 5px;
+  font-size: 14px;
+}

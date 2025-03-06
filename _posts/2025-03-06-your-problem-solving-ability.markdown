@@ -43,8 +43,7 @@ You should be `independent`. Don't be scared to dive into unfamiliar code, exper
 
 ```
 Focusing on avoiding mistakes takes our focus away from becoming truly exceptional.
-Part of achieving excellence would be acquiring an intimate understanding of errors, 
-that is, what caused them and what we needed to do to eliminate them.
+Part of achieving excellence would be acquiring an intimate understanding of errors, that is, what caused them and what we needed to do to eliminate them.
 ~ Turn the Ship Around by L. David Marquet
 ```
 
