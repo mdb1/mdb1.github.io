@@ -16,10 +16,11 @@ When setting up a new MacBook, there are a few steps you should take to get it u
   - [From the internet](#from-the-internet)
     - [Safari](#safari)
     - [iTerm2](#iterm2)
-    - [SSH Keys](#ssh-keys)
-    - [Personal Access Token](#personal-access-token)
-    - [Setting Git Config](#setting-git-config)
-- [Step 5: Configure Settings](#step-5-configure-settings)
+- [Step 5: Git Configuration](#step-5-git-configuration)
+  - [SSH Keys](#ssh-keys)
+  - [Personal Access Token](#personal-access-token)
+  - [Git Config](#git-config)
+- [Step 6: Configure Settings](#step-6-configure-settings)
   - [System Settings](#system-settings)
     - [Notifications](#notifications)
     - [Appearance](#appearance)
@@ -33,6 +34,7 @@ When setting up a new MacBook, there are a few steps you should take to get it u
     - [In your User folder:](#in-your-user-folder)
 - [Additional Tips](#additional-tips)
 - [Conclusion](#conclusion)
+  - [Related Articles](#related-articles)
 
 # Step 1: Update OS
 Before you start using your new MacBook, make sure to update the operating system to the latest version. This will ensure that your MacBook has the latest security updates and performance improvements.
@@ -58,13 +60,12 @@ Here's a list of recommended Mac apps to download:
 * Notion
 * iTerm2
 * SourceTree
-* Visual Studio Code
+* [Windsurf](https://codeium.com/windsurf)
 * [Insomnia](https://insomnia.rest/)
 * [Proxyman](https://proxyman.io/)
 * [ChatGPT](https://openai.com/chatgpt/download/)
 
 ### Safari
-- Make default browser
 - Log in to profiles (personal/work)
 - Go to Settings/Websites:
   - Location: When visiting other websites: `Deny`
@@ -76,7 +77,9 @@ Here's a list of recommended Mac apps to download:
 - Download Homebrew
 - Copy your `~/.zshrc` from a previous MacBook (aliases/configs/etc)
 
-### SSH Keys
+# Step 5: Git Configuration
+
+## SSH Keys
 If you are using SSH keys for your personal/work repositories:
 1. Create a new SSH key: `ssh-keygen -t ed25519 -C “your_mail”`
     - Use a password to encrypt it.
@@ -92,6 +95,8 @@ If you are using SSH keys for your personal/work repositories:
         HostName github.com
         User git
         IdentityFile /Users/manu/.ssh/personal
+
+    # Here you can add a separate host for work
     ```
 4. Add the key to your keychain: `ssh-add --apple-use-keychain ~/.ssh/personal`
    - Enter the encryption password.
@@ -99,9 +104,11 @@ If you are using SSH keys for your personal/work repositories:
 
 Note: If you are using SourceTree, be careful with the auto-generated keys, they will probably not work. If you keep getting Access Denied with those keys, try following the steps described above instead.
 
-### Personal Access Token
+## Personal Access Token
 
 If, for some reason, the SSH keys do not work, and, you are in a hurry, there is a quick way to clone private repositories using Personal Access Tokens:
+
+_The PAT is created on Github._
 
 `git clone https://$YOUR_PAT@github.com/organization/repo.git`
 
@@ -109,7 +116,9 @@ This line could also be useful for CI systems:
 
 `git config --global url."https://$GIT_PAT@github.com/".insteadOf git@github.com:`
 
-### Setting Git Config
+_$GIT_PAT should be a Secret stored in CI._
+
+## Git Config
 
 These lines are useful to set your git email/name:
 
@@ -129,7 +138,7 @@ Run in the root of the repo:
 - `git config user.email`
 - `git config user.name`
 
-# Step 5: Configure Settings
+# Step 6: Configure Settings
 Here's a list of recommended settings to customize:
 
 ## System Settings
@@ -203,7 +212,15 @@ osascript -e 'tell application "Dock" to quit'
 ```
 
 # Conclusion
-In conclusion, setting up a new MacBook can be an exciting but daunting experience, especially for those who are new to the Mac ecosystem. However, by following the five steps outlined in this article, you can ensure that your MacBook is up-to-date, decluttered, and customized to your needs. Updating the operating system, customizing the dock, logging in to your Apple ID account, downloading essential apps, and configuring settings will optimize your MacBook experience and make it more enjoyable to use.
+By following these steps, you can ensure that your MacBook is up-to-date, decluttered, and customized to your needs.
+
+**What am I missing?**
+
+---
+
+## Related Articles
+
+- [My Xcode Setup and Shortcuts](/2023-03-14-my-xcode-setup-and-shortcuts/)
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}
