@@ -41,20 +41,19 @@ In this age of the so-called `vibe-coding`, and with non-technical people shippi
 
 You should be `independent`. Don't be scared to dive into unfamiliar code, experiment with solutions, and `learn from failures`.
 
-<blockquote>
-  <p>
-    Focusing on avoiding mistakes takes our focus away from becoming truly exceptional.
-    Part of achieving excellence would be acquiring an intimate understanding of errors, that is, what caused them and what we needed to do to eliminate them.
-  </p>
-  <cite><em>Turn the Ship Around</em> by L. David Marquet</cite>
-</blockquote>
+```
+Focusing on avoiding mistakes takes our focus away from becoming truly exceptional.
+Part of achieving excellence would be acquiring an intimate understanding of errors, 
+that is, what caused them and what we needed to do to eliminate them.
+~ Turn the Ship Around by L. David Marquet
+```
 
 ## Examples of Good Problem Solving
 
 Here are some real-world scenarios that demonstrate good problem-solving behaviors:
 
 ### CI Failures
-If a test fails on CI, but not on your computer → you `have to` find a way to reproduce it locally, so you can fix it. Don't just restart the build and hope it passes. `Read the error message!` Investigate environment differences, race conditions, or timing issues that might be causing the inconsistency.
+If a test fails on CI, but not on your computer → you `have to` find a way to reproduce it locally, so you can fix it. Don't just restart the build and hope it passes. `Read the error message`. Investigate environment differences, race conditions, or timing issues that might be causing the inconsistency.
 
 ### Unrelated Bugs
 If you find a bug unrelated to what you're working on → you `have to` report it, create a ticket, and explain how to reproduce it. If you want to go the extra mile and propose solutions or fix it, great, but `do not` ignore it! Small issues compound over time and create technical debt.
@@ -85,6 +84,10 @@ In the end, `your problem solving ability` is what matters the most. It's what m
 - [The Definition of Done](/2023-05-13-the-definition-of-done/)
 - [New App Contributing Guidelines](/2023-01-02-new-app-contributing-guidelines/)
 - [H Mode](/2022-10-26-h-mode/)
+- [Streamlining My Life](/2023-11-26-streamlining-life/)
+- [Advice I Wish I Had Gotten Earlier](/2025-02-22-advice-i-wish-i-had-gotten-earlier/)
+- [How to keep up with the industry standards](/2023-04-04-industry-standards/)
+- [Rules and Habits for a better life](/2022-01-15-rules-and-habits/)
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}
