@@ -111,9 +111,28 @@ footer a:hover {
 }
 
 /* Improve readability of 'Tags:' text in dark mode */
-[data-theme="dark"] .blog-tags:before {
-  color: #ffffff; /* Bright white for the 'Tags:' text */
+[data-theme="dark"] .blog-tags span {
+  color: #ffffff !important; /* Bright white for the 'Tags:' text */
   font-weight: 600;
+  opacity: 1 !important; /* Ensure full opacity */
+}
+
+/* Specifically target the 'Tags:' label on the home page */
+[data-theme="dark"] .post-preview .blog-tags span {
+  color: #ffffff !important; /* Pure white for maximum readability */
+  font-weight: 600;
+  opacity: 1 !important;
+}
+
+/* Make Tags text lighter in dark mode on home page */
+[data-theme="dark"] .post-preview .blog-tags a {
+  color: #ffffff !important; /* Pure white for maximum readability */
+  background-color: #3a3a3a; /* Slightly lighter background for better contrast */
+}
+
+[data-theme="dark"] .post-preview .blog-tags a:hover {
+  background-color: #4a4a4a; /* Even lighter on hover */
+  color: #ffffff !important;
 }
 
 /* Style for inline code in dark mode */
@@ -153,6 +172,28 @@ blockquote {
   white-space: pre-wrap !important; /* Allow text to wrap */
   word-wrap: break-word !important; /* Break long words if needed */
   overflow-wrap: break-word !important;
+}
+
+/* Dark mode styles for comments */
+[data-theme="dark"] #disqus_thread,
+[data-theme="dark"] .comment-content, 
+[data-theme="dark"] .comment-body p {
+  color: #ffffff !important; /* Pure white for maximum readability */
+}
+
+[data-theme="dark"] .comment-author {
+  color: #ffffff !important;
+  font-weight: bold;
+  text-shadow: 0 0 1px rgba(255,255,255,0.3); /* Subtle text shadow for better visibility */
+}
+
+[data-theme="dark"] .comment-meta {
+  color: #e0e0e0 !important; /* Lighter gray for better readability */
+}
+
+/* Ensure Disqus iframe has proper background in dark mode */
+[data-theme="dark"] iframe[src*="disqus.com"] {
+  background-color: #1e1e1e !important;
 }
 
 /* Style for code blocks in both light and dark modes */
