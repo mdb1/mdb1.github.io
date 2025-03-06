@@ -273,9 +273,12 @@ The complete code can be found in the `WithoutProtocols` branch of [this reposit
 
 You can also check out how to achieve the same results _using protocols_ in [this post](/2023-02-13-enhancing-testability-with-protocols/).
 
+---
+
 # Related Articles
 
 - [Centralized Dependencies](/2024-02-29-centralized-dependencies/)
+- [Enhancing testability with protocols](/2023-02-13-enhancing-testability-with-protocols/)
 
 ---
 

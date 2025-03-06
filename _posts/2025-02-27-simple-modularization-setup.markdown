@@ -215,6 +215,8 @@ For more information on modularization, architecture, testing, and project struc
 - [ViewStateController](/2023-03-04-view-state-controller/)
 - [The Definition of Done](/2023-05-13-the-definition-of-done/)
 
+---
+
 ## Featured in
 - [iOSCoffeeBreak](https://www.ioscoffeebreak.com/issue/issue35)
 
