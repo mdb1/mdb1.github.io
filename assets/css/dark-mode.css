@@ -140,6 +140,17 @@ footer a:hover {
   color: #ffffff !important;
 }
 
+/* Add blue hover effect for titles/descriptions in dark mode */
+[data-theme="dark"] .post-preview a:hover .post-title,
+[data-theme="dark"] .post-preview a:hover .post-subtitle {
+  color: #58a6ff !important; /* Same blue as light mode */
+}
+
+/* Ensure no text decoration on hover */
+[data-theme="dark"] .post-preview a:hover {
+  text-decoration: none;
+}
+
 /* Style for inline code in dark mode */
 [data-theme="dark"] code {
   background-color: #2d2d2d;
