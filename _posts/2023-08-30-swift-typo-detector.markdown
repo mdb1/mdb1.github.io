@@ -88,4 +88,4 @@ Also, it should be pretty easy to provide support for other extensions.
 - [SwiftlyRush #89](https://swiftlyrush.curated.co/issues/89#start)
 
 <!-- Do not remove - SEO meta tags -->
-{% seo }
+{% seo %}

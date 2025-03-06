@@ -150,4 +150,4 @@ That's it, the [webfactory/ssh-agent@v0.9.0](https://github.com/marketplace/acti
 - [Mobile Automation Newsletter #28](https://testableapple.com/newsletter/28/)
 
 <!-- Do not remove - SEO meta tags -->
-{% seo }
+{% seo %}

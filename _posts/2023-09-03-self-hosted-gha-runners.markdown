@@ -166,4 +166,4 @@ With these considerations in mind, is it time for you to switch to a self-hosted
 - [iOS CI Newsletter #24](https://www.ioscinewsletter.com/issues/24)
 
 <!-- Do not remove - SEO meta tags -->
-{% seo }
+{% seo %}

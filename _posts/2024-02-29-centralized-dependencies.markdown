@@ -240,4 +240,4 @@ What do you think about this approach?
 - [Mobile Automation Newsletter #27](https://testableapple.com/newsletter/27/)
 
 <!-- Do not remove - SEO meta tags -->
-{% seo }
+{% seo %}
