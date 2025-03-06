@@ -33,11 +33,11 @@ If you're hiring people, you want to get a grasp on how well the candidates solv
 In this age of the so-called `vibe-coding`, and with non-technical people shipping 100x more than people with 10 years of experience (still TBD where all this will lead), certain developer behaviors put you at risk of becoming obsolete:
 
 - If your first thought when running into a problem is asking a coworker → you could be replaced by AI.
-  - Instead, try debugging/finding the error/fixing it and only after exhausting your options, ask for help, but provide all the details of your findings.
+  - Instead, try `debugging/finding the error/fixing` it and only after exhausting your options, ask for help, but provide all the details of your findings.
 - If you're a machine that takes tickets as inputs, and only code the minimum necessary to satisfy the ticket → you could be replaced by AI.
-  - Instead, try getting a better understanding of what is needed, what value you could add, and how to improve the codebase in the process. Also, break down the ticket into smaller, more manageable tasks if needed. [Document your work](/2023-05-13-the-definition-of-done/). 
+  - Instead, try `getting a better understanding` of what is needed, what value you could add, and how to improve the codebase in the process. Also, break down the ticket into smaller, more manageable tasks if needed. [Document your work](/2023-05-13-the-definition-of-done/). 
 - If you don't think about the business → you could be replaced by AI.
-  - Instead, try to contextualize the problem within the business goals and deliver solutions that create real value. Propose new things that might benefit the business. Talk to real users.
+  - Instead, try `contextualizing the problem` within the business goals and deliver solutions that create real value. Propose new things that might benefit the business. Talk to real users.
 
 You should be `independent`. Don't be scared to dive into unfamiliar code, experiment with solutions, and `learn from failures`.
 
