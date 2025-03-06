@@ -118,6 +118,7 @@ These lines are useful to set your git email/name:
 - `git config --global user.name "your_name"`
 
 **For a single repo:**
+
 Run in the root of the repo:
 
 - `git config user.email "your_email"`
