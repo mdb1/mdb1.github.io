@@ -218,7 +218,7 @@ For more information on modularization, architecture, testing, and project struc
 ---
 
 ## Featured in
-- [iOSCoffeeBreak](https://www.ioscoffeebreak.com/issue/issue35)
+- [iOSCoffeeBreak #35](https://www.ioscoffeebreak.com/issue/issue35)
 
 ---
 
