@@ -22,6 +22,7 @@ When setting up a new MacBook, there are a few steps you should take to get it u
   - [Git Config](#git-config)
 - [Step 6: Configure Settings](#step-6-configure-settings)
   - [System Settings](#system-settings)
+    - [Battery](#battery)
     - [Notifications](#notifications)
     - [Appearance](#appearance)
     - [Control Center](#control-center)
@@ -142,6 +143,10 @@ Run in the root of the repo:
 Here's a list of recommended settings to customize:
 
 ## System Settings
+
+### Battery
+
+1. Turn off `Slightly dim the display on battery`
 
 ### Notifications
 
