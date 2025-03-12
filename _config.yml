@@ -172,7 +172,7 @@ site-js:
 #################################
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "G-GWCH9J0G3T"
+# gtag: "G-GWCH9J0G3T" # (Added via google_analytics.html file)
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
 # google_analytics: "UA-29491874-1"
