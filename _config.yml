@@ -60,6 +60,7 @@ navbar-links:
     - Productivity: "/tags/#productivity"
     - Random: "/tags/#random"
     - Testing: "/tags/#testing"
+    - Thoughts: "/tags/#thoughts"
     - Tools: "/tags/#tools"
   About the Blog: "about/index.html"
 
