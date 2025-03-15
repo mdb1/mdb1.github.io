@@ -19,7 +19,7 @@ Is it the time for most people to tinkle around with AI Agents? Is it capable of
 
 # My experiments
 
-I've been using WindSurf Pro for the past couple of weeks, and my feelings on it vary from task to task.
+I've been using Windsurf Pro for the past couple of weeks, and my feelings on it vary from task to task.
 
 - ✅ It `shines` when you are working on a technology that you don't fully grasp, and you need help to understand it (more on this later).
 - ✅ It `shines` when you need to perform some mechanical work (like formatting code, refactoring, creating multiple files, adding tests, etc).
