@@ -6,12 +6,13 @@ comments: true
 tags: [productivity, tools]
 ---
 
-This is a set of guidelines on how I like the team-work to happen. 
+This is a set of guidelines on how I like the team-work to happen.
+
 I’d like to hear your thoughts, ideas, and your guidelines after you read it.
 
 ### 1. Communication
 
-- It’s important we communicate well and often.
+- It’s important that we communicate well and often.
 - I like Slack the best as our go-to communication tool.
 - I like async communication, using threads over multiple consecutive messages, and reactions for ACKs.
 
@@ -41,9 +42,18 @@ I’d like to hear your thoughts, ideas, and your guidelines after you read it.
 
 - I've high standards for our codebases. I like the code/commits/PRs to be organized.
 - Unit testing is there to help us. I will require new additions to be tested.
-- If the tests does not pass on CI for a particular PR, that PR cannot be merged until we fix the tests.
+- If the tests do not pass on CI for a particular PR, that PR cannot be merged until we fix the tests.
 - I like to spend some time refactoring old code. It’s a good opportunity to make the codebase stronger and to keep adding test coverage.
 - I like to automate the boring stuff, so please let me know if you see something that you feel should be automatic and we can work on it.
+
+---
+
+- [Communication Etiquette](/2025-03-17-communication-etiquette/)
+- [Your Problem Solving Ability](/2025-03-06-your-problem-solving-ability/)
+- [H Mode](/2022-10-26-h-mode/)
+- [Streamlining My Life](/2023-11-26-streamlining-life/)
+
+---
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

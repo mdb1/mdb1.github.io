@@ -49,6 +49,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [The Code Review Process](/2022-03-10-the-code-review-process/)
   - [PR Template](/2023-01-09-new-app-pr-template/)
   - [The Definition of Done](/2023-05-13-the-definition-of-done/)
+  - [Communication Etiquette](/2025-03-17-communication-etiquette/)
 - Scripts
   - [Typo Detector](/2023-08-30-swift-typo-detector/)
   - [Sort Project Files](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/SortProject.md)
