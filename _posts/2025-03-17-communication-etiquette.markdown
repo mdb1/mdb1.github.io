@@ -26,7 +26,7 @@ The goals we are aiming towards:
   - [Bad Example ❌](#bad-example-)
   - [Good Example ✅](#good-example-)
 - [5. Use the right channels](#5-use-the-right-channels)
-- [Communication Template](#communication-template)
+- [Question Template](#question-template)
 - [Related Articles](#related-articles)
 
 # 1. No Hello
@@ -120,7 +120,7 @@ It goes without saying, but using the right channels is essential for effective 
 
 It is more than welcome to speak about non-work related stuff, but, there are specific channels for that, for example `random`, `pets`, `sports`, etc.
 
-# Communication Template
+# Question Template
 
 If you want a quick way to ask for help, you can use the following template:
 
