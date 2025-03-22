@@ -226,6 +226,7 @@ By following these steps, you can ensure that your MacBook is up-to-date, declut
 ## Related Articles
 
 - [My Xcode Setup and Shortcuts](/2023-03-14-my-xcode-setup-and-shortcuts/)
+- [Freeing up space on your Mac](/2025-03-22-clean-storage-mac/)
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

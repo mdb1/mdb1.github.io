@@ -51,6 +51,8 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [The Definition of Done](/2023-05-13-the-definition-of-done/)
   - [Communication Etiquette](/2025-03-17-communication-etiquette/)
   - [When Xcode doesn't help](/2025-03-22-when-xcode-does-not-help/)
+  - [Configuring a New MacBook](/2023-03-18-configuring-a-new-mac/)
+  - [Freeing up space on your Mac](/2025-03-22-clean-storage-mac/)
 - Scripts
   - [Typo Detector](/2023-08-30-swift-typo-detector/)
   - [Sort Project Files](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/SortProject.md)
