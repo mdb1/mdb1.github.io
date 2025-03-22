@@ -45,6 +45,10 @@ Tap on the `info` icon next to the Developer row:
 
 Additionally, you can navigate to `~/Library/Developer/` and manually delete simulators, os versions, or other stuff that may taking up too much space.
 
+If you don't like removing stuff from that folder, you can go to Xcode -> Manage Run Destinations and delete the simulators that you don't use anymore:
+
+![simulators]({{static.static_files}}/resources/clean-storage-mac/simulators.png)
+
 # Remove unused documents
 
 Tap on the `info` icon next to the Documents row, then navigate to the File Browser tab, and delete the documents that you don't use anymore. Remember to turn on the `Show Hidden Files` option in the top left corner (or press `Cmd + Shift + .`).
