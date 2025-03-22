@@ -3,7 +3,7 @@ layout: post
 title: "When Xcode doesn't help"
 subtitle: "A guide for fixing esoteric errors"
 date: 2025-03-22 07:00:00 -0300
-tags: [productivity, tools, ios]
+tags: [ios]
 thumbnail-img: "/resources/xcode-does-not-help/thumbnail.png"
 readtime: true
 ---
@@ -73,6 +73,10 @@ It's time to divide and conquer, at this point, you should start a binary search
   - Then you can fix that error and continue with your day.
 
 I don't want to sound repetitive, but [Your Problem Solving Ability](/2025-03-06-your-problem-solving-ability/) is essential for your success. You need to spend time finding the solution to your own problems. It's ok to ask for help, but before you do, exhaust most options.
+
+---
+
+I do wonder what other people are doing in these scenarios. If you have any suggestions or experiences, please let me know on Twitter or by email.
 
 ---
 
