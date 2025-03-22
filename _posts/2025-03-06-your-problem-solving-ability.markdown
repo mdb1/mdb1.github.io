@@ -88,6 +88,7 @@ In the end, `your problem solving ability` is what matters the most. It's what m
 - [Advice I Wish I Had Gotten Earlier](/2025-02-22-advice-i-wish-i-had-gotten-earlier/)
 - [How to keep up with the industry standards](/2023-04-04-industry-standards/)
 - [Rules and Habits for a better life](/2022-01-15-rules-and-habits/)
+- [When Xcode doesn't help](/2025-03-22-when-xcode-does-not-help/)
 
 ---
 
