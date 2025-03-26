@@ -205,6 +205,7 @@ As a reminder, the code included in this post is available [here](https://github
 
 For more information on modularization, architecture, testing, and project structure, check out these related articles:
 
+- [Only run unit tests for changed modules](/2025-03-26-dx-changed-modules-tests/)
 - [Improve Build Times](/2023-08-18-improve-build-times-in-spm-packages-and-in-your-apps/)
 - [UI vs API Models](/2023-08-25-ui-vs-api-models-different-layers/)
 - [Enhancing Testability with Protocols](/2023-02-13-enhancing-testability-with-protocols/)

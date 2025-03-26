@@ -16,6 +16,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
 - CI / CD
   - [Run unit tests in PRs](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane.md)
   - [Deploy builds](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane+Distribution.md)
+  - [DX: Only run tests for changed modules](/2025-03-26-dx-changed-modules-tests/)
 - Architecture
   - [Simple Modularization Setup](2025-02-27-simple-modularization-setup/)
   - [Centralized Dependencies](/2024-02-29-centralized-dependencies/)
