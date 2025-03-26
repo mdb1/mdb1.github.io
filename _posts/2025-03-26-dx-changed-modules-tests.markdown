@@ -10,7 +10,7 @@ readtime: true
 
 Here is a quick developer experience win: `Only run the unit tests for the modules with changes against a base branch`.
 
-We'll build upon the [Simple Modularization](/2025-03-06-simple-modularization/) post. In that repo, we added a lane to run all the tests of all the modules. Now, we will add a lane to only run the tests for the modules with changes, to speed up the process and improve the developer experience.
+We'll build upon the [Simple Modularization](/2025-02-27-simple-modularization-setup/) post. In that repo, we added a lane to run all the tests of all the modules. Now, we will add a lane to only run the tests for the modules with changes, to speed up the process and improve the developer experience.
 
 This will also save up precious CI time, as developers will get test failures on their machines, without the need to wait for the CI to run all the tests.
 
@@ -81,7 +81,7 @@ With this new `test_changed_packages` lane, we can now speed up development, run
 
 # Related Articles
 
-- [Simple Modularization Setup](/2025-03-06-simple-modularization/)
+- [Simple Modularization Setup](/2025-02-27-simple-modularization-setup/)
 - [My Xcode Setup and Shortcuts](/2023-03-14-my-xcode-setup-and-shortcuts)
 - [New App Checklist](/2022-12-24-new-app-checklist/)
 
