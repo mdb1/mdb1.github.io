@@ -1,0 +1,9 @@
+[tools]
+ruby = "latest"
+
+[env]
+JEKYLL_ENV = "development"
+
+[tasks]
+serve = { run = "bundle exec jekyll serve" }
+build = { run = "bundle exec jekyll build" }
