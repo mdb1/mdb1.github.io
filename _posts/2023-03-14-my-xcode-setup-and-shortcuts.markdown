@@ -3,6 +3,8 @@ layout: post
 title:  "My Xcode Setup and Shortcuts"
 date:   2023-03-14 07:00:00 -0300
 tags: [iOS, tools]
+thumbnail-img: "/resources/xcode-setup/thumbnail.png"
+readtime: true
 ---
 
 In this article, we'll explore some of the Xcode configurations and shortcuts that I find most useful and that can save you time and effort when working on your  projects.
@@ -22,6 +24,11 @@ In this article, we'll explore some of the Xcode configurations and shortcuts th
   - [Notion](#notion)
   - [VisualStudio / WindSurf](#visualstudio--windsurf)
   - [Xcode](#xcode)
+    - [Text Editing](#text-editing)
+    - [Editor](#editor)
+    - [Navigator / Settings](#navigator--settings)
+    - [Search / Discovery](#search--discovery)
+    - [Debug](#debug)
     - [Xcode combos](#xcode-combos)
     - [Custom Keybindings](#custom-keybindings)
 - [Time Savers](#time-savers)
@@ -116,32 +123,41 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 * `⌥ + Click(s)` → Multi Cursor on selected clicks
 
 ## Xcode
+
+### Text Editing
 * `⌃ + ⇧ + Click(s)` → Multi Cursor on selected clicks
 * `^ + ⇧ + Drag click` → In-line Multi Cursor
+* `⌘ + L` → Go to line Number
 * `^ + M` → Format to Multiple Lines
+* `⌘ + ⌥ + ]` → Move line up
+* `⌘ + ⌥ + [` → Move line down
+* `⌘ + ^ + E` → Edit All in Scope (Rename in Scope)
+* `⌘ + ⌥ + /` → Add docs template to the selected method/property
+  
+### Editor
+* `⌘ + ⇧ + Y` → Show/Hide Debug Area (Console)
+* `⌘ + ⌥ + 0` → Hide/Show the Inspectors (Right panel)
+* `⌘ + ^ + ←` → Back to previous file
+* `⌘ + ^ + →` → Forward to next file
+* `⌘ + ^ + T` → New Editor to the right
+* `⌘ + ^ + ⌥ + T` → New Editor below
+* `` ^ + ` `` → Move Focus to Next Editor
+* `` ^ + ⇧ + ` `` → Move Focus to Previous Editor
+* `⌘ + ⌥ + W` → Close all tabs but the current one
 
+### Navigator / Settings
 * `⌘ + 0` → Hide/Show the Navigator (Left panel)
 * `⌘ + ,` → Open Settings
 * `⌘ + ;` → Check next typo in the current file
-* `⌘ + L` → Go to line Number
 * `⌘ + N` → New File
-* `⌘ + Y` → Disable/Enable breakpoints
-
 * `⌘ + ⇧ + J` → Display and select current file in the folder hierarchy
+
+### Search / Discovery
 * `⌘ + ⇧ + O` → Open file/method/struct quickly
-* `⌘ + ⇧ + Y` → Show/Hide Debug Area (Console)
 
-* `⌘ + ^ + ←` → Back to previous file
-* `⌘ + ^ + →` → Forward to next file
-* `⌘ + ^ + E` → Edit All in Scope (Rename in Scope)
+### Debug
+* `⌘ + Y` → Disable/Enable breakpoints
 * `⌘ + ^ + L` → Show/Hide all issues
-* `⌘ + ^ + T` → New Editor to the right
-
-* `⌘ + ⌥ + 0` → Hide/Show the Inspectors (Right panel)
-* `⌘ + ⌥ + /` → Add docs template to the selected method/property
-* `⌘ + ⌥ + ]` → Move line up
-* `⌘ + ⌥ + [` → Move line down
-* `⌘ + ⌥ + W` → Close all tabs but the current one
 
 ### Xcode combos
 * Rename a file: 
@@ -156,11 +172,13 @@ One quick way to know that a build was successful is to make Xcode reproduce a s
 1. `⌘ + A` → Select All
 2. `^ + I` → Indent file
 
-* Add a new Editor (and space):
+* Set up Split Editors:
 1. `⌘ + ^ + T` → New Editor to the right
-2. `⌘ + 0` → Hide/Show the Navigator (Left panel)
-3. `⌘ + ⌥ + 0` → Hide/Show the Inspectors (Right panel)
-4. `⌘ + ⇧ + Y` → Show/Hide Debug Area (Console)
+2. `⌘ + ^ + ⌥ + T` → New Editor below
+3. Use `` ^ + ` `` to move focus between editors.
+4. `⌘ + 0` → Hide/Show the Navigator (Left panel)
+5. `⌘ + ⌥ + 0` → Hide/Show the Inspectors (Right panel)
+6. `⌘ + ⇧ + Y` → Show/Hide Debug Area (Console)
 
 * Search a file and display it in a new editor:
 1. `⌘ + ⇧ + O` → Open file/method/struct quickly
