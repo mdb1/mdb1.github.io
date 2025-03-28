@@ -1,5 +1,5 @@
 [tools]
-ruby = "latest"
+ruby = "3.4.1"
 
 [env]
 JEKYLL_ENV = "development"

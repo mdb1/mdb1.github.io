@@ -13,13 +13,12 @@ This site uses [mise](https://mise.jdx.dev/) to manage Ruby versions and a Gemfi
    brew install mise
    ```
 
-2. **Run the Jekyll server**:
+2. **Install the dependencies**:
    ```bash
-   mise run serve
+   mise i
    ```
 
-### Configuration
-
-The `.mise.toml` file contains all the project configuration, including:
-- Ruby version management
-- Task definitions for common operations
+3. **Run the Jekyll server**:
+   ```bash
+   mise serve
+   ```
