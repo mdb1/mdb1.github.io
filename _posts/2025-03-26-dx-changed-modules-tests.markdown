@@ -18,6 +18,7 @@ This will also save up precious CI time, as developers will get test failures on
 - [Gathering the changed packages](#gathering-the-changed-packages)
 - [Running the tests](#running-the-tests)
 - [Related Articles](#related-articles)
+- [Featured in](#featured-in)
 
 # Gathering the changed packages
 
@@ -84,6 +85,11 @@ With this new `test_changed_packages` lane, we can now speed up development, run
 - [Simple Modularization Setup](/2025-02-27-simple-modularization-setup/)
 - [My Xcode Setup and Shortcuts](/2023-03-14-my-xcode-setup-and-shortcuts)
 - [New App Checklist](/2022-12-24-new-app-checklist/)
+
+---
+
+# Featured in
+- [TestableApple #55](https://testableapple.com/newsletter/55/)
 
 ---
 
