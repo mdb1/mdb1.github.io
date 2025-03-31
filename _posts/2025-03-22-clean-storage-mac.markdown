@@ -17,6 +17,7 @@ This is a quick guide on how to free up storage manually on your mac.
 - [Remove unused documents](#remove-unused-documents)
 - [Empty the Trash](#empty-the-trash)
 - [Related Articles](#related-articles)
+- [Featured in](#featured-in)
 
 # Check Current Storage
 
@@ -78,6 +79,12 @@ I hope you find this guide useful. If you have any questions or comments, please
 - [Configuring a New MacBook](/2023-03-18-configuring-a-new-mac/)
 - [H Mode](/2022-10-26-h-mode/)
 - [Advice I Wish I Had Gotten Earlier](/2025-02-22-advice-i-wish-i-had-gotten-earlier/)
+
+---
+
+# Featured in
+
+- [iOSCoffeeBreak #39](https://www.ioscoffeebreak.com/issue/issue39)
 
 ---
 
