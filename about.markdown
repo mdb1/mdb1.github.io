@@ -18,6 +18,11 @@ The closer the final number is to `1`, the better the architecture is.
 
 ---
 
+> `High Quality work produced = (Time Spent) * (Intensity of Focus)`
+> Deep Work, by Cal Newport
+
+---
+
 Here are some of my favorite articles:
 
 * [Rules and Habits for a better life](/2022-01-15-rules-and-habits/)
