@@ -26,6 +26,7 @@ The goals we are aiming towards:
   - [Bad Example ❌](#bad-example-)
   - [Good Example ✅](#good-example-)
 - [5. Use the right channels](#5-use-the-right-channels)
+- [6. Keep a Jargon file](#6-keep-a-jargon-file)
 - [Question Template](#question-template)
 - [Related Articles](#related-articles)
 
@@ -119,6 +120,24 @@ For `answering`, the same rules apply, the more context-rich your answer the bet
 It goes without saying, but using the right channels is essential for effective communication.
 
 It is more than welcome to speak about non-work related stuff, but, there are specific channels for that, for example `random`, `pets`, `sports`, etc.
+
+# 6. Keep a Jargon file
+
+Something that I have found useful is to keep a jargon file, where the team can document:
+
+- Acronyms
+- Terms
+- Concepts
+
+This is really helpful when you are working with a team of people that are not familiar with the organization's jargon.
+
+It's also useful to cultivate a `ubiquitous language` (a.k.a. shared language) in the team.
+
+Examples:
+- `Q`: Question
+- `nit`: nitpick comment, can be ignored
+- Project names
+- SDK/Frameworks acronyms
 
 # Question Template
 
