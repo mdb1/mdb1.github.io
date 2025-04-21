@@ -4,13 +4,13 @@ title: "Simple Modularization setup for a New App"
 subtitle: "A structured approach using local packages"
 date: 2025-02-27 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/simple-modularization-setup/thumbnail.png"
+thumbnail-img: "/resources/ep75-simple-modularization-setup/thumbnail.png"
 readtime: true
 ---
 
 I want to introduce a simple modularization setup that I like to use as a staring point for new apps:
 
-![dependency-diagram]({{static.static_files}}/resources/simple-modularization-setup/diagram.png)
+![dependency-diagram]({{static.static_files}}/resources/ep75-simple-modularization-setup/diagram.png)
 
 The code included in this post is available [here](https://github.com/mdb1/ModularTemplate).
 
@@ -53,7 +53,7 @@ The only `con` I see with this approach is that it is not possible to run the mo
 
 In [the repository](https://github.com/mdb1/ModularTemplate?tab=readme-ov-file#testing), I've added a basic fastlane integration to run all the tests of the packages:
 
-![tests]({{static.static_files}}/resources/simple-modularization-setup/tests.png)
+![tests]({{static.static_files}}/resources/ep75-simple-modularization-setup/tests.png)
 
 It supports some parameters for verbosity, and it reports the code coverage for each module.
 
@@ -65,19 +65,19 @@ The Xcode project is just a really thin layer, that only contains the `Presentat
 
 The project looks like this:
 
-![xcode-proj]({{static.static_files}}/resources/simple-modularization-setup/xcode-proj.png)
+![xcode-proj]({{static.static_files}}/resources/ep75-simple-modularization-setup/xcode-proj.png)
 
 This is how the `Presentation` package looks like:
 
-![presentation-package]({{static.static_files}}/resources/simple-modularization-setup/presentation-package.png)
+![presentation-package]({{static.static_files}}/resources/ep75-simple-modularization-setup/presentation-package.png)
 
 This is how the `Domain` package looks like:
 
-![domain-package]({{static.static_files}}/resources/simple-modularization-setup/domain-package.png)
+![domain-package]({{static.static_files}}/resources/ep75-simple-modularization-setup/domain-package.png)
 
 And the folder structure:
 
-![folder-structure]({{static.static_files}}/resources/simple-modularization-setup/folder-structure.png)
+![folder-structure]({{static.static_files}}/resources/ep75-simple-modularization-setup/folder-structure.png)
 
 ## Dependency Management Between Modules
 
