@@ -4,7 +4,7 @@ title: "When Xcode doesn't help"
 subtitle: "A guide for fixing esoteric errors"
 date: 2025-03-22 07:00:00 -0300
 tags: [ios]
-thumbnail-img: "/resources/xcode-does-not-help/thumbnail.png"
+thumbnail-img: "/resources/ep81-when-xcode-does-not-help/thumbnail.png"
 readtime: true
 ---
 
@@ -26,7 +26,7 @@ This is a common scenario, where the `main` branch compiles fine for everyone, b
 
 These sort of issues are usually related to the environment, index corruption, cache issues. These could also be caused when you are working on a really big project, with tons of dependencies. I've seen it happening a lot on projects that use the TCA packages, where the compiler has a hard time understanding the types.
 
-![error]({{static.static_files}}/resources/xcode-does-not-help/error.png)
+![error]({{static.static_files}}/resources/ep81-when-xcode-does-not-help/error.png)
 
 Before jumping quickly to the "nuclear option" steps, I check the Build Log in Xcode (⌘9) to try to find the root cause of the error. If I can't find it, I jump to the "nuclear option" steps.
 
