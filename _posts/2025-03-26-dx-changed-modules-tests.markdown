@@ -4,7 +4,7 @@ title: "DX: Only run unit tests for changed modules"
 subtitle: "A quick-win Fastlane lane"
 date: 2025-03-26 07:00:00 -0300
 tags: [ios]
-thumbnail-img: "/resources/dx-changed-modules-tests/thumbnail.png"
+thumbnail-img: "/resources/ep82-dx-changed-modules-tests/thumbnail.png"
 readtime: true
 ---
 
@@ -36,7 +36,7 @@ Example:
 
 Then we need to extract the Scheme for the changed package and store all the changes packages.
 
-![diff]({{static.static_files}}/resources/dx-changed-modules-tests/diff.png)
+![diff]({{static.static_files}}/resources/ep82-dx-changed-modules-tests/diff.png)
 
 # Running the tests
 
