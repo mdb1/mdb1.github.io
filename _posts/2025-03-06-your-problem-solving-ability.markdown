@@ -4,7 +4,7 @@ title: "Your Problem Solving Ability"
 subtitle: "The foundation of software development"
 date: 2025-03-06 07:00:00 -0300
 tags: [productivity, tools]
-thumbnail-img: "/resources/problem-solving-ability/thumbnail.png"
+thumbnail-img: "/resources/ep77-your-problem-solving-ability/thumbnail.png"
 readtime: true
 ---
 
