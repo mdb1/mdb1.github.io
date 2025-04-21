@@ -4,7 +4,7 @@ title: "Communication Etiquette"
 subtitle: "Guidelines for effective communication"
 date: 2025-03-17 07:00:00 -0300
 tags: [productivity, tools]
-thumbnail-img: "/resources/communication/thumbnail.png"
+thumbnail-img: "/resources/ep79-communication-etiquette/thumbnail.png"
 readtime: true
 ---
 
@@ -38,7 +38,7 @@ The idea is that instead of sending 5 consecutive messages, you can just send 1,
 
 This is aligned with the `Productivity through focus` goal. You don't want the receiver to get 5 notifications, one for each message.
 
-![no-hello]({{static.static_files}}/resources/communication/no-hello.png)
+![no-hello]({{static.static_files}}/resources/ep79-communication-etiquette/no-hello.png)
 
 In the next few points, we'd cover what's wrong in the `✅ Instead try this` section of this image. 
 
@@ -52,7 +52,7 @@ Only the interested parties should be in the thread, and the messages should be 
 
 The best way that I found to push this practice, is by introducing a friendly `thread police` reaction, that would be added to every message in the channel that should have been part of a thread.
 
-![thread-police]({{static.static_files}}/resources/communication/thread-police.gif)
+![thread-police]({{static.static_files}}/resources/ep79-communication-etiquette/thread-police.gif)
 
 Eventually, people in your organization will start to see the value of the threads, and they will start thread policing other people.
 
