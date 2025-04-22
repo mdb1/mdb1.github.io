@@ -3,6 +3,7 @@ layout: post
 title: "New App - Document Best Practices"
 date: 2023-08-04 07:00:01 -0300
 tags: [iOS, tools]
+thumbnail-img: "/resources/ep50-best-practices/thumbnail.png"
 ---
 
 Recently, I stumbled upon Lickability's [repository](https://github.com/Lickability/swift-best-practices) on swift-best-practices, and it got me thinking about my own [Contributing guidelines](/2023-01-02-new-app-contributing-guidelines/) that I wrote a while back. I realized they might not be as scalable as I'd like them to be over time.
@@ -13,7 +14,7 @@ So, I decided to write my own set of guidelines that are a mix of Lickability's 
 
 The idea is to use the [Contributing](https://github.com/mdb1/best-practices-example/blob/main/.github/CONTRIBUTING.md) document as a kind of table-of-contents and link all the smaller documents from there:
 
-![email-filter]({{static.static_files}}/resources/best-practices/contributing.png)
+![email-filter]({{static.static_files}}/resources/ep50-best-practices/contributing.png)
 
 From there, you can be as atomic as you want, and you can document every decision that you or your team make in terms of the codebase over time.
 
