@@ -3,6 +3,7 @@ layout: post
 title:  "Build Phase to enforce minimum SwiftLint version"
 date:   2023-07-23 07:00:00 -0300
 tags: [iOS, tools]
+thumbnail-img: "/resources/ep47-swiftlint-version/thumbnail.png"
 ---
 
 If your team is using `brew` to install SwiftLint, you might run into scenarios where different developers run different versions of the linter.
@@ -15,7 +16,7 @@ Here is a snippet of a Build Phase that accomplishes that:
 
 When trying to build an app with an older version installed, an error would be thrown:
 
-<img src="{{static.static_files}}/resources/swiftlint-version/swiftlint-error.png" width="100%">
+<img src="{{static.static_files}}/resources/ep47-swiftlint-version/swiftlint-error.png" width="100%">
 
 If you want everyone to run the exact same version, just modify the condition in the snippet above:
 
