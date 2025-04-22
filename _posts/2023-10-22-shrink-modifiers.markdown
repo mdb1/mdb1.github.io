@@ -4,7 +4,7 @@ title: "ViewModifiers: Shrinking views"
 subtitle: "Some simple modifiers to shrink views on tap or long press"
 date: 2023-10-22 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/modifiers-shrink/thumbnail.jpg"
+thumbnail-img: "/resources/ep64-modifiers-shrink/thumbnail.jpg"
 readtime: true
 ---
 
@@ -29,7 +29,7 @@ In this video:
 * The `Increase Count` Text has the `TapShrink` modifier, so the count increases once the tap gesture ends. 
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/modifiers-shrink/shrink.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep64-modifiers-shrink/shrink.mp4" type="video/mp4">
 </video>
 
 # TapShrinkModifier

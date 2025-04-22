@@ -4,7 +4,7 @@ title: "SwiftUI: Adaptable Stack"
 subtitle: "A Step Towards Accessibility"
 date: 2023-10-07 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/adaptable-stack/thumbnail.jpg"
+thumbnail-img: "/resources/ep63-adaptable-stack/thumbnail.jpg"
 readtime: true
 ---
 
@@ -83,19 +83,19 @@ struct ContentView: View {
 
 ## The Result
 
-![Adaptable]({{static.static_files}}/resources/adaptable-stack/adaptable.png)
+![Adaptable]({{static.static_files}}/resources/ep63-adaptable-stack/adaptable.png)
 
 ### Demo:
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/adaptable-stack/demo.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep63-adaptable-stack/demo.mp4" type="video/mp4">
 </video>
 
 ---
 
 Whereas **without** the AdaptableStack, here is how the same code would look:
 
-![Non-Adaptable]({{static.static_files}}/resources/adaptable-stack/fixed.png)
+![Non-Adaptable]({{static.static_files}}/resources/ep63-adaptable-stack/fixed.png)
 
 ---
 
