@@ -3,12 +3,12 @@ layout: post
 title:  "Brain Rules"
 date:   2023-06-09 07:00:00 -0300
 tags: [books]
-thumbnail-img: "/resources/brain-rules/cover.jpg"
+thumbnail-img: "/resources/ep42-brain-rules/thumbnail.png"
 ---
 
 These are some notes from the book: `Brain Rules` by `John Medina`. 
 
-<img src="{{static.static_files}}/resources/brain-rules/cover.jpg" width="30%">
+<img src="{{static.static_files}}/resources/ep42-brain-rules/cover.jpg" width="30%">
 
 By learning about core brain function we can improve our thinking and learning in all aspects of our lives.
 
