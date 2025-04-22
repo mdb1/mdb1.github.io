@@ -4,7 +4,7 @@ title:  "H Mode"
 date:   2022-10-26 07:00:00 -0300
 comments: true
 tags: [productivity, tools]
-thumbnail-img: "/resources/ep10-h-mode/thumbnail.jpg"
+thumbnail-img: "/resources/ep10-h-mode/thumbnail.png"
 readtime: true
 ---
 

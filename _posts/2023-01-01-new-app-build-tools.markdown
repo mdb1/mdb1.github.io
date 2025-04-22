@@ -4,6 +4,7 @@ title:  "New App - Build Tools"
 date:   2023-01-01 07:00:00 -0300
 comments: true
 tags: [iOS, tools]
+thumbnail-img: "/resources/ep15-new-app-build-tools/thumbnail.png"
 ---
 
 When starting a new app, it's important to set up the right set of build tools. This will help you and your team follow the same set of rules, so the app will feel more consistent.

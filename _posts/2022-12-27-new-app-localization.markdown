@@ -4,6 +4,7 @@ title:  "New App - Localization"
 date:   2022-12-27 07:00:00 -0300
 comments: true
 tags: [iOS]
+thumbnail-img: "/resources/ep14-new-app-localization/thumbnail.png"
 ---
 
 When starting a new app, it's important to have a mechanism in place for Localization.
@@ -50,7 +51,7 @@ Even though SwiftUI's Text automatically looks for the localized strings, I thin
 
 | English | Spanish |
 | - | - |
-| ![English]({{static.static_files}}/resources/new-app-localization/english.png) | ![Spanish]({{static.static_files}}/resources/new-app-localization/spanish.png)  | 
+| ![English]({{static.static_files}}/resources/ep14-new-app-localization/english.png) | ![Spanish]({{static.static_files}}/resources/ep14-new-app-localization/spanish.png)  | 
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

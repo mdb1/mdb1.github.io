@@ -4,6 +4,7 @@ title:  "User Guide to Working with Manu"
 date:   2022-10-29 07:00:00 -0300
 comments: true
 tags: [productivity, tools]
+thumbnail-img: "/resources/ep11-user-guide-to-working-with-me/thumbnail.png"
 ---
 
 This is a set of guidelines on how I like the team-work to happen.
@@ -47,6 +48,8 @@ I’d like to hear your thoughts, ideas, and your guidelines after you read it.
 - I like to automate the boring stuff, so please let me know if you see something that you feel should be automatic and we can work on it.
 
 ---
+
+# Related Articles
 
 - [Communication Etiquette](/2025-03-17-communication-etiquette/)
 - [Your Problem Solving Ability](/2025-03-06-your-problem-solving-ability/)
