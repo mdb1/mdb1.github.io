@@ -4,6 +4,7 @@ title:  "New App - Date Formatters"
 date:   2023-01-10 07:00:00 -0300
 comments: true
 tags: [iOS]
+thumbnail-img: "/resources/ep21-date-formatters/thumbnail.png"
 ---
 
 When starting a new app, it's important to decide how it's going to handle and display dates. Once that has been decided, you can add some practic `static` DateFormatters that encapsulate that decisions to reuse across the app.
@@ -20,7 +21,7 @@ When starting a new app, it's important to decide how it's going to handle and d
 
 Using [this](https://github.com/mdb1/DateFormatterOptions) SwiftUI playground app, you can play around with the different properties of the `DateFormatter` and check the output string.
 
-![DateFormatter Options - SwiftUI](https://github.com/mdb1/DateFormatterOptions/raw/main{{static.static_files}}/resources/date_formatter.gif)
+![DateFormatter Options - SwiftUI](https://github.com/mdb1/DateFormatterOptions/raw/main/resources/date_formatter.gif)
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

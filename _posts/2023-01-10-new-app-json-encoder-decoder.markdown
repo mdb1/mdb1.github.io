@@ -4,6 +4,7 @@ title:  "New App - Json Encoder/Decoder"
 date:   2023-01-10 07:00:00 -0300
 comments: true
 tags: [iOS]
+thumbnail-img: "/resources/ep22-new-app-json-encoder-decoder/thumbnail.png"
 ---
 
 When starting a new app, I like to have static methods to retrieve the reusable JsonEncoder and JsonDecoder objects already configured.

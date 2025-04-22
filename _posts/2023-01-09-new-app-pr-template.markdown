@@ -4,6 +4,7 @@ title:  "New App - Pull Request Template"
 date:   2023-01-09 07:00:00 -0300
 comments: true
 tags: [iOS, tools]
+thumbnail-img: "/resources/ep20-new-app-pr-template/thumbnail.png"
 ---
 
 When starting a new app, I like to set up the Pull Request Template, so we can set up so common ground rules for the project.
