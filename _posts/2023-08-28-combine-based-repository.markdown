@@ -4,7 +4,7 @@ title: "Combine Repository"
 subtitle: "Publishing Changes to all the observers"
 date: 2023-08-28 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/repository-combine/thumbnail.jpg"
+thumbnail-img: "/resources/ep57-combine-based-repository/thumbnail.jpg"
 readtime: true
 ---
 
@@ -14,7 +14,7 @@ Now it's time to look closer into this layer, and how we can use Combine publish
 
 We will continue using the same [Example app](https://github.com/mdb1/ModelsExampleApp/) from the previous post.
 
-![diagram]({{static.static_files}}/resources/repository-combine/diagram.png)
+![diagram]({{static.static_files}}/resources/ep57-combine-based-repository/diagram.png)
 
 ## Repository
 
@@ -116,7 +116,7 @@ extension PokemonListView.Model {
 ```
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/repository-combine/demo.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep57-combine-based-repository/demo.mp4" type="video/mp4">
 </video>
 
 ## Optimistic approach
@@ -162,7 +162,7 @@ This is why we store the array of `inMemoryPokemons` in the repository. It makes
 Then from the view, we can use the optimistic approach, and then react to the `Errors.deletionError` if needed and display an alert.
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/repository-combine/optimistic+error.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep57-combine-based-repository/optimistic+error.mp4" type="video/mp4">
 </video>
 
 _Side note: We could use [Toasts](/2023-03-08-new-app-toasts/) instead._
