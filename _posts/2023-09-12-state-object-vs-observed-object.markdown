@@ -4,7 +4,7 @@ title: "StateObject vs ObservedObject"
 subtitle: "The differences explained and some mistakes to avoid"
 date: 2023-09-12 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/state-vs-observed/thumbnail.jpg"
+thumbnail-img: "/resources/ep60-state-vs-observed/thumbnail.jpg"
 readtime: true
 ---
 
@@ -102,7 +102,7 @@ var detailView: some View {
 
 *The ViewModel initializer:*
 
-![github-hosted]({{static.static_files}}/resources/state-vs-observed/meme.jpg)
+![github-hosted]({{static.static_files}}/resources/ep60-state-vs-observed/meme.jpg)
 
 Instead do:
 ```swift

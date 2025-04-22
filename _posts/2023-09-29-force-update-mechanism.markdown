@@ -4,7 +4,7 @@ title: "Force Update Mechanism"
 subtitle: "Implementing a basic force update mechanism in your SwiftUI app"
 date: 2023-09-29 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/force-update/thumbnail.jpg"
+thumbnail-img: "/resources/ep62-force-update/thumbnail.jpg"
 readtime: true
 ---
 

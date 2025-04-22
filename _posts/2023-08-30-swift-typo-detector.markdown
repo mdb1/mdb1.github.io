@@ -4,7 +4,7 @@ title: "Swift Typo Detector"
 subtitle: "A tool to get rid of all those typos"
 date: 2023-08-30 07:00:00 -0300
 tags: [tools]
-thumbnail-img: "/resources/swift-typo-detector/thumbnail.jpeg"
+thumbnail-img: "/resources/ep58-swift-typo-detector/thumbnail.jpeg"
 readtime: true
 ---
 
@@ -44,7 +44,7 @@ The script will find all the files named `learned_words.txt` in your project, an
 
 ## Demo
 
-![diagram]({{static.static_files}}/resources/swift-typo-detector/demo.png)
+![diagram]({{static.static_files}}/resources/ep58-swift-typo-detector/demo.png)
 
 _Tip: You can `Command + Click` on the files in the console to open them with Xcode._
 
