@@ -3,6 +3,7 @@ layout: post
 title:  "The Definition of Done"
 date:   2023-05-13 07:00:00 -0300
 tags: [iOS, tools]
+thumbnail-img: "/resources/ep37-definition-of-done/thumbnail.png"
 ---
 
 # Introduction:
@@ -42,7 +43,7 @@ In the documentation, provide a clear and concise explanation of the feature or 
 ### Documentation Template
 Let's say we are documenting the Detail screen of the [open sourced Muun Wallet App](https://github.com/muun/falcon) for iOS. The code can be found [here](https://github.com/muun/falcon/blob/5ba9254918fc85de917f7dc9101101be4317e590/falcon/app/falcon/Presentation/Screen/Detail/DetailViewController.swift):
 
-![detail-screen]({{static.static_files}}/resources/definition-of-done/muun_detail.jpeg)
+![detail-screen]({{static.static_files}}/resources/ep37-definition-of-done/muun_detail.jpeg)
 
 ```markdown
 # Detail Screen
