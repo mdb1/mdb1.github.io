@@ -73,7 +73,7 @@ _October 2024 Update: Apple finally integrated Reminders into Calendar, so goodb
 I use Reminders integrated with Calendar for routine reminders, such as bill payments, weekly planning, and personal care tasks. Despite some overlap with Notion, which I use for day-to-day tasks, this system works well for me.
 
 **Notion Daily TODOs:**
-![Monthly ToDos]({{static.static_files}}/resources/h-mode/month-to-dos.png)
+![Monthly ToDos]({{static.static_files}}/resources/ep10-h-mode/month-to-dos.png)
 
 **Reminders:**
 ![Reminders]({{static.static_files}}/resources/ep66-streamlining-life/reminders.jpg)
