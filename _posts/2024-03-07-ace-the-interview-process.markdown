@@ -4,7 +4,7 @@ title: "How to: Ace the interview process"
 subtitle: "Tips to get the job you deserve"
 date: 2024-03-07 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/how-to-ace-the-interview-process/thumbnail.jpeg"
+thumbnail-img: "/resources/ep69-how-to-ace-the-interview-process/thumbnail.jpeg"
 readtime: true
 ---
 

@@ -4,7 +4,7 @@ title: "ViewModifiers: Image Picker"
 subtitle: "An easy way to let users select images"
 date: 2024-01-30 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/modifiers-image-picker/thumbnail.jpg"
+thumbnail-img: "/resources/ep67-modifiers-image-picker/thumbnail.jpg"
 readtime: true
 ---
 
@@ -21,7 +21,7 @@ Here is some sample code that let you easily present a confirmation dialog that 
 # Demo
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/modifiers-image-picker/picker.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep67-modifiers-image-picker/picker.mp4" type="video/mp4">
 </video>
 
 Note that given the video is recorded in the Canvas' Preview, the Camera option is not available.

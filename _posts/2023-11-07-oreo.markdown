@@ -4,13 +4,13 @@ title: "Raising Oreo"
 subtitle: "A Journey of Puppy Love and Learning"
 date: 2023-11-07 07:00:00 -0300
 tags: [random]
-thumbnail-img: "/resources/oreo/thumbnail.jpeg"
+thumbnail-img: "/resources/ep65-oreo/thumbnail.jpeg"
 readtime: true
 ---
 
 On August 30th, 2023, a spirited long-haired black and cream mini dachshund named Oreo was born in [Río Cuarto, Cordoba, Argentina](https://www.google.com/maps/place/rio+cuarto/data=!4m2!3m1!1s0x95d2000fbdd02247:0xc58d0a705d7cc0e3?sa=X&ved=2ahUKEwiL56GetLKCAxV7rZUCHeh8DloQ8gF6BAgOEAA). By October 14th, my girlfriend, friends, and I had the joy of meeting our new 45-day-old friend after an 8-hour drive from Buenos Aires. Despite coming from a family of dog lovers, raising my own dog has been a unique and delightful challenge.
 
-![oreo]({{static.static_files}}/resources/oreo/oreo.jpeg)
+![oreo]({{static.static_files}}/resources/ep65-oreo/oreo.jpeg)
 
 Oreo is a bundle of energy, growing rapidly, and teaching me new things every day. I'd like to share some insights, tips, and personal experiences that I've gathered from dog trainers and fellow dog parents.
 

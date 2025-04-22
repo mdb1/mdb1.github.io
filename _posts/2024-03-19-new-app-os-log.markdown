@@ -4,7 +4,7 @@ title: "New App - OSLog Console Logger"
 subtitle: "Leveraging OSLog in your console"
 date: 2024-03-19 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/new-app-os-log/logs.png"
+thumbnail-img: "/resources/ep71-new-app-os-log/thumbnail.png"
 readtime: true
 ---
 
@@ -69,17 +69,17 @@ struct ContentView: View {
 
 In Xcode's console, you can adjust the metadata you want to see in the logs:
 
-![metadata]({{static.static_files}}/resources/new-app-os-log/metadata.png)
+![metadata]({{static.static_files}}/resources/ep71-new-app-os-log/metadata.png)
 
-![logs]({{static.static_files}}/resources/new-app-os-log/logs.png)
+![logs]({{static.static_files}}/resources/ep71-new-app-os-log/logs.png)
 
 You can also go directly to the line of code that produced the log:
 
-![jump-to-line]({{static.static_files}}/resources/new-app-os-log/jump.png)
+![jump-to-line]({{static.static_files}}/resources/ep71-new-app-os-log/jump.png)
 
 The filters are also great:
 
-![filters]({{static.static_files}}/resources/new-app-os-log/filters.png)
+![filters]({{static.static_files}}/resources/ep71-new-app-os-log/filters.png)
 
 # Privacy
 

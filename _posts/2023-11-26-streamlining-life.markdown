@@ -4,7 +4,7 @@ title: "Streamlining My Life"
 subtitle: "Some strategies for life automation"
 date: 2023-11-26 07:00:00 -0300
 tags: [productivity]
-thumbnail-img: "/resources/streamlining-life/thumbnail.jpg"
+thumbnail-img: "/resources/ep66-streamlining-life/thumbnail.jpg"
 readtime: true
 ---
 
@@ -76,7 +76,7 @@ I use Reminders integrated with Calendar for routine reminders, such as bill pay
 ![Monthly ToDos]({{static.static_files}}/resources/h-mode/month-to-dos.png)
 
 **Reminders:**
-![Reminders]({{static.static_files}}/resources/streamlining-life/reminders.jpg)
+![Reminders]({{static.static_files}}/resources/ep66-streamlining-life/reminders.jpg)
 
 ---
 
@@ -96,10 +96,10 @@ This is great because it contains a one-to-many relationship to my people databa
 It also contains a one-to-one relationship with my Restaurant database.
 
 **Meal Log:**
-![meal-log]({{static.static_files}}/resources/streamlining-life/meal-log.png)
+![meal-log]({{static.static_files}}/resources/ep66-streamlining-life/meal-log.png)
 
 **Person Page:**
-![person-log]({{static.static_files}}/resources/streamlining-life/person-log.png)
+![person-log]({{static.static_files}}/resources/ep66-streamlining-life/person-log.png)
 
 ## My Profession
 
