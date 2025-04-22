@@ -4,6 +4,7 @@ title:  "Hot Reload in Swift!"
 date:   2022-06-16 22:00:00 -0300
 comments: true
 tags: [iOS, tools]
+thumbnail-img: "/resources/ep07-hot-reload-in-swift/thumbnail.png"
 ---
 
 We finally have Hot Reload for Swift applications, thanks to the [Inject](https://github.com/krzysztofzablocki/Inject) tool written by Krzysztof Zabłocki, the great mind behind other amazing tools, like Sourcery.
@@ -49,7 +50,7 @@ navigationController.setViewControllers([vc], animated: true)
 
 If everything was set up correctly, you will see these messages in the console when reaching the injected view controller:
 
-![injection-connected]({{static.static_files}}/resources/hot-reload/injection-connected.png)
+![injection-connected]({{static.static_files}}/resources/ep07-hot-reload-in-swift/injection-connected.png)
 
 ## Demo
 
