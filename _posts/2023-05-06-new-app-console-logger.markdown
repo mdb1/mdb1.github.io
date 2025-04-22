@@ -3,6 +3,7 @@ layout: post
 title:  "New App - Console Logger [Deprecated]"
 date:   2023-05-06 07:00:00 -0300
 tags: [iOS, tools]
+thumbnail-img: "/resources/ep36-console-logger/thumbnail.png"
 ---
 
 # Edit:
@@ -24,7 +25,7 @@ I also like to have a Picker to display inside a DeveloperMenu to change the ver
 
 It looks like this:
 
-![picker]({{static.static_files}}/resources/console-logger/picker.png)
+![picker]({{static.static_files}}/resources/ep36-console-logger/picker.png)
 
 # Usage
 
@@ -32,7 +33,7 @@ With this code in place, you can call the Logger directly from any place in your
 
 `Logger.log(.err, "Something went wrong")`
 
-![log-error]({{static.static_files}}/resources/console-logger/log-error.png)
+![log-error]({{static.static_files}}/resources/ep36-console-logger/log-error.png)
 
 ---
 

@@ -10,7 +10,7 @@ readtime: true
 
 By this point, we all know and love Xcode's [check spelling while typing](/2023-03-14-my-xcode-setup-and-shortcuts/#1-check-spelling-while-typing) feature.
 
-![spelling]({{static.static_files}}/resources/xcode-setup/spelling.png)
+![spelling]({{static.static_files}}/resources/ep30-xcode-setup/spelling.png)
 
 However, that feature is missing something critical in my opinion: the ability to list in one place, all the typos in the codebase.
 

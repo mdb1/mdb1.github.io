@@ -3,6 +3,7 @@ layout: post
 title:  "ViewStateController: Debug State"
 date:   2023-04-11 07:00:00 -0300
 tags: [iOS, testing]
+thumbnail-img: "/resources/ep33-view-state-debug/thumbnail.png"
 ---
 
 In our previous posts, we discussed the [ViewStateController](/2023-03-04-view-state-controller/) package, which allows us to add consistent loading and error states to our SwiftUI views. Today we'll explore a new feature of the [framework](https://github.com/mdb1/ViewStateController), the `DebugState` modifier, which provides an easy way to debug the state of a view.
@@ -54,7 +55,7 @@ This could be very useful for developers and QA members to quickly check all the
 ## Demo
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/view-state-debug/debug-state.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep33-view-state-debug/debug-state.mp4" type="video/mp4">
 </video>
 
 You can test the code yourself by downloading the [ExampleApp](https://github.com/mdb1/ViewStateControllerExampleApp).
