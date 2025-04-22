@@ -4,7 +4,7 @@ title: "Advice I Wish I Had Gotten Earlier"
 subtitle: "Insights That Could Have Accelerated My Growth"
 date: 2025-02-22 07:00:00 -0300
 tags: [productivity]
-thumbnail-img: "/resources/advice-i-wish-i-had-gotten-earlier/preview.png"
+thumbnail-img: "/resources/ep74-advice-i-wish-i-had-gotten-earlier/preview.png"
 readtime: true
 ---
 
