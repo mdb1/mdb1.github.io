@@ -3,6 +3,7 @@ layout: post
 title:  "Enhancing Testability without protocols"
 date:   2023-02-03 07:00:00 -0300
 tags: [iOS, testing]
+thumbnail-img: "/resources/ep26-dependencies/thumbnail.png"
 ---
 
 We have all used protocols to enhance testability in our apps, but that can become too verbose, and add extra layers of abstractions to the code.
@@ -123,7 +124,7 @@ struct CatFactView_Previews: PreviewProvider {
 ```
 
 <video width="483" height="304" controls>
-    <source src="{{static.static_files}}/resources/dependencies/mockedDependencies.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep26-dependencies/mockedDependencies.mp4" type="video/mp4">
 </video>
 
 ## 3. The Service
