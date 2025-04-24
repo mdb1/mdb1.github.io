@@ -129,7 +129,7 @@ In any case, I believe this system is so simple that it shouldn't be a big deal.
 
 If you want to have logic over which view to present next, you can move that logic into a view model, and add unit tests over it.
 
-If your flow is too complex, you could add automating testing, or UI testing instead of unit testing.
+If your flow is too complex, you could add automated testing, or UI testing, instead of unit testing.
 
 The case in point here, is that this is a simple navigation system, and you probably won't need anything more complex than this, so starting to geek out on abstractions to make a solution that works well with SwiftUI could be an overkill.
 
