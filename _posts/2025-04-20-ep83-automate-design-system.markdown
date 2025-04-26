@@ -22,7 +22,8 @@ This is not a guide on how to set up the process, it's a guide on wether you sho
   - [You maintain multiple apps / SDKs](#you-maintain-multiple-apps--sdks)
   - [The tokens change too often](#the-tokens-change-too-often)
 - [Related Articles](#related-articles)
-- [Related Reading](#related-reading)
+  - [Related Reading](#related-reading)
+  - [Featured in](#featured-in)
 
 # Starting point
 
@@ -97,8 +98,12 @@ If the design team tends to change the token regularly (_strange, but could happ
 - [UI vs API Models](/2023-08-25-ui-vs-api-models-different-layers/)
 - [New App Checklist](/2022-12-24-new-app-checklist/)
 
-# Related Reading
+## Related Reading
 - [Atomic Design Book by Brad Frost](https://atomicdesign.bradfrost.com)
+
+## Featured in
+
+- [Those Who Swift #211](https://thosewhoswift.substack.com/p/those-who-swift-issue-211)
 
 ---
 
