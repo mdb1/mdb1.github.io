@@ -1,0 +1,59 @@
+---
+layout: post
+title: "Deep Work"
+subtitle: "By Cal Newport"
+date: 2025-04-26 07:00:00 -0300
+tags: [books]
+thumbnail-img: "/resources/ep85-deep-work/thumbnail.png"
+readtime: true
+---
+
+These are some hand-written notes about the book "Deep Work" by Cal Newport.
+
+(Sorry for the formatting, I'll try to improve it in the future)
+
+![cover]({{static.static_files}}/resources/ep85-deep-work/cover.png)
+
+#### Table of Contents
+- [The Notes](#the-notes)
+- [My Takes](#my-takes)
+- [Related Articles](#related-articles)
+
+# The Notes
+
+![notes]({{static.static_files}}/resources/ep85-deep-work/notes.png)
+
+# My Takes
+
+I find this book to be very useful, in particular, the idea that you should focus on deep work instead of shallow work is really interesting for someone like me (a knowledge worker focused on providing value).
+
+I agree with the idea of Quitting Social Media, personally:
+- I have been out of Instagram for the last 2 months (and don't plan on coming back anytime soon).
+- I have never had a TikTok account, I have never installed it on my phone
+- I only use X to share my articles. I don't have the app on my phone, and I'm not logged in in the browser.
+
+The downsides I have seen is that I cannot see the tweets/reels/tiktoks that people send in group chats, but I honestly think this has not been a big issue for me.
+
+I have been planning my days for the last couple of weeks and it's been a really nice practice that have allowed me to accomplish more, to be more mindful about rejecting shallow tasks, and to be more productive overall.
+
+I've added the `Plan Next Day` practice into my workflow (you can read more about it [here](/2023-11-26-streamlining-life/)).
+
+My next reading will be `The One Thing`. Be on the lookout for the notes if you're interested!
+
+---
+
+# Related Articles
+
+- [The Joy of Less](/2023-05-20-the-joy-of-less/)
+- [Brain Rules](/2023-06-09-brain-rules/)
+- [The Compound Effect](/2023-07-16-the-compound-effect/)
+- [Excellent Advice for Living](/2023-05-24-excellent-advice-for-living/)
+- [Die with Zero](/2023-06-11-die-with-zero/)
+- [The Charisma Myth](/2022-09-26-the-charisma-myth/)
+- [Hyperfocus](/2023-06-03-hyperfocus/)
+- [Streamlining my Life](/2023-11-26-streamlining-life/)
+
+---
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}
