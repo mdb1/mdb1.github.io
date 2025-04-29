@@ -53,5 +53,12 @@ Even though SwiftUI's Text automatically looks for the localized strings, I thin
 | - | - |
 | ![English]({{static.static_files}}/resources/ep14-new-app-localization/english.png) | ![Spanish]({{static.static_files}}/resources/ep14-new-app-localization/spanish.png)  | 
 
+---
+
+# Related Articles
+
+- [Localization - Pluralization](/2025-04-29-ep86-localization-handling-plurals/)
+- [String Extensions](/2025-03-03-useful-string-extensions/)
+
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

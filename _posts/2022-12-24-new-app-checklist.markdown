@@ -75,6 +75,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [TapShrink / LongPressShrink](/2023-10-22-shrink-modifiers/)
   - [Image Picker](/2024-01-30-image-picker-modifier/)
 - [Localization](/2022-12-27-new-app-localization/)
+- [Localization - Pluralization](/2025-04-29-ep86-localization-handling-plurals/)
 - Accessibility
   - [AdaptableStack](/2023-10-07-adaptable-stack/)
 - [Unit test helpers](/2023-02-02-new-app-testing-helpers/)
