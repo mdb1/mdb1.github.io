@@ -31,6 +31,7 @@ In this article, we'll explore some of the Xcode configurations and shortcuts th
     - [Debug](#debug)
     - [Xcode combos](#xcode-combos)
     - [Custom Keybindings](#custom-keybindings)
+  - [Simulator](#simulator)
 - [Time Savers](#time-savers)
   - [Xcode Templates](#xcode-templates)
   - [Console Aliases](#console-aliases)
@@ -196,6 +197,19 @@ A list of the keybindings that I usually add/replace on Xcode.
 To do that, press `⌘ + ,` on Xcode, go to the `Key Bindings` tab and just search for the actions.
 
 * `⌘ + ⇧ + E` → Refactor → Rename. When adding this one, you have to remove it from its default action: `Use Selection for Replace`. Given I don't use that action, I can remove the keybinding.
+
+## Simulator
+
+* `⌘ + S` → Screenshot
+* `⌘ + R` → Record video
+* `⌘ + ⇧ + A` → Toggle Dark/Light mode
+* `⌘ + ⌥ + +` → Increase Preferred Text Size
+* `⌘ + ⌥ + -` → Decrease Preferred Text Size
+* `⌘ + →` → Rotate Right
+* `⌘ + ←` → Rotate Left
+* `⌘ + ⇧ + H` → Home
+* `⌘ + ^ + Z` → Shake
+* `Hold ⌥ + Drag Click` → Pinch gesture
 
 # Time Savers
 
