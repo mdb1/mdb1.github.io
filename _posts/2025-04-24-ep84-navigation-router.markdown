@@ -145,6 +145,7 @@ Finally, we could add some basic unit tests to make sure the navigationPath is b
 
 # Related Articles
 
+- [Sheets Manipulation](/2025-05-03-ep087-sheets-manipulation/)
 - [Simple Modularization Setup](/2025-02-27-simple-modularization-setup/)
 - [New App Checklist](/2022-12-24-new-app-checklist/)
 - [Enhancing Testability without Protocols](/2023-02-03-enhancing-testability-without-protocols/)

@@ -20,6 +20,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
 - Architecture
   - [Simple Modularization Setup](2025-02-27-simple-modularization-setup/)
   - [Simple Navigation Router](/2025-04-24-ep84-navigation-router/)
+  - [Sheets Manipulation](/2025-05-03-ep087-sheets-manipulation/)
   - [Centralized Dependencies](/2024-02-29-centralized-dependencies/)
   - [Enhancing Testability with Protocols](/2023-02-13-enhancing-testability-with-protocols/)
   - [Enhancing Testability without Protocols](/2023-02-03-enhancing-testability-without-protocols/)
