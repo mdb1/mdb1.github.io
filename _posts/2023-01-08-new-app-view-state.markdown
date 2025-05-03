@@ -4,7 +4,7 @@ title:  "New App - View State"
 date:   2023-01-08 07:00:00 -0300
 comments: true
 tags: [iOS]
-thumbnail-img: "/resources/ep19-new-app-view-state/thumbnail.png"
+thumbnail-img: "/resources/ep019-new-app-view-state/thumbnail.png"
 ---
 
 When starting a new SwiftUI app, I like to have a reusable approach for managing the view state using generics.

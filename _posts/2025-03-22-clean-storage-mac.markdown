@@ -4,7 +4,7 @@ title: "Freeing up space on your Mac"
 subtitle: "Manually cleaning up storage"
 date: 2025-03-22 06:00:00 -0300
 tags: [ios, tools]
-thumbnail-img: "/resources/ep80-clean-storage-mac/thumbnail.png"
+thumbnail-img: "/resources/ep080-clean-storage-mac/thumbnail.png"
 readtime: true
 ---
 
@@ -23,13 +23,13 @@ This is a quick guide on how to free up storage manually on your mac.
 
 First, go to System Settings -> General -> Storage:
 
-![initial-storage]({{static.static_files}}/resources/ep80-clean-storage-mac/initial-storage.png)
+![initial-storage]({{static.static_files}}/resources/ep080-clean-storage-mac/initial-storage.png)
 
 # Remove unused apps
 
 Tap on the `info` icon next to the Applications row, and delete the apps that you don't use anymore.
 
-![apps]({{static.static_files}}/resources/ep80-clean-storage-mac/apps.png)
+![apps]({{static.static_files}}/resources/ep080-clean-storage-mac/apps.png)
 
 # Free up Developer space
 
@@ -42,13 +42,13 @@ Tap on the `info` icon next to the Developer row:
 - Remove Derived Data in the console: `rm -rf ~/Library/Developer/Xcode/DerivedData`
 - Empty the Trash
 
-![developer]({{static.static_files}}/resources/ep80-clean-storage-mac/developer-storage.png)
+![developer]({{static.static_files}}/resources/ep080-clean-storage-mac/developer-storage.png)
 
 Additionally, you can navigate to `~/Library/Developer/` and manually delete simulators, os versions, or other stuff that may taking up too much space.
 
 If you don't like removing stuff from that folder, you can go to Xcode -> Manage Run Destinations and delete the simulators that you don't use anymore:
 
-![simulators]({{static.static_files}}/resources/ep80-clean-storage-mac/simulators.png)
+![simulators]({{static.static_files}}/resources/ep080-clean-storage-mac/simulators.png)
 
 # Remove unused documents
 
@@ -58,13 +58,13 @@ You can remove the Caches under `Library -> Caches` that usually take up a lot o
 
 There is a lot of space used in the `.build` folders of Xcode Projects.
 
-![documents]({{static.static_files}}/resources/ep80-clean-storage-mac/documents.png)
+![documents]({{static.static_files}}/resources/ep080-clean-storage-mac/documents.png)
 
 # Empty the Trash
 
 Finally, empty the trash, and check again the final storage:
 
-![final-storage]({{static.static_files}}/resources/ep80-clean-storage-mac/final-storage.png)
+![final-storage]({{static.static_files}}/resources/ep080-clean-storage-mac/final-storage.png)
 
 In just a few minutes, we managed to free up `~118GB` of space `without using any external tool`.
 

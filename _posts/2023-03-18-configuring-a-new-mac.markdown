@@ -3,7 +3,7 @@ layout: post
 title: "Configuring a new MacBook"
 date: 2023-03-18 07:00:00 -0300
 tags: [productivity, tools]
-thumbnail-img: "/resources/ep31-configuring-new-macbook/thumbnail.png"
+thumbnail-img: "/resources/ep031-configuring-new-macbook/thumbnail.png"
 ---
 
 When setting up a new MacBook, there are a few steps you should take to get it up and running smoothly. In this article, we'll explore a list of items you should consider toggling to optimize your MacBook experience.
@@ -44,7 +44,7 @@ Before you start using your new MacBook, make sure to update the operating syste
 # Step 2: Dock Customization
 By default, the dock is populated with several applications that you may not use frequently. To declutter your dock, remove the apps that you don't use often. To do this, simply right-click on the app and select "Remove from Dock."
 
-![dock]({{static.static_files}}/resources/ep31-configuring-new-macbook/dock.png)
+![dock]({{static.static_files}}/resources/ep031-configuring-new-macbook/dock.png)
 
 # Step 3: Log in to Existing Apple ID Account
 To access Apple's services and apps, you'll need to log in to your existing Apple ID account. If you don't have an Apple ID, you can create one during the setup process.
@@ -179,7 +179,7 @@ Here's a list of recommended settings to customize:
 2. Decrease `Delay until repeat` to the shortest value.
 3. Shortcuts -> Screenshots -> Change the shortcut for `Copy picture of selected area to the clipboard` to `⌘ + Shift + S`
 
-![keyboard]({{static.static_files}}/resources/ep31-configuring-new-macbook/keyboard.jpg)
+![keyboard]({{static.static_files}}/resources/ep031-configuring-new-macbook/keyboard.jpg)
 
 ### Trackpad
 

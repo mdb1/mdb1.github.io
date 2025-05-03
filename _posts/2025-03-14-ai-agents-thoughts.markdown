@@ -4,7 +4,7 @@ title: "My thoughts on AI Agents"
 subtitle: "Should you ride this wave?"
 date: 2025-03-14 07:00:00 -0300
 tags: [thoughts]
-thumbnail-img: "/resources/ep78-ai-agents-thoughts/thumbnail.png"
+thumbnail-img: "/resources/ep078-ai-agents-thoughts/thumbnail.png"
 readtime: true
 ---
 

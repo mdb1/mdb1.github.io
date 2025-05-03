@@ -3,7 +3,7 @@ layout: post
 title: "Future-Proof enum decoding"
 date: 2023-08-04 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep49-future-proof-enum-decoding/thumbnail.png"
+thumbnail-img: "/resources/ep049-future-proof-enum-decoding/thumbnail.png"
 ---
 
 When working with String enums that have a finite number of cases, it's crucial to include an `unknown` case as a catch-all for potential future values. This practice helps future-proof our apps against updates or changes on the backend that may introduce new enum values.

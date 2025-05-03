@@ -3,7 +3,7 @@ layout: post
 title: "Fix to SwiftUI encountered an issue when pushing a NavigationLink"
 date: 2023-08-12 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/ep51-fix-swiftui-navigation-issue/thumbnail.png"
+thumbnail-img: "/resources/ep051-fix-swiftui-navigation-issue/thumbnail.png"
 readtime: true
 ---
 
@@ -11,12 +11,12 @@ readtime: true
 
 I recently came across this issue when trying to push a screen with a given element of a List in SwiftUI:
 
-![logs]({{static.static_files}}/resources/ep51-fix-swiftui-navigation-issue/log.png)
+![logs]({{static.static_files}}/resources/ep051-fix-swiftui-navigation-issue/log.png)
 
 In the app, the problem is evident, the destination view is non-deterministic for each view tap:
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep51-fix-swiftui-navigation-issue/issue.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep051-fix-swiftui-navigation-issue/issue.mp4" type="video/mp4">
 </video>
 
 
@@ -70,7 +70,7 @@ The solution is really simple, just move the NavigationLink from inside each cel
 By doing so, now there is only one NavigationLink associated with the `isDetailActive` parameter, which causes the errors to disappear, and the app to work as expected:
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep51-fix-swiftui-navigation-issue/fix.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep051-fix-swiftui-navigation-issue/fix.mp4" type="video/mp4">
 </video>
 
 ---

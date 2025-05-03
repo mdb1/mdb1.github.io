@@ -3,7 +3,7 @@ layout: post
 title:  "Enhancing Testability with protocols"
 date:   2023-02-13 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep27-protocols/thumbnail.png"
+thumbnail-img: "/resources/ep027-protocols/thumbnail.png"
 ---
 
 In the [last post](/2023-02-03-enhancing-testability-without-protocols/) we’ve discussed hot to enhance testability without using protocols. In this one, we will build something similar but using protocols instead.
@@ -154,7 +154,7 @@ struct CatFactView_Previews: PreviewProvider {
 ```
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep27-protocols/protocols.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep027-protocols/protocols.mp4" type="video/mp4">
 </video>
 
 

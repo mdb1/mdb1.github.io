@@ -4,7 +4,7 @@ title: "Testing NotificationCenter: Concurrency vs Threading"
 subtitle: "Explaining the differences for effective unit testing of each scenario"
 date: 2023-09-18 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep61-test-notification-center/thumbnail.jpg"
+thumbnail-img: "/resources/ep061-test-notification-center/thumbnail.jpg"
 readtime: true
 ---
 
@@ -75,7 +75,7 @@ Then if we run the tests, we get a green check ✅.
 
 Just to make sure there is no flakiness, we can run it 10.000 times:
 
-![Repeat tests]({{static.static_files}}/resources/ep61-test-notification-center/repeat-tests.png)
+![Repeat tests]({{static.static_files}}/resources/ep061-test-notification-center/repeat-tests.png)
 
 **Results:**
 

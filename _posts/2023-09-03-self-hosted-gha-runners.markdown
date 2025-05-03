@@ -4,7 +4,7 @@ title: "Self-Hosted Github Actions Runners"
 subtitle: "How Going In-House Can Slash Your Build Times"
 date: 2023-09-03 07:00:00 -0300
 tags: [tools, testing]
-thumbnail-img: "/resources/ep59-self-hosted-gha-runners/thumbnail.jpeg"
+thumbnail-img: "/resources/ep059-self-hosted-gha-runners/thumbnail.jpeg"
 readtime: true
 ---
 
@@ -78,7 +78,7 @@ jobs:
 
 **Results:**
 
-![github-hosted]({{static.static_files}}/resources/ep59-self-hosted-gha-runners/gha-runner.png)
+![github-hosted]({{static.static_files}}/resources/ep059-self-hosted-gha-runners/gha-runner.png)
 
 The GitHub-hosted runner took a staggering **5 minutes and 9 seconds** (or 309 seconds) to complete this simple test.
 
@@ -119,7 +119,7 @@ That's it, now your runner will start listening for new jobs.
 
 **Results:**
 
-![self-hosted]({{static.static_files}}/resources/ep59-self-hosted-gha-runners/self-hosted.png)
+![self-hosted]({{static.static_files}}/resources/ep059-self-hosted-gha-runners/self-hosted.png)
 
 After this setup, my self-hosted runner executed the same test in a blazing **14 seconds**, an almost 95% improvement!
 

@@ -4,7 +4,7 @@ title:  "New App - Fonts"
 date:   2023-01-20 07:00:00 -0300
 comments: true
 tags: [iOS]
-thumbnail-img: "/resources/ep23-new-app-fonts/thumbnail.png"
+thumbnail-img: "/resources/ep023-new-app-fonts/thumbnail.png"
 ---
 
 When starting a new app, you need to decide which fonts/typographies the app is going to use.
@@ -43,16 +43,16 @@ Text("Charmander")
 Lastly, you could create a SwiftUI preview to display them:
 
 ### Preview
-![Preview]({{static.static_files}}/resources/ep23-new-app-fonts/preview.png)
+![Preview]({{static.static_files}}/resources/ep023-new-app-fonts/preview.png)
 
 ### A11y1
-![A11y1]({{static.static_files}}/resources/ep23-new-app-fonts/a11y1.png)
+![A11y1]({{static.static_files}}/resources/ep023-new-app-fonts/a11y1.png)
 
 ### A11y2
-![A11y2]({{static.static_files}}/resources/ep23-new-app-fonts/a11y2.png)
+![A11y2]({{static.static_files}}/resources/ep023-new-app-fonts/a11y2.png)
 
 ### A11y3
-![A11y3]({{static.static_files}}/resources/ep23-new-app-fonts/a11y3.png)
+![A11y3]({{static.static_files}}/resources/ep023-new-app-fonts/a11y3.png)
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

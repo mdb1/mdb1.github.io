@@ -3,7 +3,7 @@ layout: post
 title:  "ViewStateController: Reusable State Management for SwiftUI"
 date:   2023-03-04 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep28-view-state-controller/thumbnail.png"
+thumbnail-img: "/resources/ep028-view-state-controller/thumbnail.png"
 ---
 
 I've been thinking for a while now on how most of the SwiftUI views that depend on a state end up looking pretty similar.
@@ -195,7 +195,7 @@ loadedView(user: .init(name: "Placeholder", age: 99, emoji: "")) // 1. Create a 
 <br>
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep28-view-state-controller/1-redacted.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep028-view-state-controller/1-redacted.mp4" type="video/mp4">
 </video>
 
 Since we are not changing the values for the loading types it's using the default values:
@@ -224,7 +224,7 @@ loadedView(user: .init(name: "Placeholder", age: 99, emoji: ""))
 <br>
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep28-view-state-controller/2-custom-indicator.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep028-view-state-controller/2-custom-indicator.mp4" type="video/mp4">
 </video>
 
 ### Changing Loading types
@@ -260,7 +260,7 @@ In this example:
 <br>
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep28-view-state-controller/3-different-loadings.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep028-view-state-controller/3-different-loadings.mp4" type="video/mp4">
 </video>
 
 ### Using Custom Views
@@ -321,13 +321,13 @@ In this example:
 <br>
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep28-view-state-controller/4-custom-views.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep028-view-state-controller/4-custom-views.mp4" type="video/mp4">
 </video>
 
 ## Demo: Loading Type Options
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep28-view-state-controller/5-loadingsdemo.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep028-view-state-controller/5-loadingsdemo.mp4" type="video/mp4">
 </video>
 
 In this video, we are tweaking around some properties and pass them to the `withViewStateModifier` to demonstrate the different loading and error states that comes for free. Everything is configurable, and there is also the ability to provide custom views for loading states, the indicator, and the error states.
@@ -407,7 +407,7 @@ struct Pokemon: Identifiable {
 ### Demo: Modifying Ids
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep28-view-state-controller/6-modifying-ids.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep028-view-state-controller/6-modifying-ids.mp4" type="video/mp4">
 </video>
 
 ---

@@ -4,13 +4,13 @@ title: "Swift Typo Detector"
 subtitle: "A tool to get rid of all those typos"
 date: 2023-08-30 07:00:00 -0300
 tags: [tools]
-thumbnail-img: "/resources/ep58-swift-typo-detector/thumbnail.jpeg"
+thumbnail-img: "/resources/ep058-swift-typo-detector/thumbnail.jpeg"
 readtime: true
 ---
 
 By this point, we all know and love Xcode's [check spelling while typing](/2023-03-14-my-xcode-setup-and-shortcuts/#1-check-spelling-while-typing) feature.
 
-![spelling]({{static.static_files}}/resources/ep30-xcode-setup/spelling.png)
+![spelling]({{static.static_files}}/resources/ep030-xcode-setup/spelling.png)
 
 However, that feature is missing something critical in my opinion: the ability to list in one place, all the typos in the codebase.
 
@@ -44,7 +44,7 @@ The script will find all the files named `learned_words.txt` in your project, an
 
 ## Demo
 
-![diagram]({{static.static_files}}/resources/ep58-swift-typo-detector/demo.png)
+![diagram]({{static.static_files}}/resources/ep058-swift-typo-detector/demo.png)
 
 _Tip: You can `Command + Click` on the files in the console to open them with Xcode._
 

@@ -3,7 +3,7 @@ layout: post
 title:  "New App - Toasts"
 date:   2023-03-08 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/ep29-new-app-toasts/thumbnail.png"
+thumbnail-img: "/resources/ep029-new-app-toasts/thumbnail.png"
 ---
 
 When starting a new app, I like to have a toast displaying mechanism in-place.
@@ -45,7 +45,7 @@ With that code, you can specify different parameters:
 ## Demo
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep29-new-app-toasts/toast.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep029-new-app-toasts/toast.mp4" type="video/mp4">
 </video>
 
 The app used for this video can be downloaded from [this repository](https://github.com/mdb1/ViewStateControllerExampleApp).
@@ -70,7 +70,7 @@ YourView
 <br>
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep29-new-app-toasts/snackbar.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep029-new-app-toasts/snackbar.mp4" type="video/mp4">
 </video>
 
 ---

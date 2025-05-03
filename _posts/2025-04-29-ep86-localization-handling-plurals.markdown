@@ -4,7 +4,7 @@ title: "Localization - Pluralizations"
 subtitle: "The easiest way to support plurals"
 date: 2025-04-29 07:00:00 -0300
 tags: [ios]
-thumbnail-img: "/resources/ep86-localization-handling-plurals/thumbnail.png"
+thumbnail-img: "/resources/ep086-localization-handling-plurals/thumbnail.png"
 readtime: true
 ---
 
@@ -22,7 +22,7 @@ The String Catalogs file have built-in support for pluralization.
 
 Adding a String Catalog to your app is as simple as creating the file:
 
-![string-catalog]({{static.static_files}}/resources/ep86-localization-handling-plurals/string-catalog.png)
+![string-catalog]({{static.static_files}}/resources/ep086-localization-handling-plurals/string-catalog.png)
 
 For a detailed guide on how to add the `localizable` extension to `String`, read [this Localization article](/2022-12-27-new-app-localization/).
 
@@ -30,9 +30,9 @@ For a detailed guide on how to add the `localizable` extension to `String`, read
 
 Handling plurals has never been easier, the String Catalog has built-in support:
 
-![vary-by-plural]({{static.static_files}}/resources/ep86-localization-handling-plurals/vary-by-plural.png)
+![vary-by-plural]({{static.static_files}}/resources/ep086-localization-handling-plurals/vary-by-plural.png)
 
-![pluralization]({{static.static_files}}/resources/ep86-localization-handling-plurals/pluralization.png)
+![pluralization]({{static.static_files}}/resources/ep086-localization-handling-plurals/pluralization.png)
 
 Forget about the `if/else` statements for good 🙌
 

@@ -4,7 +4,7 @@ title:  "New App - Number Formatters"
 date:   2023-06-12 07:00:00 -0300
 comments: true
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep44-new-app-number-formatters/thumbnail.png"
+thumbnail-img: "/resources/ep044-new-app-number-formatters/thumbnail.png"
 ---
 
 When starting a new app, it's important to decide how it's going to handle and display numbers. Once that has been decided, you can add some practic `static` NumberFormatters that encapsulate that decisions to reuse across the app.

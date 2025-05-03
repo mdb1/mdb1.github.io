@@ -4,7 +4,7 @@ title:  "New App - Xcode Templates"
 date:   2023-01-27 07:00:00 -0300
 comments: true
 tags: [iOS, tools]
-thumbnail-img: "/resources/ep24-new-app-xcode-templates/thumbnail.png"
+thumbnail-img: "/resources/ep024-new-app-xcode-templates/thumbnail.png"
 ---
 
 When starting a new app, after deciding which based design pattern you are going to use for the views, you can create some Xcode templates to help standardize how the files are written and speed up development.
@@ -28,7 +28,7 @@ We can create a basic Xcode template that creates those 3 files with some basic 
 * `TemplateInfo.plist`
 
 After this, reset Xcode and you will see this option when adding a new file:
-![New File]({{static.static_files}}/resources/ep24-new-app-xcode-templates/xcode-template-1.png)
+![New File]({{static.static_files}}/resources/ep024-new-app-xcode-templates/xcode-template-1.png)
 
 ## The code for the files
 

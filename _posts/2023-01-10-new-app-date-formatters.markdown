@@ -4,7 +4,7 @@ title:  "New App - Date Formatters"
 date:   2023-01-10 07:00:00 -0300
 comments: true
 tags: [iOS]
-thumbnail-img: "/resources/ep21-date-formatters/thumbnail.png"
+thumbnail-img: "/resources/ep021-date-formatters/thumbnail.png"
 ---
 
 When starting a new app, it's important to decide how it's going to handle and display dates. Once that has been decided, you can add some practic `static` DateFormatters that encapsulate that decisions to reuse across the app.

@@ -3,7 +3,7 @@ layout: post
 title: "Improve the build times of your SPM Packages and your apps"
 date: 2023-08-18 07:00:00 -0300
 tags: [iOS, tools]
-thumbnail-img: "/resources/ep54-build-times/thumbnail.png"
+thumbnail-img: "/resources/ep054-build-times/thumbnail.png"
 readtime: true
 ---
 
@@ -57,10 +57,10 @@ From the `Product` Menu -> Perform Action -> Build With Timing Summary:
   * Once the build finishes, select it from the `Report navigator`, select `Recent` and `All Messages` sub tabs, then scroll all the way down to check the report.
 
 **Clean Build:**
-![clean-build]({{static.static_files}}/resources/ep54-build-times/before-clean-build.png)
+![clean-build]({{static.static_files}}/resources/ep054-build-times/before-clean-build.png)
 
 **Incremental Build:**
-![incremental-build]({{static.static_files}}/resources/ep54-build-times/before-incremental-build.png)
+![incremental-build]({{static.static_files}}/resources/ep054-build-times/before-incremental-build.png)
 
 _Note: This is a brand new project with only one file. There is test code inside that file to make the compilation slower, for the sake of this article._
 
@@ -72,7 +72,7 @@ You can do the math, if you have 5 developers, running 30 incremental builds a d
 
 In this example, by cutting down all the extra work in the `PhaseScriptExecution`, we've reduced the incremental build time by 5 seconds:
 
-![after-incremental-build]({{static.static_files}}/resources/ep54-build-times/after-incremental-build.png)
+![after-incremental-build]({{static.static_files}}/resources/ep054-build-times/after-incremental-build.png)
 
 We'll take a look at how to reduce the clean build time in the [Improve Compile Time in Xcode Projects](#improve-compile-time-in-xcode-projects) section.
 
@@ -82,7 +82,7 @@ The `Recent Build TimeLine` feature is quite handy for analyzing build times. To
 
 **Clean Build:**
 
-![timeline-before]({{static.static_files}}/resources/ep54-build-times/timeline-before.png)
+![timeline-before]({{static.static_files}}/resources/ep054-build-times/timeline-before.png)
 
 Note that each row represents a different core, on a bigger project, each core should be filled up with work in parallel, to make the build run faster. In this example, the project only needs to compile one file, that's why what we see is only one core doing most of the work.
 
@@ -92,7 +92,7 @@ We can also see, that there are 2 main blocks of work:
 
 After the fix to the `PhaseScriptExecution` (Incremental Build):
 
-![timeline-after]({{static.static_files}}/resources/ep54-build-times/timeline-after.png)
+![timeline-after]({{static.static_files}}/resources/ep054-build-times/timeline-after.png)
 
 ## Improve Compile Time in Xcode Projects:
 It's time to roll up our sleeves and reduce the compilation time of our code.
@@ -114,25 +114,25 @@ I usually start replacing the `<milliseconds>` part with `50`.
 
 These flags enable warnings for long function bodies and expression type checking, allowing you to identify potential bottlenecks in your codebase.
 
-![other-swift-flags]({{static.static_files}}/resources/ep54-build-times/other-swift-flags.png)
+![other-swift-flags]({{static.static_files}}/resources/ep054-build-times/other-swift-flags.png)
 
 ### Example
 
 Here is a method that takes too long to type-check:
 
-![warnings]({{static.static_files}}/resources/ep54-build-times/nested-inference-warnings.png)
+![warnings]({{static.static_files}}/resources/ep054-build-times/nested-inference-warnings.png)
 
 We can reduce the build time by being more explicit with the types, and avoid using too many chained high order functions:
 
-![fix]({{static.static_files}}/resources/ep54-build-times/nested-inference-fix.png)
+![fix]({{static.static_files}}/resources/ep054-build-times/nested-inference-fix.png)
 
 Now, we can check our build times again:
 
 **Clean Build:**
-![after-clean]({{static.static_files}}/resources/ep54-build-times/after-clean-build.png)
+![after-clean]({{static.static_files}}/resources/ep054-build-times/after-clean-build.png)
 
 **Incremental Build:**
-![warnings]({{static.static_files}}/resources/ep54-build-times/after-incremental-build.png)
+![warnings]({{static.static_files}}/resources/ep054-build-times/after-incremental-build.png)
 
 ## Improve Compile Time in SPM Packages:
 
@@ -162,13 +162,13 @@ _Note: I've added the exact same code that took ~5 seconds to compile in the mai
 Now we can perform a clean build and measure the time:
 
 **TimeLine:**
-![timeline]({{static.static_files}}/resources/ep54-build-times/spm-before-timeline.png)
+![timeline]({{static.static_files}}/resources/ep054-build-times/spm-before-timeline.png)
 
 **Timing Summary:**
-![timing-summary]({{static.static_files}}/resources/ep54-build-times/spm-before-timing-summary.png)
+![timing-summary]({{static.static_files}}/resources/ep054-build-times/spm-before-timing-summary.png)
 
 **Warnings:**
-![clean-build-warning]({{static.static_files}}/resources/ep54-build-times/spm-before-clean-build.png)
+![clean-build-warning]({{static.static_files}}/resources/ep054-build-times/spm-before-clean-build.png)
 
 ```
 🤯 This actually blew my mind. 
@@ -190,7 +190,7 @@ It's also worth noticing, that when using different modules, the `TimeLine` is w
 
 After applying the same fix as above, we can make a new clean build and:
 
-![clean-build-fix]({{static.static_files}}/resources/ep54-build-times/spm-after-timing-summary.png)
+![clean-build-fix]({{static.static_files}}/resources/ep054-build-times/spm-after-timing-summary.png)
 
 ## Dynamic vs Static Dispatch
 
@@ -239,7 +239,7 @@ We could also add this custom rule, to avoid the usage of the `.init` sugar synt
     severity: warning
 ```
 
-![swiftlint-rules]({{static.static_files}}/resources/ep54-build-times/swiftlint-rules.png)
+![swiftlint-rules]({{static.static_files}}/resources/ep054-build-times/swiftlint-rules.png)
 
 ```
 Note: I'm not 100% sure if helping the compiler by
@@ -261,17 +261,17 @@ If you create a new Xcode project today, these settings will already be set corr
 
 **Swift Compiler:**
 
-![code-gen]({{static.static_files}}/resources/ep54-build-times/xcode-config/compiler-code-generation-compilation-mode.png)
+![code-gen]({{static.static_files}}/resources/ep054-build-times/xcode-config/compiler-code-generation-compilation-mode.png)
 
-![optimization]({{static.static_files}}/resources/ep54-build-times/xcode-config/compiler-code-generation-optimization-level.png)
+![optimization]({{static.static_files}}/resources/ep054-build-times/xcode-config/compiler-code-generation-optimization-level.png)
 
 **Architectures:**
 
-![architectures]({{static.static_files}}/resources/ep54-build-times/xcode-config/architectures.png)
+![architectures]({{static.static_files}}/resources/ep054-build-times/xcode-config/architectures.png)
 
 **Build Options:**
 
-![build-options]({{static.static_files}}/resources/ep54-build-times/xcode-config/build-options.png)
+![build-options]({{static.static_files}}/resources/ep054-build-times/xcode-config/build-options.png)
 
 ---
 

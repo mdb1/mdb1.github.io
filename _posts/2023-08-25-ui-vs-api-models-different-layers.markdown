@@ -4,7 +4,7 @@ title: "UI vs API Models"
 subtitle: "A structured approach"
 date: 2023-08-25 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep56-ui-api-models/thumbnail.jpg"
+thumbnail-img: "/resources/ep056-ui-api-models/thumbnail.jpg"
 readtime: true
 ---
 
@@ -120,7 +120,7 @@ let package = Package(
 )
 ```
 
-![spm-structure]({{static.static_files}}/resources/ep56-ui-api-models/spm-structure.png)
+![spm-structure]({{static.static_files}}/resources/ep056-ui-api-models/spm-structure.png)
 
 Basically, we have one Package for the `Pokemon` features, with two libraries: UI and Data.
 
@@ -250,7 +250,7 @@ We won't spend too much time in the UI details, given this post is not related t
 
 For each view we will have 3 parts:
 
-![ui-structure]({{static.static_files}}/resources/ep56-ui-api-models/ui-structure.png)
+![ui-structure]({{static.static_files}}/resources/ep056-ui-api-models/ui-structure.png)
 
 **1. The SwiftUI View:**
 ```swift
@@ -374,7 +374,7 @@ struct ModelsExampleAppApp: App {
 ### Demo
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep56-ui-api-models/demo.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep056-ui-api-models/demo.mp4" type="video/mp4">
 </video>
 
 Something to **worth noticing**, is that we were using mocks up to this point, but if we suddenly decide to use a real endpoint, we just need to:

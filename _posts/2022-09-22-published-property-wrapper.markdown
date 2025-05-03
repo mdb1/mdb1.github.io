@@ -4,14 +4,14 @@ title:  "@Published property wrapper"
 date:   2022-09-22 07:00:00 -0300
 comments: true
 tags: [iOS]
-thumbnail-img: "/resources/ep08-published_property_wrapper/thumbnail.png"
+thumbnail-img: "/resources/ep008-published_property_wrapper/thumbnail.png"
 ---
 
 These are some notes based on SwiftLee's great article: [@Published risks and usage explained with code examples](https://www.avanderlee.com/swiftui/published-property-wrapper/).
 
 Great starting point to start building things using SwiftUI.
 
-![published-notes]({{static.static_files}}/resources/ep08-published_property_wrapper/published_property_wrapper.jpg)
+![published-notes]({{static.static_files}}/resources/ep008-published_property_wrapper/published_property_wrapper.jpg)
 
 <!-- Do not remove - SEO meta tags -->
 {% seo %}

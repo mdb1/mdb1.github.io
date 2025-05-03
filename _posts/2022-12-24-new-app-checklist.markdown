@@ -3,7 +3,7 @@ layout: post
 title:  "New App Checklist"
 date:   2022-12-24 07:00:00 -0300
 comments: true
-thumbnail-img: "/resources/ep12-new-app-checklist/thumbnail.png"
+thumbnail-img: "/resources/ep012-new-app-checklist/thumbnail.png"
 tags: [iOS, testing]
 ---
 
@@ -19,7 +19,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [DX: Only run tests for changed modules](/2025-03-26-dx-changed-modules-tests/)
 - Architecture
   - [Simple Modularization Setup](2025-02-27-simple-modularization-setup/)
-  - [Simple Navigation Router](/2025-04-24-ep84-navigation-router/)
+  - [Simple Navigation Router](/2025-04-24-ep084-navigation-router/)
   - [Sheets Manipulation](/2025-05-03-ep087-sheets-manipulation/)
   - [Centralized Dependencies](/2024-02-29-centralized-dependencies/)
   - [Enhancing Testability with Protocols](/2023-02-13-enhancing-testability-with-protocols/)
@@ -56,7 +56,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [When Xcode doesn't help](/2025-03-22-when-xcode-does-not-help/)
   - [Configuring a New MacBook](/2023-03-18-configuring-a-new-mac/)
   - [Freeing up space on your Mac](/2025-03-22-clean-storage-mac/)
-  - [Should you automate your Design System?](/2025-04-20-ep83-automate-design-system/)
+  - [Should you automate your Design System?](/2025-04-20-ep083-automate-design-system/)
 - Scripts
   - [Typo Detector](/2023-08-30-swift-typo-detector/)
   - [Sort Project Files](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/SortProject.md)
@@ -76,7 +76,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [TapShrink / LongPressShrink](/2023-10-22-shrink-modifiers/)
   - [Image Picker](/2024-01-30-image-picker-modifier/)
 - [Localization](/2022-12-27-new-app-localization/)
-- [Localization - Pluralization](/2025-04-29-ep86-localization-handling-plurals/)
+- [Localization - Pluralization](/2025-04-29-ep086-localization-handling-plurals/)
 - Accessibility
   - [AdaptableStack](/2023-10-07-adaptable-stack/)
 - [Unit test helpers](/2023-02-02-new-app-testing-helpers/)

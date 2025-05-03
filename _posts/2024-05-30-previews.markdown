@@ -4,7 +4,7 @@ title: "Previews"
 subtitle: "How to get the most out of Xcode Previews"
 date: 2024-05-30 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/ep72-previews/previews.png"
+thumbnail-img: "/resources/ep072-previews/previews.png"
 readtime: true
 ---
 
@@ -98,13 +98,13 @@ Then we can create our Preview macros:
 
 # Result
 
-![regular]({{static.static_files}}/resources/ep72-previews/regular.png)
+![regular]({{static.static_files}}/resources/ep072-previews/regular.png)
 
-![regular_error]({{static.static_files}}/resources/ep72-previews/regular_error.png)
+![regular_error]({{static.static_files}}/resources/ep072-previews/regular_error.png)
 
-![ax]({{static.static_files}}/resources/ep72-previews/ax.png)
+![ax]({{static.static_files}}/resources/ep072-previews/ax.png)
 
-![dark]({{static.static_files}}/resources/ep72-previews/dark.png)
+![dark]({{static.static_files}}/resources/ep072-previews/dark.png)
 
 # Next Steps
 

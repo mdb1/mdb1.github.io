@@ -3,7 +3,7 @@ layout: post
 title:  "My Xcode Setup and Shortcuts"
 date:   2023-03-14 07:00:00 -0300
 tags: [iOS, tools]
-thumbnail-img: "/resources/ep30-xcode-setup/thumbnail.png"
+thumbnail-img: "/resources/ep030-xcode-setup/thumbnail.png"
 readtime: true
 ---
 
@@ -49,7 +49,7 @@ I love this one, it makes finding/preventing/fixing typos so much easier.
 
 To enable it, go to: `Edit -> Format -> Spelling and Grammar -> Check Spelling While Typing`
 
-![spelling]({{static.static_files}}/resources/ep30-xcode-setup/spelling.png)
+![spelling]({{static.static_files}}/resources/ep030-xcode-setup/spelling.png)
 
 Then Xcode will underline with a red line the words with typos.
 
@@ -61,23 +61,23 @@ A quick solution for that is to change or remove the binding of the `print` acti
 
 Double click on the key column and replace or remove the binding:
 
-![print]({{static.static_files}}/resources/ep30-xcode-setup/print-shortcut.png)
+![print]({{static.static_files}}/resources/ep030-xcode-setup/print-shortcut.png)
 
 ## 3. Use `⌘ + Click` to jump to definition
 
-![jump]({{static.static_files}}/resources/ep30-xcode-setup/jump-to-def.png)
+![jump]({{static.static_files}}/resources/ep030-xcode-setup/jump-to-def.png)
 
 ## 4. Text Editing Configurations
 
-![t1]({{static.static_files}}/resources/ep30-xcode-setup/t1.png)
-![t2]({{static.static_files}}/resources/ep30-xcode-setup/t2.png)
-![t3]({{static.static_files}}/resources/ep30-xcode-setup/t3.png)
+![t1]({{static.static_files}}/resources/ep030-xcode-setup/t1.png)
+![t2]({{static.static_files}}/resources/ep030-xcode-setup/t2.png)
+![t3]({{static.static_files}}/resources/ep030-xcode-setup/t3.png)
 
 ## 5. Play sound on succeeded build
 
 One quick way to know that a build was successful is to make Xcode reproduce a sound:
 
-![success]({{static.static_files}}/resources/ep30-xcode-setup/success.png)
+![success]({{static.static_files}}/resources/ep030-xcode-setup/success.png)
 
 # Shortcuts
 

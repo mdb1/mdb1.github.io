@@ -3,7 +3,7 @@ layout: post
 title:  "The Joy of Less"
 date:   2023-05-20 07:00:00 -0300
 tags: [books]
-thumbnail-img: "/resources/ep38-the-joy-of-less/thumbnail.png"
+thumbnail-img: "/resources/ep038-the-joy-of-less/thumbnail.png"
 ---
 
 These are some notes from the book: `The Joy of Less: A Minimalist Guide to Declutter, Organize, and Simplify` by `Francine Jay`.

@@ -3,7 +3,7 @@ layout: post
 title: "Use FastLane to create PRs"
 date: 2023-08-12 07:00:02 -0300
 tags: [tools]
-thumbnail-img: "/resources/ep53-use-fastlane-to-create-prs/thumbnail.png"
+thumbnail-img: "/resources/ep053-use-fastlane-to-create-prs/thumbnail.png"
 readtime: true
 ---
 

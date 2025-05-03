@@ -4,7 +4,7 @@ title:  "The Code Review Process"
 date:   2022-03-10 21:41:55 -0300
 comments: true
 tags: [iOS]
-thumbnail-img: "/resources/ep02-the-code-review-process/thumbnail.png"
+thumbnail-img: "/resources/ep002-the-code-review-process/thumbnail.png"
 ---
 
 > No matter how experienced we are, we will make mistakes at work.

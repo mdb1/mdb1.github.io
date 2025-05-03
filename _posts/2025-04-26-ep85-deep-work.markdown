@@ -4,7 +4,7 @@ title: "Deep Work"
 subtitle: "By Cal Newport"
 date: 2025-04-26 07:00:00 -0300
 tags: [books]
-thumbnail-img: "/resources/ep85-deep-work/thumbnail.png"
+thumbnail-img: "/resources/ep085-deep-work/thumbnail.png"
 readtime: true
 ---
 
@@ -12,7 +12,7 @@ These are some hand-written notes about the book "Deep Work" by Cal Newport.
 
 (Sorry for the formatting, I'll try to improve it in the future)
 
-![cover]({{static.static_files}}/resources/ep85-deep-work/cover.png)
+![cover]({{static.static_files}}/resources/ep085-deep-work/cover.png)
 
 #### Table of Contents
 - [The Notes](#the-notes)
@@ -21,7 +21,7 @@ These are some hand-written notes about the book "Deep Work" by Cal Newport.
 
 # The Notes
 
-![notes]({{static.static_files}}/resources/ep85-deep-work/notes.png)
+![notes]({{static.static_files}}/resources/ep085-deep-work/notes.png)
 
 # My Takes
 

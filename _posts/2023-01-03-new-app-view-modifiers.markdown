@@ -4,7 +4,7 @@ title:  "New App - View Modifiers"
 date:   2023-01-03 07:00:00 -0300
 comments: true
 tags: [iOS]
-thumbnail-img: "/resources/ep17-new-app-view-modifiers/thumbnail.png"
+thumbnail-img: "/resources/ep017-new-app-view-modifiers/thumbnail.png"
 ---
 
 When starting a new app, I like to have some handy view modifiers to avoid duplicating code in different places.
@@ -21,7 +21,7 @@ Some examples:
 <script src="https://gist.github.com/mdb1/0602f0e4939995db3e5463f64c11a550.js"></script>
 
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep17-new-app-view-modifiers/delay.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep017-new-app-view-modifiers/delay.mp4" type="video/mp4">
 </video>
 
 ### EmbedInStack

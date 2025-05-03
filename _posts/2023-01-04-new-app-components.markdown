@@ -3,7 +3,7 @@ layout: post
 title:  "New App - Components"
 date:   2023-01-04 07:00:00 -0300
 comments: true
-thumbnail-img: "/resources/ep18-new-app-components/thumbnail.png"
+thumbnail-img: "/resources/ep018-new-app-components/thumbnail.png"
 tags: [iOS]
 ---
 
@@ -18,7 +18,7 @@ The code can be found [here](https://gist.github.com/mdb1/d178ae0a8ad453fa4f40c9
 
 ### Video
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep18-new-app-components/loadingButton.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep018-new-app-components/loadingButton.mp4" type="video/mp4">
 </video>
 
 ## LongPressButton
@@ -28,7 +28,7 @@ The code can be found [here](https://gist.github.com/mdb1/483b907d84aec08cde7edd
 
 ### Video
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep18-new-app-components/longPressButton.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep018-new-app-components/longPressButton.mp4" type="video/mp4">
 </video>
 
 ## TextField
@@ -38,7 +38,7 @@ The code can be found [here](https://gist.github.com/mdb1/6dcb3f47b54038748bcce7
 
 ### Video
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep18-new-app-components/textfield.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep018-new-app-components/textfield.mp4" type="video/mp4">
 </video>
 
 ## Custom Progress View
@@ -48,7 +48,7 @@ The code can be found [here](https://gist.github.com/mdb1/13df4fb33b6d3df119b896
 
 ### Video
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep18-new-app-components/spinner.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep018-new-app-components/spinner.mp4" type="video/mp4">
 </video>
 
 ## CancelCircularButton
@@ -58,7 +58,7 @@ The code can be found [here](https://gist.github.com/mdb1/8eb8279adbfb0764a65d03
 
 ### Video
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep18-new-app-components/cancelButton.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep018-new-app-components/cancelButton.mp4" type="video/mp4">
 </video>
 
 ## CarouselView
@@ -68,7 +68,7 @@ The code can be found [here](https://github.com/mdb1/UIComponents/blob/main/Sour
 
 ### Video
 <video style="width: 70%; @media (max-width: 768px) { width: 50%; }" controls>
-    <source src="{{static.static_files}}/resources/ep18-new-app-components/carousel.mp4" type="video/mp4">
+    <source src="{{static.static_files}}/resources/ep018-new-app-components/carousel.mp4" type="video/mp4">
 </video>
 
 ## AdaptableStack

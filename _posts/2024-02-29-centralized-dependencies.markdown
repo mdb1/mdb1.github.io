@@ -4,7 +4,7 @@ title: "Centralized Dependencies"
 subtitle: "A pragmatic approach to dependency management."
 date: 2024-02-29 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/ep68-centralized-dependencies/thumbnail.jpeg"
+thumbnail-img: "/resources/ep068-centralized-dependencies/thumbnail.jpeg"
 readtime: true
 ---
 

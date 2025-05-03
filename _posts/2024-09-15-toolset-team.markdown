@@ -4,7 +4,7 @@ title: "Day to Day Starting 11"
 subtitle: "The ToolSet Team to win championships"
 date: 2024-09-15 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/ep73-toolset-team/preview.png"
+thumbnail-img: "/resources/ep073-toolset-team/preview.png"
 readtime: true
 ---
 
@@ -33,7 +33,7 @@ In this post, I will briefly mention the ones that I think have brought more val
 
 # The Team
 
-![team]({{static.static_files}}/resources/ep73-toolset-team/team.jpg)
+![team]({{static.static_files}}/resources/ep073-toolset-team/team.jpg)
 
 ## Github Actions
 
@@ -82,7 +82,7 @@ The go-to [tool](https://www.figma.com/) for designs, it gets the t-shirt `#7`. 
 
 ## Slack
 
-![slack]({{static.static_files}}/resources/ep73-toolset-team/10-slack.jpg)
+![slack]({{static.static_files}}/resources/ep073-toolset-team/10-slack.jpg)
 
 Number `10` for [Slack](https://slack.com/), the collaboration tool. Without this team member, everything else would fall off. Can make you win games if used right.
 
