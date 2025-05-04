@@ -3,7 +3,7 @@ layout: post
 title: "Use Periphery to find unused code"
 date: 2023-08-21 07:00:00 -0300
 tags: [iOS, tools]
-thumbnail-img: "/resources/ep055-periphery/logo.png"
+thumbnail-img: "/resources/ep055-periphery/thumbnail.webp"
 readtime: true
 ---
 

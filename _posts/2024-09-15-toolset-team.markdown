@@ -4,7 +4,7 @@ title: "Day to Day Starting 11"
 subtitle: "The ToolSet Team to win championships"
 date: 2024-09-15 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/ep073-toolset-team/preview.png"
+thumbnail-img: "/resources/ep073-toolset-team/thumbnail.webp"
 readtime: true
 ---
 

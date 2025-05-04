@@ -4,7 +4,7 @@ title: "UI vs API Models"
 subtitle: "A structured approach"
 date: 2023-08-25 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep056-ui-api-models/thumbnail.jpg"
+thumbnail-img: "/resources/ep056-ui-api-models/thumbnail.webp"
 readtime: true
 ---
 

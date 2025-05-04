@@ -3,7 +3,7 @@ layout: post
 title:  "NetworkLogger: Adding debug information to your network calls"
 date:   2023-05-27 07:00:00 -0300
 tags: [iOS, tools]
-thumbnail-img: "/resources/ep040-network-logger/thumbnail.png"
+thumbnail-img: "/resources/ep040-network-logger/thumbnail.webp"
 ---
 
 When developing Swift applications that involve network communication, it's often essential to have visibility into the details of the network requests and responses. This includes information such as HTTP headers, URLs, request bodies, and response data. In order to facilitate this logging process, I have created a simple and lightweight struct called NetworkLogger as part of the [CoreNetworking](https://github.com/mdb1/CoreNetworking) library.

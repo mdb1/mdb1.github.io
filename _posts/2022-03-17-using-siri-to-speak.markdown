@@ -4,7 +4,7 @@ title:  "Using Siri's voice to speak in your app"
 date:   2022-03-17 16:41:55 -0300
 comments: true
 tags: [iOS]
-thumbnail-img: "/resources/ep003-using-siri-to-speak/thumbnail.png"
+thumbnail-img: "/resources/ep003-using-siri-to-speak/thumbnail.webp"
 ---
 
 It’s **really** easy to use Apple’s Speech mechanism to make your app read text out loud to the users:

@@ -4,7 +4,7 @@ title: "Deep Work"
 subtitle: "By Cal Newport"
 date: 2025-04-26 07:00:00 -0300
 tags: [books]
-thumbnail-img: "/resources/ep085-deep-work/thumbnail.png"
+thumbnail-img: "/resources/ep085-deep-work/thumbnail.webp"
 readtime: true
 ---
 

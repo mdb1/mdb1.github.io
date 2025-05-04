@@ -4,7 +4,7 @@ title: "Testing NotificationCenter: Concurrency vs Threading"
 subtitle: "Explaining the differences for effective unit testing of each scenario"
 date: 2023-09-18 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep061-test-notification-center/thumbnail.jpg"
+thumbnail-img: "/resources/ep061-test-notification-center/thumbnail.webp"
 readtime: true
 ---
 

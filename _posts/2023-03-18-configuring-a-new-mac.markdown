@@ -3,7 +3,7 @@ layout: post
 title: "Configuring a new MacBook"
 date: 2023-03-18 07:00:00 -0300
 tags: [productivity, tools]
-thumbnail-img: "/resources/ep031-configuring-new-macbook/thumbnail.png"
+thumbnail-img: "/resources/ep031-configuring-new-macbook/thumbnail.webp"
 ---
 
 When setting up a new MacBook, there are a few steps you should take to get it up and running smoothly. In this article, we'll explore a list of items you should consider toggling to optimize your MacBook experience.

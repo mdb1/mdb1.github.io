@@ -3,7 +3,7 @@ layout: post
 title:  "Brain Rules"
 date:   2023-06-09 07:00:00 -0300
 tags: [books]
-thumbnail-img: "/resources/ep042-brain-rules/thumbnail.png"
+thumbnail-img: "/resources/ep042-brain-rules/thumbnail.webp"
 ---
 
 These are some notes from the book: `Brain Rules` by `John Medina`. 

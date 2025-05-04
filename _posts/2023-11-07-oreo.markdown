@@ -4,7 +4,7 @@ title: "Raising Oreo"
 subtitle: "A Journey of Puppy Love and Learning"
 date: 2023-11-07 07:00:00 -0300
 tags: [random]
-thumbnail-img: "/resources/ep065-oreo/thumbnail.jpeg"
+thumbnail-img: "/resources/ep065-oreo/thumbnail.webp"
 readtime: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "New App - Components"
 date:   2023-01-04 07:00:00 -0300
 comments: true
-thumbnail-img: "/resources/ep018-new-app-components/thumbnail.png"
+thumbnail-img: "/resources/ep018-new-app-components/thumbnail.webp"
 tags: [iOS]
 ---
 

@@ -4,7 +4,7 @@ title: "Should you automate your Design System?"
 subtitle: "To automate or not to automate"
 date: 2025-04-20 07:00:00 -0300
 tags: [ios]
-thumbnail-img: "/resources/ep083-automate-design-system/thumbnail.png"
+thumbnail-img: "/resources/ep083-automate-design-system/thumbnail.webp"
 readtime: true
 ---
 

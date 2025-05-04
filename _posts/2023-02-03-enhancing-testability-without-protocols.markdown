@@ -3,7 +3,7 @@ layout: post
 title:  "Enhancing Testability without protocols"
 date:   2023-02-03 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep026-dependencies/thumbnail.png"
+thumbnail-img: "/resources/ep026-dependencies/thumbnail.webp"
 ---
 
 We have all used protocols to enhance testability in our apps, but that can become too verbose, and add extra layers of abstractions to the code.

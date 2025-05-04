@@ -4,7 +4,7 @@ title: "When Xcode doesn't help"
 subtitle: "A guide for fixing esoteric errors"
 date: 2025-03-22 07:00:00 -0300
 tags: [ios]
-thumbnail-img: "/resources/ep081-when-xcode-does-not-help/thumbnail.png"
+thumbnail-img: "/resources/ep081-when-xcode-does-not-help/thumbnail.webp"
 readtime: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "New App - Toasts"
 date:   2023-03-08 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/ep029-new-app-toasts/thumbnail.png"
+thumbnail-img: "/resources/ep029-new-app-toasts/thumbnail.webp"
 ---
 
 When starting a new app, I like to have a toast displaying mechanism in-place.

@@ -4,7 +4,7 @@ title: "GHA: Cloning Private Dependencies"
 subtitle: "Using SSH keys to access your private repositories in Github Actions"
 date: 2024-03-12 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep070-unit-tests-gha-with-private-dependencies/thumbnail.jpeg"
+thumbnail-img: "/resources/ep070-unit-tests-gha-with-private-dependencies/thumbnail.webp"
 readtime: true
 ---
 

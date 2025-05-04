@@ -3,7 +3,7 @@ layout: post
 title:  "Excellent Advice for Living"
 date:   2023-05-24 07:00:00 -0300
 tags: [books]
-thumbnail-img: "/resources/ep039-excellent-advice-for-living/thumbnail.png"
+thumbnail-img: "/resources/ep039-excellent-advice-for-living/thumbnail.webp"
 ---
 
 These are some notes from the book: `Excellent Advice for Living` by `Kevin Kelly`.

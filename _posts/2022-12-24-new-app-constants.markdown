@@ -4,7 +4,7 @@ title:  "New App - Constants"
 date:   2022-12-24 09:00:00 -0300
 comments: true
 tags: [iOS]
-thumbnail-img: "/resources/ep013-new-app-constants/thumbnail.png"
+thumbnail-img: "/resources/ep013-new-app-constants/thumbnail.webp"
 ---
 
 When starting a new app, it's important to set the constants that will be shared across the app correcly:

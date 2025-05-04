@@ -4,7 +4,7 @@ title: "SwiftUI: Adaptable Stack"
 subtitle: "A Step Towards Accessibility"
 date: 2023-10-07 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/ep063-adaptable-stack/thumbnail.jpg"
+thumbnail-img: "/resources/ep063-adaptable-stack/thumbnail.webp"
 readtime: true
 ---
 

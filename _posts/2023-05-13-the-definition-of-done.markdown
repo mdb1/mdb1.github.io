@@ -3,7 +3,7 @@ layout: post
 title:  "The Definition of Done"
 date:   2023-05-13 07:00:00 -0300
 tags: [iOS, tools]
-thumbnail-img: "/resources/ep037-definition-of-done/thumbnail.png"
+thumbnail-img: "/resources/ep037-definition-of-done/thumbnail.webp"
 ---
 
 # Introduction:

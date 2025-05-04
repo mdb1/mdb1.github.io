@@ -4,7 +4,7 @@ title: "Communication Etiquette"
 subtitle: "Guidelines for effective communication"
 date: 2025-03-17 07:00:00 -0300
 tags: [productivity, tools]
-thumbnail-img: "/resources/ep079-communication-etiquette/thumbnail.png"
+thumbnail-img: "/resources/ep079-communication-etiquette/thumbnail.webp"
 readtime: true
 ---
 

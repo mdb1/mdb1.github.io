@@ -3,7 +3,7 @@ layout: post
 title:  "SwiftUI: Using a Repository as the single source of truth"
 date:   2023-04-30 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/ep035-repository/thumbnail.png"
+thumbnail-img: "/resources/ep035-repository/thumbnail.webp"
 ---
 
 # Introduction:

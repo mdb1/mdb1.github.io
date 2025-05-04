@@ -3,7 +3,7 @@ layout: post
 title:  "New App - Console Logger [Deprecated]"
 date:   2023-05-06 07:00:00 -0300
 tags: [iOS, tools]
-thumbnail-img: "/resources/ep036-console-logger/thumbnail.png"
+thumbnail-img: "/resources/ep036-console-logger/thumbnail.webp"
 ---
 
 # Edit:

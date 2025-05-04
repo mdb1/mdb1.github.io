@@ -4,7 +4,7 @@ title:  "New App - Fonts"
 date:   2023-01-20 07:00:00 -0300
 comments: true
 tags: [iOS]
-thumbnail-img: "/resources/ep023-new-app-fonts/thumbnail.png"
+thumbnail-img: "/resources/ep023-new-app-fonts/thumbnail.webp"
 ---
 
 When starting a new app, you need to decide which fonts/typographies the app is going to use.

@@ -3,7 +3,7 @@ layout: post
 title: "Fix to SwiftUI encountered an issue when pushing a NavigationLink"
 date: 2023-08-12 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/ep051-fix-swiftui-navigation-issue/thumbnail.png"
+thumbnail-img: "/resources/ep051-fix-swiftui-navigation-issue/thumbnail.webp"
 readtime: true
 ---
 

@@ -4,7 +4,7 @@ title: "Simple Modularization setup for a New App"
 subtitle: "A structured approach using local packages"
 date: 2025-02-27 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep075-simple-modularization-setup/thumbnail.png"
+thumbnail-img: "/resources/ep075-simple-modularization-setup/thumbnail.webp"
 readtime: true
 ---
 

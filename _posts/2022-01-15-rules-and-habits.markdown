@@ -4,7 +4,7 @@ title:  "Rules and Habits for a better life"
 date:   2022-01-15 21:41:55 -0300
 comments: true
 tags: [productivity]
-thumbnail-img: "/resources/ep001-rules-and-habits/thumbnail.png"
+thumbnail-img: "/resources/ep001-rules-and-habits/thumbnail.webp"
 ---
 
 Hi there! 👋

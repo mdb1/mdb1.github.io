@@ -3,7 +3,7 @@ layout: post
 title: "Improve the build times of your SPM Packages and your apps"
 date: 2023-08-18 07:00:00 -0300
 tags: [iOS, tools]
-thumbnail-img: "/resources/ep054-build-times/thumbnail.png"
+thumbnail-img: "/resources/ep054-build-times/thumbnail.webp"
 readtime: true
 ---
 

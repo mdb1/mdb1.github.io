@@ -4,7 +4,7 @@ title: "Freeing up space on your Mac"
 subtitle: "Manually cleaning up storage"
 date: 2025-03-22 06:00:00 -0300
 tags: [ios, tools]
-thumbnail-img: "/resources/ep080-clean-storage-mac/thumbnail.png"
+thumbnail-img: "/resources/ep080-clean-storage-mac/thumbnail.webp"
 readtime: true
 ---
 

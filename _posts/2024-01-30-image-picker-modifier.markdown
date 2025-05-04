@@ -4,7 +4,7 @@ title: "ViewModifiers: Image Picker"
 subtitle: "An easy way to let users select images"
 date: 2024-01-30 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/ep067-modifiers-image-picker/thumbnail.jpg"
+thumbnail-img: "/resources/ep067-modifiers-image-picker/thumbnail.webp"
 readtime: true
 ---
 

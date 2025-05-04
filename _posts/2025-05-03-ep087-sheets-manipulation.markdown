@@ -4,7 +4,7 @@ title: "Sheets Manipulation"
 subtitle: "Enum-Based vs Boolean-Based approaches"
 date: 2025-05-03 07:00:00 -0300
 tags: [ios]
-thumbnail-img: "/resources/ep087-sheets-manipulation/thumbnail.png"
+thumbnail-img: "/resources/ep087-sheets-manipulation/thumbnail.webp"
 readtime: true
 ---
 

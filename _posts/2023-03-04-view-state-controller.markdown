@@ -3,7 +3,7 @@ layout: post
 title:  "ViewStateController: Reusable State Management for SwiftUI"
 date:   2023-03-04 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep028-view-state-controller/thumbnail.png"
+thumbnail-img: "/resources/ep028-view-state-controller/thumbnail.webp"
 ---
 
 I've been thinking for a while now on how most of the SwiftUI views that depend on a state end up looking pretty similar.

@@ -3,7 +3,7 @@ layout: post
 title:  "Enhancing Testability with protocols"
 date:   2023-02-13 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep027-protocols/thumbnail.png"
+thumbnail-img: "/resources/ep027-protocols/thumbnail.webp"
 ---
 
 In the [last post](/2023-02-03-enhancing-testability-without-protocols/) we’ve discussed hot to enhance testability without using protocols. In this one, we will build something similar but using protocols instead.

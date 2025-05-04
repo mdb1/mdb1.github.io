@@ -3,7 +3,7 @@ layout: post
 title:  "Die with Zero"
 date:   2023-06-11 07:00:00 -0300
 tags: [books]
-thumbnail-img: "/resources/ep043-die-with-zero/thumbnail.png"
+thumbnail-img: "/resources/ep043-die-with-zero/thumbnail.webp"
 ---
 
 These are some notes from the book: `Die with Zero` by `Bill Perkins`. 

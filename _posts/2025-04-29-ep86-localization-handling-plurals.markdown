@@ -4,7 +4,7 @@ title: "Localization - Pluralizations"
 subtitle: "The easiest way to support plurals"
 date: 2025-04-29 07:00:00 -0300
 tags: [ios]
-thumbnail-img: "/resources/ep086-localization-handling-plurals/thumbnail.png"
+thumbnail-img: "/resources/ep086-localization-handling-plurals/thumbnail.webp"
 readtime: true
 ---
 

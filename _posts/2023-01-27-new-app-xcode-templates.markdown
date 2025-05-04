@@ -4,7 +4,7 @@ title:  "New App - Xcode Templates"
 date:   2023-01-27 07:00:00 -0300
 comments: true
 tags: [iOS, tools]
-thumbnail-img: "/resources/ep024-new-app-xcode-templates/thumbnail.png"
+thumbnail-img: "/resources/ep024-new-app-xcode-templates/thumbnail.webp"
 ---
 
 When starting a new app, after deciding which based design pattern you are going to use for the views, you can create some Xcode templates to help standardize how the files are written and speed up development.

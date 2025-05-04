@@ -4,7 +4,7 @@ title:  "User Guide to Working with Manu"
 date:   2022-10-29 07:00:00 -0300
 comments: true
 tags: [productivity, tools]
-thumbnail-img: "/resources/ep011-user-guide-to-working-with-me/thumbnail.png"
+thumbnail-img: "/resources/ep011-user-guide-to-working-with-me/thumbnail.webp"
 ---
 
 This is a set of guidelines on how I like the team-work to happen.

@@ -4,7 +4,7 @@ title:  "New App - View Modifiers"
 date:   2023-01-03 07:00:00 -0300
 comments: true
 tags: [iOS]
-thumbnail-img: "/resources/ep017-new-app-view-modifiers/thumbnail.png"
+thumbnail-img: "/resources/ep017-new-app-view-modifiers/thumbnail.webp"
 ---
 
 When starting a new app, I like to have some handy view modifiers to avoid duplicating code in different places.

@@ -4,7 +4,7 @@ title: "ViewModifiers: Shrinking views"
 subtitle: "Some simple modifiers to shrink views on tap or long press"
 date: 2023-10-22 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/ep064-modifiers-shrink/thumbnail.jpg"
+thumbnail-img: "/resources/ep064-modifiers-shrink/thumbnail.webp"
 readtime: true
 ---
 

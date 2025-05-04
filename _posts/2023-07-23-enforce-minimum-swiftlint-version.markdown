@@ -3,7 +3,7 @@ layout: post
 title:  "Build Phase to enforce minimum SwiftLint version"
 date:   2023-07-23 07:00:00 -0300
 tags: [iOS, tools]
-thumbnail-img: "/resources/ep047-swiftlint-version/thumbnail.png"
+thumbnail-img: "/resources/ep047-swiftlint-version/thumbnail.webp"
 ---
 
 If your team is using `brew` to install SwiftLint, you might run into scenarios where different developers run different versions of the linter.

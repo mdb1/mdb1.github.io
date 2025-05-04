@@ -3,7 +3,7 @@ layout: post
 title: "New App - NotificationCenter protocols"
 date: 2023-08-12 07:00:01 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep052-new-app-notification-center-protocols/thumbnail.png"
+thumbnail-img: "/resources/ep052-new-app-notification-center-protocols/thumbnail.webp"
 ---
 
 When starting a new app, I always bring these NotificationCenter protocols into the project.

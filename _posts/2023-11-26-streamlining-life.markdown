@@ -4,7 +4,7 @@ title: "Streamlining My Life"
 subtitle: "Some strategies for life automation"
 date: 2023-11-26 07:00:00 -0300
 tags: [productivity]
-thumbnail-img: "/resources/ep066-streamlining-life/thumbnail.jpg"
+thumbnail-img: "/resources/ep066-streamlining-life/thumbnail.webp"
 readtime: true
 ---
 

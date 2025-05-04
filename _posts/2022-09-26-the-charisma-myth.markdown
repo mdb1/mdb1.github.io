@@ -4,7 +4,7 @@ title:  "The Charisma Myth"
 date:   2022-09-26 07:00:00 -0300
 comments: true
 tags: [books]
-thumbnail-img: "/resources/ep009-the-charisma-myth/thumbnail.png"
+thumbnail-img: "/resources/ep009-the-charisma-myth/thumbnail.webp"
 ---
 
 These are some notes based on the book: The Charisma Myth.

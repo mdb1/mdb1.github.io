@@ -3,7 +3,7 @@ layout: post
 title:  "Hyperfocus"
 date:   2023-06-03 07:00:00 -0300
 tags: [books]
-thumbnail-img: "/resources/ep041-hyperfocus/thumbnail.png"
+thumbnail-img: "/resources/ep041-hyperfocus/thumbnail.webp"
 ---
 
 These are some notes from the book: `Hyperfocus` by `Chris Bailey`. 

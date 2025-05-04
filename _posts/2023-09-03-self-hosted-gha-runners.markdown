@@ -4,7 +4,7 @@ title: "Self-Hosted Github Actions Runners"
 subtitle: "How Going In-House Can Slash Your Build Times"
 date: 2023-09-03 07:00:00 -0300
 tags: [tools, testing]
-thumbnail-img: "/resources/ep059-self-hosted-gha-runners/thumbnail.jpeg"
+thumbnail-img: "/resources/ep059-self-hosted-gha-runners/thumbnail.webp"
 readtime: true
 ---
 

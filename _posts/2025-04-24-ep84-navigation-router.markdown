@@ -4,7 +4,7 @@ title: "NavigationRouter"
 subtitle: "A simple stack-based navigation system for SwiftUI apps"
 date: 2025-04-24 07:00:00 -0300
 tags: [ios]
-thumbnail-img: "/resources/ep084-navigation-router/thumbnail.png"
+thumbnail-img: "/resources/ep084-navigation-router/thumbnail.webp"
 readtime: true
 ---
 

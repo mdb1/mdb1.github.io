@@ -4,7 +4,7 @@ title: "Swift Typo Detector"
 subtitle: "A tool to get rid of all those typos"
 date: 2023-08-30 07:00:00 -0300
 tags: [tools]
-thumbnail-img: "/resources/ep058-swift-typo-detector/thumbnail.jpeg"
+thumbnail-img: "/resources/ep058-swift-typo-detector/thumbnail.webp"
 readtime: true
 ---
 

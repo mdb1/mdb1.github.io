@@ -4,7 +4,7 @@ title:  "New App - Localization"
 date:   2022-12-27 07:00:00 -0300
 comments: true
 tags: [iOS]
-thumbnail-img: "/resources/ep014-new-app-localization/thumbnail.png"
+thumbnail-img: "/resources/ep014-new-app-localization/thumbnail.webp"
 ---
 
 When starting a new app, it's important to have a mechanism in place for Localization.

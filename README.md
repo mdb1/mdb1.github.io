@@ -22,3 +22,11 @@ This site uses [mise](https://mise.jdx.dev/) to manage Ruby versions and a Gemfi
    ```bash
    mise serve
    ```
+
+## Resources
+
+Thumbnail images should use `webp` extension to improve loading times.
+
+To convert images to webp, run the following command:
+
+`cwebp -q 80 input-image.png -o output-image.webp`

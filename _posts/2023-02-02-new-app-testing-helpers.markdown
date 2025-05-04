@@ -4,7 +4,7 @@ title:  "New App - Testing Helpers"
 date:   2023-02-02 07:00:00 -0300
 comments: true
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep025-new-app-testing-helpers/thumbnail.png"
+thumbnail-img: "/resources/ep025-new-app-testing-helpers/thumbnail.webp"
 ---
 
 When starting a new app, I like to have some XCTest helpers to enhance testability.

@@ -4,7 +4,7 @@ title: "Combine Repository"
 subtitle: "Publishing Changes to all the observers"
 date: 2023-08-28 07:00:00 -0300
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep057-combine-based-repository/thumbnail.jpg"
+thumbnail-img: "/resources/ep057-combine-based-repository/thumbnail.webp"
 readtime: true
 ---
 

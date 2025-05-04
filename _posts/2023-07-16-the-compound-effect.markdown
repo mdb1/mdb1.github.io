@@ -3,7 +3,7 @@ layout: post
 title:  "The Compound Effect"
 date:   2023-07-16 07:00:00 -0300
 tags: [books]
-thumbnail-img: "/resources/ep045-the-compound-effect/thumbnail.png"
+thumbnail-img: "/resources/ep045-the-compound-effect/thumbnail.webp"
 ---
 
 These are some notes from the book: `The Compound Effect` by `Darren Hardy`. 

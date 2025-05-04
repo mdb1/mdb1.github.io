@@ -4,7 +4,7 @@ title: "New App - OSLog Console Logger"
 subtitle: "Leveraging OSLog in your console"
 date: 2024-03-19 07:00:00 -0300
 tags: [iOS]
-thumbnail-img: "/resources/ep071-new-app-os-log/thumbnail.png"
+thumbnail-img: "/resources/ep071-new-app-os-log/thumbnail.webp"
 readtime: true
 ---
 

@@ -4,7 +4,7 @@ title:  "Test private properties using Mirror"
 date:   2022-05-28 09:00:00 -0300
 comments: true
 tags: [iOS, testing]
-thumbnail-img: "/resources/ep006-test-private-properties/thumbnail.png"
+thumbnail-img: "/resources/ep006-test-private-properties/thumbnail.webp"
 ---
 
 In this post, we'll learn how we can add unit tests to private properties without compromising their access level.

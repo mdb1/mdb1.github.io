@@ -3,7 +3,7 @@ layout: post
 title:  "My Xcode Setup and Shortcuts"
 date:   2023-03-14 07:00:00 -0300
 tags: [iOS, tools]
-thumbnail-img: "/resources/ep030-xcode-setup/thumbnail.png"
+thumbnail-img: "/resources/ep030-xcode-setup/thumbnail.webp"
 readtime: true
 ---
 

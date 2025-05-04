@@ -4,7 +4,7 @@ title: "DX: Only run unit tests for changed modules"
 subtitle: "A quick-win Fastlane lane"
 date: 2025-03-26 07:00:00 -0300
 tags: [ios]
-thumbnail-img: "/resources/ep082-dx-changed-modules-tests/thumbnail.png"
+thumbnail-img: "/resources/ep082-dx-changed-modules-tests/thumbnail.webp"
 readtime: true
 ---
 
