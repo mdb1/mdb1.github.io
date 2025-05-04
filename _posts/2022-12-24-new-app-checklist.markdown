@@ -18,7 +18,7 @@ The idea of this post is to provide a list of things I like to have in-place whe
   - [Deploy builds](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane+Distribution.md)
   - [DX: Only run tests for changed modules](/2025-03-26-dx-changed-modules-tests/)
 - Architecture
-  - [Simple Modularization Setup](2025-02-27-simple-modularization-setup/)
+  - [Simple Modularization Setup](/2025-02-27-simple-modularization-setup/)
   - [Simple Navigation Router](/2025-04-24-ep84-navigation-router/)
   - [Sheets Manipulation](/2025-05-03-ep087-sheets-manipulation/)
   - [Centralized Dependencies](/2024-02-29-centralized-dependencies/)
