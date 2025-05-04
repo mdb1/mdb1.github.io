@@ -110,13 +110,13 @@ In most cases, managing the state of the sheets directly on the SwiftUI views as
 
 # Adding Navigation to the presented sheets
 
-It's really straight forward to add an stack-based navigation system to the presented sheets. We can just follow the same approach explained in the [NavigationRouter article](/2025-04-24-ep084-navigation-router/) for the Router of the Sheet-presented flow.
+It's really straight forward to add an stack-based navigation system to the presented sheets. We can just follow the same approach explained in the [NavigationRouter article](/2025-04-24-ep84-navigation-router/) for the Router of the Sheet-presented flow.
 
 ---
 
 # Related Articles
 
-- [NavigationRouter](/2025-04-24-ep084-navigation-router/)
+- [NavigationRouter](/2025-04-24-ep84-navigation-router/)
 - [Simple Modularization Setup](/2025-02-27-simple-modularization-setup/)
 - [New App Checklist](/2022-12-24-new-app-checklist/)
 - [ViewStateController](/2023-03-04-view-state-controller/)
