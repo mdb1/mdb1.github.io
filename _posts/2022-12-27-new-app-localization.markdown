@@ -57,7 +57,7 @@ Even though SwiftUI's Text automatically looks for the localized strings, I thin
 
 # Related Articles
 
-- [Localization - Pluralization](/2025-04-29-ep086-localization-handling-plurals/)
+- [Localization - Pluralization](/2025-04-29-ep86-localization-handling-plurals/)
 - [String Extensions](/2025-03-03-useful-string-extensions/)
 
 <!-- Do not remove - SEO meta tags -->
