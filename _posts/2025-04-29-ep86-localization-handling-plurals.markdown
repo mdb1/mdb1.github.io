@@ -17,6 +17,7 @@ The String Catalogs file have built-in support for pluralization.
 - [Handling Plurals](#handling-plurals)
   - [Usage](#usage)
 - [Related Articles](#related-articles)
+  - [Featured in](#featured-in)
 
 # String Catalogs
 
@@ -64,6 +65,10 @@ Text("books".localized(with: [itemCount])) // 0 Books, 1 Book, 2 Books
 - [String Extensions](/2025-03-03-useful-string-extensions/)
 - [ViewStateController](/2023-03-04-view-state-controller/)
 - [ViewModifiers](/2023-01-03-new-app-view-modifiers/)
+
+## Featured in
+
+- [iOS Coffee Break #43](https://www.ioscoffeebreak.com/issue/issue43)
 
 ---
 

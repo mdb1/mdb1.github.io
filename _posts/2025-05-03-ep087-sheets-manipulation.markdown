@@ -22,7 +22,8 @@ We will add some documentation on usage on top of the SwiftUI built-in framework
 - [@State vs @Observable](#state-vs-observable)
 - [Adding Navigation to the presented sheets](#adding-navigation-to-the-presented-sheets)
 - [Related Articles](#related-articles)
-- [Related Reading](#related-reading)
+  - [Featured in](#featured-in)
+  - [Related Reading](#related-reading)
 
 # The Code
 
@@ -122,7 +123,11 @@ It's really straight forward to add an stack-based navigation system to the pres
 - [ViewStateController](/2023-03-04-view-state-controller/)
 - [Enhancing Testability without Protocols](/2023-02-03-enhancing-testability-without-protocols/)
 
-# Related Reading
+## Featured in
+
+- [iOS Coffee Break #43](https://www.ioscoffeebreak.com/issue/issue43)
+
+## Related Reading
 
 - [sheet(isPresented:ondismiss:content:)](https://developer.apple.com/documentation/swiftui/view/sheet(ispresented:ondismiss:content:))
 - [sheet(item:ondismiss:content:)](https://developer.apple.com/documentation/swiftui/view/sheet(item:ondismiss:content:))
