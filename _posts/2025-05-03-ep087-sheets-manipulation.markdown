@@ -126,6 +126,7 @@ It's really straight forward to add an stack-based navigation system to the pres
 ## Featured in
 
 - [iOS Coffee Break #43](https://www.ioscoffeebreak.com/issue/issue43)
+- [iOS Dev Weekly #711](https://iosdevweekly.com/issues/711)
 
 ## Related Reading
 
