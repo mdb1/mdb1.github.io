@@ -210,6 +210,13 @@ Here's a list of recommended settings to customize:
 
 # Additional Tips
 
+If you want to add some spacers to the Dock, you can run:
+
+```swift
+defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}';
+killall Dock
+```
+
 To stop workspaces from stealing focus:
 
 ```swift
