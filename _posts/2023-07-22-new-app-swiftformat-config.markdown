@@ -97,7 +97,11 @@ To configure the rules:
 
 `cd BuildTools && touch .swiftformat && vim .swiftformat` -> Paste the rules from above and save the file.
 
-# 4. Test the implementation
+# 4. Enable User Script Sandboxing
+
+Open the Build Settings of the project, filter using the word `sandbox` and enable User Script Sandboxing. (Set it to `yes`).
+
+# 5. Test the implementation
 
 `1.` Build the target where you added the Build Phase.
 
