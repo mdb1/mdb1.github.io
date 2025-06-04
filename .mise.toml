@@ -1,9 +1,0 @@
-[tools]
-ruby = "3.4.1"
-
-[env]
-JEKYLL_ENV = "development"
-
-[tasks]
-serve = { run = "bundle exec jekyll serve" }
-build = { run = "bundle exec jekyll build" }

@@ -1,0 +1,9 @@
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    container_name: jekyll_blog
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - "4000:4000"
+    command: jekyll serve --watch --force_polling --host 0.0.0.0

@@ -4,24 +4,24 @@
 
 ## Development Setup
 
-### Using mise (recommended)
+### Using Docker Compose (recommended)
 
-This site uses [mise](https://mise.jdx.dev/) to manage Ruby versions and a Gemfile for dependencies.
+This site can be run using Docker Compose, which eliminates Ruby version and dependency issues:
 
-1. **Install mise** (if not already installed):
+1. **Install Docker** (if not already installed):
    ```bash
-   brew install mise
+   brew install --cask docker
+   brew install docker-compose
    ```
 
-2. **Install the dependencies**:
+2. Open Docker Desktop
+
+3. **Build and start the Jekyll server**:
    ```bash
-   mise i
+   docker-compose up
    ```
 
-3. **Run the Jekyll server**:
-   ```bash
-   mise serve
-   ```
+4. **Access the site** at http://localhost:4000
 
 ## Resources
 
