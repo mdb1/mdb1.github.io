@@ -1,9 +1,11 @@
 services:
   jekyll:
-    image: jekyll/jekyll:latest
+    build: .
     container_name: jekyll_blog
     volumes:
-      - .:/srv/jekyll
+      - .:/app
     ports:
       - "4000:4000"
-    command: jekyll serve --watch --force_polling --host 0.0.0.0
+    environment:
+      - JEKYLL_ENV=development
+    command: bundle exec jekyll serve --watch --force_polling --host 0.0.0.0 --livereload

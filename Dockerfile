@@ -1,4 +1,4 @@
-FROM ruby:3.4.1
+FROM ruby:latest
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
@@ -9,8 +9,8 @@ RUN apt-get update && apt-get install -y \
 # Set working directory
 WORKDIR /app
 
-# Install specific bundler version
-RUN gem install bundler:2.6.5
+# Install latest bundler version
+RUN gem install bundler
 
 # Copy Gemfile and Gemfile.lock
 COPY Gemfile Gemfile.lock ./
