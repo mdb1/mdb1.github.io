@@ -30,5 +30,8 @@ Some examples:
 ### ShrinkModifiers
 * [ShrinkModifiers](/2023-10-12-shrink-modifiers/)
 
+### SkeletonModifier
+* [SkeletonModifier](/2025-06-15-ep089-skeleton-modifier/)
+
 <!-- Do not remove - SEO meta tags -->
 {% seo %}
