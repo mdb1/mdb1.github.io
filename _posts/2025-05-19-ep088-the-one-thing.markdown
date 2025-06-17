@@ -8,7 +8,7 @@ thumbnail-img: "/resources/ep088-the-one-thing/thumbnail.webp"
 readtime: true
 ---
 
-These are some hand-written notes about the book "The ONE Thing" by Gary Keller and Jay Papasan.
+These are some hand-written notes about the book `The ONE Thing` by Gary Keller and Jay Papasan.
 
 <img src="{{static.static_files}}/resources/ep088-the-one-thing/cover.webp" width="50%">
 
