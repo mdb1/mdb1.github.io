@@ -15,8 +15,6 @@ When setting up a new MacBook, there are a few steps you should take to get it u
 - [Step 4: Download Apps](#step-4-download-apps)
   - [From the AppStore](#from-the-appstore)
   - [From the internet](#from-the-internet)
-    - [Safari](#safari)
-    - [iTerm2](#iterm2)
 - [Step 5: Git Configuration](#step-5-git-configuration)
   - [SSH Keys](#ssh-keys)
   - [Personal Access Token](#personal-access-token)
@@ -59,25 +57,49 @@ Here's a list of recommended Mac apps to download:
 * [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 
 ## From the internet
-* Notion
-* iTerm2
-* SourceTree
+* [Brave](https://brave.com)
+  - Set as default browser
+  - Settings -> Downloads -> Change location to Desktop
+  - Settings -> Downloads -> Turn `off` `Ask where to save each file before downloading`
+  - Privacy and security -> Location -> Turn `on` `Don't allow sites to see your location`
+  - Privacy and security -> Notifications -> Turn `on` `Don't allow sites to send notifications`
+* [iTerm2](https://iterm2.com)
+  - In Settings -> General -> Closing -> Turn off `Confirm "Quit iTerm2` and `Confirm closing multiple sessions`
+  - Download OhMyZsh
+  - Download [Homebrew](https://brew.sh)
+  - Install npm: `brew install npm`
+  - Install [Claude Code](https://www.anthropic.com/claude-code)
+  - Copy your `~/.zshrc` from a previous MacBook (aliases/configs/etc)
+
+```bash
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+
+# Alias
+alias reload='source ~/.zshrc'
+alias edalias='windsurf ~/.zshrc'
+alias ls="ls -G --color=auto -v"
+alias l="ls"
+alias ..="cd .."
+alias c="clear"
+alias cc="claude --dangerously-skip-permissions"
+
+## iOS
+alias rmdd='rm -rf ~/Library/Developer/Xcode/DerivedData'
+
+## Git
+### Deletes all the local branches except for `main` and the one selected
+alias dbr='git branch | grep -v "main\|$(git rev-parse --abbrev-ref HEAD)" | xargs git branch -D'
+```
+
+* [SourceTree](https://www.sourcetreeapp.com/)
+* [Notion](https://www.notion.com/desktop)
 * [Windsurf](https://codeium.com/windsurf)
+* [ChatGPT](https://openai.com/chatgpt/download/)
 * [Insomnia](https://insomnia.rest/)
 * [Proxyman](https://proxyman.io/)
-* [ChatGPT](https://openai.com/chatgpt/download/)
-
-### Safari
-- Log in to profiles (personal/work)
-- Go to Settings/Websites:
-  - Location: When visiting other websites: `Deny`
-  - Downloads: When visiting other websites: `Allow`
-  - Notifications: Turn `off`: Allow websites to ask permission to send notifications
-
-### iTerm2
-- Download OhMyZsh
-- Download Homebrew
-- Copy your `~/.zshrc` from a previous MacBook (aliases/configs/etc)
 
 # Step 5: Git Configuration
 
@@ -103,6 +125,7 @@ If you are using SSH keys for your personal/work repositories:
 4. Add the key to your keychain: `ssh-add --apple-use-keychain ~/.ssh/personal`
    - Enter the encryption password.
 5. Now you can use `git clone git@personal:organization/repo.git` to clone private repositories.
+6. If needed, also add the signing key to github to get the `Verified` badge.
 
 Note: If you are using SourceTree, be careful with the auto-generated keys, they will probably not work. If you keep getting Access Denied with those keys, try following the steps described above instead.
 
