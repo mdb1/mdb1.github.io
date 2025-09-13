@@ -29,7 +29,8 @@ When setting up a new MacBook, there are a few steps you should take to get it u
     - [Display](#display)
     - [Keyboard](#keyboard)
     - [Trackpad](#trackpad)
-    - [Siri and Spotlight](#siri-and-spotlight)
+    - [Apple Intelligence & Siri](#apple-intelligence-and-siri)
+    - [Spotlight](#spotlight)
   - [Finder Settings](#finder-settings)
     - [In your User folder:](#in-your-user-folder)
 - [Additional Tips](#additional-tips)
@@ -189,8 +190,9 @@ Here's a list of recommended settings to customize:
 ### Desktop and Dock
 
 1. Turn on `Minimize windows into application icon`
-2. Turn off `Show Recent Applications on Dock` 
-3. Hot Corners → Top Right → `Show Desktop`
+2. Turn off `Show suggested and recent apps in Dock` 
+3. Hot Corners → Top Right → `Desktop`
+3. Hot Corners → Bottom Right → `-`
 4. Turn off `Automatically rearrange Spaces based on most recent use`
 
 ### Display
@@ -203,6 +205,7 @@ Here's a list of recommended settings to customize:
 1. Increase `Key Repeat Rate` to the maximum value.
 2. Decrease `Delay until repeat` to the shortest value.
 3. Shortcuts -> Screenshots -> Change the shortcut for `Copy picture of selected area to the clipboard` to `⌘ + Shift + S`
+4. Text Replacement -> Add `mgg` -> `your_email@domain.com`
 
 ![keyboard]({{static.static_files}}/resources/ep031-configuring-new-macbook/keyboard.jpg)
 
@@ -211,7 +214,12 @@ Here's a list of recommended settings to customize:
 1. Increase `Tracking Speed` to 8/10
 2. Turn on `Tap to click`
 
-### Siri and Spotlight
+### Apple Intelligence & Siri
+
+1. Turn `off` Apple Intelligence
+2. Turn `off` Siri
+
+### Spotlight
 
 1. Search Results: Uncheck every unwanted box for the Spotlight search.
 
@@ -225,6 +233,7 @@ Here's a list of recommended settings to customize:
 6. View → Show Toolbar
 7. View → Show Path Bar
 8. View → Show Status Bar
+9. Right Click on Desktop -> Sort By -> `Name`
 
 ### In your User folder: 
 * View → Show View Options
