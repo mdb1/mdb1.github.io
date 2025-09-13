@@ -63,10 +63,13 @@ Here's a list of recommended Mac apps to download:
   - Settings -> Downloads -> Turn `off` `Ask where to save each file before downloading`
   - Privacy and security -> Location -> Turn `on` `Don't allow sites to see your location`
   - Privacy and security -> Notifications -> Turn `on` `Don't allow sites to send notifications`
+* [Windsurf](https://codeium.com/windsurf)
+  - `Command + Shift + P` -> `Install surf command in PATH`
+  - Settings -> Files: Auto Save -> `afterDelay`
 * [iTerm2](https://iterm2.com)
   - In Settings -> General -> Closing -> Turn off `Confirm "Quit iTerm2` and `Confirm closing multiple sessions`
-  - Download OhMyZsh
   - Download [Homebrew](https://brew.sh)
+  - Download [OhMyZsh](https://ohmyz.sh/) 
   - Install npm: `brew install npm`
   - Install [Claude Code](https://www.anthropic.com/claude-code)
   - Copy your `~/.zshrc` from a previous MacBook (aliases/configs/etc)
@@ -79,7 +82,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Alias
 alias reload='source ~/.zshrc'
-alias edalias='windsurf ~/.zshrc'
+alias edalias='surf ~/.zshrc'
 alias ls="ls -G --color=auto -v"
 alias l="ls"
 alias ..="cd .."
@@ -96,7 +99,6 @@ alias dbr='git branch | grep -v "main\|$(git rev-parse --abbrev-ref HEAD)" | xar
 
 * [SourceTree](https://www.sourcetreeapp.com/)
 * [Notion](https://www.notion.com/desktop)
-* [Windsurf](https://codeium.com/windsurf)
 * [ChatGPT](https://openai.com/chatgpt/download/)
 * [Insomnia](https://insomnia.rest/)
 * [Proxyman](https://proxyman.io/)
