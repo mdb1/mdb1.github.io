@@ -19,7 +19,7 @@ These are some hand-written notes about the book `Good Work` by Paul Millerd.
 
 # The Notes
 
-![notes]({{static.static_files}}/resources/ep091-good-work/notes1.webp)
+![notes]({{static.static_files}}/resources/ep091-good-work/good-work.webp)
 
 # Personal Takes
 
@@ -37,7 +37,7 @@ The book talks about taking some sabbatical time to reflect on your life and car
 
 The relationship about money and time is something I do think about often, I'm in my early 30s and I know that my energy now is really high, so it's important to think about enjoying these years and not getting too focused on money. On the other side, compound interest is a topic that I've always liked, so turning down money now is not a smart decision. In conclusion, balance is really important, and it's something that I consider from time to time, I tend to adapt my situation based on the current conditions, and my prediction of the near future.
 
-I do recomment you to read this book, whether you like your current situation or not, given it'll trigger some deep thinking processes that will benefit you anyways.
+I do recommend you to read this book, whether you like your current situation or not, given it'll trigger some deep thinking processes that will benefit you anyways.
 
 ---
 
