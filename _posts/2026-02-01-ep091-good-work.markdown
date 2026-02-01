@@ -1,0 +1,56 @@
+---
+layout: post
+title: "Good Work"
+subtitle: "By Paul Millerd"
+date: 2026-02-01 07:00:00 -0300
+tags: [books]
+thumbnail-img: "/resources/ep091-good-work/thumbnail.webp"
+readtime: true
+---
+
+These are some hand-written notes about the book `Good Work` by Paul Millerd.
+
+<img src="{{static.static_files}}/resources/ep091-good-work/cover.webp" width="50%">
+
+#### Table of Contents
+- [The Notes](#the-notes)
+- [Personal Takes](#personal-takes)
+- [Related Articles](#related-articles)
+
+# The Notes
+
+![notes]({{static.static_files}}/resources/ep091-good-work/notes1.webp)
+
+# Personal Takes
+
+Something that I found interesting about this book is that it seems written for people that don't like their actual job situation, and that's not something that happened to me during my 12 years of working in tech.
+
+However, it talks about some interesting points, like the importance of facing your fears, and the relationship between money and time.
+
+Even though I've always like being in the tech world, there are some thinking processes that this book triggered on me. For example, during this new era of AI development, my day to day work has changed, it's more automated, and it doesn't require as much grind as before (which could also be caused by being inside the industry for many years). 
+
+One example of something that used to cause my joy, but now it's not as much, is the debugging process of a really hard problem. For example, debugging an issue for 3 days, losing my head, only to find out that the answer was a single line of code, was both frustrating and rewarding. Lately, I haven't had experiences like that, and it's not as much of a joy.
+
+Another thing to consider regarding `Good Work` is that it's not just about the job, but also about the people you work with. I've always liked the people I work with, but I think it's important to consider the environment you work in, and the people you interact with. Having friends at work is always an extra motivation to perform at top level to not let them down. I've experienced this first hand over the past few years at different companies.
+
+The book talks about taking some sabbatical time to reflect on your life and career. I honestly never thought about that, given I've always enjoyed my job. That's not to say that I always have fun, I've my ups and downs, but I never reached the completely burnout point of thinking about sabbatical time.
+
+The relationship about money and time is something I do think about often, I'm in my early 30s and I know that my energy now is really high, so it's important to think about enjoying these years and not getting too focused on money. On the other side, compound interest is a topic that I've always liked, so turning down money now is not a smart decision. In conclusion, balance is really important, and it's something that I consider from time to time, I tend to adapt my situation based on the current conditions, and my prediction of the near future.
+
+I do recomment you to read this book, whether you like your current situation or not, given it'll trigger some deep thinking processes that will benefit you anyways.
+
+---
+
+# Related Articles
+
+- [Deep Work](/2025-04-26-ep85-deep-work/)
+- [The Compound Effect](/2023-07-16-the-compound-effect/)
+- [Die with Zero](/2023-06-11-die-with-zero/)
+- [The Joy of Less](/2023-05-20-the-joy-of-less/)
+- [The ONE Thing](/2025-05-19-ep088-the-one-thing/)
+- [The Great Mental Models - Volume I](/2025-06-17-ep090-the-great-mental-models-1/)
+
+---
+
+<!-- Do not remove - SEO meta tags -->
+{% seo %}
