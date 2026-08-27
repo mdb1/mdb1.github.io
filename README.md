@@ -1,6 +1,6 @@
-# manu.show
+# mdb1.github.io
 
-- Live site: [manu.show](https://manu.show)
+- Live site: [mdb1.github.io](https://mdb1.github.io)
 
 ## Development Setup
 
