@@ -114,7 +114,7 @@ Some subs for the team, that were not mentioned so far:
 - [Postman](https://www.postman.com/): Useful for quickly testing APIs.
 - [Tuist](https://tuist.io/): A tool to generate Xcode projects in a consistent way.
 - [Periphery](https://github.com/peripheryapp/periphery): A tool to identify unused code in Swift projects.
-- [Learning your shortcuts](https://www.manu.show/2023-03-14-my-xcode-setup-and-shortcuts/)
+- [Learning your shortcuts](https://mdb1.github.io/2023-03-14-my-xcode-setup-and-shortcuts/)
 
 ---
 
